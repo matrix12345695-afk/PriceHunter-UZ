@@ -6,21 +6,11 @@ from sqlalchemy.ext.asyncio import (
 
 from app.core.settings import settings
 
-
-# ==========================================================
-# Database Engine
-# ==========================================================
-
 engine = create_async_engine(
     settings.DATABASE_URL,
     echo=settings.DEBUG,
     future=True,
-    pool_pre_ping=True,
 )
-
-# ==========================================================
-# Session Factory
-# ==========================================================
 
 AsyncSessionLocal = async_sessionmaker(
     bind=engine,
@@ -29,14 +19,6 @@ AsyncSessionLocal = async_sessionmaker(
 )
 
 
-# ==========================================================
-# Dependency
-# ==========================================================
-
-async def get_session() -> AsyncSession:
-    """
-    Returns database session.
-    """
-
+async def get_session():
     async with AsyncSessionLocal() as session:
         yield session
