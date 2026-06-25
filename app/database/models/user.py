@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import BigInteger, DateTime, String
+from sqlalchemy import BigInteger, Boolean, DateTime, String
 from sqlalchemy.orm import Mapped, mapped_column
 
 from app.database.base import Base
@@ -30,6 +30,7 @@ class User(Base):
     )
 
     is_admin: Mapped[bool] = mapped_column(
+        Boolean,
         default=False,
     )
 
