@@ -1,0 +1,3357 @@
+[
+    {
+        "id": 1,
+        "type": "request",
+        "url": "https://uzum.uz/"
+    },
+    {
+        "id": 9,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/styleoff.css"
+    },
+    {
+        "id": 9,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/color.css"
+    },
+    {
+        "id": 9,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/helpers.css"
+    },
+    {
+        "id": 9,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/typebase.css"
+    },
+    {
+        "id": 9,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/fonts.css"
+    },
+    {
+        "id": 10,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/app.e41bb23305ac26189deb.css?f3ca33df5ce0c7d27499"
+    },
+    {
+        "id": 12,
+        "type": "request",
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    },
+    {
+        "id": 12,
+        "type": "request",
+        "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    },
+    {
+        "id": 12,
+        "type": "request",
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic"
+    },
+    {
+        "id": 13,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499"
+    },
+    {
+        "id": 300,
+        "type": "request",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5NXNZNR"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/457.a14929057f3a0d17ffe5.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9616.29354fe00ede266669c2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8974.1d467a29e5468616afb7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/580.2a3d2515e054b545b828.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2261.916056d687e42fd5dfc3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/539.d3c6a13a81a36efed0ba.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2102.f1eb12af724492ed4b94.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4554.1ef31fd94a271c7ed517.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1997.7d716155750b5dbfcaf8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8331.1801460a4b97c2315c84.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7598.e7d1a38ab33c0f0a6579.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1209.8e7638209fea217ceb39.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1128.89a394a540d53474ec0f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6043.c574887ce68bcc75fc2a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3958.268a85e2d610f6223815.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2222.820690d7e23f1134a8a9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3652.95b7610a9bb383a5d5d1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9823.eefd4b5d8ec0d9007f3a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1870.5bf6a9bd50ffef61b059.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1569.4ff1831cc2ac680ebfa7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9319.b5df18683af8aada7bef.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2464.8c6c747afd30be2fcfad.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3852.e224fcf3d8ffe567e68d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3706.ca42471e21065f01096e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/816.11823e7d47da3353c81f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6312.d3e0ba0a2c06765a3e30.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4255.75c648604d7b5470f880.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4302.acf191ee5438f786c07e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3312.d64185ea32f1caadf790.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5936.d4872762ff0cf32b63cd.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9636.d8db6969db7e94154974.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3293.1ae565fe7477e167fa10.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/709.578db4671addadc82117.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9991.8a3e8f44b17392be06f7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5342.a20860d0223705d356f6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3301.516d4a76880bdd2dbbdf.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4765.d8488703029e49e766f8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8461.437c02c89a728f07a7e3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7588.a0a11a90fcb173f6e06f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4329.45818ad8cf4a8fe18ea7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7256.2e654835a95cda746cf6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3365.f08fc479cfddedc33ce9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/229.1d41f978f933bbf011c5.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3631.64482ff199a5232f4fb8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9098.a9434509ca11ddb3edd8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1309.a2b447e0a05bbb2663c5.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2460.d69571be7eb5db9a7276.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8782.e667c3bd6e0a83d138ce.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8737.623dc18366eae0a5923a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2349.bd9f3a18e211ecf4e280.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3449.ad29d1ef90622f520e24.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7446.ba32cdbb29355a9f57bf.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6458.3f7258977a603fc7b207.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3362.ea6b3108239968227aaa.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2247.9358c6af49775a435074.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5977.db73968af684dc485ea7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1938.d284f4844c65715bafc4.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9720.53b6e1af01912896aa26.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9111.2b0a1a8c85f3998c7103.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/849.3b15f045a71182365ce2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6619.cfcb388156dc1caed283.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3343.c14cd185d3d33569e78f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6313.6e6fe5921f475086d35c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8539.265be6aa7e9165c23e67.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3896.2f9f03c6a69d96a0cda5.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1072.a33d997e21632344b579.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5914.660333b70f5d0ce91646.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4341.bcc46b59b141abca2101.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9127.dc6870543484839be17e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3081.751c5acde9005248596b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3408.e9bd8281652765f451b8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2372.d209e8628c408c7dc2d3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9032.1ce6cd729eaf1b8e37da.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6781.f83482f0eddd10009e05.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2157.44c7e5a68d8ec1cbe570.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4800.a06ea587282a3ddad1a1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7837.20c651651e6aa047eb9e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5138.bd71f3ba6ddbea0e2df2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4002.fb14288d395df182d764.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1444.7fcfe48f316b253d6cd1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5651.d5111a52d172f9fa371d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8866.1088d25e10f910adedd7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6802.7a95ae0d8d56033af6a2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4697.f9809592f8af8995ff3b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7078.2356f6d7c5b0134677b1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8114.164f4fe56e1e6cd0436f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7299.b79aa5acbb86603a35b9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5482.b07e90e665a19e54e423.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9308.50cb52c648b55d684314.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4964.f591ce2d971dec9fde9b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2465.9f541a90fbd9f09c4746.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8760.01bc16f82edc846cca40.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8911.76c46a20bf4d026d7100.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8388.d08dd41960ae4ad9f085.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2294.3345c1f942c90e13be00.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/197.779a89ed600c31a98b44.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2831.4ed34c89e8defb7e053a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7773.0fdda56da58f8a2f9fea.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/603.483af0322a676a726919.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5414.5146083470de304f202d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5857.d76753904a618151293a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5513.b0b90b4cc63da3e887cd.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/324.ac60d13e315452e7a8bc.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2713.52f711311761f749a07e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/164.696603bfbb5c977b7359.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8024.5a583c17b6c7dda70c41.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5863.07be80a3eab73020ae1e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9168.8739bf5c6d753e5a14ee.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/120.8db2e8228beaaea7746b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8476.94aa6d14a39f7b905e49.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1588.b5de071b084b2635147c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7535.d812db07e6c41745f627.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5514.7d7aa86af78cd7357e00.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3196.9e5758de497ff17072bb.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2223.e1e1258a5bc435d7f144.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2966.af275a84337bdbacbdfc.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3144.2ace28e57dd2833243c1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2943.ef7b5569fd82c6d5f5f3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/190.ce7152ecffa3d2926b7b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/38.5bf6f94d3b8960f76930.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4859.b75fce2e99916b880d0a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1360.801d93a3fb65293ad9ea.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4646.2bf7c04c7968ae9b39e0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6588.600eb3daf2429917593b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/321.ac30306b519fb0114061.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6493.6030899da032add13c30.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/500.893cede82fbe739b9770.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3249.a11fcaac5c998bc50003.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4731.5ae5141c582590240df1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7190.0882431f5f5accd3439f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1073.a69d39a0008a4ced9f09.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3680.047ed51452bc7cf23680.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/353.edf49ffff3183b0119c4.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1195.81930b1b4dae8e707bf1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2021.8d2f8d7453e9ca03a59c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1616.60b67da15ff11458c1b5.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3995.ef549b37af258bddb8a0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6740.a7eb9d6a553eeee7794c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3917.62f49b435963b44da0ff.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/952.2b9b920a7ce27a0339d0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/104.b8f27e91ba10bbc555ca.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7194.616e3f1d2d10597cc679.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3107.1bc3ff0ec51e80ddd78e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3237.5ac3150db8190db9836b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8435.303e5eff308b37557b69.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9997.60999bef735c560534ae.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7345.6df33bf7fd8ad26c08d1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/499.7eb319e80a9edac3cda1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/559.8420d64723bfbc5fe2d9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5234.8a7df4eec043742bc3e2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3960.c672a69ba1a2ac3017e8.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9438.f913a823010289211636.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1445.af67def15c7e93886294.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3495.2c5434f09c9b62847eb7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/82.e0ec14b078bd2c8ee3ae.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7737.7f76eff3ce3519af7254.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9588.153bf8cf1cd3ce28c48e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2136.67a879bff7d66d3675c7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6120.ab7de4207e2065c683c1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3317.0ecc90075e8620563301.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/588.dc2874cf7688c0a5c402.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/723.553f68b5ca0e1978f570.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/789.7ecba1782f4bca89872b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2368.2babb7c0f72e63d370ad.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9449.2c9a0e124338ebf620d3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5758.e251cb56335e02ef89cb.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4492.77ff2230386f68bb4711.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/479.92ae2a83bfe37bf58170.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4979.1f06d7340264aace75bc.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5040.5b77106511267c91b3f3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4835.8304af2d874ca014db74.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/698.6d86bbb9b4218d7a1718.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1030.f8e20ca14c1eba5b65ba.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9114.94978838e19258840c40.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6715.eebfa7507af5f5cf041f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3431.de2069a250ea17952736.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9089.ab4722caa9a4d989219f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7825.7920ef81da302ca6287e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1955.48c6eeab5f4d87404a90.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7554.2c35658d9bfdbc5eee7f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5616.37f26e6063038e66cd96.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7673.2167402d059ada6a7817.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4264.7654169f0f5aed996945.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4390.1482bac12ec10985945d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1508.1f245a2ed114ad18a823.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/224.bd5ccd8a064879e1460f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9370.b35aeda38c25b66efa3c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/184.c66766f47382f3278cc1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8360.086e56dab42aa7c70af1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8975.66dc346c3051a2a17c5a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/666.cc232310c29188cedd5f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7080.8fa45d35b6e1592330e0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3451.e0497a852c327401410d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5080.421ecc578f1f91b64d04.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1438.7ed065c722663b72422b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6909.ba73facd1a96a6f1bec6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2708.12cd356d413f02d40f55.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4440.46d29f591a363e8cf7cc.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9660.51ae09755e00d09f284b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2918.f83cc89ca0f0170e4ae1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9551.0e21b57452d70ca621a9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6865.eca3e4f11fbe296c2be1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/14.abfabeb25383f5ab2ac1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2469.fe8921ad4741028e6a98.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4972.d48963fd8a5799cc2aae.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/165.05a24369d9a38f9afc84.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4988.7af6dbfdee15429c1a18.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6240.efebe6b83b18982ae7b3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6326.8e4ce60fc9f99d682652.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2723.5fdcae76c681fa6de51e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3187.6ecd7250337824b29e7f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7045.f32a19bba0dc319204b7.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6652.3dfe28505dbe44d2b5cf.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9516.347279c6f45f7ef0b74e.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/922.2d376d88a426ffad78c3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2395.1c59725aae5c89539c5a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1577.2360931844e725c3a49f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6223.664625942d11ed2a2251.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4493.9b4853893bdbd8b9653b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4614.8049000bb1c1f5bbb94c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4233.0f4eba703295c4b7294a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7295.5c32b122050febfb8ae6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8382.a1dd0eb2c3d2b2605bad.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6524.6bcf13c3ee8b4e5cb4ff.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/506.11df90f0ca01093ab73a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6291.4836c26c578efc59b697.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5343.df40e777da2a8595284a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2467.fbd35f785dd74cf7136f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4143.542c666bf6a634c49084.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6900.b6bb3b6e21255e507aa2.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4314.1bafb3a4438780b6ed0c.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2434.3829431dc43a09679ae0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6947.f9287af3e1a72e8425c1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2707.d1ad0a788dc795ca49a6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7679.75005d8e1b19028cf0c0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9011.0ade59552b955b1675bd.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6714.44389c3664e67fa80501.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1010.f171467acb8fd126a634.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1907.41d24e471614d4809c12.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7297.7f5bd715a34cac729e6a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9898.5ea8e09b0d0733d99db1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8883.5ff1def8396d9c5261c1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1928.e0ab302f46b40624334f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9294.d04239f424d8c5637991.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4541.ff585090cc0ed7bacd17.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9389.03bf3f12e00b13c2436d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/836.cf42c570b413c9aa81ae.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9384.6b423f010791e493a9db.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9019.196b3881d26d40b5acc0.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1470.59ae2c3a180c356ee1bd.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/582.17896712a766efc397f1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1791.46d682c55143d27bfe43.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6337.4ca7c537ebc7fcd25619.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8250.c8d2768a2d8d9cca738b.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4817.f14151cb2bfdd0908fb1.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8574.b0d5cbbcfc98b0f5cdfa.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/63.28e15d91efd444706cfe.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6984.308bd0a18cb040804075.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7403.8daa17f5813ad2afebb9.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3315.2c58f531d9fc8b33841f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8003.25e9f163972ea3f27e4f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9922.9e87901d0da70e051406.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/236.7af52f690a40d54af272.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4385.0c8ed7b0cf15e2dbb14d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6430.87302dd8e984fccd7ea6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6200.22b33c0aff3937c891af.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1780.fc0919f2db5b1989b875.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7739.0fe974225d8883de5a67.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4804.8ae8dadae96a3bf535ce.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8.7cefcc609932d7837ca6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6301.78ce5afb3509d91c077f.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9409.c88a681f8bb70f8eb6da.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8217.cc9b9b49d7a8e070ce14.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5057.8e8ab6f4330546e9d0cc.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3584.80f387baf3454282f374.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6661.08790b6d8ba0d327517d.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5475.494d949850f33a195381.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4487.d295f38256dd5a0011d6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9092.c0982c2b560b54a1c9a6.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6830.780c2cc6b691f9b90d42.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1523.afbfc07596b03662ec97.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6575.8903281d15c969fadc79.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3670.16b4de0b372f3aa8c0f4.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1459.58e8a1b3c43ac6b94c9a.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/831.7fd012f6f8c0604e7ab3.js"
+    },
+    {
+        "id": 302,
+        "type": "request",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-TBWHGXBK&cx=c&gtm=4e67f0h1"
+    },
+    {
+        "id": 315,
+        "type": "request",
+        "url": "https://cdn.growthbook.io/api/features/sdk-Ndq9uu11eUCoTda"
+    },
+    {
+        "id": 315,
+        "type": "request",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+        "id": 318,
+        "type": "request",
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2044243736.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec"
+    },
+    {
+        "id": 318,
+        "type": "request",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17530957042/?random=1784277915755&cv=11&fst=1784277915755&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&rcb=12&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+    },
+    {
+        "id": 318,
+        "type": "request",
+        "url": "https://connect.facebook.net/signals/config/639391844420533?v=2.9.356&r=stable&domain=uzum.uz&hme=1179b74563cacb97c6ebae600e40937237ab12824fb84996eee07eca65cabbd4&ex_m=107%2C208%2C158%2C22%2C73%2C74%2C149%2C69%2C68%2C11%2C167%2C93%2C16%2C141%2C130%2C39%2C76%2C81%2C137%2C163%2C169%2C26%2C27%2C28%2C30%2C48%2C150%2C78%2C115%2C18%2C20%2C44%2C40%2C42%2C41%2C86%2C95%2C99%2C113%2C148%2C151%2C46%2C114%2C24%2C21%2C122%2C70%2C36%2C153%2C152%2C154%2C145%2C143%2C25%2C35%2C59%2C112%2C165%2C71%2C17%2C156%2C117%2C84%2C67%2C19%2C88%2C89%2C119%2C87%2C139%2C138%2C142%2C164%2C34%2C49%2C116%2C47%2C8%2C4%2C5%2C7%2C6%2C3%2C94%2C104%2C170%2C175%2C222%2C75%2C235%2C234%2C233%2C23%2C33%2C55%2C106%2C61%2C10%2C64%2C100%2C101%2C102%2C108%2C133%2C31%2C29%2C135%2C136%2C132%2C131%2C159%2C77%2C162%2C160%2C161%2C50%2C60%2C126%2C15%2C166%2C45%2C280%2C281%2C279%2C294%2C310%2C215%2C204%2C62%2C205%2C203%2C313%2C304%2C52%2C216%2C110%2C134%2C83%2C124%2C54%2C123%2C129%2C128%2C58%2C65%2C63%2C155%2C79%2C80%2C118%2C37%2C32%2C53%2C56%2C103%2C168%2C1%2C127%2C14%2C125%2C12%2C2%2C57%2C96%2C66%2C121%2C92%2C91%2C171%2C172%2C97%2C98%2C9%2C105%2C51%2C146%2C90%2C82%2C72%2C120%2C109%2C43%2C147%2C0%2C85%2C140%2C144%2C157%2C38%2C111%2C13%2C173"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://www.google.co.uz/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-7KCSSWWYYD&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&z=1586141450"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://www.google.com/pagead/1p-user-list/17530957042/?random=1784277915755&cv=11&fst=1784275200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&rcb=12&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgb7nPDRDKLihxW_nYX-a7GatKwvm5KRoGcnUQPAM6atpFAnjwrkNPt1himleRha4zgTrogFVvV9Un3VGDu_kvtUxzsPJxBQOOkwv-L-nOYFupoWf7wyvkQvZvX2iNy4JyADRmSr-kvlhAm_1FJovB-xL_WbdLiJdPMmh2qvvR35u9k2o_uYjhhShQhq-mkKkgL8H1xqm9PKVpFRuzn5b2hp2VqkRpHJ3vDJjFGYDX4YYRYrKX3YGHXKz8DhoLbgFEJhVCGkrjTeZr_kSPsTT&random=3694429948&rmt_tld=0&ipr=y"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://www.google.co.uz/pagead/1p-user-list/17530957042/?random=1784277915755&cv=11&fst=1784275200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&rcb=12&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS0wEAEQoqgb7nPDRDKLihxW_nYX-a7GatKwvm5KRoGcnUQPAM6atpFAnjwrkNPt1himleRha4zgTrogFVvV9Un3VGDu_kvtUxzsPJxBQOOkwv-L-nOYFupoWf7wyvkQvZvX2iNy4JyADRmSr-kvlhAm_1FJovB-xL_WbdLiJdPMmh2qvvR35u9k2o_uYjhhShQhq-mkKkgL8H1xqm9PKVpFRuzn5b2hp2VqkRpHJ3vDJjFGYDX4YYRYrKX3YGHXKz8DhoLbgFEJhVCGkrjTeZr_kSPsTT&random=3694429948&rmt_tld=1&ipr=y"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://www.google.com/ccm/collect?rcb=12&frm=0&auid=2044243736.1784277916&dt=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201&en=page_view&dl=https%3A%2F%2Fuzum.uz%2F&scrsrc=www.googletagmanager.com&rnd=1250572396.1784277916&navt=n&npa=0&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&apve=1&apvf=f&apvc=1&tids=AW-17530957042&tid=AW-17530957042&tft=1784277915771&tfd=1797&fmt=8"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&_p=1784277914516&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AAAAAGAC&_prs=ok&are=1&cid=1468174730.1784277916&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=1&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&sid=1784277915&sct=1&seg=0&dl=https%3A%2F%2Fuzum.uz%2F&dt=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&en=page_view&_fv=2&_nsi=1&_ss=2&_c=1&tfd=1769"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EZ8RKY9S93&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&_p=1784277914516&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&are=1&cid=1468174730.1784277916&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&_s=1&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&sid=1784277915&sct=1&seg=0&dl=https%3A%2F%2Fuzum.uz%2F&dt=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&en=page_view&_fv=1&_ss=1&tfd=1779"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://www.google.com/rmkt/collect/17530957042/?random=1784277915755&cv=11&fst=1784277915755&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&rcb=12&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-7KCSSWWYYD&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930"
+    },
+    {
+        "id": 320,
+        "type": "request",
+        "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930"
+    },
+    {
+        "id": 332,
+        "type": "request",
+        "url": "https://www.google.co.uz/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&z=1920288099"
+    },
+    {
+        "id": 334,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277915682&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12"
+    },
+    {
+        "id": 335,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277915682&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=session_start&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277915682&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=first_visit&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=1905743341&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQIIseGxAgiz4bECCKbdsQIIsN6xAgiA27ECCM3hsQI&cerd=CgT_r74t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYfhFS8x5UxGDkmpZFIYA6w7PmFZiMnHk_6ijPaLoZi8P2yp0taxDe0aAkxj&pscrd=IhMIz6zbmqnZlQMV1sw7Ah12YinHOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVotVUJUa08xeUhrMFNyYUxiS1ZYY0dYMFBqRDhlV2lqQ3dZQVVVRjZaRFlIVVhZYXBTSkpVWTh6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=2023407721&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=session_start&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQII1OaxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQI&cerd=CgTbib4t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYfF0-xPKFHHf8IKk69kDISJT8S6tjC2gRL2p9ASVdlkFb977Y0zkC0aAi_M&pscrd=IhMIk7nbmqnZlQMV-vI7Ah08PhEyOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVo2SERpR24tQVVWMUVpS1FOcnpDMEhla3NzSkFTWDF3TGNudlU2aGp0OXhPNHNvN1lyamROckl6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=686394121&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=first_visit&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQIIseGxAgiz4bECCKbdsQIIsN6xAgiA27EC&cerd=CgTZib4t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYfVSRLyex7Lt4_8Uo8WbcVhjd5s9ktuoVCXrfpvdZxXwXX_NjcUsgAaAn0Z&pscrd=IhMIxrLbmqnZlQMV48o7Ah0uqjySOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVoxdVhBZWFpV2VGRHdrM3hMN2NoelY1eXFmX3NvUVFjU0ZaZWpqX2RwOXB1U3JsUnJlZzYyZFF6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5429.6bbaf34177dd9e0b4446.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/8871.7b0fb3dc20722fa96f83.css"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7901.b240f87b81b9ff9ace42.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/6733.47eac177049e66fe28dc.css"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4977.6f87844ab6629b45ded1.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6874.fb2946baa34b8de293e0.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://cdn.growthbook.io/sub/sdk-Ndq9uu11eUCoTda"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/8183.757a1fc24ece2b51ab48.css"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/6874.fb2946baa34b8de293e0.css"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8183.757a1fc24ece2b51ab48.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6733.47eac177049e66fe28dc.js"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2F&rl=&if=false&ts=1784277916229&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_cfd36bbaa4e414b0781b1b30842985808ac6a02f4bb58209aa2bb6cf46f157c9&cs_est=true&ler=empty&cdl=API_unavailable&plt=1305.0999999996275&tz=300&it=1784277915943&coo=false&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&rqm=GET"
+    },
+    {
+        "id": 336,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8871.7b0fb3dc20722fa96f83.js"
+    },
+    {
+        "id": 343,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4385.0c8ed7b0cf15e2dbb14d.js"
+    },
+    {
+        "id": 343,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/82.e0ec14b078bd2c8ee3ae.js"
+    },
+    {
+        "id": 343,
+        "type": "request",
+        "url": "https://sentry.infra.cluster.daymarket.uz/api/7/envelope/?sentry_key=948fdc05a99a018e8d3ab003bee4b5a3&sentry_version=7&sentry_client=sentry.javascript.vue%2F8.36.0"
+    },
+    {
+        "id": 343,
+        "type": "request",
+        "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru&rl=&if=false&ts=1784277916606&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=1&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_84d6e44ced62813f05896f7c107354ef1387ba084058e338cd7f697e1fe91f72&cs_est=true&ler=empty&cdl=API_unavailable&plt=1305.0999999996275&tz=300&it=1784277916605&coo=false&cf=1&expv2[0]=pl1&expv2[1]=el3&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&rqm=GET"
+    },
+    {
+        "id": 343,
+        "type": "request",
+        "url": "https://id.uzum.uz/api/auth/token"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 348,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/promo-categories"
+    },
+    {
+        "id": 349,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/root-categories?eco=false"
+    },
+    {
+        "id": 349,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae"
+    },
+    {
+        "id": 354,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 354,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912&_p=1784277914516&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AEAAAGQC&_prs=ok&ae=a&are=1&cid=1468174730.1784277916&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=3&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&dl=https%3A%2F%2Fuzum.uz%2Fru&dr=https%3A%2F%2Fuzum.uz%2F&sid=1784277915&sct=1&seg=1&dt=Uzum%20Market%20%E2%80%94%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5.%20%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8.&en=page_view&_c=1&_et=1840&tfd=3651"
+    },
+    {
+        "id": 354,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912&_p=1784277914516&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AEAAAGQC&ae=a&are=1&cid=1468174730.1784277916&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=2&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&sid=1784277915&sct=1&seg=0&dl=https%3A%2F%2Fuzum.uz%2F&dt=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&en=scroll&epn.percent_scrolled=90&_et=34&tfd=3650"
+    },
+    {
+        "id": 356,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 356,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/2943.ef7b5569fd82c6d5f5f3.js"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3960.c672a69ba1a2ac3017e8.js"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8435.303e5eff308b37557b69.js"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4964.f591ce2d971dec9fde9b.js"
+    },
+    {
+        "id": 395,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8539.265be6aa7e9165c23e67.js"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277917616&cv=11&tid=G-7KCSSWWYYD&fst=1784277917616&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5.%20%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8.&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/816.11823e7d47da3353c81f.js"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6120.ab7de4207e2065c683c1.js"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/runtime/errors"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7194.616e3f1d2d10597cc679.js"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://uzum.uz/static/img/badges/latest-product-badge-icon.svg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/baner/gnc1405.png"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=19938434&cv=11&tid=G-7KCSSWWYYD&fst=1784277917616&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5.%20%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8.&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgjI5bECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCP3jsQIIyeOxAgiX1LECCMnbsQIIzeaxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQI&cerd=CgTeq74t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYd5d3RYejXugSMZWHC8XUbT2mk0ucdxWUGu-RE3Euwdl8DgugcJomoaAqAt&pscrd=IhMI86a6m6nZlQMVdUMeAh0ZRAkoOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVo5cG1zalpRM01WMmtTTWgxTTllbE9BTjlxbVZsRVBFTC1EdmNoOEtqMFdKVng4SEhzYkFBUHN6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/promo_images/756b6f56-9d2d-414c-a9d3-37d40d1c808b"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/promo_images/67a3f24c-26d4-4fbb-adcf-ef3181707132"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/promo_images/4f28d325-14b1-4ad4-b839-eb4509492cdd"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/promo_images/622b993e-c70d-4d4e-b159-98020a0777ef"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/market/badge-icons/verified.png"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/product_badge/2f9bcf18-a9b5-4dec-9a81-931db51e90af"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91o3721146phmqgth1g/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aprebsv8vsdeu910pg/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d969q349g1ku9j5h2s40/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d92e3tbsv8vnuj12cik0/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqn7c9g1ku9j5j38b0/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqi3q1146g73hsj06g/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8o9uc3sv8vo2t0mgvi0/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aql721146g73hsj0og/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqf7bsv8vsdeu912kg/main_page_banner.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d5fpf6bs2tab83saia20/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6gndqbvgbklj92i3qqg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6gldeq1146jevjrbt6g/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6nvj3dsp2tohdbdqp30/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cetvbv0v1htd23akiihg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cupefjs5j42bjc4eq1rg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cdmhq40l08kcldtnlpag/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cdmhvh0v1htd23ahur60/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cd76e235a95unf132gjg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/ce24r9gv1htd23aigfg0/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cdmhgsavtie1lhbdtrcg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cd0gombb3ho5lmuq2ir0/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/cdvkkbgl08kcldto0kkg/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6g87m21146jevjr7jv0/t_product_540_high.jpg"
+    },
+    {
+        "id": 396,
+        "type": "request",
+        "url": "https://images.uzum.uz/d0885btpb7f46s88tamg/t_product_540_high.jpg"
+    },
+    {
+        "id": 398,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 398,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 400,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/cities/city-by-location"
+    },
+    {
+        "id": 400,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/cities/active-delivery-points"
+    },
+    {
+        "id": 401,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 402,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 403,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 404,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 405,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 406,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 407,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 410,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 410,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 445,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91o2r21146phmqgtgr0/main_page_banner.jpg"
+    },
+    {
+        "id": 447,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 447,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3107.1bc3ff0ec51e80ddd78e.js"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9cajca1146g73htaa9g/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d969q6rsv8vsdeu70ip0/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://uzum.uz/static/fonts/TT_Uzum_SemiBold.ttf"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqn0a1146g73hsj140/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqfhs9g1ku9j5j36tg/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d92e45s9g1ku9j5fcri0/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8o9v1c9g1ktqmlukelg/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://uzum.uz/static/fonts/TT%20Uzum%20Bold.ttf"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9aqkss9g1ku9j5j37p0/main_page_banner.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8iac9s9g1ktqmls95ag/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8chirs9g1ktqmlq3l1g/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8oj52bsv8vo2t0mlm80/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8gmnn3sv8vo2t0jikqg/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7o63dc9g1ktqmli6p90/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7lf0ca1146tv06qdhh0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d82pe521146tv0704vvg/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7llec2d955cjr7ctlqg/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8pac2s9g1ku9j5bihp0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9b2isa1146g73hso83g/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7vl7ojsv8vo2t0d8k1g/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91670k9g1ku9j5erha0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6gno2os9rfd9u94gg70/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d807r9i1146tv06v29q0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8kh65i1146tv076ibb0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7irifc3obpkks10u9s0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d1n16k5sp2tm1pihn63g/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/cg44b57hj8j9g699c17g/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d395anj4eu2s0bgjc9d0/t_product_540_high.jpg"
+    },
+    {
+        "id": 469,
+        "type": "request",
+        "url": "https://images.uzum.uz/d83avo49g1ktqmlms5i0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8828sc9g1ktqmlontr0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d915vba1146phmqgm960/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91snfi1146phmqh10b0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7pmm021146tv06sek0g/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8u3gc3sv8vnuj10ieg0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6glfd0s9rfd9u94een0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/cdq8svgl08kcldtnp9ag/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d55t1uojsv1neacr2psg/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d63hoiudd7e7njq7fbbg/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/cqavi9cqvss6ad8i8kp0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d262uhd2lln1ps3caidg/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8h73gbsv8vo2t0jnvg0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3t0jltv2sjj05oqvbf0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d5q6qn34eu2jdglg1a40/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d759lkc3obpufnh7tc00/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6ptovdsp2tohdbelutg/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d79qfpq1146ojv9cbvd0/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3ht68oqponsaett7d60/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d6jjf4q1146th72sdi2g/t_product_540_high.jpg"
+    },
+    {
+        "id": 470,
+        "type": "request",
+        "url": "https://images.uzum.uz/d2a4cvt2lln4bo5d8sl0/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d463936j76ohd6e035dg/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d5iecu8jsv1q0h272vgg/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8aousjsv8vo2t0hjmrg/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9acbhbsv8vsdeu8rl6g/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/cr8kddusbq7g1s9bgac0/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7sf2qk9g1ktqmlk2790/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8oe8q21146tv0784b4g/t_product_540_high.jpg"
+    },
+    {
+        "id": 471,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/runtime/errors"
+    },
+    {
+        "id": 472,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 473,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 475,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/6947.f9287af3e1a72e8425c1.js"
+    },
+    {
+        "id": 475,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 476,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 478,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/499.7eb319e80a9edac3cda1.js"
+    },
+    {
+        "id": 478,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/without-avatar.jpg"
+    },
+    {
+        "id": 481,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 481,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 481,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9389.03bf3f12e00b13c2436d.js"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8382.a1dd0eb2c3d2b2605bad.js"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/8076.19b6c2c4e7bb41fe12e9.css"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8811.ebe7cf1329447d051174.js"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/5271.f0a9b1a4d3d079110bd6.js"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/css/8811.ebe7cf1329447d051174.css"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3662.a3e8080be14421086ea7.js"
+    },
+    {
+        "id": 490,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/8076.19b6c2c4e7bb41fe12e9.js"
+    },
+    {
+        "id": 500,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/7299.b79aa5acbb86603a35b9.js"
+    },
+    {
+        "id": 500,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/3237.5ac3150db8190db9836b.js"
+    },
+    {
+        "id": 500,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/9089.ab4722caa9a4d989219f.js"
+    },
+    {
+        "id": 500,
+        "type": "request",
+        "url": "https://sentry.infra.cluster.daymarket.uz/api/7/envelope/?sentry_key=948fdc05a99a018e8d3ab003bee4b5a3&sentry_version=7&sentry_client=sentry.javascript.vue%2F8.36.0"
+    },
+    {
+        "id": 500,
+        "type": "request",
+        "url": "https://sentry.infra.cluster.daymarket.uz/api/7/envelope/?sentry_key=948fdc05a99a018e8d3ab003bee4b5a3&sentry_version=7&sentry_client=sentry.javascript.vue%2F8.36.0"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&rl=&if=false&ts=1784277958870&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=2&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5b83f456fde3b932bb35263aefa08c1ed1253ec218d7cdbe6aed209a3bcc7531&cs_est=true&ler=empty&cdl=API_unavailable&plt=1305.0999999996275&tz=300&it=1784277958859&coo=false&up_url=query&dlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&rqm=GET"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/promo-categories"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/root-categories?eco=false"
+    },
+    {
+        "id": 501,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae"
+    },
+    {
+        "id": 505,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 505,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912&_p=1784277914516&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AEAAAGQC&_prs=ok&ae=a&are=1&cid=1468174730.1784277916&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=4&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&dr=https%3A%2F%2Fuzum.uz%2Fru&sid=1784277915&sct=1&seg=1&dt=Uzum%20%E2%80%94%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&en=page_view&_c=1&_et=42240&tfd=45912"
+    },
+    {
+        "id": 506,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277959862&cv=11&tid=G-7KCSSWWYYD&fst=1784277959862&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20%E2%80%94%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12"
+    },
+    {
+        "id": 506,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=1053031960&cv=11&tid=G-7KCSSWWYYD&fst=1784277959862&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20%E2%80%94%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQIIseGxAgiz4bECCKbdsQIIsN6xAgiA27EC&cerd=Cgjr370t2Ym-LQ&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYdbSMrNilh_jNJ630K7h7Sm2NihpHHxjb6dti6gyAXF8WHXGmK5wlwaAp7q&pscrd=IhMIy93Tr6nZlQMVHlyRBR2MRggyOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVp6SnlfYUxvaDBjMXFJb0hTZjZlZkszSDdUX3c3cjJibUlCd2xUeC1PTENIdnFmUU53Nzl6NXN6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 506,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 508,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 508,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 509,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 510,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/1523.afbfc07596b03662ec97.js"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://uzum.uz/static/js/4804.8ae8dadae96a3bf535ce.js"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/brown.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/red.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/green.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/khaki.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/violet.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://static.uzum.uz/colors_filters/pink.png"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7u2ntc9g1ktqmlkmin0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7uof9i1146tv06ufir0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3d55sq1146soq7c3pl0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/cs36rtcsslojjk5s1lb0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91rhac9g1ku9j5f5ceg/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d91rhas9g1ku9j5f5cf0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d65np7jq345uoeq1jjkg/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8mh8gjsv8vo2t0lpvi0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d9c7i3jsv8vsdeu9m6vg/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8mieb3sv8vo2t0lql7g/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8mh8brsv8vo2t0lpvfg/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d65h0bjvv0v6ikl381a0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8mie7s9g1ktqmltu0og/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8uabhi1146phmqfe0j0/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d932d021146phmqhgpog/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8mh8ea1146tv077cl5g/t_product_540_high.jpg"
+    },
+    {
+        "id": 535,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 536,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 538,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7ur4is9g1ktqmll1d2g/t_product_540_high.jpg"
+    },
+    {
+        "id": 539,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 539,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 541,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7tjiga1146tv06u1s0g/t_product_540_high.jpg"
+    },
+    {
+        "id": 541,
+        "type": "request",
+        "url": "https://images.uzum.uz/d7tjh6q1146tv06u1qu0/t_product_540_high.jpg"
+    },
+    {
+        "id": 542,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a6a5a1146g78h3jijg/t_product_540_high.jpg"
+    },
+    {
+        "id": 544,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 544,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 545,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/events"
+    },
+    {
+        "id": 546,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 560,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3d55sq1146soq7c3pl0/t_product_540_high.jpg"
+    },
+    {
+        "id": 560,
+        "type": "request",
+        "url": "https://static.uzum.uz/baner/gnc1405.png"
+    },
+    {
+        "id": 560,
+        "type": "request",
+        "url": "https://static.uzum.uz/market/badge-icons/verified.png"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a61vq1146g78h3jhhg/original.jpg"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a622d2lln52upubpe0/original.jpg"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://static.uzum.uz/fonts/Inter_Regular.woff2"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/entry.DivZTtev.css"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index.ib0Onphi.css"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/get-feedback-photos-count.CTMvWueU.css"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/default.NoHtuG3V.css"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/Spinner.vG8FOTSx.css"
+    },
+    {
+        "id": 584,
+        "type": "request",
+        "url": "https://static.uzum.uz/fonts/Inter_Medium.woff2"
+    },
+    {
+        "id": 590,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3d560d2lln30qq4660g/t_product_240_high.jpg"
+    },
+    {
+        "id": 590,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3d55sq1146soq7c3pl0/t_product_240_high.jpg"
+    },
+    {
+        "id": 590,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3d55v52lln30qq46600/t_product_240_high.jpg"
+    },
+    {
+        "id": 590,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62dtr1spqpknjg0a0/original.jpg"
+    },
+    {
+        "id": 590,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a6a5a1146g78h3jijg/t_product_540_high.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62bd2lln52upubpeg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://static.uzum.uz/fonts/Inter_Semibold.woff2"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://static.uzum.uz/fonts/TT_Uzum_DemiBold.woff2"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62oi1146g78h3jhjg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://static.uzum.uz/fonts/TT_Uzum_Bold.woff2"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62qi1146g78h3jhk0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62sa1146g78h3jhkg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a62ud2lln52upubpgg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a639q1146g78h3jhn0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a63ci1146g78h3jho0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a63n52lln52upubpl0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a63pl2lln52upubplg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a63rq1146g78h3jhq0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a63ulr1spqpknjg0g0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a640tr1spqpknjg0gg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a643a1146g78h3jhr0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a64552lln52upubpo0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a64721146g78h3jhs0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a648q1146g78h3jhsg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a64ad2lln52upubpog/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a64cq1146g78h3jhtg/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a64ea1146g78h3jhu0/original.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://static.uzum.uz/market/product-action/shopping-bag-check-line.png"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a6a5a1146g78h3jij0/t_product_540_high.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/d3a6a552lln52upubqbg/t_product_540_high.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://images.uzum.uz/cq8lf64sslotj05kb7t0/shop_avatar_56_low.jpg"
+    },
+    {
+        "id": 591,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/entry.Dbfr2w7A.js"
+    },
+    {
+        "id": 595,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/app-links-qr-uz.BJpx2pvM.svg"
+    },
+    {
+        "id": 595,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/clickstream-client-js.BEOLjafz.js"
+    },
+    {
+        "id": 595,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/apollo.yfoBapnA.js"
+    },
+    {
+        "id": 595,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/uzum-ui-kit-2.BXVvd3pq.js"
+    },
+    {
+        "id": 595,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/uzum-ui-kit.CTPsud_1.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/useCustomHead.7wCLspu-.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/use-date-formatting.BMtPizsN.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/get-feedback-photos-count.PCYYt3gp.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/canonicalAlternateLinks.B6NfZneY.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/interval.DnjM1Abs.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/Spinner.CPVavx16.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/composables.9Sj_QenJ.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/usePrometheusMetrics.DqbQljoo.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/vue.CtGPY4Cx.js"
+    },
+    {
+        "id": 605,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index.CK_H2EHw.js"
+    },
+    {
+        "id": 606,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/i18n.config.DKzm7oEZ.js"
+    },
+    {
+        "id": 607,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/i18n-ru.BqTwSJRw.js"
+    },
+    {
+        "id": 611,
+        "type": "request",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5NXNZNR"
+    },
+    {
+        "id": 617,
+        "type": "request",
+        "url": "https://connect.facebook.net/en_US/fbevents.js"
+    },
+    {
+        "id": 618,
+        "type": "request",
+        "url": "https://www.googletagmanager.com/gtag/js?id=GT-TBWHGXBK&cx=c&gtm=4e67f0h1"
+    },
+    {
+        "id": 618,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/useMyProductsPreview.CxUJCg2P.js"
+    },
+    {
+        "id": 618,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/useLayoutMultiCache.BxHfAYhS.js"
+    },
+    {
+        "id": 618,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/default.BScTax1d.js"
+    },
+    {
+        "id": 618,
+        "type": "request",
+        "url": "https://cdn.growthbook.io/sub/sdk-Ndq9uu11eUCoTda"
+    },
+    {
+        "id": 627,
+        "type": "request",
+        "url": "https://connect.facebook.net/signals/config/639391844420533?v=2.9.356&r=stable&domain=uzum.uz&hme=1179b74563cacb97c6ebae600e40937237ab12824fb84996eee07eca65cabbd4&ex_m=107%2C208%2C158%2C22%2C73%2C74%2C149%2C69%2C68%2C11%2C167%2C93%2C16%2C141%2C130%2C39%2C76%2C81%2C137%2C163%2C169%2C26%2C27%2C28%2C30%2C48%2C150%2C78%2C115%2C18%2C20%2C44%2C40%2C42%2C41%2C86%2C95%2C99%2C113%2C148%2C151%2C46%2C114%2C24%2C21%2C122%2C70%2C36%2C153%2C152%2C154%2C145%2C143%2C25%2C35%2C59%2C112%2C165%2C71%2C17%2C156%2C117%2C84%2C67%2C19%2C88%2C89%2C119%2C87%2C139%2C138%2C142%2C164%2C34%2C49%2C116%2C47%2C8%2C4%2C5%2C7%2C6%2C3%2C94%2C104%2C170%2C175%2C222%2C75%2C235%2C234%2C233%2C23%2C33%2C55%2C106%2C61%2C10%2C64%2C100%2C101%2C102%2C108%2C133%2C31%2C29%2C135%2C136%2C132%2C131%2C159%2C77%2C162%2C160%2C161%2C50%2C60%2C126%2C15%2C166%2C45%2C280%2C281%2C279%2C294%2C310%2C215%2C204%2C62%2C205%2C203%2C313%2C304%2C52%2C216%2C110%2C134%2C83%2C124%2C54%2C123%2C129%2C128%2C58%2C65%2C63%2C155%2C79%2C80%2C118%2C37%2C32%2C53%2C56%2C103%2C168%2C1%2C127%2C14%2C125%2C12%2C2%2C57%2C96%2C66%2C121%2C92%2C91%2C171%2C172%2C97%2C98%2C9%2C105%2C51%2C146%2C90%2C82%2C72%2C120%2C109%2C43%2C147%2C0%2C85%2C140%2C144%2C157%2C38%2C111%2C13%2C173"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://www.google.co.uz/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-7KCSSWWYYD&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=9&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~119896803&z=1343811392"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://www.google.co.uz/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=9&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115938466~115938468~118897920~118897930~119896803&z=252820492"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&_p=1784277975649&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AAAAAGQC&_prs=ok&are=1&cid=1468174730.1784277916&ec_mode=a&frm=0&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=1&tag_exp=115938466~115938468~118897920~118897930~119896803&sid=1784277915&sct=1&seg=1&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&dr=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&dt=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000%20%D1%81%D1%83%D0%BC%20%D1%81%D0%BE%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D0%BE%D0%B9%2038%25.%20Uzum%20Market&en=page_view&_c=1&tfd=8000"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-EZ8RKY9S93&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&_p=1784277975649&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACQC&are=1&cid=1468174730.1784277916&frm=0&ibt=1&ngs=1&pscdl=noapi&rcb=9&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&_s=1&tag_exp=115938466~115938468~118897920~118897930~119896803&sid=1784277915&sct=1&seg=1&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&dr=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&dt=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000%20%D1%81%D1%83%D0%BC%20%D1%81%D0%BE%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D0%BE%D0%B9%2038%25.%20Uzum%20Market&en=page_view&tfd=8006"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://www.google.com/ccm/collect?rcb=9&frm=0&auid=2044243736.1784277916&dt=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000&en=page_view&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388&dr=uzum.uz&scrsrc=www.googletagmanager.com&rnd=412659029.1784277976&navt=n&npa=0&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&apve=1&apvf=f&apvc=1&tids=AW-17530957042&tid=AW-17530957042&tft=1784277976025&tfd=8020&fmt=8"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://www.google.com/rmkt/collect/17530957042/?random=1784277976012&cv=11&fst=1784277976012&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&rcb=9&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/checkmark.CUPgzGsY.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/uzum-card.D0o5RU36.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/nasiya.DPxPMwSk.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/cash.BewSq-Br.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/card-humo.CrWhC_yh.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/card-uzcard.CHFPbM96.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/bank_text.BGPPZ3nT.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/card-mastercard.VROGUOR8.js"
+    },
+    {
+        "id": 645,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/card-visa.Dau-JAA8.js"
+    },
+    {
+        "id": 646,
+        "type": "request",
+        "url": "https://www.google.com/measurement/conversion?random=1784277975967&cv=11&tid=G-7KCSSWWYYD&fst=1784277975967&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&gacid=1468174730.1784277916&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000%20%D1%81%D1%83%D0%BC%20%D1%81%D0%BE%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D0%BE%D0%B9%2038%25.%20Uzum%20Market&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=9"
+    },
+    {
+        "id": 646,
+        "type": "request",
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=2044243736.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://www.google.com/measurement/1p-conversion/?random=364563694&cv=11&tid=G-7KCSSWWYYD&fst=1784277975967&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&gacid=1468174730.1784277916&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000%20%D1%81%D1%83%D0%BC%20%D1%81%D0%BE%20%D1%81%D0%BA%D0%B8%D0%B4%D0%BA%D0%BE%D0%B9%2038%25.%20Uzum%20Market&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=9&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQIIseGxAgiz4bECCKbdsQIIsN6xAgiA27EC&cerd=CgTr370t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYdWX2WXtf7NFUlVCsDbK9N-av8HfQ8Vc-NolJRQvo4G7dkfFfNw08MaAjlC&pscrd=IhMI1_6kt6nZlQMVM1UeAh2R8BGdOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVpfVW0yaENXZVNoMzMwZkZwZTdQb3lmdWZxczJfaTZ4NGJtdS01bDJYa24xVkM0Y1BwajhaZDh6DAgJYggIABAAGAAgAA"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&rl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&if=false&ts=1784277976297&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5f95184a967c6dcd2b29f1d56d76d9241751563e9f568d616a4bafffab3b0bdb&cs_est=true&ler=empty&cdl=API_unavailable&plt=7283.5&tz=300&it=1784277975913&coo=false&up_url=query&rlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&rqm=GET"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17530957042/?random=1784277976012&cv=11&fst=1784277976012&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&rcb=9&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=4"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://api.uzum.uz/api/main/root-categories"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 653,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index3.CEW0a4J7.js"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index28.QwL0kjq2.js"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index40.CiGVR6I0.js"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index16.B1siaPU6.js"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://uzum.uz/_nuxt/index39.1B5qqjN7.js"
+    },
+    {
+        "id": 655,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 656,
+        "type": "request",
+        "url": "https://www.google.com/pagead/1p-user-list/17530957042/?random=1784277976012&cv=11&fst=1784275200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&rcb=9&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4QEAEQoqgSRe-yMnnbo2zZ_ViZ5B_TIU480tX4D61m9q_Bkp5S9dgzFpO4U82p76jQOy0NviIxwrMyWfqlkRqkK2AQwXGP7AnJ8jxgOAu9RfKGjXdJm9Dl9dAf9nWapeKDEU17Z9H9utbVWihuqCfV38JPIO0B0dcpGtHMLVGpqJDPcxzuwcKbJiiauYhQjWgV3dUqYF4rNqqILUqTMqvWRzNE2dL6yuVWGJEX3XNaUMLK5kA0yoY4mnOTxKO9mlxTiLkuVbOIzszIcJOQfAo5Na5fLg1ow0Kroz-YLFQyBSgNg&random=2233388759&rmt_tld=0&ipr=y"
+    },
+    {
+        "id": 656,
+        "type": "request",
+        "url": "https://www.google.co.uz/pagead/1p-user-list/17530957042/?random=1784277976012&cv=11&fst=1784275200000&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938466~115938468~118897920~118897930~119896803&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&ref=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&rcb=9&frm=0&tiba=IPhone%2017%20Pro%2FPro%20Max%2C%20256%2C%20512%20%2C%201%20%D0%A2%D0%91%20%2C%202%20%D0%A2%D0%91%20%2F%20%D0%9E%D0%B1%D0%B0%20IMEI%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D1%8B%20%D0%B7%D0%B0%2016814000&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&ept=9&rfmt=3&fmt=3&is_vtc=1&cid=CAQS4QEAEQoqgSRe-yMnnbo2zZ_ViZ5B_TIU480tX4D61m9q_Bkp5S9dgzFpO4U82p76jQOy0NviIxwrMyWfqlkRqkK2AQwXGP7AnJ8jxgOAu9RfKGjXdJm9Dl9dAf9nWapeKDEU17Z9H9utbVWihuqCfV38JPIO0B0dcpGtHMLVGpqJDPcxzuwcKbJiiauYhQjWgV3dUqYF4rNqqILUqTMqvWRzNE2dL6yuVWGJEX3XNaUMLK5kA0yoY4mnOTxKO9mlxTiLkuVbOIzszIcJOQfAo5Na5fLg1ow0Kroz-YLFQyBSgNg&random=2233388759&rmt_tld=1&ipr=y"
+    },
+    {
+        "id": 656,
+        "type": "request",
+        "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sf2mj76ohd6dvo870/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sd9ej76ohd6dvo7dg/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sf4tv2sjo4rvgd7ug/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sf05sp2tk7h6384ng/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sg2uj76ohd6dvo8ng/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d44sf15v2sjo4rvgd7tg/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://images.uzum.uz/d96euak9g1ku9j5h65a0/feedback_40.jpg"
+    },
+    {
+        "id": 666,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8si07i1146phmqenja0/feedback_40.jpg"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8pqtci1146phmqdjah0/feedback_40.jpg"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://images.uzum.uz/d8pqtbq1146phmqdjae0/feedback_40.jpg"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 667,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 668,
+        "type": "request",
+        "url": "https://static.uzum.uz/static/product_badge/2f9bcf18-a9b5-4dec-9a81-931db51e90af"
+    },
+    {
+        "id": 669,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+    },
+    {
+        "id": 670,
+        "type": "request",
+        "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+    },
+    {
+        "id": 671,
+        "type": "request",
+        "url": "https://graphql.uzum.uz/"
+    }
+]
