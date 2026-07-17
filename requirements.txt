@@ -1,17 +1,17 @@
 aiogram>=3.20
 
-httpx
+fastapi
+uvicorn[standard]
+
+httpx[http2]
 
 SQLAlchemy>=2.0
-
 asyncpg
-
 alembic
 
 python-dotenv
 
 pydantic
-
 pydantic-settings
 
 loguru
@@ -21,15 +21,11 @@ orjson
 playwright
 
 beautifulsoup4
-
 lxml
 
 tenacity
-
 aiofiles
-
-uvloop; platform_system != "Windows"
 
 typer>=0.16
 
-httpx[http2]
+uvloop; platform_system != "Windows"
