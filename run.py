@@ -1,20 +1,23 @@
-﻿import asyncio
+import os
 
-from app.bot.bot import bot
-from app.bot.dispatcher import dp
-from app.database.init_db import init_database
+import uvicorn
 from loguru import logger
 
 
-async def main():
-    logger.info("Starting PriceHunter UZ...")
+def main():
+    host = os.getenv("HOST", "0.0.0.0")
+    port = int(os.getenv("PORT", "8000"))
 
-    await init_database()
+    logger.info(f"Starting PriceHunter UZ Web Server on {host}:{port}")
 
-    logger.success("Database initialized")
-
-    await dp.start_polling(bot)
+    uvicorn.run(
+        "app.web.server:app",
+        host=host,
+        port=port,
+        reload=False,
+        log_level="info",
+    )
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
