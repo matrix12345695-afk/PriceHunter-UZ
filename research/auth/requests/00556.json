@@ -1,0 +1,13 @@
+{
+    "time": "2026-07-17T13:46:09.283015",
+    "method": "GET",
+    "url": "https://static.uzum.uz/baner/gnc1405.png",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uzum.uz/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+}

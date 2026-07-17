@@ -1,0 +1,25 @@
+{
+    "time": "2026-07-17T13:45:58.994729",
+    "method": "GET",
+    "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&rl=&if=false&ts=1784277958870&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=2&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5b83f456fde3b932bb35263aefa08c1ed1253ec218d7cdbe6aed209a3bcc7531&cs_est=true&ler=empty&cdl=API_unavailable&plt=1305.0999999996275&tz=300&it=1784277958859&coo=false&up_url=query&dlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+    "headers": {
+        ":authority": "www.facebook.com",
+        ":method": "GET",
+        ":path": "/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&rl=&if=false&ts=1784277958870&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=2&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5b83f456fde3b932bb35263aefa08c1ed1253ec218d7cdbe6aed209a3bcc7531&cs_est=true&ler=empty&cdl=API_unavailable&plt=1305.0999999996275&tz=300&it=1784277958859&coo=false&up_url=query&dlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=ct2&expv2[6]=hf1&rqm=GET",
+        ":scheme": "https",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}

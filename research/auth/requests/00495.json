@@ -1,0 +1,13 @@
+{
+    "time": "2026-07-17T13:45:58.992910",
+    "method": "GET",
+    "url": "https://uzum.uz/static/js/3237.5ac3150db8190db9836b.js",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uzum.uz/ru/search?query=iphone&needsCorrection=1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "body": null
+}

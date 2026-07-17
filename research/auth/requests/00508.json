@@ -1,0 +1,33 @@
+{
+    "time": "2026-07-17T13:46:01.496721",
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance",
+    "headers": {
+        ":authority": "customer-resources.uzum.uz",
+        ":method": "POST",
+        ":path": "/api/analytics/v2/system/performance",
+        ":scheme": "https",
+        "accept": "application/json",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "access-content-allow-origin": "*",
+        "baggage": "sentry-environment=production,sentry-release=uzum-market%401.63.2,sentry-public_key=948fdc05a99a018e8d3ab003bee4b5a3,sentry-trace_id=1f2911fce21a4442a4c6cb0c35b79275,sentry-sample_rate=0.01,sentry-transaction=search,sentry-sampled=false",
+        "content-length": "4528",
+        "content-type": "application/json",
+        "origin": "https://uzum.uz",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "sentry-trace": "1f2911fce21a4442a4c6cb0c35b79275-8f388e7172d69d95-0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "version": "3.2.4",
+        "x-experiments": "",
+        "x-requested-with": "clickstream"
+    },
+    "body": "{\"events\":[{\"timestamp\":1784277958477,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":155,\"request_url\":\"https://graphql.uzum.uz/\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277959097,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":98,\"request_url\":\"https://api.uzum.uz/api/main/promo-categories\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"GET\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277959142,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":262,\"request_url\":\"https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277959175,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":176,\"request_url\":\"https://api.uzum.uz/api/main/root-categories?eco=false\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"GET\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277959325,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":326,\"request_url\":\"https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"GET\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277960114,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":228,\"request_url\":\"https://analytics.google.com/g/collect?v=2&tid=G-7KCSSWWYYD&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912&_p=1784277914516&gcd=13l3l3l3l1l1&npa=0&dma=0&ecid=501457304&_eu=AEAAAGQC&_prs=ok&ae=a&are=1&cid=1468174730.1784277916&ec_mode=a&frm=0&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uam=&uamb=0&uap=Windows&uapv=10.0&uaw=0&ul=ru-ru&gaf=2&_s=4&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&dr=https%3A%2F%2Fuzum.uz%2Fru&sid=1784277915&sct=1&seg=1&dt=Uzum%20%E2%80%94%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&en=page_view&_c=1&_et=42240&tfd=45912\",\"code\":\"0\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277960244,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":364,\"request_url\":\"https://www.google.com/measurement/conversion?random=1784277959862&cv=11&tid=G-7KCSSWWYYD&fst=1784277959862&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3Diphone%26needsCorrection%3D1&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20%E2%80%94%20%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D0%BE%D0%B2%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12\",\"code\":\"0\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}},{\"timestamp\":1784277960493,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":573,\"request_url\":\"https://graphql.uzum.uz/\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}}],\"device_properties\":{\"platform\":\"WEB\",\"browser\":\"Chrome\",\"browser_version\":\"138.0.0.0\",\"os_name\":\"Windows\",\"os_version\":\"10\"},\"user_properties\":{\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"0.22.13\",\"package_name\":\"uzum/customers-header\",\"sdk_version\":\"3.2.4\"}}"
+}
