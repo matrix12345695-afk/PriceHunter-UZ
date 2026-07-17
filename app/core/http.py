@@ -26,33 +26,22 @@ class HttpClient:
             timeout=httpx.Timeout(30.0),
             follow_redirects=True,
             headers=DEFAULT_HEADERS,
-            http2=True,
+            # HTTP/2 временно отключаем.
+            # Для работы с Olcha и Uzum он не требуется.
+            http2=False,
         )
 
     async def get(self, url: str, **kwargs):
-
-        response = await self._client.get(
-            url,
-            **kwargs,
-        )
-
+        response = await self._client.get(url, **kwargs)
         response.raise_for_status()
-
         return response
 
     async def post(self, url: str, **kwargs):
-
-        response = await self._client.post(
-            url,
-            **kwargs,
-        )
-
+        response = await self._client.post(url, **kwargs)
         response.raise_for_status()
-
         return response
 
     async def close(self):
-
         await self._client.aclose()
 
 
