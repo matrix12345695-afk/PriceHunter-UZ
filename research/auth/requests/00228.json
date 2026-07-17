@@ -1,0 +1,26 @@
+{
+    "time": "2026-07-17T13:45:15.526506",
+    "method": "GET",
+    "url": "https://uzum.uz/static/js/5758.e251cb56335e02ef89cb.js",
+    "headers": {
+        ":authority": "uzum.uz",
+        ":method": "GET",
+        ":path": "/static/js/5758.e251cb56335e02ef89cb.js",
+        ":scheme": "https",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "cookie": "_yasc=Bpmci0DcA6+Be6Y2QnJkv2m17XnUZnYOJrfWTEByUZb5KPDeSbS6bUMxfwnnzslzXXzK; clickstream-client.installId=%22199a9bd7-95f9-4afa-a495-2b2b3af17eae%22",
+        "priority": "u=4, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-origin",
+        "sec-purpose": "prefetch",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}
