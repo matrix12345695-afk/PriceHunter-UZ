@@ -1,0 +1,18 @@
+{
+    "id": 51,
+    "method": "POST",
+    "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uzum.uz/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_5b83f456fde3b932bb35263aefa08c1ed1253ec218d7cdbe6aed209a3bcc7531\",\"fb.pixel_id\":\"639391844420533\",\"website_context\":{\"location\":\"https://uzum.uz/ru/search?query=iphone&needsCorrection=1\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1784277916227.502397915949546832\",\"event_meta_info\":{\"experiment_detail\":{\"name\":\"experiment_flow_vs_cbsdk\",\"is_exposed\":true,\"is_in_control\":false,\"is_in_treatment\":true}}}",
+    "content_type": "text/plain;charset=UTF-8",
+    "protocol": "REST",
+    "score": 0
+}

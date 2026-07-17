@@ -1,0 +1,16 @@
+{
+    "GetSuggestionsInput": {
+        "text": "iphone",
+        "textSuggestionsLimit": 4,
+        "popularSuggestionsLimit": 4,
+        "catalogCardSuggestionsLimit": 0,
+        "categorySuggestionsLimit": 4,
+        "shopSuggestionsLimit": 4,
+        "textInOfferCategorySuggestionsLimit": 3
+    },
+    "recommendationQuery": {
+        "key": "SEARCH_SUGGESTIONS",
+        "itemIds": []
+    },
+    "includeRecommendations": false
+}

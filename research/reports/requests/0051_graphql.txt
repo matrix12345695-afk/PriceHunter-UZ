@@ -1,0 +1,1 @@
+{"operationName":"addViewedProduct","variables":{"id":2948805},"query":"mutation addViewedProduct($id: Int!) {\n  addRecentlyViewedProduct(id: $id)\n}"}

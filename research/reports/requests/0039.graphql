@@ -1,0 +1,145 @@
+query RecommendationBlocks($query: RecommendationQueryInput!) {
+  recommendationBlocks(query: $query) {
+    offerId
+    offerName
+    recommendations {
+      card {
+        ...ProductCardFragment
+      }
+      adv {
+        cpoId
+        cpoVersion
+      }
+    }
+  }
+}
+
+fragment ProductCardFragment on CatalogCard {
+  ...ProductCard_Identity
+  ...ProductCard_Commerce
+  ...ProductCard_Marketing
+  ...ProductCard_Media
+  ...ProductCard_Social
+  ...ProductCard_Checkout
+}
+
+fragment ProductCard_Identity on CatalogCard {
+  id
+  productId
+  title
+  adult
+}
+
+fragment ProductCard_Commerce on CatalogCard {
+  buyingOptions {
+    isBestPrice
+    priceBlock {
+      ...PriceBlockFragment
+    }
+  }
+  discount {
+    discountPrice
+    paymentOptionKey
+  }
+  minFullPrice
+  minSellPrice
+  promoFutureInfo {
+    minFuturePrice
+    minFuturePriceDate
+  }
+  ... on ProductCard {
+    carrierCode
+  }
+  ... on SkuGroupCard {
+    carrierCode
+  }
+}
+
+fragment PriceBlockFragment on PriceBlock {
+  badges {
+    id
+    text
+    textColor
+    backgroundColor
+  }
+  sellPrice {
+    ...PriceModelFragment
+  }
+  finalPrice {
+    ...PriceModelFragment
+  }
+  sellerPrice {
+    ...PriceModelFragment
+  }
+  fullPrice {
+    ...PriceModelFragment
+  }
+  icon
+}
+
+fragment PriceModelFragment on Price {
+  amount
+  amountColor
+  description
+  descriptionColor
+}
+
+fragment ProductCard_Marketing on CatalogCard {
+  badges {
+    __typename
+    id
+    backgroundColor
+    text
+    textColor
+    ... on BottomIconTextBadge {
+      iconLink
+    }
+    ... on StickerBadge {
+      iconLink
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+    }
+  }
+  offer {
+    due
+    icon
+  }
+  infoLabel {
+    color
+    title
+  }
+}
+
+fragment ProductCard_Media on CatalogCard {
+  photos {
+    key
+    link(trans: PRODUCT_540) {
+      high
+      low
+    }
+  }
+}
+
+fragment ProductCard_Social on CatalogCard {
+  feedbackQuantity
+  rating
+}
+
+fragment ProductCard_Checkout on CatalogCard {
+  buyingOptions {
+    defaultSkuId
+    isSingleSku
+    deliveryOptions {
+      shortDate
+      stockType
+    }
+  }
+  ... on SkuGroupCard {
+    characteristicValues {
+      id
+      title
+    }
+  }
+}

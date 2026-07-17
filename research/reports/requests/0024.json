@@ -1,0 +1,14 @@
+{
+    "id": 24,
+    "method": "GET",
+    "url": "https://www.google.com/measurement/1p-conversion/?random=19938434&cv=11&tid=G-7KCSSWWYYD&fst=1784277917616&fmt=8&en=page_view&gtm=45Pe67f0h1v9218838524za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2Fru&gacid=1468174730.1784277916&ae=a&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%9C%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D0%B2%20%D0%A3%D0%B7%D0%B1%D0%B5%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD%D0%B5.%20%D0%AD%D0%BA%D1%81%D0%BA%D0%BB%D1%8E%D0%B7%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5%20%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B%20%D0%B8%20%D0%B0%D0%BA%D1%86%D0%B8%D0%B8.&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgjI5bECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCP3jsQIIyeOxAgiX1LECCMnbsQIIzeaxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQI&cerd=CgTeq74t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYd5d3RYejXugSMZWHC8XUbT2mk0ucdxWUGu-RE3Euwdl8DgugcJomoaAqAt&pscrd=IhMI86a6m6nZlQMVdUMeAh0ZRAkoOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVo5cG1zalpRM01WMmtTTWgxTTllbE9BTjlxbVZsRVBFTC1EdmNoOEtqMFdKVng4SEhzYkFBUHN6DAgJYggIABAAGAAgAA",
+    "resource_type": "fetch",
+    "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "referer": "https://uzum.uz/"
+    },
+    "body": null,
+    "content_type": "",
+    "protocol": "REST",
+    "score": 10
+}

@@ -1,0 +1,3 @@
+mutation addViewedProduct($id: Int!) {
+  addRecentlyViewedProduct(id: $id)
+}

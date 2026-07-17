@@ -1,0 +1,25 @@
+{
+    "id": 40,
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/runtime/errors",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "access-content-allow-origin": "*",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=uzum-market%401.63.2,sentry-public_key=948fdc05a99a018e8d3ab003bee4b5a3,sentry-trace_id=136fec53f6ca4b6a9c6b6906df71204c,sentry-sample_rate=0.01,sentry-sampled=false",
+        "sentry-trace": "136fec53f6ca4b6a9c6b6906df71204c-b93cdc3c4654c0ff-0",
+        "x-experiments": "",
+        "x-requested-with": "clickstream",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "version": "3.2.4",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"events\":[{\"type\":\"RENDER_ERROR\",\"timestamp\":1784277949763,\"time_zone\":\"Asia/Tashkent\",\"ui_properties\":{\"space\":{\"name\":\"https://uzum.uz/ru\",\"type\":\"PAGE\",\"view_id\":\"f4b75442-6dff-43b0-9e5b-1cac5186e0b6\",\"screen_size\":\"1280:720\"},\"action\":\"SHOW\"},\"event_parameters\":{\"stacktrace\":\"TypeError: parameter 1 is not of type 'Element'.\\n    at e.mounted (https://uzum.uz/static/js/6733.47eac177049e66fe28dc.js:1:86015)\\n    at wn (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3970238)\\n    at Ar (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3976038)\\n    at Object.insert (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3979656)\\n    at x (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:4014929)\\n    at e.__patch__ (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:4016296)\\n    at e._update (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3991596)\\n    at e.r (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:4023152)\\n    at e.get (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3973838)\\n    at e.run (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3974571)\\n    at Er (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3976544)\\n    at Array.<anonymous> (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3971275)\\n    at Pn (https://uzum.uz/static/js/app.e41bb23305ac26189deb.js?f3ca33df5ce0c7d27499:2:3970675)\",\"message\":\"Failed to execute 'observe' on 'IntersectionObserver': parameter 1 is not of type 'Element'.\",\"url\":\"https://uzum.uz/ru\",\"component_name\":\"e\",\"info\":\"mounted hook\"}}],\"device_properties\":{\"platform\":\"WEB\",\"browser\":\"Chrome\",\"browser_version\":\"138.0.0.0\",\"os_name\":\"Windows\",\"os_version\":\"10\"},\"user_properties\":{\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"0.22.13\",\"package_name\":\"uzum/customers-header\",\"sdk_version\":\"3.2.4\"}}",
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}

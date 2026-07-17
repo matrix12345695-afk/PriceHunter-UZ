@@ -1,0 +1,242 @@
+query Suggestions($GetSuggestionsInput: GetSuggestionsInput!, $recommendationQuery: RecommendationQueryInput!, $includeRecommendations: Boolean!) {
+  getSuggestions(query: $GetSuggestionsInput) {
+    blocks {
+      ... on TextInOfferCategorySuggestionsBlock {
+        values
+        offerCategoryTitle
+        __typename
+      }
+      ... on TextSuggestionsBlock {
+        values
+        __typename
+      }
+      ... on PopularSuggestionsBlock {
+        popularSuggestions
+        __typename
+      }
+      ... on CategorySuggestionsBlock {
+        categories {
+          id
+          parent {
+            title
+            __typename
+          }
+          seo {
+            metaTag
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      ... on ShopSuggestionsBlock {
+        shops {
+          id
+          title
+          url
+          avatar {
+            low
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    __typename
+  }
+  recommendationBlock(query: $recommendationQuery) @include(if: $includeRecommendations) {
+    ...RecommendationBlockFragment
+    __typename
+  }
+}
+
+fragment RecommendationBlockFragment on RecommendationBlock {
+  offerId
+  offerName
+  recommendations {
+    card {
+      ...ProductCardFragment
+      __typename
+    }
+    adv {
+      cpoId
+      cpoVersion
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCardFragment on CatalogCard {
+  ...ProductCard_Identity
+  ...ProductCard_Commerce
+  ...ProductCard_Marketing
+  ...ProductCard_Media
+  ...ProductCard_Social
+  ...ProductCard_Checkout
+  __typename
+}
+
+fragment ProductCard_Identity on CatalogCard {
+  id
+  productId
+  title
+  adult
+  __typename
+}
+
+fragment ProductCard_Commerce on CatalogCard {
+  buyingOptions {
+    isBestPrice
+    priceBlock {
+      ...PriceBlockFragment
+      __typename
+    }
+    __typename
+  }
+  discount {
+    discountPrice
+    __typename
+  }
+  minFullPrice
+  minSellPrice
+  promoFutureInfo {
+    minFuturePrice
+    minFuturePriceDate
+    __typename
+  }
+  ... on ProductCard {
+    carrierCode
+    cpoId
+    cpoVersion
+    __typename
+  }
+  ... on SkuGroupCard {
+    carrierCode
+    __typename
+  }
+  __typename
+}
+
+fragment PriceBlockFragment on PriceBlock {
+  badges {
+    id
+    text
+    textColor
+    backgroundColor
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+    __typename
+  }
+  sellPrice {
+    ...priceFragment
+    __typename
+  }
+  finalPrice {
+    ...priceFragment
+    __typename
+  }
+  fullPrice {
+    ...priceFragment
+    __typename
+  }
+  sellerPrice {
+    ...priceFragment
+    __typename
+  }
+  icon
+  __typename
+}
+
+fragment priceFragment on Price {
+  amountColor
+  amount
+  description
+  descriptionColor
+  __typename
+}
+
+fragment ProductCard_Marketing on CatalogCard {
+  badges {
+    __typename
+    id
+    backgroundColor
+    text
+    textColor
+    ... on BottomIconTextBadge {
+      iconLink
+      __typename
+    }
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+  }
+  offer {
+    due
+    icon
+    __typename
+  }
+  infoLabel {
+    color
+    title
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Media on CatalogCard {
+  photos {
+    key
+    link(trans: PRODUCT_540) {
+      high
+      low
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Social on CatalogCard {
+  feedbackQuantity
+  rating
+  __typename
+}
+
+fragment ProductCard_Checkout on CatalogCard {
+  buyingOptions {
+    defaultSkuId
+    isSingleSku
+    deliveryOptions {
+      shortDate
+      stockType
+      __typename
+    }
+    __typename
+  }
+  ... on SkuGroupCard {
+    characteristicValues {
+      id
+      title
+      __typename
+    }
+    __typename
+  }
+  __typename
+}

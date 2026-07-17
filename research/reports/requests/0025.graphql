@@ -1,0 +1,345 @@
+query MakeSearch_ItemsAndFilters($queryInput: MakeSearchQueryInput!) {
+  makeSearch(query: $queryInput) {
+    queryText
+    category {
+      ...CategoryShortFragment
+      __typename
+    }
+    items {
+      catalogCard {
+        ...ProductCardFragment
+        __typename
+      }
+      cpoAdvVersion
+      cpoId
+      bidId
+      __typename
+    }
+    facets {
+      ...FacetFragment
+      __typename
+    }
+    fastFacets {
+      ...FacetFragment
+      __typename
+    }
+    total
+    mayHaveAdultContent
+    categoryFullMatch
+    offerCategory {
+      title
+      title_ru
+      title_uz
+      id
+      __typename
+    }
+    correctedQueryText
+    categoryWasPredicted
+    fastCategories {
+      category {
+        ...FastCategoryFragment
+        __typename
+      }
+      total
+      __typename
+    }
+    permanentLinkSeo {
+      id
+      seoHeader
+      seoMetaTag
+      seoTitle
+      link {
+        ru
+        uz
+        __typename
+      }
+      __typename
+    }
+    token
+    todayDealOfferSelectors {
+      endDate
+      offerId
+      startDate
+      title
+      category {
+        id
+        title_uz
+        title_ru
+        title
+        adult
+        icon
+        __typename
+      }
+      __typename
+    }
+    bannersV2 {
+      __typename
+      ... on PromoSearchBanner {
+        id
+        blockColor
+        endDate
+        link
+        subtitle
+        title
+        __typename
+      }
+      ... on ImageSearchBanner {
+        id
+        image {
+          high
+          low
+          __typename
+        }
+        link
+        __typename
+      }
+      ... on CountdownSearchBanner {
+        id
+        title
+        iconLink
+        endDate
+        __typename
+      }
+    }
+    __typename
+  }
+}
+
+fragment FacetFragment on Facet {
+  filter {
+    id
+    title
+    type
+    measurementUnit
+    __typename
+  }
+  buckets {
+    filterValue {
+      id
+      image
+      name
+      __typename
+    }
+    total
+    __typename
+  }
+  range {
+    min
+    max
+    __typename
+  }
+  __typename
+}
+
+fragment CategoryShortFragment on Category {
+  id
+  parent {
+    id
+    title
+    title_ru
+    title_uz
+    __typename
+  }
+  seo {
+    permanentLinksSeo {
+      id
+      seoHeader
+      seoMetaTag
+      seoTitle
+      link {
+        ru
+        uz
+        __typename
+      }
+      __typename
+    }
+    __typename
+  }
+  title
+  title_ru
+  title_uz
+  __typename
+}
+
+fragment FastCategoryFragment on Category {
+  id
+  title
+  seo {
+    header
+    metaTag
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCardFragment on CatalogCard {
+  ...ProductCard_Identity
+  ...ProductCard_Commerce
+  ...ProductCard_Marketing
+  ...ProductCard_Media
+  ...ProductCard_Social
+  ...ProductCard_Checkout
+  __typename
+}
+
+fragment ProductCard_Identity on CatalogCard {
+  id
+  productId
+  title
+  adult
+  __typename
+}
+
+fragment ProductCard_Commerce on CatalogCard {
+  buyingOptions {
+    isBestPrice
+    priceBlock {
+      ...PriceBlockFragment
+      __typename
+    }
+    __typename
+  }
+  discount {
+    discountPrice
+    paymentOptionKey
+    __typename
+  }
+  minFullPrice
+  minSellPrice
+  promoFutureInfo {
+    minFuturePrice
+    minFuturePriceDate
+    __typename
+  }
+  ... on ProductCard {
+    carrierCode
+    cpoId
+    cpoVersion
+    __typename
+  }
+  ... on SkuGroupCard {
+    carrierCode
+    __typename
+  }
+  __typename
+}
+
+fragment PriceBlockFragment on PriceBlock {
+  badges {
+    id
+    text
+    textColor
+    backgroundColor
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+    __typename
+  }
+  sellPrice {
+    ...priceFragment
+    __typename
+  }
+  finalPrice {
+    ...priceFragment
+    __typename
+  }
+  fullPrice {
+    ...priceFragment
+    __typename
+  }
+  sellerPrice {
+    ...priceFragment
+    __typename
+  }
+  icon
+  __typename
+}
+
+fragment priceFragment on Price {
+  amountColor
+  amount
+  description
+  descriptionColor
+  __typename
+}
+
+fragment ProductCard_Marketing on CatalogCard {
+  badges {
+    id
+    backgroundColor
+    text
+    textColor
+    ... on BottomIconTextBadge {
+      iconLink
+      __typename
+    }
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+    __typename
+  }
+  offer {
+    due
+    icon
+    __typename
+  }
+  infoLabel {
+    color
+    title
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Media on CatalogCard {
+  photos {
+    key
+    link(trans: PRODUCT_540) {
+      high
+      low
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Social on CatalogCard {
+  feedbackQuantity
+  rating
+  __typename
+}
+
+fragment ProductCard_Checkout on CatalogCard {
+  buyingOptions {
+    defaultSkuId
+    isSingleSku
+    deliveryOptions {
+      shortDate
+      stockType
+      __typename
+    }
+    __typename
+  }
+  ... on SkuGroupCard {
+    characteristicValues {
+      id
+      title
+      __typename
+    }
+    __typename
+  }
+  __typename
+}

@@ -1,0 +1,429 @@
+query getMainContent($type: DisplayType!, $page: Int!, $size: Int!, $offerSize: Int!, $offset: Int!, $rowWidth: Int!) {
+  main {
+    content(type: $type) {
+      __typename
+      ... on StyledCarouselOffer {
+        title
+        category {
+          id
+          title
+          __typename
+        }
+        products(page: 0, size: $offerSize) {
+          ...ProductCardFragment
+          __typename
+        }
+        style {
+          __typename
+          ... on PlainCarouselOfferStyle {
+            __typename
+            backgroundColor
+            iconUrl
+            titleColor
+          }
+        }
+        __typename
+      }
+      ... on BannerBlock {
+        content {
+          displayAdvId
+          link
+          image {
+            high
+            __typename
+          }
+          id
+          __typename
+        }
+        __typename
+      }
+      ... on TodayDealsCarouselOffer {
+        ...TodayDealsCarouseFragment
+        products(page: $page, size: $size) {
+          ...ProductCardFragment
+          promoFutureInfo {
+            minFuturePrice
+            minFuturePriceDate
+            __typename
+          }
+          promoQuantity {
+            quantityFull
+            quantityStock
+            __typename
+          }
+          __typename
+        }
+        __typename
+      }
+      ... on PromoImageBlock {
+        content {
+          ...PromoImageFragment
+          __typename
+        }
+        __typename
+      }
+      ... on ExtendableOffer {
+        ...ExtendableOfferFragment
+        __typename
+      }
+      ... on ImageOffer {
+        id
+        image {
+          high
+          __typename
+        }
+        title
+        category {
+          id
+          title
+          __typename
+        }
+        products(page: 0, size: $offerSize) {
+          ...ProductCardFragment
+          __typename
+        }
+        __typename
+      }
+      ... on CarouselOffer {
+        id
+        description
+        title
+        category {
+          id
+          title
+          __typename
+        }
+        products(page: 0, size: $offerSize) {
+          ...ProductCardFragment
+          __typename
+        }
+        __typename
+      }
+      ... on InlineBanner {
+        ...InlineBannerFragment
+        __typename
+      }
+      ... on PageableVerticalOfferBlock {
+        content {
+          ...PageableVerticalOfferFragment
+          __typename
+        }
+        __typename
+      }
+    }
+    __typename
+  }
+}
+
+fragment InlineBannerFragment on InlineBanner {
+  image {
+    high
+    __typename
+  }
+  link
+  id
+  __typename
+}
+
+fragment PromoImageFragment on PromoImage {
+  deepLink
+  iconLink
+  id
+  title
+  __typename
+}
+
+fragment ProductCardFragment on CatalogCard {
+  ...ProductCard_Identity
+  ...ProductCard_Commerce
+  ...ProductCard_Marketing
+  ...ProductCard_Media
+  ...ProductCard_Social
+  ...ProductCard_Checkout
+  __typename
+}
+
+fragment ProductCard_Identity on CatalogCard {
+  id
+  productId
+  title
+  adult
+  __typename
+}
+
+fragment ProductCard_Commerce on CatalogCard {
+  buyingOptions {
+    isBestPrice
+    priceBlock {
+      ...PriceBlockFragment
+      __typename
+    }
+    __typename
+  }
+  discount {
+    discountPrice
+    __typename
+  }
+  minFullPrice
+  minSellPrice
+  promoFutureInfo {
+    minFuturePrice
+    minFuturePriceDate
+    __typename
+  }
+  ... on ProductCard {
+    carrierCode
+    cpoId
+    cpoVersion
+    __typename
+  }
+  ... on SkuGroupCard {
+    carrierCode
+    __typename
+  }
+  __typename
+}
+
+fragment PriceBlockFragment on PriceBlock {
+  badges {
+    id
+    text
+    textColor
+    backgroundColor
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+    __typename
+  }
+  sellPrice {
+    ...priceFragment
+    __typename
+  }
+  finalPrice {
+    ...priceFragment
+    __typename
+  }
+  fullPrice {
+    ...priceFragment
+    __typename
+  }
+  sellerPrice {
+    ...priceFragment
+    __typename
+  }
+  icon
+  __typename
+}
+
+fragment priceFragment on Price {
+  amountColor
+  amount
+  description
+  descriptionColor
+  __typename
+}
+
+fragment ProductCard_Marketing on CatalogCard {
+  badges {
+    __typename
+    id
+    backgroundColor
+    text
+    textColor
+    ... on BottomIconTextBadge {
+      iconLink
+      __typename
+    }
+    ... on StickerBadge {
+      iconLink
+      __typename
+    }
+    ... on FomoTimerBadge {
+      endDate
+      timerType
+      __typename
+    }
+  }
+  offer {
+    due
+    icon
+    __typename
+  }
+  infoLabel {
+    color
+    title
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Media on CatalogCard {
+  photos {
+    key
+    link(trans: PRODUCT_540) {
+      high
+      low
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment ProductCard_Social on CatalogCard {
+  feedbackQuantity
+  rating
+  __typename
+}
+
+fragment ProductCard_Checkout on CatalogCard {
+  buyingOptions {
+    defaultSkuId
+    isSingleSku
+    deliveryOptions {
+      shortDate
+      stockType
+      __typename
+    }
+    __typename
+  }
+  ... on SkuGroupCard {
+    characteristicValues {
+      id
+      title
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment PageableVerticalOfferFragment on PageableVerticalOffer {
+  id
+  title
+  category {
+    id
+    __typename
+  }
+  content(offset: $offset, rowWidth: $rowWidth) {
+    nextOffset
+    content {
+      ... on CardBlock {
+        content {
+          ...ProductCardFragment
+          __typename
+        }
+        __typename
+      }
+      ... on CarouselOffer {
+        id
+        title
+        category {
+          id
+          title
+          __typename
+        }
+        products(page: 0, size: $offerSize) {
+          ...ProductCardFragment
+          __typename
+        }
+        __typename
+      }
+      ... on ImageOffer {
+        id
+        image {
+          high
+          __typename
+        }
+        title
+        category {
+          id
+          title
+          __typename
+        }
+        products(page: 0, size: $offerSize) {
+          ...ProductCardFragment
+          __typename
+        }
+        __typename
+      }
+      ... on InlineBanner {
+        ...InlineBannerFragment
+        __typename
+      }
+      ... on BannerGrid {
+        ...BannerGridFragment
+        __typename
+      }
+      __typename
+    }
+    __typename
+  }
+  __typename
+}
+
+fragment BannerGridFragment on BannerGrid {
+  __typename
+  id
+  content {
+    description
+    link
+    title
+    id
+    image {
+      high
+      low
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment TodayDealsCarouseFragment on TodayDealsCarouselOffer {
+  title
+  titleColor
+  description
+  descriptionColor
+  blockState
+  timerType
+  startDate
+  endDate
+  id
+  offerLink: link
+  category {
+    title
+    id
+    __typename
+  }
+  blockColor
+  button {
+    color
+    link
+    text
+    textColor
+    __typename
+  }
+  __typename
+}
+
+fragment ExtendableOfferFragment on ExtendableOffer {
+  description
+  id
+  products(page: $page, size: $size) {
+    ...ProductCardFragment
+    __typename
+  }
+  title
+  category {
+    title
+    id
+    __typename
+  }
+  __typename
+}

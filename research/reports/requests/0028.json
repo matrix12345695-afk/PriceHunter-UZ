@@ -1,0 +1,24 @@
+{
+    "id": 28,
+    "method": "GET",
+    "url": "https://api.uzum.uz/api/main/cities/active-delivery-points",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg",
+        "x-iid": "199a9bd7-95f9-4afa-a495-2b2b3af17eae",
+        "referer": "https://uzum.uz/",
+        "accept-language": "ru-RU",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=uzum-market%401.63.2,sentry-public_key=948fdc05a99a018e8d3ab003bee4b5a3,sentry-trace_id=136fec53f6ca4b6a9c6b6906df71204c,sentry-sample_rate=0.01,sentry-sampled=false",
+        "sentry-trace": "136fec53f6ca4b6a9c6b6906df71204c-b93cdc3c4654c0ff-0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "content-type": "application/json"
+    },
+    "body": null,
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}

@@ -1,0 +1,22 @@
+{
+    "id": 43,
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/events",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "",
+        "access-content-allow-origin": "*",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "version": "0.1"
+    },
+    "body": "{\"app_properties\":{\"app_version\":\"1.63.2\",\"package_name\":\"com.kazanexpress.customers.web\"},\"device_properties\":{\"gaid\":\"\",\"idfa\":\"\",\"oaid\":\"\",\"device_type\":\"DESKTOP\",\"appmetrica_device_id\":\"\",\"screen_resolution\":\"1280:720\",\"platform\":\"WEB\",\"idfv\":\"\"},\"user_properties\":{\"firebase_app_instance_id\":\"\",\"facebook_anon_id\":\"\",\"language\":\"ru\",\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\",\"my_tracker_lvid\":\"\",\"my_tracker_instance_id\":\"\",\"appsflyer_id\":\"\",\"google_cid\":\"GA1.1.1468174730.1784277916\",\"ya_metrica_id\":\"\",\"muid\":\"\"},\"events\":[{\"event_type\":\"SEARCH_INPUT_ACTIVATED\",\"session_id\":\"d8f2b6d9-93a4-47f9-8d58-c433244bb9e6\",\"ke_cid\":\"KE.1.4074e61c-f141-441a-a2bc-57b2551d7f80.1784277915157\",\"counter\":2,\"time_zone\":\"Asia/Tashkent\",\"timestamp\":1784277955322,\"event_properties\":{\"page_type\":\"MAIN\"}}]}",
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}
