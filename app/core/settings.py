@@ -30,6 +30,10 @@ class Settings(BaseSettings):
 
     ADMIN_IDS: str = ""
 
+    WEBHOOK_URL: str = ""
+
+    WEBHOOK_SECRET: str = ""
+
     # ==========================================================
     # Database
     # ==========================================================
