@@ -1,0 +1,214 @@
+{
+    "authorization": [
+        "Bearer",
+        "Bearer eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg"
+    ],
+    "x_iid": [
+        "199a9bd7-95f9-4afa-a495-2b2b3af17eae"
+    ],
+    "cookies": [
+        "clickstream-client.installId",
+        "_gcl_au",
+        "_ga",
+        "_fbp",
+        "access_token",
+        "refresh_token",
+        "_yasc",
+        "city-longitude",
+        "city-latitude",
+        "city-id",
+        "i18n_redirected",
+        "_ga_7KCSSWWYYD",
+        "_ga_EZ8RKY9S93",
+        "IDE"
+    ],
+    "set_cookie": [
+        "_yasc",
+        "14 Jul 2036 08:45:13 GMT; secure",
+        "test_cookie",
+        "17-Jul-2026 09:00:15 GMT; path",
+        "access_token",
+        "17 Jul 2046 08:45:16 GMT; secure; samesite",
+        "17 Jul 2046 08:45:16 GMT; secure; httponly; samesite",
+        "14 Jul 2036 08:45:16 GMT; secure",
+        "14 Jul 2036 08:44:15 GMT; secure",
+        "14 Jul 2036 08:45:22 GMT; secure",
+        "14 Jul 2036 08:45:48 GMT; secure",
+        "14 Jul 2036 08:45:54 GMT; secure",
+        "14 Jul 2036 08:45:55 GMT; secure",
+        "14 Jul 2036 08:45:58 GMT; secure",
+        "14 Jul 2036 08:45:59 GMT; secure",
+        "14 Jul 2036 08:46:00 GMT; secure",
+        "14 Jul 2036 08:46:04 GMT; secure",
+        "14 Jul 2036 08:46:15 GMT; secure",
+        "14 Jul 2036 08:46:18 GMT; secure"
+    ],
+    "graphql_operations": [
+        "Cart_Summary",
+        "getMainContent",
+        "Suggestions",
+        "MakeSearch_ItemsAndFilters",
+        "MakeSearch_Categories",
+        "GetTabs",
+        "ProductPage",
+        "RecommendationBlocks",
+        "Feedbacks",
+        "FeedbackPhotos",
+        "getViewedProducts",
+        "addViewedProduct"
+    ],
+    "graphql_endpoints": [
+        "https://graphql.uzum.uz/"
+    ],
+    "interesting_requests": [
+        {
+            "method": "POST",
+            "url": "https://id.uzum.uz/api/auth/token"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/promo-categories"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/root-categories?eco=false"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://api.uzum.uz/api/main/cities/city-by-location"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/cities/active-delivery-points"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/promo-categories"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/root-categories?eco=false"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "GET",
+            "url": "https://api.uzum.uz/api/main/root-categories"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/events"
+        },
+        {
+            "method": "POST",
+            "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance"
+        },
+        {
+            "method": "POST",
+            "url": "https://graphql.uzum.uz/"
+        }
+    ],
+    "status_codes": {
+        "200": 55,
+        "204": 33,
+        "302": 7
+    }
+}
