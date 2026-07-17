@@ -1,0 +1,13 @@
+{
+    "status": 200,
+    "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no",
+    "headers": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "https://uzum.uz",
+        "content-length": "0",
+        "content-security-policy": "default-src 'none'",
+        "content-type": "application/json",
+        "date": "Fri, 17 Jul 2026 08:46:15 GMT",
+        "vary": "origin"
+    }
+}

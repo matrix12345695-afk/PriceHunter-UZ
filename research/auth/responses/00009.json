@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "url": "https://uzum.uz/static/css/fonts.css",
+    "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=3600,no-cache, max-age=0",
+        "content-encoding": "br",
+        "content-length": "478",
+        "content-type": "text/css",
+        "date": "Fri, 17 Jul 2026 08:45:13 GMT",
+        "etag": "\"a6a485246eb5fbc39696b4ac2229bf9f\"",
+        "expires": "Fri, 17 Jul 2026 09:45:13 GMT",
+        "last-modified": "Tue, 31 Mar 2026 10:23:15 GMT",
+        "server": "ycalb",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+        "x-amz-meta-mtime": "1784034967",
+        "x-cache": "HIT"
+    }
+}

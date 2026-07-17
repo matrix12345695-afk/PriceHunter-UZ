@@ -1,0 +1,21 @@
+{
+    "status": 200,
+    "url": "https://static.uzum.uz/market/badge-icons/verified.png",
+    "headers": {
+        "cache-host": "yccdn-m9-13.yccdn.cloud.yandex.net",
+        "x-request-id": "30efccc22cc307b1",
+        "cache-control": "max-age=345600",
+        "timing-allow-origin": "*",
+        "etag": "\"e5a364e3f8f50a55044f5ce0fb109ea0\"",
+        "x-amz-request-id": "90e4dd9bbec564f4",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "2783",
+        "date": "Fri, 17 Jul 2026 08:45:17 GMT",
+        "cache-status": "HIT",
+        "content-type": "image/png",
+        "last-modified": "Fri, 08 Nov 2024 07:43:15 GMT",
+        "server": "nginx",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method"
+    }
+}

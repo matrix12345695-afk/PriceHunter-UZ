@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "url": "https://sentry.infra.cluster.daymarket.uz/api/7/envelope/?sentry_key=948fdc05a99a018e8d3ab003bee4b5a3&sentry_version=7&sentry_client=sentry.javascript.vue%2F8.36.0",
+    "headers": {
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "x-sentry-error,x-sentry-rate-limits,retry-after",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ipcity": "Tashkent",
+        "cf-ray": "a1c7f937dabd1382-ARN",
+        "content-length": "2",
+        "content-type": "application/json",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Fri, 17 Jul 2026 08:45:58 GMT",
+        "server": "cloudflare",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "vary": "origin, access-control-request-method, access-control-request-headers",
+        "x-request-id": "15df024e5eca92401c2fcc71c54f1fd0"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "url": "https://uzum.uz/static/js/3107.1bc3ff0ec51e80ddd78e.js",
+    "headers": {
+        "cache-control": "max-age=3600,public, max-age=31536000, immutable",
+        "content-encoding": "br",
+        "etag": "\"e9b68c8f7de4a22f1cfea612431dd588\"",
+        "x-amz-meta-mtime": "1784034970",
+        "expires": "Fri, 17 Jul 2026 09:45:14 GMT",
+        "accept-ranges": "bytes",
+        "x-cache": "HIT",
+        "content-length": "313",
+        "date": "Fri, 17 Jul 2026 08:45:14 GMT",
+        "content-type": "application/javascript; charset=utf-8",
+        "last-modified": "Thu, 30 Apr 2026 08:51:16 GMT",
+        "server": "ycalb",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method"
+    }
+}

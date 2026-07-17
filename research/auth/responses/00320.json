@@ -1,0 +1,20 @@
+{
+    "status": 204,
+    "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930",
+    "headers": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-origin": "https://uzum.uz",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "no-cache, no-store, must-revalidate",
+        "content-length": "0",
+        "content-security-policy-report-only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ascnsrsggc:165:0",
+        "content-type": "text/plain",
+        "cross-origin-opener-policy-report-only": "same-origin; report-to=ascnsrsggc:165:0",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Fri, 17 Jul 2026 08:45:15 GMT",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "pragma": "no-cache",
+        "report-to": "{\"group\":\"ascnsrsggc:165:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ascnsrsggc:165:0\"}],}",
+        "server": "Golfe2"
+    }
+}

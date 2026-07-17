@@ -1,0 +1,14 @@
+{
+    "status": 200,
+    "url": "https://images.uzum.uz/d0885btpb7f46s88tamg/t_product_540_high.jpg",
+    "headers": {
+        "cache-control": "max-age=345600",
+        "cache-host": "yccdn-m9-13.yccdn.cloud.yandex.net",
+        "cache-status": "HIT",
+        "content-type": "image/webp",
+        "date": "Fri, 17 Jul 2026 08:45:18 GMT",
+        "server": "nginx",
+        "timing-allow-origin": "*",
+        "x-request-id": "5f55ba69a8cbccf9"
+    }
+}

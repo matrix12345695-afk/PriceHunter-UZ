@@ -1,0 +1,23 @@
+{
+    "status": 200,
+    "url": "https://uzum.uz/_nuxt/uzum-ui-kit.CTPsud_1.js",
+    "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-headers": "*",
+        "access-control-allow-methods": "GET, HEAD, POST, PUT, DELETE",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "*",
+        "access-control-max-age": "3000",
+        "cache-control": "public, max-age=31536000, immutable",
+        "content-encoding": "br",
+        "content-length": "195073",
+        "content-type": "application/javascript",
+        "date": "Fri, 17 Jul 2026 08:46:12 GMT",
+        "etag": "\"ac3079d5fb667b7ed160a8705b1a25fa\"",
+        "last-modified": "Thu, 09 Jul 2026 07:57:11 GMT",
+        "server": "ycalb",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+        "x-amz-meta-mtime": "1784209536",
+        "x-cache": "HIT"
+    }
+}

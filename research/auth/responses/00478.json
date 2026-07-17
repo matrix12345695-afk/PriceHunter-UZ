@@ -1,0 +1,21 @@
+{
+    "status": 200,
+    "url": "https://static.uzum.uz/static/without-avatar.jpg",
+    "headers": {
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "cache-control": "max-age=345600",
+        "cache-host": "yccdn-m9-01.yccdn.cloud.yandex.net",
+        "cache-status": "HIT",
+        "content-length": "1294",
+        "content-type": "image/jpeg",
+        "date": "Fri, 17 Jul 2026 08:45:55 GMT",
+        "etag": "\"a026567126c8a3eec7b31d726dea2ad9\"",
+        "last-modified": "Thu, 04 Jul 2024 07:35:14 GMT",
+        "server": "nginx",
+        "timing-allow-origin": "*",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+        "x-amz-request-id": "e65ec8a1bec10c65",
+        "x-request-id": "f735f246ac1cb89d"
+    }
+}

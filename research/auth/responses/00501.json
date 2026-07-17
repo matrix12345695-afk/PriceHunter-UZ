@@ -1,0 +1,22 @@
+{
+    "status": 200,
+    "url": "https://api.uzum.uz/api/popup/active?installId=199a9bd7-95f9-4afa-a495-2b2b3af17eae",
+    "headers": {
+        "access-control-allow-credentials": "true",
+        "access-control-allow-headers": "baggage, Access-Control-Allow-Origin, sentry-trace, apollo-query-plan-experimental, vary, Access-Control-Allow-Methods, X-XSRF-TOKEN, User-Agent, Access-Control-Allow-Headers, authorization, Authorization, responseType, credential, x-apollo-tracing, Access-Content-Allow-Origin, Access-Control-Allow-Credentials, Jwt-Token, x-requested-with, content-type, qa-stub, Build-Info, x-iid, Content-Type",
+        "access-control-allow-methods": "POST, GET, OPTIONS, PUT, DELETE",
+        "access-control-allow-origin": "https://uzum.uz",
+        "access-control-max-age": "3600",
+        "cache-control": "no-cache, no-store, max-age=0, must-revalidate",
+        "content-length": "0",
+        "date": "Fri, 17 Jul 2026 08:45:58 GMT",
+        "expires": "0",
+        "pragma": "no-cache",
+        "server": "ycalb",
+        "set-cookie": "_yasc=kQ0xYq85xOIFk+9O243NN+f8Rs4UKLowxHwaW8MrTzvXO5qRLbib9BTzTX64eUo8FbA+; domain=.api.uzum.uz; path=/; expires=Mon, 14 Jul 2036 08:45:58 GMT; secure",
+        "strict-transport-security": "max-age=31536000 ; includeSubDomains",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+    }
+}

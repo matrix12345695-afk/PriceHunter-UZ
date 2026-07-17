@@ -1,0 +1,19 @@
+{
+    "status": 200,
+    "url": "https://uzum.uz/static/css/app.e41bb23305ac26189deb.css?f3ca33df5ce0c7d27499",
+    "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "max-age=3600,public, max-age=31536000, immutable",
+        "content-encoding": "br",
+        "content-length": "43507",
+        "content-type": "text/css",
+        "date": "Fri, 17 Jul 2026 08:45:13 GMT",
+        "etag": "\"d29c3212d1786e2ed7c6368a2ecb88ad\"",
+        "expires": "Fri, 17 Jul 2026 09:45:13 GMT",
+        "last-modified": "Tue, 14 Jul 2026 13:17:05 GMT",
+        "server": "ycalb",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method",
+        "x-amz-meta-mtime": "1784034969",
+        "x-cache": "HIT"
+    }
+}

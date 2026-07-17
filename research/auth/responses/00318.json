@@ -1,0 +1,32 @@
+{
+    "status": 200,
+    "url": "https://connect.facebook.net/signals/config/639391844420533?v=2.9.356&r=stable&domain=uzum.uz&hme=1179b74563cacb97c6ebae600e40937237ab12824fb84996eee07eca65cabbd4&ex_m=107%2C208%2C158%2C22%2C73%2C74%2C149%2C69%2C68%2C11%2C167%2C93%2C16%2C141%2C130%2C39%2C76%2C81%2C137%2C163%2C169%2C26%2C27%2C28%2C30%2C48%2C150%2C78%2C115%2C18%2C20%2C44%2C40%2C42%2C41%2C86%2C95%2C99%2C113%2C148%2C151%2C46%2C114%2C24%2C21%2C122%2C70%2C36%2C153%2C152%2C154%2C145%2C143%2C25%2C35%2C59%2C112%2C165%2C71%2C17%2C156%2C117%2C84%2C67%2C19%2C88%2C89%2C119%2C87%2C139%2C138%2C142%2C164%2C34%2C49%2C116%2C47%2C8%2C4%2C5%2C7%2C6%2C3%2C94%2C104%2C170%2C175%2C222%2C75%2C235%2C234%2C233%2C23%2C33%2C55%2C106%2C61%2C10%2C64%2C100%2C101%2C102%2C108%2C133%2C31%2C29%2C135%2C136%2C132%2C131%2C159%2C77%2C162%2C160%2C161%2C50%2C60%2C126%2C15%2C166%2C45%2C280%2C281%2C279%2C294%2C310%2C215%2C204%2C62%2C205%2C203%2C313%2C304%2C52%2C216%2C110%2C134%2C83%2C124%2C54%2C123%2C129%2C128%2C58%2C65%2C63%2C155%2C79%2C80%2C118%2C37%2C32%2C53%2C56%2C103%2C168%2C1%2C127%2C14%2C125%2C12%2C2%2C57%2C96%2C66%2C121%2C92%2C91%2C171%2C172%2C97%2C98%2C9%2C105%2C51%2C146%2C90%2C82%2C72%2C120%2C109%2C43%2C147%2C0%2C85%2C140%2C144%2C157%2C38%2C111%2C13%2C173",
+    "headers": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=1200",
+        "content-encoding": "gzip",
+        "content-length": "148370",
+        "content-security-policy": "default-src *.facebook.com *.fbcdn.net *.facebook.net 'self' blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net blob: 'self' 'nonce-z2SrNLhI';style-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob: 'unsafe-inline';connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.fbcdn.net attachment.fbsbx.com *.cdninstagram.com blob: 'self' data: https://edge-chat.facebook.net https://edge-chat-latest.facebook.net wss://edge-chat-latest.facebook.net wss://edge-chat.facebook.net wss://edge-chat.socialplugin.facebook.net wss://edge-chat-latest.socialplugin.facebook.net https://edge-chat.socialplugin.facebook.net https://edge-chat-latest.socialplugin.facebook.net;font-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;img-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;media-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;child-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;frame-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;manifest-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;object-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;worker-src *.facebook.com *.fbcdn.net *.facebook.net 'self' data: blob:;block-all-mixed-content;upgrade-insecure-requests;",
+        "content-type": "application/x-javascript; charset=utf-8",
+        "cross-origin-embedder-policy-report-only": "require-corp;report-to=\"coep_report\"",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Fri, 17 Jul 2026 08:45:15 GMT",
+        "document-policy": "force-load-at-top, include-js-call-stacks-in-crash-reports",
+        "expires": "Sat, 01 Jan 2000 00:00:00 GMT",
+        "origin-agent-cluster": "?1",
+        "permissions-policy": "accelerometer=(), attribution-reporting=(), autoplay=(), bluetooth=(), camera=(), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(), clipboard-write=(), compute-pressure=(), display-capture=(), encrypted-media=(), fullscreen=(self), gamepad=(), geolocation=(), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(), midi=(), otp-credentials=(), payment=(), picture-in-picture=(), private-state-token-issuance=(), publickey-credentials-get=(), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=();report-to=\"permissions_policy\"",
+        "pragma": "public",
+        "priority": "u=3,i",
+        "report-to": "{\"max_age\":2592000,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coop\\/?minimize=0\"}],\"group\":\"coop_report\",\"include_subdomains\":true}, {\"max_age\":86400,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/browser_reporting\\/coep\\/?minimize=0\"}],\"group\":\"coep_report\"}, {\"max_age\":21600,\"endpoints\":[{\"url\":\"https:\\/\\/www.facebook.com\\/ajax\\/browser_error_reports\\/\"}],\"group\":\"permissions_policy\"}",
+        "reporting-endpoints": "coop_report=\"https://www.facebook.com/browser_reporting/coop/?minimize=0\", coep_report=\"https://www.facebook.com/browser_reporting/coep/?minimize=0\", permissions_policy=\"https://www.facebook.com/ajax/browser_error_reports/\"",
+        "strict-transport-security": "max-age=31536000; preload; includeSubDomains",
+        "timing-allow-origin": "*",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff",
+        "x-fb-connection-quality": "GOOD; q=0.7, rtt=86, rtx=0, c=107, mss=1232, tbw=115213, tp=101, tpl=0, uplat=2, ullat=-1",
+        "x-fb-debug": "l3W/kzdKOCVUlLvAE1rzM6B3m5bvBXNPrzov5Y1gD17tcr1pRCqzOLQxe/vFygPu0283lPTMjrZwMLcoFskEYQ==",
+        "x-frame-options": "DENY",
+        "x-xss-protection": "0"
+    }
+}

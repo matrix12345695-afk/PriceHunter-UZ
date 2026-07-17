@@ -1,0 +1,15 @@
+{
+    "status": 200,
+    "url": "https://uzum.uz/",
+    "headers": {
+        "cache-control": "max-age=3600,no-cache",
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Fri, 17 Jul 2026 08:45:13 GMT",
+        "etag": "W/\"6a563693-10d1\"",
+        "expires": "Fri, 17 Jul 2026 09:45:13 GMT",
+        "last-modified": "Tue, 14 Jul 2026 13:16:03 GMT",
+        "server": "ycalb",
+        "set-cookie": "_yasc=Bpmci0DcA6+Be6Y2QnJkv2m17XnUZnYOJrfWTEByUZb5KPDeSbS6bUMxfwnnzslzXXzK; domain=.uzum.uz; path=/; expires=Mon, 14 Jul 2036 08:45:13 GMT; secure"
+    }
+}

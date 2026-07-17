@@ -1,0 +1,14 @@
+{
+    "status": 200,
+    "url": "https://images.uzum.uz/d91o2r21146phmqgtgr0/main_page_banner.jpg",
+    "headers": {
+        "cache-control": "max-age=345600",
+        "cache-host": "yccdn-m9-01.yccdn.cloud.yandex.net",
+        "cache-status": "HIT",
+        "content-type": "image/webp",
+        "date": "Fri, 17 Jul 2026 08:45:49 GMT",
+        "server": "nginx",
+        "timing-allow-origin": "*",
+        "x-request-id": "68fc25c3ff20cb1d"
+    }
+}

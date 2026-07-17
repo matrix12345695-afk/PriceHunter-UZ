@@ -1,0 +1,13 @@
+{
+    "status": 200,
+    "url": "https://graphql.uzum.uz/",
+    "headers": {
+        "access-control-allow-origin": "*",
+        "content-encoding": "gzip",
+        "content-type": "application/json",
+        "date": "Fri, 17 Jul 2026 08:45:59 GMT",
+        "server": "ycalb",
+        "set-cookie": "_yasc=kVkJSz5kjbVUOH1QQKN3z6UE06ivjwNrXmkuUB8m4V51KZuxDq/q5gEPM41wBLA101Ra; domain=.graphql.uzum.uz; path=/; expires=Mon, 14 Jul 2036 08:45:59 GMT; secure",
+        "vary": "origin"
+    }
+}

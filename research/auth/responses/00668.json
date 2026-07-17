@@ -1,0 +1,21 @@
+{
+    "status": 200,
+    "url": "https://static.uzum.uz/static/product_badge/2f9bcf18-a9b5-4dec-9a81-931db51e90af",
+    "headers": {
+        "cache-host": "yccdn-m9-13.yccdn.cloud.yandex.net",
+        "x-request-id": "2cd31b17d3910d5d",
+        "cache-control": "max-age=345600",
+        "timing-allow-origin": "*",
+        "etag": "\"80f405fcf7dac85aaa8e2ee9cce49f1c\"",
+        "x-amz-request-id": "9a646c470d018070",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-length": "8886",
+        "date": "Fri, 17 Jul 2026 08:45:17 GMT",
+        "cache-status": "HIT",
+        "content-type": "image/png",
+        "last-modified": "Thu, 02 Jul 2026 05:54:28 GMT",
+        "server": "nginx",
+        "vary": "Origin, Access-Control-Request-Headers, Access-Control-Request-Method"
+    }
+}

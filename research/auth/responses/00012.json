@@ -1,0 +1,24 @@
+{
+    "status": 200,
+    "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic",
+    "headers": {
+        "access-control-allow-origin": "*",
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "private, max-age=86400, stale-while-revalidate=604800",
+        "content-encoding": "gzip",
+        "content-type": "text/css; charset=utf-8",
+        "cross-origin-opener-policy": "same-origin-allow-popups",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Fri, 17 Jul 2026 08:45:14 GMT",
+        "expires": "Fri, 17 Jul 2026 08:45:14 GMT",
+        "last-modified": "Fri, 17 Jul 2026 08:45:14 GMT",
+        "link": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin",
+        "server": "ESF",
+        "strict-transport-security": "max-age=31536000",
+        "timing-allow-origin": "*",
+        "vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "status": 302,
+    "url": "https://www.google.com/measurement/conversion?random=1784277915682&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=first_visit&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12",
+    "headers": {
+        "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+        "cache-control": "no-cache, must-revalidate",
+        "content-length": "0",
+        "content-type": "text/html; charset=UTF-8",
+        "cross-origin-resource-policy": "cross-origin",
+        "date": "Fri, 17 Jul 2026 08:45:15 GMT",
+        "expires": "Fri, 01 Jan 1990 00:00:00 GMT",
+        "location": "https://www.google.com/measurement/1p-conversion/?random=686394121&cv=11&tid=G-7KCSSWWYYD&fst=1784277915682&fmt=8&en=first_visit&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930&u_w=1280&u_h=720&url=https%3A%2F%2Fuzum.uz%2F&gacid=1468174730.1784277916&frm=0&tiba=Uzum%20Market%20%E2%80%94%20%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82%D0%BF%D0%BB%D0%B5%D0%B9%D1%81%20%D1%81%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BE%D1%82%201%20%D0%B4%D0%BD%D1%8F&npa=0&pscdl=noapi&auid=2044243736.1784277916&uaa=x86&uab=64&uafvl=Not%252FA)Brand%3B99.0.0.0%7CChromium%3B148.0.7778.96&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&rcb=12&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCK_hsQIIobixAgixwbECCLDBsQIIscOxAgiKxbECCMLJsQIIyeWxAgi0xrECCJPasQII29yxAgiH27ECCNPFsQII68yxAgjtzrECCNXPsQII9NqxAgj947ECCMnjsQIIl9SxAgjJ27ECCM3msQIIseGxAgiz4bECCKbdsQIIsN6xAgiA27EC&cerd=CgTZib4t&fsk=ChEI8KXn0gYQxP7d9uOY8eGoARIsAFx6GYfVSRLyex7Lt4_8Uo8WbcVhjd5s9ktuoVCXrfpvdZxXwXX_NjcUsgAaAn0Z&pscrd=IhMIxrLbmqnZlQMV48o7Ah0uqjySOhBodHRwczovL3V6dW0udXovQldDaEFJOEtYbjBnWVEzSV9ObmFicF9hMENFaTBBUVdFeVoxdVhBZWFpV2VGRHdrM3hMN2NoelY1eXFmX3NvUVFjU0ZaZWpqX2RwOXB1U3JsUnJlZzYyZFF6DAgJYggIABAAGAAgAA",
+        "p3p": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\"",
+        "pragma": "no-cache",
+        "server": "cafe",
+        "timing-allow-origin": "*",
+        "x-content-type-options": "nosniff",
+        "x-xss-protection": "0"
+    }
+}
