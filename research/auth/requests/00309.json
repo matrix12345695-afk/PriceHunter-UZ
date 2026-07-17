@@ -1,0 +1,27 @@
+{
+    "time": "2026-07-17T13:45:16.194292",
+    "method": "POST",
+    "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930",
+    "headers": {
+        ":authority": "stats.g.doubleclick.net",
+        ":method": "POST",
+        ":path": "/g/collect?v=2&ngs=1&ibt=1&tid=G-EZ8RKY9S93&cid=1468174730.1784277916&gtm=45Pe67f0h1v9218838524z8890356912za20gzb890356912zd890356912&rcb=12&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=115616985~115938466~115938468~118395335~118897920~118897930",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "content-length": "0",
+        "origin": "https://uzum.uz",
+        "priority": "u=4, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}

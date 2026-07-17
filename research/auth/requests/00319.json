@@ -1,0 +1,28 @@
+{
+    "time": "2026-07-17T13:45:16.252169",
+    "method": "POST",
+    "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no",
+    "headers": {
+        ":authority": "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+        ":method": "POST",
+        ":path": "/events?cee=no",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "content-length": "421",
+        "content-type": "text/plain;charset=UTF-8",
+        "origin": "https://uzum.uz",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_cfd36bbaa4e414b0781b1b30842985808ac6a02f4bb58209aa2bb6cf46f157c9\",\"fb.pixel_id\":\"639391844420533\",\"website_context\":{\"location\":\"https://uzum.uz/\",\"referrer\":\"\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1784277916227.502397915949546832\",\"event_meta_info\":{\"experiment_detail\":{\"name\":\"experiment_flow_vs_cbsdk\",\"is_exposed\":true,\"is_in_control\":false,\"is_in_treatment\":true}}}"
+}
