@@ -1,0 +1,142 @@
+[
+  {
+    "name": "clickstream-client.installId",
+    "value": "%22f53e91b1-17ac-462e-a80d-80b3fbbde193%22",
+    "domain": "uzum.uz",
+    "path": "/",
+    "expires": 1817561687.471588,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.455622638.1783001676",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1790777676,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.2140902417.1783001676",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1817561687.862168,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "access_token",
+    "value": "eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzgzMDAxNjc1LCJzdWIiOiIzZTk3ODE4Yi1iYThmLTQ5OGEtOGYwZS04MDNhZjkzMjhkNzAiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODMwMjMyNzV9.HswJjKJJKMrANJVV1xTvhkCJCDCSXOS095mJ9Z190JnMNX-_1B8l3aVg_aDp5JOO7g6wr_fTHi6n4a3w5wYGCA",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1817561676.730172,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "refresh_token",
+    "value": "ECAdlNSwfsWM%2B3KFm977QEO1YH3hxmpTeKf7k5NXUJqthVNG%2F0nB7Lkss1MewJSKjbu9M4WVqaNjr3LD3PPLkzjZKapd3K2RqiJxeT3s%2FYjiqJtjYVe9IEdEATsx9q1pyLB7Q2TTjZ34WTH%2BVAX%2FVEDzfZ07IYfbjGGxKDcumrtoyIVbHHw1xg%2F%2FgftfY3%2FovjOEBUNydBTy2Ue3B%2FmJm3IwKEpNAn6Cg35CFERPMoRx9g13IO1pPPVwG1JWnAicYS5aG3nyOkS%2FRLiKWTkUyRuqHBv%2FPEOoK4ijFYTN4KnoVYtq%2B%2BqofQwsdoWbfuErBvOxDUBIJ5fezD3JSgpDTzzA2O3DhWmboVyzrEKYHr2hHwAFGfbjRv2QJuWEqrIRnShJr%2BAEJJFn23qK2u4BKaxSk6iK5hnfUfEiBKD4%2Bmu0dMpQdWfZdVIgbTg3KaCbM7%2BlHhRwY5II%2Bh4wnnc8MYqsWHad2ga2U2hwDAD4EhDmDl1bQjSas9bPOdiUQDkmqOcV6%2Beh6pvqgf%2BU9%2BrpBQfkg9g6MBoStSwyjXbKr02iT0csvGQ9TkQ3610nYuRo5N3ZmoyDDv4Bqj4RxZ%2FM6Y%2FX225b9JE2IH97RTtvleHpRNyDvyFWc9RD%2Bfaqo5TKCUXWtm2zzLDsNgV9QxXfwVeEpH0hYr0zHv0WhkUm3FkhiHVbeCKYKRgRziNZQqG0dJALy%2Fw%3D--nHZdHcBiNybqevk1--UKi8V9QEWsMBIL%2BTMEdT%2Fg%3D%3D",
+    "domain": ".id.uzum.uz",
+    "path": "/",
+    "expires": 1817561676.730239,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1783001676731.578371493560840960",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1790777688,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_yasc",
+    "value": "KVRHhAi7cgvloZzsi6dOzuS0NbJmc1toug4CT0A6QozTVERnEDuOWmfr4PBCwX3ObPlv1lA=",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1817561677.619349,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "city-longitude",
+    "value": "69.29944",
+    "domain": "uzum.uz",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "city-latitude",
+    "value": "41.379112",
+    "domain": "uzum.uz",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "city-id",
+    "value": "1",
+    "domain": "uzum.uz",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "i18n_redirected",
+    "value": "ru",
+    "domain": "uzum.uz",
+    "path": "/",
+    "expires": 1814537686.381568,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_EZ8RKY9S93",
+    "value": "GS2.1.s1783001676$o1$g1$t1783001687$j49$l0$h0",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1817561687.861799,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "IDE",
+    "value": "AHWqTUlmyNnBt8LlKp7NZuwC7eESK3B640zGOSxUa93e9RhDUStNzt4-jFPhgYhC",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1817561687.996465,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga_7KCSSWWYYD",
+    "value": "GS2.1.s1783001676$o1$g1$t1783001707$j29$l0$h840430325",
+    "domain": ".uzum.uz",
+    "path": "/",
+    "expires": 1817561707.127558,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]
