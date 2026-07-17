@@ -1,0 +1,142 @@
+[
+    {
+        "name": "clickstream-client.installId",
+        "value": "%22199a9bd7-95f9-4afa-a495-2b2b3af17eae%22",
+        "domain": "uzum.uz",
+        "path": "/",
+        "expires": 1818837975.698865,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_gcl_au",
+        "value": "1.1.2044243736.1784277916",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1792053916,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.1.1468174730.1784277916",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1818837976.011372,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_fbp",
+        "value": "fb.1.1784277916227.502397915949546832",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1792053976,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "access_token",
+        "value": "eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1818837916.849732,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "refresh_token",
+        "value": "fmkHTje6KURmO3XaC42CvaJh%2BDyICAdf796bTkLYCIDzDfEuD7GeQ6ZH6bPKp6jmLmOadnREBX87nXxAAweNiEMGc%2B%2BlYK9anuY5z46tterlgTqkM4l4Kbq0LOHQ3SfkWwe7FdpEzKkU%2F43pzsWN9q%2FpFjQ4xoxy1Ad6684X87OsZuzignZcThDURclwBBOwsHdVGfByCTdKPUERxjFR5neTnmCT%2FygFUqG%2BwDEbK3DW72YQaVeGAQIntQEx%2BYoT5c0fX63VFBvJVNF%2B7XtMMA1RSUjfROANCOFxfoEHFRtaKembABRnf1w8QQw5neAGvzYnONI3FIRyNANl3Le7p6sHelSMcwEwgtrhbXYzNlbennSeZHTi%2B4exl%2F%2BeUtThxDKv8m%2F6W6DRvW5WXtb0d3%2Bn9sIaR6GWYZPORO47CHlxxfn0ix7RgX5mzs%2BQYGLM6or5lAZnPmwqGXcJAbyWzgyZx8TidiSZR4v%2Bf%2B1YF7jGr%2FTZv0wreEv4kari2jd8pvZZHOQDO49f%2B8FnMf2VAGk7iop4LFnEpiJBzfyRZ4AEamMM%2B5HQss%2F5J4qS3txKz69igf53wbNwRC0U8eopz%2BRrMzZwZFQpRk%2B2Pqj4RZDZ86DSNtCl31a3r7BPQ6%2B4TJoZzpqYPLm8HFsZZa2o0Dj1Rffl6Htnjy4wPQNg4ahMoN90LIf3byCKms9GYHpbdSswSGg%3D--mJ74UvwThrbSP%2Ffv--W9j3JppcJPycG5a5J%2BbHEA%3D%3D",
+        "domain": ".id.uzum.uz",
+        "path": "/",
+        "expires": 1818837916.849828,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_yasc",
+        "value": "l2/uu794bwCcHGf2yXGPA8BKJXKGUrbbmeqVNVHKH1yZF2cCw8ZZR4njh0KY1eWsxGw0NNk=",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1818837917.071672,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "city-longitude",
+        "value": "69.29944",
+        "domain": "uzum.uz",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "city-latitude",
+        "value": "41.379112",
+        "domain": "uzum.uz",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "city-id",
+        "value": "1",
+        "domain": "uzum.uz",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "i18n_redirected",
+        "value": "ru",
+        "domain": "uzum.uz",
+        "path": "/",
+        "expires": 1815813968.18955,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga_7KCSSWWYYD",
+        "value": "GS2.1.s1784277915$o1$g1$t1784277975$j60$l0$h501457304",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1818837976.00297,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "_ga_EZ8RKY9S93",
+        "value": "GS2.1.s1784277915$o1$g1$t1784277975$j60$l0$h0",
+        "domain": ".uzum.uz",
+        "path": "/",
+        "expires": 1818837976.011099,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+    },
+    {
+        "name": "IDE",
+        "value": "AHWqTUmnEl35TvigKhsRdZkI65JMUuhGZj1jJHmdK76mlgBt3mm0dM8fvaXyT8Cf",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1818837976.345206,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+    }
+]
