@@ -1,0 +1,33 @@
+{
+    "time": "2026-07-17T13:45:44.904195",
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/events",
+    "headers": {
+        ":authority": "customer-resources.uzum.uz",
+        ":method": "POST",
+        ":path": "/api/analytics/v2/events",
+        ":scheme": "https",
+        "accept": "application/json",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "access-content-allow-origin": "*",
+        "baggage": "sentry-environment=production,sentry-release=uzum-market%401.63.2,sentry-public_key=948fdc05a99a018e8d3ab003bee4b5a3,sentry-trace_id=136fec53f6ca4b6a9c6b6906df71204c,sentry-sample_rate=0.01,sentry-sampled=false",
+        "content-length": "991",
+        "content-type": "application/json",
+        "origin": "https://uzum.uz",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "sentry-trace": "136fec53f6ca4b6a9c6b6906df71204c-b93cdc3c4654c0ff-0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "version": "3.2.4",
+        "x-experiments": "",
+        "x-requested-with": "clickstream"
+    },
+    "body": "{\"events\":[{\"time_zone\":\"Asia/Tashkent\",\"timestamp\":1784277943900,\"event_properties\":{\"event_type\":\"BANNER_IMPRESSION\",\"event_parameters\":{\"banner_url\":\"https://uzum.uz/ru/category/-2348\",\"banner_id\":5444,\"position\":7,\"event_version\":\"v2\"}},\"ui_properties\":{\"space\":{\"name\":\"MAIN\",\"type\":\"PAGE\",\"view_id\":\"f4b75442-6dff-43b0-9e5b-1cac5186e0b6\",\"screen_size\":\"1280:720\"},\"widget\":{\"type\":\"BUTTON\"},\"section\":{\"name\":\"BANNER_CAROUSEL\",\"position\":7},\"group\":{},\"event_properties\":{},\"action\":\"SHOW\"},\"is_interactive\":true}],\"device_properties\":{\"screen_resolution\":\"1280:720\",\"os_name\":\"Windows\",\"os_version\":\"10\",\"device_type\":\"DESKTOP\",\"device_locale\":\"ru-RU\",\"device_timezone\":\"Asia/Tashkent\",\"platform\":\"WEB\"},\"user_properties\":{\"googleCid\":\"GA1.1.1468174730.1784277916\",\"myTrackerLvid\":\"\",\"yaMetricaId\":\"\",\"muid\":\"\",\"language\":\"ru\",\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"0.22.13\",\"package_name\":\"uzum/customers-header\",\"sdk_version\":\"3.2.4\"}}"
+}

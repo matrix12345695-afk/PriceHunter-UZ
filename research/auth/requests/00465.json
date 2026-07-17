@@ -1,0 +1,25 @@
+{
+    "time": "2026-07-17T13:45:50.498713",
+    "method": "GET",
+    "url": "https://images.uzum.uz/d8aousjsv8vo2t0hjmrg/t_product_540_high.jpg",
+    "headers": {
+        ":authority": "images.uzum.uz",
+        ":method": "GET",
+        ":path": "/d8aousjsv8vo2t0hjmrg/t_product_540_high.jpg",
+        ":scheme": "https",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "cookie": "_gcl_au=1.1.2044243736.1784277916; _ga=GA1.1.1468174730.1784277916; _ga_EZ8RKY9S93=GS2.1.s1784277915$o1$g0$t1784277915$j60$l0$h0; _fbp=fb.1.1784277916227.502397915949546832; access_token=eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg; _yasc=l2/uu794bwCcHGf2yXGPA8BKJXKGUrbbmeqVNVHKH1yZF2cCw8ZZR4njh0KY1eWsxGw0NNk=; _ga_7KCSSWWYYD=GS2.1.s1784277915$o1$g1$t1784277917$j58$l0$h501457304",
+        "priority": "i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "same-site",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}
