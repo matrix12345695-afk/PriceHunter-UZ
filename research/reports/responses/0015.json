@@ -1,0 +1,137 @@
+{
+    "data": {
+        "getSuggestions": {
+            "blocks": [
+                {
+                    "popularSuggestions": [],
+                    "__typename": "PopularSuggestionsBlock"
+                },
+                {
+                    "values": [
+                        "iphone 11 chexol",
+                        "iphone zaryadchik",
+                        "iphone 11",
+                        "iphone 13"
+                    ],
+                    "__typename": "TextSuggestionsBlock"
+                },
+                {
+                    "values": null,
+                    "offerCategoryTitle": "",
+                    "__typename": "TextInOfferCategorySuggestionsBlock"
+                },
+                {
+                    "__typename": "TextInGlobalSearchSuggestionsBlock"
+                },
+                {
+                    "categories": [
+                        {
+                            "id": 15272,
+                            "parent": {
+                                "title": "Смартфоны",
+                                "__typename": "Category"
+                            },
+                            "seo": {
+                                "metaTag": "Смартфоны Apple iPhone(iOS)",
+                                "__typename": "SeoCategoryFields"
+                            },
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 15271,
+                            "parent": {
+                                "title": "Смартфоны",
+                                "__typename": "Category"
+                            },
+                            "seo": {
+                                "metaTag": "Смартфоны Android",
+                                "__typename": "SeoCategoryFields"
+                            },
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 13408,
+                            "parent": {
+                                "title": "Аксессуары для смартфонов",
+                                "__typename": "Category"
+                            },
+                            "seo": {
+                                "metaTag": "Защитные стекла и пленки",
+                                "__typename": "SeoCategoryFields"
+                            },
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 11937,
+                            "parent": {
+                                "title": "Аксессуары для смартфонов",
+                                "__typename": "Category"
+                            },
+                            "seo": {
+                                "metaTag": "Чехлы",
+                                "__typename": "SeoCategoryFields"
+                            },
+                            "__typename": "Category"
+                        }
+                    ],
+                    "__typename": "CategorySuggestionsBlock"
+                },
+                {
+                    "__typename": "CatalogCardSuggestionsBlock"
+                },
+                {
+                    "shops": [
+                        {
+                            "id": 48786,
+                            "title": "IPHONE CASES",
+                            "url": "iphonecases",
+                            "avatar": {
+                                "low": "https://static.uzum.uz/static/without-avatar.jpg",
+                                "__typename": "PhotoLink"
+                            },
+                            "__typename": "Shop"
+                        },
+                        {
+                            "id": 79840,
+                            "title": "iPhone_Store",
+                            "url": "iphonestore27",
+                            "avatar": {
+                                "low": "https://static.uzum.uz/static/without-avatar.jpg",
+                                "__typename": "PhotoLink"
+                            },
+                            "__typename": "Shop"
+                        },
+                        {
+                            "id": 78717,
+                            "title": "iphone16",
+                            "url": "iphone16",
+                            "avatar": {
+                                "low": "https://static.uzum.uz/static/without-avatar.jpg",
+                                "__typename": "PhotoLink"
+                            },
+                            "__typename": "Shop"
+                        },
+                        {
+                            "id": 118335,
+                            "title": "IPHONE_MOBILE",
+                            "url": "iphonemobile",
+                            "avatar": {
+                                "low": "https://static.uzum.uz/static/without-avatar.jpg",
+                                "__typename": "PhotoLink"
+                            },
+                            "__typename": "Shop"
+                        }
+                    ],
+                    "__typename": "ShopSuggestionsBlock"
+                },
+                {
+                    "__typename": "LookedEarlierBlock"
+                },
+                {
+                    "__typename": "SearchedEarlierBlock"
+                }
+            ],
+            "__typename": "GetSuggestionsResult"
+        }
+    }
+}

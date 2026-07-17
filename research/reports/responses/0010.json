@@ -1,0 +1,4373 @@
+{
+    "payload": [
+        {
+            "id": 545,
+            "name": "Абдукарим",
+            "isDefault": false,
+            "latitude": 39.90068,
+            "longitude": 67.618252
+        },
+        {
+            "id": 565,
+            "name": "Авваль",
+            "isDefault": false,
+            "latitude": 40.308628,
+            "longitude": 71.838109
+        },
+        {
+            "id": 1194,
+            "name": "Авлиёота",
+            "isDefault": null,
+            "latitude": 41.394783,
+            "longitude": 69.282279
+        },
+        {
+            "id": 1046,
+            "name": "Адыл",
+            "isDefault": null,
+            "latitude": 39.981695,
+            "longitude": 66.665684
+        },
+        {
+            "id": 1034,
+            "name": "Азизабад",
+            "isDefault": null,
+            "latitude": 39.987617,
+            "longitude": 64.705538
+        },
+        {
+            "id": 811,
+            "name": "Аим",
+            "isDefault": null,
+            "latitude": 40.819029,
+            "longitude": 72.741704
+        },
+        {
+            "id": 315,
+            "name": "Акалтын",
+            "isDefault": false,
+            "latitude": 40.744268,
+            "longitude": 71.705601
+        },
+        {
+            "id": 925,
+            "name": "Аккавак",
+            "isDefault": null,
+            "latitude": 41.413155,
+            "longitude": 69.486762
+        },
+        {
+            "id": 174,
+            "name": "Аккурган",
+            "isDefault": false,
+            "latitude": 40.878621,
+            "longitude": 69.043395
+        },
+        {
+            "id": 508,
+            "name": "Акмангит",
+            "isDefault": false,
+            "latitude": 42.59588,
+            "longitude": 59.53756
+        },
+        {
+            "id": 223,
+            "name": "Акташ",
+            "isDefault": false,
+            "latitude": 39.922425,
+            "longitude": 65.925631
+        },
+        {
+            "id": 692,
+            "name": "Аладжа",
+            "isDefault": null,
+            "latitude": 41.401955,
+            "longitude": 60.834566
+        },
+        {
+            "id": 593,
+            "name": "Аламли",
+            "isDefault": false,
+            "latitude": 39.759748,
+            "longitude": 67.514751
+        },
+        {
+            "id": 247,
+            "name": "Алат",
+            "isDefault": false,
+            "latitude": 39.414867,
+            "longitude": 63.80136
+        },
+        {
+            "id": 413,
+            "name": "Алимкент",
+            "isDefault": false,
+            "latitude": 40.963817,
+            "longitude": 69.170092
+        },
+        {
+            "id": 175,
+            "name": "Алмазар (Чиназский район)",
+            "isDefault": false,
+            "latitude": 40.963039,
+            "longitude": 68.854396
+        },
+        {
+            "id": 62,
+            "name": "Алмалык",
+            "isDefault": false,
+            "latitude": 40.867309,
+            "longitude": 69.60848
+        },
+        {
+            "id": 272,
+            "name": "Алмас",
+            "isDefault": false,
+            "latitude": 41.008708,
+            "longitude": 71.091169
+        },
+        {
+            "id": 345,
+            "name": "Алтыарык",
+            "isDefault": false,
+            "latitude": 40.389762,
+            "longitude": 71.477204
+        },
+        {
+            "id": 258,
+            "name": "Алтынкуль",
+            "isDefault": false,
+            "latitude": 40.801168,
+            "longitude": 72.160144
+        },
+        {
+            "id": 640,
+            "name": "Алтынкуль (Кунградский район)",
+            "isDefault": false,
+            "latitude": 43.073494,
+            "longitude": 58.907719
+        },
+        {
+            "id": 433,
+            "name": "Ангор",
+            "isDefault": false,
+            "latitude": 37.463359,
+            "longitude": 67.148801
+        },
+        {
+            "id": 63,
+            "name": "Ангрен",
+            "isDefault": false,
+            "latitude": 41.045562,
+            "longitude": 70.087407
+        },
+        {
+            "id": 9,
+            "name": "Андижан",
+            "isDefault": false,
+            "latitude": 40.763715,
+            "longitude": 72.355244
+        },
+        {
+            "id": 958,
+            "name": "Анхорли",
+            "isDefault": null,
+            "latitude": 41.530907,
+            "longitude": 60.999598
+        },
+        {
+            "id": 884,
+            "name": "Арабон",
+            "isDefault": null,
+            "latitude": 39.947632,
+            "longitude": 64.66026
+        },
+        {
+            "id": 1026,
+            "name": "Арабхона (Жалоир)",
+            "isDefault": null,
+            "latitude": 40.152859,
+            "longitude": 65.467271
+        },
+        {
+            "id": 1189,
+            "name": "Арбабалар",
+            "isDefault": null,
+            "latitude": 41.389796,
+            "longitude": 60.704515
+        },
+        {
+            "id": 560,
+            "name": "Арсиф",
+            "isDefault": false,
+            "latitude": 40.424363,
+            "longitude": 71.959577
+        },
+        {
+            "id": 69,
+            "name": "Асака",
+            "isDefault": false,
+            "latitude": 40.644741,
+            "longitude": 72.232579
+        },
+        {
+            "id": 866,
+            "name": "Аскар",
+            "isDefault": null,
+            "latitude": 41.667339,
+            "longitude": 60.789245
+        },
+        {
+            "id": 141,
+            "name": "Ахангаран",
+            "isDefault": false,
+            "latitude": 40.905529,
+            "longitude": 69.639139
+        },
+        {
+            "id": 523,
+            "name": "Ахмад Яссавий",
+            "isDefault": false,
+            "latitude": 41.184801,
+            "longitude": 69.440258
+        },
+        {
+            "id": 1171,
+            "name": "Ахунбабаев",
+            "isDefault": null,
+            "latitude": 40.517122,
+            "longitude": 71.721545
+        },
+        {
+            "id": 635,
+            "name": "Бабалакота",
+            "isDefault": false,
+            "latitude": 40.856649,
+            "longitude": 68.999966
+        },
+        {
+            "id": 473,
+            "name": "Багат",
+            "isDefault": false,
+            "latitude": 41.34594,
+            "longitude": 60.82193
+        },
+        {
+            "id": 410,
+            "name": "Багдад",
+            "isDefault": false,
+            "latitude": 40.458081,
+            "longitude": 71.216559
+        },
+        {
+            "id": 456,
+            "name": "Багдан",
+            "isDefault": false,
+            "latitude": 40.415382,
+            "longitude": 67.185496
+        },
+        {
+            "id": 1208,
+            "name": "Багзар",
+            "isDefault": null,
+            "latitude": 41.178615,
+            "longitude": 69.178521
+        },
+        {
+            "id": 1049,
+            "name": "Багизаган",
+            "isDefault": null,
+            "latitude": 39.574067,
+            "longitude": 67.172509
+        },
+        {
+            "id": 439,
+            "name": "Байналмилал",
+            "isDefault": false,
+            "latitude": 37.417746,
+            "longitude": 66.990013
+        },
+        {
+            "id": 221,
+            "name": "Байсун",
+            "isDefault": false,
+            "latitude": 38.207443,
+            "longitude": 67.203803
+        },
+        {
+            "id": 886,
+            "name": "Баланд Гардиён",
+            "isDefault": null,
+            "latitude": 40.114945,
+            "longitude": 64.828506
+        },
+        {
+            "id": 628,
+            "name": "Балта",
+            "isDefault": false,
+            "latitude": 41.281704,
+            "longitude": 69.451499
+        },
+        {
+            "id": 346,
+            "name": "Балыкчи",
+            "isDefault": false,
+            "latitude": 40.901016,
+            "longitude": 71.832894
+        },
+        {
+            "id": 769,
+            "name": "Бандихон",
+            "isDefault": null,
+            "latitude": 37.862327,
+            "longitude": 67.385428
+        },
+        {
+            "id": 357,
+            "name": "Барданкуль",
+            "isDefault": false,
+            "latitude": 41.25091,
+            "longitude": 69.402209
+        },
+        {
+            "id": 912,
+            "name": "Баташ",
+            "isDefault": null,
+            "latitude": 38.123203,
+            "longitude": 67.7235
+        },
+        {
+            "id": 325,
+            "name": "Бахт",
+            "isDefault": false,
+            "latitude": 40.715611,
+            "longitude": 68.695926
+        },
+        {
+            "id": 367,
+            "name": "Баяут",
+            "isDefault": false,
+            "latitude": 40.27787,
+            "longitude": 69.019809
+        },
+        {
+            "id": 166,
+            "name": "Бекабад",
+            "isDefault": false,
+            "latitude": 40.226389,
+            "longitude": 69.255167
+        },
+        {
+            "id": 658,
+            "name": "Бекабад (Багдадский район)",
+            "isDefault": false,
+            "latitude": 40.454898,
+            "longitude": 71.216213
+        },
+        {
+            "id": 402,
+            "name": "Бекат",
+            "isDefault": false,
+            "latitude": 40.442998,
+            "longitude": 68.784392
+        },
+        {
+            "id": 883,
+            "name": "Берешум",
+            "isDefault": null,
+            "latitude": 39.98406,
+            "longitude": 64.705323
+        },
+        {
+            "id": 261,
+            "name": "Беруни",
+            "isDefault": false,
+            "latitude": 41.684588,
+            "longitude": 60.758069
+        },
+        {
+            "id": 645,
+            "name": "Беруни (Куйичирчикский район)",
+            "isDefault": false,
+            "latitude": 41.005282,
+            "longitude": 69.150402
+        },
+        {
+            "id": 153,
+            "name": "Бешарык",
+            "isDefault": false,
+            "latitude": 40.436328,
+            "longitude": 70.608207
+        },
+        {
+            "id": 916,
+            "name": "Бешбулак",
+            "isDefault": null,
+            "latitude": 40.592507,
+            "longitude": 69.010459
+        },
+        {
+            "id": 540,
+            "name": "Бешкапа",
+            "isDefault": false,
+            "latitude": 40.418471,
+            "longitude": 71.207229
+        },
+        {
+            "id": 351,
+            "name": "Бешкент",
+            "isDefault": false,
+            "latitude": 38.82141,
+            "longitude": 65.654472
+        },
+        {
+            "id": 424,
+            "name": "Бешрабад",
+            "isDefault": false,
+            "latitude": 40.229552,
+            "longitude": 65.302589
+        },
+        {
+            "id": 872,
+            "name": "Бештува",
+            "isDefault": null,
+            "latitude": 40.127702,
+            "longitude": 64.789032
+        },
+        {
+            "id": 926,
+            "name": "Бирлик",
+            "isDefault": null,
+            "latitude": 40.297905,
+            "longitude": 69.172599
+        },
+        {
+            "id": 676,
+            "name": "Богитуркон",
+            "isDefault": null,
+            "latitude": 39.949387,
+            "longitude": 64.253835
+        },
+        {
+            "id": 411,
+            "name": "Бувайда",
+            "isDefault": false,
+            "latitude": 40.556052,
+            "longitude": 71.141079
+        },
+        {
+            "id": 568,
+            "name": "Бужай",
+            "isDefault": false,
+            "latitude": 40.413484,
+            "longitude": 71.245252
+        },
+        {
+            "id": 319,
+            "name": "Бука",
+            "isDefault": false,
+            "latitude": 40.8123,
+            "longitude": 69.203427
+        },
+        {
+            "id": 314,
+            "name": "Булакбаши",
+            "isDefault": false,
+            "latitude": 40.645433,
+            "longitude": 72.365121
+        },
+        {
+            "id": 1088,
+            "name": "Булиш",
+            "isDefault": null,
+            "latitude": 41.659553,
+            "longitude": 60.763983
+        },
+        {
+            "id": 229,
+            "name": "Булунгур",
+            "isDefault": false,
+            "latitude": 39.758848,
+            "longitude": 67.274693
+        },
+        {
+            "id": 1005,
+            "name": "Бунёдкор",
+            "isDefault": null,
+            "latitude": 41.186803,
+            "longitude": 69.330061
+        },
+        {
+            "id": 1179,
+            "name": "Бураматут",
+            "isDefault": null,
+            "latitude": 40.915424,
+            "longitude": 71.437405
+        },
+        {
+            "id": 541,
+            "name": "Бурбалык",
+            "isDefault": false,
+            "latitude": 40.325176,
+            "longitude": 71.369919
+        },
+        {
+            "id": 514,
+            "name": "Бурчмулла",
+            "isDefault": false,
+            "latitude": 41.609086,
+            "longitude": 70.098252
+        },
+        {
+            "id": 347,
+            "name": "Бустан",
+            "isDefault": false,
+            "latitude": 40.6904,
+            "longitude": 71.9333
+        },
+        {
+            "id": 442,
+            "name": "Бустан (Алтынсайский район)",
+            "isDefault": false,
+            "latitude": 38.177273,
+            "longitude": 67.72622
+        },
+        {
+            "id": 918,
+            "name": "Бустан (Букинский район)",
+            "isDefault": null,
+            "latitude": 40.668559,
+            "longitude": 69.095404
+        },
+        {
+            "id": 602,
+            "name": "Бустан (Зарбдарский район)",
+            "isDefault": false,
+            "latitude": 40.10161,
+            "longitude": 68.04288
+        },
+        {
+            "id": 368,
+            "name": "Бустан (Элликкалинский район)",
+            "isDefault": false,
+            "latitude": 41.838885,
+            "longitude": 60.90912
+        },
+        {
+            "id": 47,
+            "name": "Бухара",
+            "isDefault": false,
+            "latitude": 39.773085,
+            "longitude": 64.403098
+        },
+        {
+            "id": 316,
+            "name": "Вабкент",
+            "isDefault": false,
+            "latitude": 40.036804,
+            "longitude": 64.5182
+        },
+        {
+            "id": 885,
+            "name": "Вангози",
+            "isDefault": null,
+            "latitude": 40.026899,
+            "longitude": 64.765716
+        },
+        {
+            "id": 911,
+            "name": "Вахшивар",
+            "isDefault": null,
+            "latitude": 38.33179,
+            "longitude": 67.62519
+        },
+        {
+            "id": 1214,
+            "name": "Водий (Денауский район)",
+            "isDefault": null,
+            "latitude": 38.318603,
+            "longitude": 67.900926
+        },
+        {
+            "id": 321,
+            "name": "Вуадиль",
+            "isDefault": false,
+            "latitude": 40.177537,
+            "longitude": 71.729206
+        },
+        {
+            "id": 328,
+            "name": "Гагарин",
+            "isDefault": false,
+            "latitude": 40.706323,
+            "longitude": 67.940342
+        },
+        {
+            "id": 71,
+            "name": "Газалкент",
+            "isDefault": false,
+            "latitude": 41.562872,
+            "longitude": 69.769927
+        },
+        {
+            "id": 889,
+            "name": "Газган",
+            "isDefault": null,
+            "latitude": 40.588246,
+            "longitude": 65.489416
+        },
+        {
+            "id": 1124,
+            "name": "Гайбу",
+            "isDefault": null,
+            "latitude": 41.517771,
+            "longitude": 60.610646
+        },
+        {
+            "id": 158,
+            "name": "Галаасия",
+            "isDefault": false,
+            "latitude": 39.857609,
+            "longitude": 64.449058
+        },
+        {
+            "id": 355,
+            "name": "Галаба",
+            "isDefault": false,
+            "latitude": 41.152887,
+            "longitude": 69.107816
+        },
+        {
+            "id": 510,
+            "name": "Галакудук",
+            "isDefault": false,
+            "latitude": 41.005972,
+            "longitude": 69.471536
+        },
+        {
+            "id": 245,
+            "name": "Галляарал",
+            "isDefault": false,
+            "latitude": 40.477162,
+            "longitude": 67.063391
+        },
+        {
+            "id": 849,
+            "name": "Геофизика",
+            "isDefault": null,
+            "latitude": 39.745203,
+            "longitude": 64.48835
+        },
+        {
+            "id": 178,
+            "name": "Гиждуван",
+            "isDefault": false,
+            "latitude": 40.086514,
+            "longitude": 64.771277
+        },
+        {
+            "id": 1170,
+            "name": "Гишткуприк",
+            "isDefault": null,
+            "latitude": 41.464831,
+            "longitude": 69.358953
+        },
+        {
+            "id": 327,
+            "name": "Голиблар",
+            "isDefault": false,
+            "latitude": 40.492155,
+            "longitude": 67.879201
+        },
+        {
+            "id": 815,
+            "name": "Гувалак",
+            "isDefault": null,
+            "latitude": 39.040998,
+            "longitude": 65.73677
+        },
+        {
+            "id": 169,
+            "name": "Гузар",
+            "isDefault": false,
+            "latitude": 38.623538,
+            "longitude": 66.25235
+        },
+        {
+            "id": 70,
+            "name": "Гулистан",
+            "isDefault": false,
+            "latitude": 40.497512,
+            "longitude": 68.762785
+        },
+        {
+            "id": 944,
+            "name": "Гулистан (Зангиатинский район)",
+            "isDefault": null,
+            "latitude": 41.22835,
+            "longitude": 69.038193
+        },
+        {
+            "id": 1087,
+            "name": "Гулистан (Кибрайский район)",
+            "isDefault": null,
+            "latitude": 41.406438,
+            "longitude": 69.305757
+        },
+        {
+            "id": 521,
+            "name": "Гулистан (Юкарычирчикский район)",
+            "isDefault": false,
+            "latitude": 41.247176,
+            "longitude": 69.483151
+        },
+        {
+            "id": 694,
+            "name": "Гулланбаг",
+            "isDefault": null,
+            "latitude": 41.400368,
+            "longitude": 60.464042
+        },
+        {
+            "id": 910,
+            "name": "Гулобод",
+            "isDefault": null,
+            "latitude": 38.108434,
+            "longitude": 67.678447
+        },
+        {
+            "id": 1041,
+            "name": "Гулобод (Сурхандарьинская область)",
+            "isDefault": null,
+            "latitude": 38.429529,
+            "longitude": 67.913224
+        },
+        {
+            "id": 646,
+            "name": "Гуль",
+            "isDefault": false,
+            "latitude": 40.853022,
+            "longitude": 68.785789
+        },
+        {
+            "id": 234,
+            "name": "Гульабад",
+            "isDefault": false,
+            "latitude": 39.581108,
+            "longitude": 66.956167
+        },
+        {
+            "id": 1178,
+            "name": "Гульбаг",
+            "isDefault": null,
+            "latitude": 40.817951,
+            "longitude": 71.167112
+        },
+        {
+            "id": 222,
+            "name": "Гульбахор",
+            "isDefault": false,
+            "latitude": 41.075398,
+            "longitude": 69.023758
+        },
+        {
+            "id": 569,
+            "name": "Гульзар",
+            "isDefault": false,
+            "latitude": 40.431765,
+            "longitude": 68.27374
+        },
+        {
+            "id": 603,
+            "name": "Гульзар (Пахтакорский район)",
+            "isDefault": false,
+            "latitude": 40.323515,
+            "longitude": 68.083386
+        },
+        {
+            "id": 323,
+            "name": "Гурлен",
+            "isDefault": false,
+            "latitude": 41.834269,
+            "longitude": 60.385624
+        },
+        {
+            "id": 1021,
+            "name": "Гурумсарай",
+            "isDefault": null,
+            "latitude": 40.79446,
+            "longitude": 70.934914
+        },
+        {
+            "id": 264,
+            "name": "Гус",
+            "isDefault": false,
+            "latitude": 39.395533,
+            "longitude": 67.30586
+        },
+        {
+            "id": 951,
+            "name": "Далварзин (Андижанская облость)",
+            "isDefault": null,
+            "latitude": 40.770224,
+            "longitude": 72.293501
+        },
+        {
+            "id": 928,
+            "name": "Далварзин (Ташкентская область)",
+            "isDefault": null,
+            "latitude": 40.401617,
+            "longitude": 69.280204
+        },
+        {
+            "id": 1125,
+            "name": "Далигузар",
+            "isDefault": null,
+            "latitude": 41.242242,
+            "longitude": 69.140983
+        },
+        {
+            "id": 173,
+            "name": "Дангара",
+            "isDefault": false,
+            "latitude": 40.576789,
+            "longitude": 70.919005
+        },
+        {
+            "id": 354,
+            "name": "Дангир",
+            "isDefault": false,
+            "latitude": 41.139471,
+            "longitude": 69.028692
+        },
+        {
+            "id": 1123,
+            "name": "Дардак",
+            "isDefault": null,
+            "latitude": 40.813574,
+            "longitude": 72.833336
+        },
+        {
+            "id": 773,
+            "name": "Дахбед",
+            "isDefault": null,
+            "latitude": 39.762196,
+            "longitude": 66.915768
+        },
+        {
+            "id": 575,
+            "name": "Дашт",
+            "isDefault": false,
+            "latitude": 38.783333,
+            "longitude": 65.754306
+        },
+        {
+            "id": 412,
+            "name": "Даштабад",
+            "isDefault": false,
+            "latitude": 40.13752,
+            "longitude": 68.483524
+        },
+        {
+            "id": 876,
+            "name": "Деггарон",
+            "isDefault": null,
+            "latitude": 40.163796,
+            "longitude": 65.014531
+        },
+        {
+            "id": 181,
+            "name": "Денау",
+            "isDefault": false,
+            "latitude": 38.31708,
+            "longitude": 67.90321
+        },
+        {
+            "id": 680,
+            "name": "Денау (Шафирканский район)",
+            "isDefault": null,
+            "latitude": 40.1462,
+            "longitude": 64.6062
+        },
+        {
+            "id": 403,
+            "name": "Дехканабад",
+            "isDefault": false,
+            "latitude": 40.5321,
+            "longitude": 69.032187
+        },
+        {
+            "id": 1044,
+            "name": "Дехканабад (Кашкадарьинская область)",
+            "isDefault": null,
+            "latitude": 38.349085,
+            "longitude": 66.495148
+        },
+        {
+            "id": 672,
+            "name": "Деходжи",
+            "isDefault": null,
+            "latitude": 39.812174,
+            "longitude": 64.345157
+        },
+        {
+            "id": 961,
+            "name": "Джагалбайлы",
+            "isDefault": null,
+            "latitude": 40.787327,
+            "longitude": 69.208912
+        },
+        {
+            "id": 606,
+            "name": "Джайрахана",
+            "isDefault": false,
+            "latitude": 40.366345,
+            "longitude": 67.257961
+        },
+        {
+            "id": 159,
+            "name": "Джалакудук",
+            "isDefault": false,
+            "latitude": 40.719956,
+            "longitude": 72.640578
+        },
+        {
+            "id": 230,
+            "name": "Джамбай",
+            "isDefault": false,
+            "latitude": 39.695922,
+            "longitude": 67.097468
+        },
+        {
+            "id": 267,
+            "name": "Джаркурган",
+            "isDefault": false,
+            "latitude": 37.517051,
+            "longitude": 67.421122
+        },
+        {
+            "id": 969,
+            "name": "Джартепа",
+            "isDefault": null,
+            "latitude": 39.528565,
+            "longitude": 67.351382
+        },
+        {
+            "id": 816,
+            "name": "Джейнау",
+            "isDefault": null,
+            "latitude": 38.932946,
+            "longitude": 65.271786
+        },
+        {
+            "id": 1183,
+            "name": "Джидакапа",
+            "isDefault": null,
+            "latitude": 40.956086,
+            "longitude": 71.809479
+        },
+        {
+            "id": 50,
+            "name": "Джизак",
+            "isDefault": false,
+            "latitude": 40.125701,
+            "longitude": 67.827055
+        },
+        {
+            "id": 663,
+            "name": "Джильва",
+            "isDefault": false,
+            "latitude": 40.560638,
+            "longitude": 70.845022
+        },
+        {
+            "id": 681,
+            "name": "Джуйнау",
+            "isDefault": null,
+            "latitude": 40.133553,
+            "longitude": 64.413522
+        },
+        {
+            "id": 231,
+            "name": "Джума",
+            "isDefault": false,
+            "latitude": 39.713153,
+            "longitude": 66.664718
+        },
+        {
+            "id": 1030,
+            "name": "Джумабазар (Алатский район)",
+            "isDefault": null,
+            "latitude": 39.39111,
+            "longitude": 63.888272
+        },
+        {
+            "id": 520,
+            "name": "Джумабазар (Бекабадский район)",
+            "isDefault": false,
+            "latitude": 40.341475,
+            "longitude": 69.248417
+        },
+        {
+            "id": 423,
+            "name": "Джумабазар (Юкарычирчикский район)",
+            "isDefault": false,
+            "latitude": 41.232197,
+            "longitude": 69.508365
+        },
+        {
+            "id": 451,
+            "name": "Джурек",
+            "isDefault": false,
+            "latitude": 40.381914,
+            "longitude": 71.444868
+        },
+        {
+            "id": 1187,
+            "name": "Дилкушад",
+            "isDefault": null,
+            "latitude": 40.595834,
+            "longitude": 72.669336
+        },
+        {
+            "id": 1210,
+            "name": "Дунгкишлак",
+            "isDefault": null,
+            "latitude": 40.798822,
+            "longitude": 72.440628
+        },
+        {
+            "id": 1136,
+            "name": "Дурман (Карманинский район)",
+            "isDefault": null,
+            "latitude": 40.136383,
+            "longitude": 65.256129
+        },
+        {
+            "id": 359,
+            "name": "Дурмон",
+            "isDefault": false,
+            "latitude": 41.367184,
+            "longitude": 69.415883
+        },
+        {
+            "id": 691,
+            "name": "Дусимбий",
+            "isDefault": null,
+            "latitude": 41.927423,
+            "longitude": 60.296578
+        },
+        {
+            "id": 240,
+            "name": "Дустабад",
+            "isDefault": false,
+            "latitude": 40.864717,
+            "longitude": 68.934987
+        },
+        {
+            "id": 960,
+            "name": "Дустларабад",
+            "isDefault": null,
+            "latitude": 39.906334,
+            "longitude": 66.897364
+        },
+        {
+            "id": 244,
+            "name": "Дустлик",
+            "isDefault": false,
+            "latitude": 40.524084,
+            "longitude": 68.039262
+        },
+        {
+            "id": 917,
+            "name": "Дустлик (Гулистанский район)",
+            "isDefault": null,
+            "latitude": 40.574566,
+            "longitude": 68.739208
+        },
+        {
+            "id": 471,
+            "name": "Дустлик (Денауский район)",
+            "isDefault": false,
+            "latitude": 38.175651,
+            "longitude": 67.89036
+        },
+        {
+            "id": 1206,
+            "name": "Дустлик (Дустликский район)",
+            "isDefault": null,
+            "latitude": 40.524721,
+            "longitude": 68.036683
+        },
+        {
+            "id": 915,
+            "name": "Дустлик (Узунский район)",
+            "isDefault": null,
+            "latitude": 38.42043,
+            "longitude": 68.022227
+        },
+        {
+            "id": 774,
+            "name": "Ёшларабад",
+            "isDefault": null,
+            "latitude": 40.221387,
+            "longitude": 71.731263
+        },
+        {
+            "id": 867,
+            "name": "Жактылык",
+            "isDefault": null,
+            "latitude": 43.056259,
+            "longitude": 58.791271
+        },
+        {
+            "id": 875,
+            "name": "Жалойир",
+            "isDefault": null,
+            "latitude": 40.158286,
+            "longitude": 65.449169
+        },
+        {
+            "id": 626,
+            "name": "Жамбул",
+            "isDefault": false,
+            "latitude": 41.298882,
+            "longitude": 69.745255
+        },
+        {
+            "id": 935,
+            "name": "Жангабой",
+            "isDefault": null,
+            "latitude": 41.075938,
+            "longitude": 69.407192
+        },
+        {
+            "id": 338,
+            "name": "Жиззахлик",
+            "isDefault": false,
+            "latitude": 40.144618,
+            "longitude": 67.805963
+        },
+        {
+            "id": 179,
+            "name": "Жондор",
+            "isDefault": false,
+            "latitude": 39.803248,
+            "longitude": 64.16882
+        },
+        {
+            "id": 348,
+            "name": "Жумашуй",
+            "isDefault": false,
+            "latitude": 40.86856,
+            "longitude": 71.45757
+        },
+        {
+            "id": 696,
+            "name": "Журён",
+            "isDefault": null,
+            "latitude": 41.475098,
+            "longitude": 60.576119
+        },
+        {
+            "id": 274,
+            "name": "Заамин",
+            "isDefault": false,
+            "latitude": 39.961398,
+            "longitude": 68.395992
+        },
+        {
+            "id": 409,
+            "name": "Заврок",
+            "isDefault": false,
+            "latitude": 40.733728,
+            "longitude": 72.422148
+        },
+        {
+            "id": 151,
+            "name": "Зангиота",
+            "isDefault": false,
+            "latitude": 41.201993,
+            "longitude": 69.159974
+        },
+        {
+            "id": 144,
+            "name": "Зарафшан",
+            "isDefault": false,
+            "latitude": 41.578686,
+            "longitude": 64.220222
+        },
+        {
+            "id": 276,
+            "name": "Зарбдар",
+            "isDefault": false,
+            "latitude": 40.06205,
+            "longitude": 68.189509
+        },
+        {
+            "id": 418,
+            "name": "Заркент",
+            "isDefault": false,
+            "latitude": 41.277486,
+            "longitude": 69.805457
+        },
+        {
+            "id": 1212,
+            "name": "Заркент (Кошрабадский район)",
+            "isDefault": null,
+            "latitude": 40.31276,
+            "longitude": 66.732075
+        },
+        {
+            "id": 1032,
+            "name": "Заркент (Ферганская область)",
+            "isDefault": null,
+            "latitude": 40.500286,
+            "longitude": 71.828956
+        },
+        {
+            "id": 902,
+            "name": "Зартепа",
+            "isDefault": null,
+            "latitude": 37.424477,
+            "longitude": 67.158037
+        },
+        {
+            "id": 417,
+            "name": "Зафар",
+            "isDefault": false,
+            "latitude": 40.381751,
+            "longitude": 69.254251
+        },
+        {
+            "id": 577,
+            "name": "Зафарабад",
+            "isDefault": false,
+            "latitude": 40.388388,
+            "longitude": 67.818198
+        },
+        {
+            "id": 427,
+            "name": "Зафарабад (Канимехский район)",
+            "isDefault": false,
+            "latitude": 40.531555,
+            "longitude": 65.019726
+        },
+        {
+            "id": 952,
+            "name": "Захлик",
+            "isDefault": null,
+            "latitude": 39.723084,
+            "longitude": 66.872049
+        },
+        {
+            "id": 232,
+            "name": "Зиадин",
+            "isDefault": false,
+            "latitude": 40.028056,
+            "longitude": 65.662917
+        },
+        {
+            "id": 968,
+            "name": "Зиёкор",
+            "isDefault": null,
+            "latitude": 41.082356,
+            "longitude": 72.001782
+        },
+        {
+            "id": 878,
+            "name": "Иджант",
+            "isDefault": null,
+            "latitude": 40.176545,
+            "longitude": 65.574963
+        },
+        {
+            "id": 809,
+            "name": "Избаскан",
+            "isDefault": null,
+            "latitude": 41.03959,
+            "longitude": 72.346572
+        },
+        {
+            "id": 1085,
+            "name": "Ингичка",
+            "isDefault": null,
+            "latitude": 39.737435,
+            "longitude": 65.99455
+        },
+        {
+            "id": 1122,
+            "name": "Индавак",
+            "isDefault": null,
+            "latitude": 41.453848,
+            "longitude": 60.574033
+        },
+        {
+            "id": 1182,
+            "name": "Исковат",
+            "isDefault": null,
+            "latitude": 41.295497,
+            "longitude": 71.674504
+        },
+        {
+            "id": 265,
+            "name": "Испанза",
+            "isDefault": false,
+            "latitude": 39.407483,
+            "longitude": 67.273308
+        },
+        {
+            "id": 546,
+            "name": "Истиклол",
+            "isDefault": false,
+            "latitude": 40.437994,
+            "longitude": 68.166273
+        },
+        {
+            "id": 629,
+            "name": "Иттифак",
+            "isDefault": false,
+            "latitude": 40.452729,
+            "longitude": 70.613645
+        },
+        {
+            "id": 571,
+            "name": "Ифтихор",
+            "isDefault": false,
+            "latitude": 40.441043,
+            "longitude": 70.883967
+        },
+        {
+            "id": 904,
+            "name": "Ифтихор (Музрабадский район)",
+            "isDefault": null,
+            "latitude": 37.443601,
+            "longitude": 66.812806
+        },
+        {
+            "id": 224,
+            "name": "Иштыхан",
+            "isDefault": false,
+            "latitude": 39.96233,
+            "longitude": 66.493411
+        },
+        {
+            "id": 873,
+            "name": "Кавола Махмуд",
+            "isDefault": null,
+            "latitude": 39.862679,
+            "longitude": 64.394752
+        },
+        {
+            "id": 107,
+            "name": "Каган",
+            "isDefault": false,
+            "latitude": 39.737058,
+            "longitude": 64.541518
+        },
+        {
+            "id": 854,
+            "name": "Казанкектен",
+            "isDefault": null,
+            "latitude": 43.005621,
+            "longitude": 59.356422
+        },
+        {
+            "id": 810,
+            "name": "Кайки",
+            "isDefault": null,
+            "latitude": 41.058121,
+            "longitude": 72.020455
+        },
+        {
+            "id": 641,
+            "name": "Какайды",
+            "isDefault": false,
+            "latitude": 37.575746,
+            "longitude": 67.505325
+        },
+        {
+            "id": 567,
+            "name": "Какир",
+            "isDefault": false,
+            "latitude": 40.494669,
+            "longitude": 72.035304
+        },
+        {
+            "id": 425,
+            "name": "Калконота (Навбахорский район)",
+            "isDefault": false,
+            "latitude": 40.212043,
+            "longitude": 65.387404
+        },
+        {
+            "id": 350,
+            "name": "Камаши",
+            "isDefault": false,
+            "latitude": 38.81595,
+            "longitude": 66.475808
+        },
+        {
+            "id": 621,
+            "name": "Кангли",
+            "isDefault": false,
+            "latitude": 41.154953,
+            "longitude": 69.567524
+        },
+        {
+            "id": 1215,
+            "name": "Кангли (Джамбайский район)",
+            "isDefault": null,
+            "latitude": 39.780379,
+            "longitude": 67.056634
+        },
+        {
+            "id": 1204,
+            "name": "Кангли (Шаватский район)",
+            "isDefault": null,
+            "latitude": 41.785278,
+            "longitude": 60.13075
+        },
+        {
+            "id": 1185,
+            "name": "Кандигон",
+            "isDefault": null,
+            "latitude": 40.838235,
+            "longitude": 71.001865
+        },
+        {
+            "id": 426,
+            "name": "Канимех",
+            "isDefault": false,
+            "latitude": 40.282183,
+            "longitude": 65.138496
+        },
+        {
+            "id": 525,
+            "name": "Канликул",
+            "isDefault": false,
+            "latitude": 42.836314,
+            "longitude": 59.008005
+        },
+        {
+            "id": 435,
+            "name": "Каптархона",
+            "isDefault": false,
+            "latitude": 37.34805,
+            "longitude": 67.186079
+        },
+        {
+            "id": 624,
+            "name": "Карабай",
+            "isDefault": false,
+            "latitude": 41.446446,
+            "longitude": 69.607449
+        },
+        {
+            "id": 853,
+            "name": "Карабуг",
+            "isDefault": null,
+            "latitude": 42.861831,
+            "longitude": 59.950114
+        },
+        {
+            "id": 161,
+            "name": "Каракитай",
+            "isDefault": false,
+            "latitude": 40.905764,
+            "longitude": 69.731036
+        },
+        {
+            "id": 162,
+            "name": "Каракуль",
+            "isDefault": false,
+            "latitude": 39.53183,
+            "longitude": 63.83475
+        },
+        {
+            "id": 656,
+            "name": "Каракушхона",
+            "isDefault": false,
+            "latitude": 39.800293,
+            "longitude": 64.530294
+        },
+        {
+            "id": 343,
+            "name": "Каракушчи",
+            "isDefault": false,
+            "latitude": 40.476886,
+            "longitude": 71.65093
+        },
+        {
+            "id": 693,
+            "name": "Карамазы",
+            "isDefault": null,
+            "latitude": 41.526787,
+            "longitude": 60.746956
+        },
+        {
+            "id": 612,
+            "name": "Каранкуль",
+            "isDefault": false,
+            "latitude": 41.599329,
+            "longitude": 69.874774
+        },
+        {
+            "id": 863,
+            "name": "Кара Ой",
+            "isDefault": null,
+            "latitude": 43.061257,
+            "longitude": 60.224052
+        },
+        {
+            "id": 529,
+            "name": "Карасу",
+            "isDefault": false,
+            "latitude": 41.083868,
+            "longitude": 69.32741
+        },
+        {
+            "id": 164,
+            "name": "Карасу (Кургантепинский район)",
+            "isDefault": false,
+            "latitude": 40.728633,
+            "longitude": 72.885801
+        },
+        {
+            "id": 865,
+            "name": "Каратобе",
+            "isDefault": null,
+            "latitude": 41.897125,
+            "longitude": 60.665741
+        },
+        {
+            "id": 506,
+            "name": "Караузак",
+            "isDefault": false,
+            "latitude": 43.029348,
+            "longitude": 60.02228
+        },
+        {
+            "id": 675,
+            "name": "Караул",
+            "isDefault": null,
+            "latitude": 39.711761,
+            "longitude": 64.087965
+        },
+        {
+            "id": 167,
+            "name": "Караулбазар",
+            "isDefault": false,
+            "latitude": 39.499862,
+            "longitude": 64.792321
+        },
+        {
+            "id": 1132,
+            "name": "Карашик",
+            "isDefault": null,
+            "latitude": 38.39255,
+            "longitude": 68.023689
+        },
+        {
+            "id": 461,
+            "name": "Карашина",
+            "isDefault": false,
+            "latitude": 38.336965,
+            "longitude": 66.561359
+        },
+        {
+            "id": 535,
+            "name": "Караянтак",
+            "isDefault": false,
+            "latitude": 40.059141,
+            "longitude": 67.886951
+        },
+        {
+            "id": 1169,
+            "name": "Карвон (Арабсарой)",
+            "isDefault": null,
+            "latitude": 40.186439,
+            "longitude": 65.186237
+        },
+        {
+            "id": 349,
+            "name": "Каркидан",
+            "isDefault": false,
+            "latitude": 41.077825,
+            "longitude": 71.204413
+        },
+        {
+            "id": 217,
+            "name": "Кармана",
+            "isDefault": false,
+            "latitude": 40.141496,
+            "longitude": 65.363837
+        },
+        {
+            "id": 51,
+            "name": "Карши",
+            "isDefault": false,
+            "latitude": 38.872399,
+            "longitude": 65.825547
+        },
+        {
+            "id": 168,
+            "name": "Касан",
+            "isDefault": false,
+            "latitude": 39.045444,
+            "longitude": 65.58512
+        },
+        {
+            "id": 369,
+            "name": "Касансай",
+            "isDefault": false,
+            "latitude": 41.257005,
+            "longitude": 71.545651
+        },
+        {
+            "id": 669,
+            "name": "Касара",
+            "isDefault": null,
+            "latitude": 39.993021,
+            "longitude": 64.537109
+        },
+        {
+            "id": 595,
+            "name": "Катартал",
+            "isDefault": false,
+            "latitude": 39.694639,
+            "longitude": 67.558915
+        },
+        {
+            "id": 964,
+            "name": "Кат-Калъа",
+            "isDefault": null,
+            "latitude": 41.694062,
+            "longitude": 60.355812
+        },
+        {
+            "id": 149,
+            "name": "Каттакурган",
+            "isDefault": false,
+            "latitude": 39.898706,
+            "longitude": 66.258811
+        },
+        {
+            "id": 642,
+            "name": "Катта Рамадан",
+            "isDefault": false,
+            "latitude": 40.83822,
+            "longitude": 69.128383
+        },
+        {
+            "id": 436,
+            "name": "Кахрамон",
+            "isDefault": false,
+            "latitude": 37.260456,
+            "longitude": 67.257039
+        },
+        {
+            "id": 659,
+            "name": "Кашкари",
+            "isDefault": false,
+            "latitude": 40.45854,
+            "longitude": 71.154165
+        },
+        {
+            "id": 1248,
+            "name": "Кашкарлик",
+            "isDefault": null,
+            "latitude": 41.436711,
+            "longitude": 69.328362
+        },
+        {
+            "id": 507,
+            "name": "Кегейли",
+            "isDefault": false,
+            "latitude": 42.773842,
+            "longitude": 59.612951
+        },
+        {
+            "id": 620,
+            "name": "Келаучи",
+            "isDefault": false,
+            "latitude": 40.896108,
+            "longitude": 69.490931
+        },
+        {
+            "id": 108,
+            "name": "Келес",
+            "isDefault": false,
+            "latitude": 41.354937,
+            "longitude": 69.141015
+        },
+        {
+            "id": 72,
+            "name": "Кибрай",
+            "isDefault": false,
+            "latitude": 41.386227,
+            "longitude": 69.45842
+        },
+        {
+            "id": 966,
+            "name": "Кизиларык",
+            "isDefault": null,
+            "latitude": 40.460712,
+            "longitude": 71.634246
+        },
+        {
+            "id": 851,
+            "name": "Киличинок",
+            "isDefault": null,
+            "latitude": 41.619756,
+            "longitude": 60.822086
+        },
+        {
+            "id": 1134,
+            "name": "Кильдан",
+            "isDefault": null,
+            "latitude": 39.643687,
+            "longitude": 67.354103
+        },
+        {
+            "id": 1051,
+            "name": "Кимёгарлар",
+            "isDefault": null,
+            "latitude": 39.664826,
+            "longitude": 66.844389
+        },
+        {
+            "id": 1035,
+            "name": "Кипчак",
+            "isDefault": null,
+            "latitude": 42.223042,
+            "longitude": 60.099987
+        },
+        {
+            "id": 971,
+            "name": "Кирарык",
+            "isDefault": null,
+            "latitude": 41.419152,
+            "longitude": 69.237334
+        },
+        {
+            "id": 220,
+            "name": "Китаб",
+            "isDefault": false,
+            "latitude": 39.120472,
+            "longitude": 66.875842
+        },
+        {
+            "id": 927,
+            "name": "Кият",
+            "isDefault": null,
+            "latitude": 40.344476,
+            "longitude": 69.082386
+        },
+        {
+            "id": 972,
+            "name": "Кодирист",
+            "isDefault": null,
+            "latitude": 40.107327,
+            "longitude": 65.536242
+        },
+        {
+            "id": 7,
+            "name": "Коканд",
+            "isDefault": false,
+            "latitude": 40.533291,
+            "longitude": 70.940192
+        },
+        {
+            "id": 362,
+            "name": "Коктерак",
+            "isDefault": false,
+            "latitude": 41.425556,
+            "longitude": 69.201806
+        },
+        {
+            "id": 637,
+            "name": "Коракуйли",
+            "isDefault": false,
+            "latitude": 40.813605,
+            "longitude": 69.291075
+        },
+        {
+            "id": 615,
+            "name": "Кошагач",
+            "isDefault": false,
+            "latitude": 41.034541,
+            "longitude": 69.028231
+        },
+        {
+            "id": 1121,
+            "name": "Кошарык",
+            "isDefault": null,
+            "latitude": 40.820406,
+            "longitude": 72.323405
+        },
+        {
+            "id": 900,
+            "name": "Коштегирман",
+            "isDefault": null,
+            "latitude": 37.435544,
+            "longitude": 67.236479
+        },
+        {
+            "id": 414,
+            "name": "Красногорск",
+            "isDefault": false,
+            "latitude": 41.155766,
+            "longitude": 69.669593
+        },
+        {
+            "id": 255,
+            "name": "Кува",
+            "isDefault": false,
+            "latitude": 40.524696,
+            "longitude": 72.063726
+        },
+        {
+            "id": 145,
+            "name": "Кувасай",
+            "isDefault": false,
+            "latitude": 40.312674,
+            "longitude": 71.933431
+        },
+        {
+            "id": 1023,
+            "name": "Кугай",
+            "isDefault": null,
+            "latitude": 41.017994,
+            "longitude": 72.102346
+        },
+        {
+            "id": 548,
+            "name": "Кугали",
+            "isDefault": false,
+            "latitude": 40.470891,
+            "longitude": 71.159271
+        },
+        {
+            "id": 591,
+            "name": "Кудукча",
+            "isDefault": false,
+            "latitude": 39.962381,
+            "longitude": 68.316447
+        },
+        {
+            "id": 408,
+            "name": "Куйганёр",
+            "isDefault": false,
+            "latitude": 40.855786,
+            "longitude": 72.309879
+        },
+        {
+            "id": 532,
+            "name": "Кукдала",
+            "isDefault": false,
+            "latitude": 39.214563,
+            "longitude": 66.249445
+        },
+        {
+            "id": 563,
+            "name": "Куконбай",
+            "isDefault": false,
+            "latitude": 40.485288,
+            "longitude": 70.820195
+        },
+        {
+            "id": 1176,
+            "name": "Кукони",
+            "isDefault": null,
+            "latitude": 39.700376,
+            "longitude": 66.770602
+        },
+        {
+            "id": 163,
+            "name": "Куксарай",
+            "isDefault": false,
+            "latitude": 41.356549,
+            "longitude": 69.131892
+        },
+        {
+            "id": 943,
+            "name": "Куктерак",
+            "isDefault": null,
+            "latitude": 41.422283,
+            "longitude": 69.200989
+        },
+        {
+            "id": 896,
+            "name": "Кукча",
+            "isDefault": null,
+            "latitude": 40.062706,
+            "longitude": 65.929557
+        },
+        {
+            "id": 874,
+            "name": "Кулиян",
+            "isDefault": null,
+            "latitude": 39.728649,
+            "longitude": 64.232956
+        },
+        {
+            "id": 855,
+            "name": "Кулоб",
+            "isDefault": null,
+            "latitude": 42.448131,
+            "longitude": 59.374976
+        },
+        {
+            "id": 674,
+            "name": "Кулонхона",
+            "isDefault": null,
+            "latitude": 39.735997,
+            "longitude": 64.349584
+        },
+        {
+            "id": 655,
+            "name": "Кумарик",
+            "isDefault": false,
+            "latitude": 40.55014,
+            "longitude": 71.78838
+        },
+        {
+            "id": 631,
+            "name": "Кумарыкабад",
+            "isDefault": false,
+            "latitude": 40.571868,
+            "longitude": 71.010615
+        },
+        {
+            "id": 446,
+            "name": "Кумкурган",
+            "isDefault": false,
+            "latitude": 37.837057,
+            "longitude": 67.581528
+        },
+        {
+            "id": 215,
+            "name": "Кунград",
+            "isDefault": false,
+            "latitude": 43.045826,
+            "longitude": 58.847498
+        },
+        {
+            "id": 934,
+            "name": "Кундузяк",
+            "isDefault": null,
+            "latitude": 40.999704,
+            "longitude": 69.271132
+        },
+        {
+            "id": 682,
+            "name": "Куня Калон",
+            "isDefault": null,
+            "latitude": 40.147437,
+            "longitude": 64.552064
+        },
+        {
+            "id": 679,
+            "name": "Куня Шурча",
+            "isDefault": null,
+            "latitude": 40.010991,
+            "longitude": 64.260191
+        },
+        {
+            "id": 1173,
+            "name": "Куприк Баши",
+            "isDefault": null,
+            "latitude": 41.416837,
+            "longitude": 69.520652
+        },
+        {
+            "id": 443,
+            "name": "Курама (Алтынсайский район)",
+            "isDefault": false,
+            "latitude": 38.09809,
+            "longitude": 67.66326
+        },
+        {
+            "id": 1027,
+            "name": "Курама (Андижанский район)",
+            "isDefault": null,
+            "latitude": 40.724588,
+            "longitude": 72.39156
+        },
+        {
+            "id": 610,
+            "name": "Курбанов",
+            "isDefault": false,
+            "latitude": 41.532733,
+            "longitude": 69.65063
+        },
+        {
+            "id": 155,
+            "name": "Кургантепа",
+            "isDefault": false,
+            "latitude": 40.724407,
+            "longitude": 72.761126
+        },
+        {
+            "id": 647,
+            "name": "Курганча",
+            "isDefault": false,
+            "latitude": 40.90891,
+            "longitude": 68.801934
+        },
+        {
+            "id": 1180,
+            "name": "Курганча (Наманганский район)",
+            "isDefault": null,
+            "latitude": 40.96932,
+            "longitude": 71.751429
+        },
+        {
+            "id": 460,
+            "name": "Кушкупир",
+            "isDefault": false,
+            "latitude": 41.531241,
+            "longitude": 60.35099
+        },
+        {
+            "id": 625,
+            "name": "Кушкурган",
+            "isDefault": false,
+            "latitude": 41.482006,
+            "longitude": 69.633036
+        },
+        {
+            "id": 407,
+            "name": "Кушрабад",
+            "isDefault": false,
+            "latitude": 40.239199,
+            "longitude": 66.650111
+        },
+        {
+            "id": 344,
+            "name": "Куштепа",
+            "isDefault": false,
+            "latitude": 40.527704,
+            "longitude": 71.640066
+        },
+        {
+            "id": 1040,
+            "name": "Куштепа (Андижанская область)",
+            "isDefault": null,
+            "latitude": 40.832781,
+            "longitude": 72.025721
+        },
+        {
+            "id": 511,
+            "name": "Куюн",
+            "isDefault": false,
+            "latitude": 40.867364,
+            "longitude": 69.677141
+        },
+        {
+            "id": 225,
+            "name": "Куябаши",
+            "isDefault": false,
+            "latitude": 40.149966,
+            "longitude": 67.753856
+        },
+        {
+            "id": 1039,
+            "name": "Кызылкурган",
+            "isDefault": null,
+            "latitude": 39.982296,
+            "longitude": 67.572302
+        },
+        {
+            "id": 364,
+            "name": "Кызылтепа",
+            "isDefault": false,
+            "latitude": 40.065242,
+            "longitude": 64.81232
+        },
+        {
+            "id": 950,
+            "name": "Кызыл Шалола",
+            "isDefault": null,
+            "latitude": 41.4606,
+            "longitude": 69.442914
+        },
+        {
+            "id": 677,
+            "name": "Лабируд",
+            "isDefault": null,
+            "latitude": 39.93168,
+            "longitude": 64.31216
+        },
+        {
+            "id": 554,
+            "name": "Лаган",
+            "isDefault": false,
+            "latitude": 40.268957,
+            "longitude": 71.901691
+        },
+        {
+            "id": 667,
+            "name": "Лаганды",
+            "isDefault": false,
+            "latitude": 38.877172,
+            "longitude": 65.629952
+        },
+        {
+            "id": 226,
+            "name": "Лаиш",
+            "isDefault": false,
+            "latitude": 39.879935,
+            "longitude": 66.749299
+        },
+        {
+            "id": 590,
+            "name": "Лолазор",
+            "isDefault": false,
+            "latitude": 40.419228,
+            "longitude": 67.674627
+        },
+        {
+            "id": 534,
+            "name": "Ляльмикар",
+            "isDefault": false,
+            "latitude": 39.939674,
+            "longitude": 67.453712
+        },
+        {
+            "id": 644,
+            "name": "Маданият",
+            "isDefault": false,
+            "latitude": 41.056304,
+            "longitude": 69.109976
+        },
+        {
+            "id": 956,
+            "name": "Майманак",
+            "isDefault": null,
+            "latitude": 39.0542,
+            "longitude": 65.419746
+        },
+        {
+            "id": 429,
+            "name": "Маликработ",
+            "isDefault": false,
+            "latitude": 40.130074,
+            "longitude": 65.1858
+        },
+        {
+            "id": 929,
+            "name": "Маллавой",
+            "isDefault": null,
+            "latitude": 40.35585,
+            "longitude": 69.204085
+        },
+        {
+            "id": 1133,
+            "name": "Манак",
+            "isDefault": null,
+            "latitude": 40.60508,
+            "longitude": 72.648621
+        },
+        {
+            "id": 311,
+            "name": "Мангит",
+            "isDefault": false,
+            "latitude": 42.114571,
+            "longitude": 60.060104
+        },
+        {
+            "id": 8,
+            "name": "Маргилан",
+            "isDefault": false,
+            "latitude": 40.53635,
+            "longitude": 71.704493
+        },
+        {
+            "id": 600,
+            "name": "Марджанбулак",
+            "isDefault": false,
+            "latitude": 39.93278,
+            "longitude": 67.422209
+        },
+        {
+            "id": 574,
+            "name": "Марказ",
+            "isDefault": false,
+            "latitude": 40.433,
+            "longitude": 69.068695
+        },
+        {
+            "id": 320,
+            "name": "Мархамат",
+            "isDefault": false,
+            "latitude": 40.504595,
+            "longitude": 72.330211
+        },
+        {
+            "id": 945,
+            "name": "Махаллаи-Миришкор",
+            "isDefault": null,
+            "latitude": 40.088067,
+            "longitude": 64.275298
+        },
+        {
+            "id": 517,
+            "name": "Машак",
+            "isDefault": false,
+            "latitude": 40.826746,
+            "longitude": 69.501943
+        },
+        {
+            "id": 949,
+            "name": "Машъал",
+            "isDefault": null,
+            "latitude": 41.172474,
+            "longitude": 69.389863
+        },
+        {
+            "id": 850,
+            "name": "Мингчинор",
+            "isDefault": null,
+            "latitude": 40.911653,
+            "longitude": 69.007314
+        },
+        {
+            "id": 652,
+            "name": "Миндан",
+            "isDefault": false,
+            "latitude": 40.227587,
+            "longitude": 71.556154
+        },
+        {
+            "id": 730,
+            "name": "Минданабад",
+            "isDefault": null,
+            "latitude": 40.312069,
+            "longitude": 71.767511
+        },
+        {
+            "id": 770,
+            "name": "Мираки",
+            "isDefault": null,
+            "latitude": 39.032547,
+            "longitude": 67.130352
+        },
+        {
+            "id": 771,
+            "name": "Мирбазар",
+            "isDefault": null,
+            "latitude": 39.961856,
+            "longitude": 65.935224
+        },
+        {
+            "id": 1043,
+            "name": "Мирмирон",
+            "isDefault": null,
+            "latitude": 38.827201,
+            "longitude": 65.724729
+        },
+        {
+            "id": 592,
+            "name": "Миср",
+            "isDefault": false,
+            "latitude": 39.680582,
+            "longitude": 67.435749
+        },
+        {
+            "id": 970,
+            "name": "Митан",
+            "isDefault": null,
+            "latitude": 40.008037,
+            "longitude": 66.54707
+        },
+        {
+            "id": 219,
+            "name": "Мубарек",
+            "isDefault": false,
+            "latitude": 39.257475,
+            "longitude": 65.156668
+        },
+        {
+            "id": 539,
+            "name": "Муглан",
+            "isDefault": false,
+            "latitude": 38.915277,
+            "longitude": 65.402087
+        },
+        {
+            "id": 852,
+            "name": "Муйнак",
+            "isDefault": null,
+            "latitude": 43.76661,
+            "longitude": 59.028047
+        },
+        {
+            "id": 339,
+            "name": "Мулканлик",
+            "isDefault": false,
+            "latitude": 40.167899,
+            "longitude": 67.821979
+        },
+        {
+            "id": 678,
+            "name": "Муллоён",
+            "isDefault": null,
+            "latitude": 39.918486,
+            "longitude": 64.24766
+        },
+        {
+            "id": 518,
+            "name": "Муратали",
+            "isDefault": false,
+            "latitude": 40.825117,
+            "longitude": 69.342562
+        },
+        {
+            "id": 881,
+            "name": "Мурунтау",
+            "isDefault": null,
+            "latitude": 41.529687,
+            "longitude": 64.601362
+        },
+        {
+            "id": 559,
+            "name": "Мустакиллик",
+            "isDefault": false,
+            "latitude": 40.504826,
+            "longitude": 72.101149
+        },
+        {
+            "id": 924,
+            "name": "Мустакиллик (Пскентский район)",
+            "isDefault": null,
+            "latitude": 40.833025,
+            "longitude": 69.418565
+        },
+        {
+            "id": 1203,
+            "name": "Мустакиллик (Чиракчийский район)",
+            "isDefault": null,
+            "latitude": 39.03319,
+            "longitude": 66.57722
+        },
+        {
+            "id": 683,
+            "name": "Навабаши",
+            "isDefault": null,
+            "latitude": 40.125091,
+            "longitude": 64.481667
+        },
+        {
+            "id": 544,
+            "name": "Навбахор",
+            "isDefault": false,
+            "latitude": 40.409758,
+            "longitude": 68.477946
+        },
+        {
+            "id": 582,
+            "name": "Навбахор (Наманганский район)",
+            "isDefault": false,
+            "latitude": 40.95338,
+            "longitude": 71.672914
+        },
+        {
+            "id": 49,
+            "name": "Навои",
+            "isDefault": false,
+            "latitude": 40.082618,
+            "longitude": 65.393566
+        },
+        {
+            "id": 352,
+            "name": "Навоий",
+            "isDefault": false,
+            "latitude": 40.392885,
+            "longitude": 68.389397
+        },
+        {
+            "id": 326,
+            "name": "Навруз",
+            "isDefault": false,
+            "latitude": 40.496266,
+            "longitude": 68.703109
+        },
+        {
+            "id": 1006,
+            "name": "Навруз (Юкарычирчикский район)",
+            "isDefault": null,
+            "latitude": 41.130605,
+            "longitude": 69.438592
+        },
+        {
+            "id": 171,
+            "name": "Назарбек",
+            "isDefault": false,
+            "latitude": 41.306696,
+            "longitude": 69.139752
+        },
+        {
+            "id": 10,
+            "name": "Наманган",
+            "isDefault": false,
+            "latitude": 40.994257,
+            "longitude": 71.603426
+        },
+        {
+            "id": 617,
+            "name": "Намданак",
+            "isDefault": false,
+            "latitude": 41.180079,
+            "longitude": 69.683605
+        },
+        {
+            "id": 660,
+            "name": "Намуна",
+            "isDefault": false,
+            "latitude": 40.448823,
+            "longitude": 70.669762
+        },
+        {
+            "id": 868,
+            "name": "Намуна (Турткульский район)",
+            "isDefault": null,
+            "latitude": 41.639274,
+            "longitude": 60.961963
+        },
+        {
+            "id": 611,
+            "name": "Нанай",
+            "isDefault": false,
+            "latitude": 41.711538,
+            "longitude": 70.10716
+        },
+        {
+            "id": 430,
+            "name": "Нарпай (Карманинский район)",
+            "isDefault": false,
+            "latitude": 40.092585,
+            "longitude": 65.440675
+        },
+        {
+            "id": 772,
+            "name": "Нарынкапа",
+            "isDefault": null,
+            "latitude": 40.92761,
+            "longitude": 71.90359
+        },
+        {
+            "id": 1186,
+            "name": "Ниязбатыр",
+            "isDefault": null,
+            "latitude": 40.589803,
+            "longitude": 72.185034
+        },
+        {
+            "id": 353,
+            "name": "Ниязбаш",
+            "isDefault": false,
+            "latitude": 41.105909,
+            "longitude": 69.069258
+        },
+        {
+            "id": 653,
+            "name": "Новкент",
+            "isDefault": false,
+            "latitude": 40.231262,
+            "longitude": 71.74394
+        },
+        {
+            "id": 673,
+            "name": "Новметан",
+            "isDefault": null,
+            "latitude": 39.692014,
+            "longitude": 64.378618
+        },
+        {
+            "id": 68,
+            "name": "Нукус",
+            "isDefault": false,
+            "latitude": 42.511303,
+            "longitude": 59.574497
+        },
+        {
+            "id": 271,
+            "name": "Нурабад",
+            "isDefault": false,
+            "latitude": 39.606676,
+            "longitude": 66.293625
+        },
+        {
+            "id": 472,
+            "name": "Нурабад (Ахангаранский район)",
+            "isDefault": false,
+            "latitude": 40.910103,
+            "longitude": 69.802916
+        },
+        {
+            "id": 239,
+            "name": "Нурата",
+            "isDefault": false,
+            "latitude": 40.727723,
+            "longitude": 68.773022
+        },
+        {
+            "id": 147,
+            "name": "Нурафшан",
+            "isDefault": false,
+            "latitude": 41.010777,
+            "longitude": 69.358112
+        },
+        {
+            "id": 1135,
+            "name": "Нурбулак",
+            "isDefault": null,
+            "latitude": 39.7453,
+            "longitude": 66.402618
+        },
+        {
+            "id": 1036,
+            "name": "Нуристан",
+            "isDefault": null,
+            "latitude": 38.492431,
+            "longitude": 65.646385
+        },
+        {
+            "id": 438,
+            "name": "Озод Ватан (Музрабадский район)",
+            "isDefault": false,
+            "latitude": 37.506193,
+            "longitude": 67.060913
+        },
+        {
+            "id": 1130,
+            "name": "Олимбек",
+            "isDefault": null,
+            "latitude": 40.844641,
+            "longitude": 71.951126
+        },
+        {
+            "id": 566,
+            "name": "Олтинарик",
+            "isDefault": false,
+            "latitude": 40.518952,
+            "longitude": 71.92054
+        },
+        {
+            "id": 877,
+            "name": "Отчопар",
+            "isDefault": null,
+            "latitude": 40.182292,
+            "longitude": 65.195806
+        },
+        {
+            "id": 312,
+            "name": "Пайарык",
+            "isDefault": false,
+            "latitude": 39.98925,
+            "longitude": 66.846427
+        },
+        {
+            "id": 254,
+            "name": "Пайтуг",
+            "isDefault": false,
+            "latitude": 40.896298,
+            "longitude": 72.248231
+        },
+        {
+            "id": 233,
+            "name": "Пайшанба",
+            "isDefault": false,
+            "latitude": 40.016909,
+            "longitude": 66.229677
+        },
+        {
+            "id": 1128,
+            "name": "Панг",
+            "isDefault": null,
+            "latitude": 39.806566,
+            "longitude": 66.942225
+        },
+        {
+            "id": 243,
+            "name": "Пап",
+            "isDefault": false,
+            "latitude": 40.872418,
+            "longitude": 71.103217
+        },
+        {
+            "id": 613,
+            "name": "Паргос",
+            "isDefault": false,
+            "latitude": 41.553088,
+            "longitude": 69.681218
+        },
+        {
+            "id": 237,
+            "name": "Паркент",
+            "isDefault": false,
+            "latitude": 41.297562,
+            "longitude": 69.669029
+        },
+        {
+            "id": 695,
+            "name": "Парчанхас",
+            "isDefault": null,
+            "latitude": 41.437574,
+            "longitude": 60.441531
+        },
+        {
+            "id": 421,
+            "name": "Пахта (Чиназский район)",
+            "isDefault": false,
+            "latitude": 41.016676,
+            "longitude": 68.939911
+        },
+        {
+            "id": 253,
+            "name": "Пахтаабад",
+            "isDefault": false,
+            "latitude": 40.925979,
+            "longitude": 72.487406
+        },
+        {
+            "id": 470,
+            "name": "Пахтаабад (Сардобинский район)",
+            "isDefault": false,
+            "latitude": 40.343443,
+            "longitude": 68.183434
+        },
+        {
+            "id": 576,
+            "name": "Пахтазар",
+            "isDefault": false,
+            "latitude": 40.696647,
+            "longitude": 68.030135
+        },
+        {
+            "id": 1024,
+            "name": "Пахтазор (Ташкентская область)",
+            "isDefault": null,
+            "latitude": 41.000958,
+            "longitude": 69.055759
+        },
+        {
+            "id": 246,
+            "name": "Пахтакор",
+            "isDefault": false,
+            "latitude": 40.400155,
+            "longitude": 67.906595
+        },
+        {
+            "id": 650,
+            "name": "Пахтачи",
+            "isDefault": false,
+            "latitude": 40.489348,
+            "longitude": 71.148598
+        },
+        {
+            "id": 864,
+            "name": "Пахтачи (Берунийский район)",
+            "isDefault": null,
+            "latitude": 41.90844,
+            "longitude": 60.49642
+        },
+        {
+            "id": 906,
+            "name": "Пашхурт",
+            "isDefault": null,
+            "latitude": 37.695053,
+            "longitude": 66.772828
+        },
+        {
+            "id": 322,
+            "name": "Питнак",
+            "isDefault": false,
+            "latitude": 41.216418,
+            "longitude": 61.308955
+        },
+        {
+            "id": 579,
+            "name": "Пишагар",
+            "isDefault": false,
+            "latitude": 39.973038,
+            "longitude": 68.128095
+        },
+        {
+            "id": 452,
+            "name": "Повулган",
+            "isDefault": false,
+            "latitude": 40.378684,
+            "longitude": 71.528642
+        },
+        {
+            "id": 183,
+            "name": "Пскент",
+            "isDefault": false,
+            "latitude": 40.895872,
+            "longitude": 69.34987
+        },
+        {
+            "id": 1127,
+            "name": "Пулатдархон",
+            "isDefault": null,
+            "latitude": 39.737146,
+            "longitude": 66.961627
+        },
+        {
+            "id": 513,
+            "name": "Рават",
+            "isDefault": false,
+            "latitude": 40.720642,
+            "longitude": 69.282159
+        },
+        {
+            "id": 1045,
+            "name": "Рават (Самаркандская область)",
+            "isDefault": null,
+            "latitude": 39.566787,
+            "longitude": 67.075681
+        },
+        {
+            "id": 661,
+            "name": "Рапкан",
+            "isDefault": false,
+            "latitude": 40.351418,
+            "longitude": 70.663983
+        },
+        {
+            "id": 146,
+            "name": "Риштан",
+            "isDefault": false,
+            "latitude": 40.357057,
+            "longitude": 71.271691
+        },
+        {
+            "id": 317,
+            "name": "Ромитан",
+            "isDefault": false,
+            "latitude": 39.932502,
+            "longitude": 64.382367
+        },
+        {
+            "id": 687,
+            "name": "Сабзикор",
+            "isDefault": null,
+            "latitude": 40.142865,
+            "longitude": 64.509844
+        },
+        {
+            "id": 515,
+            "name": "Сайлык",
+            "isDefault": false,
+            "latitude": 41.605577,
+            "longitude": 69.766253
+        },
+        {
+            "id": 909,
+            "name": "Сайроб Чинор",
+            "isDefault": null,
+            "latitude": 38.075759,
+            "longitude": 66.96812
+        },
+        {
+            "id": 404,
+            "name": "Сайхун",
+            "isDefault": false,
+            "latitude": 40.708191,
+            "longitude": 68.836552
+        },
+        {
+            "id": 228,
+            "name": "Салар",
+            "isDefault": false,
+            "latitude": 41.381,
+            "longitude": 69.352611
+        },
+        {
+            "id": 48,
+            "name": "Самарканд",
+            "isDefault": false,
+            "latitude": 39.63198,
+            "longitude": 66.951963
+        },
+        {
+            "id": 597,
+            "name": "Самаркандкудук",
+            "isDefault": false,
+            "latitude": 40.259071,
+            "longitude": 67.867141
+        },
+        {
+            "id": 633,
+            "name": "Санам",
+            "isDefault": false,
+            "latitude": 40.897117,
+            "longitude": 69.880324
+        },
+        {
+            "id": 607,
+            "name": "Санг",
+            "isDefault": false,
+            "latitude": 40.863556,
+            "longitude": 71.187102
+        },
+        {
+            "id": 601,
+            "name": "Сарбазар",
+            "isDefault": false,
+            "latitude": 40.011389,
+            "longitude": 67.602367
+        },
+        {
+            "id": 241,
+            "name": "Сардоба",
+            "isDefault": false,
+            "latitude": 40.540293,
+            "longitude": 68.415152
+        },
+        {
+            "id": 447,
+            "name": "Сариасия",
+            "isDefault": false,
+            "latitude": 38.412078,
+            "longitude": 67.949369
+        },
+        {
+            "id": 445,
+            "name": "Сарик (Кизирикский район)",
+            "isDefault": false,
+            "latitude": 37.679501,
+            "longitude": 67.240023
+        },
+        {
+            "id": 923,
+            "name": "Сари Кангли",
+            "isDefault": null,
+            "latitude": 41.55025,
+            "longitude": 69.738577
+        },
+        {
+            "id": 589,
+            "name": "Саритепа",
+            "isDefault": false,
+            "latitude": 40.577559,
+            "longitude": 67.983457
+        },
+        {
+            "id": 623,
+            "name": "Сасбака",
+            "isDefault": false,
+            "latitude": 41.151335,
+            "longitude": 69.452047
+        },
+        {
+            "id": 1198,
+            "name": "Сахибкор (Хавастский район)",
+            "isDefault": null,
+            "latitude": 40.232827,
+            "longitude": 69.000226
+        },
+        {
+            "id": 524,
+            "name": "Сиджак",
+            "isDefault": false,
+            "latitude": 41.691137,
+            "longitude": 70.055707
+        },
+        {
+            "id": 573,
+            "name": "Сохил",
+            "isDefault": false,
+            "latitude": 40.621695,
+            "longitude": 68.903678
+        },
+        {
+            "id": 419,
+            "name": "Сукок",
+            "isDefault": false,
+            "latitude": 41.248424,
+            "longitude": 69.796448
+        },
+        {
+            "id": 634,
+            "name": "Султан Сегизбаев",
+            "isDefault": false,
+            "latitude": 40.736062,
+            "longitude": 68.981563
+        },
+        {
+            "id": 636,
+            "name": "Султы",
+            "isDefault": false,
+            "latitude": 40.8123,
+            "longitude": 69.203427
+        },
+        {
+            "id": 594,
+            "name": "Суткибулок",
+            "isDefault": false,
+            "latitude": 39.779596,
+            "longitude": 67.874012
+        },
+        {
+            "id": 665,
+            "name": "Суфан",
+            "isDefault": false,
+            "latitude": 40.37173,
+            "longitude": 71.936019
+        },
+        {
+            "id": 238,
+            "name": "Сырдарья",
+            "isDefault": false,
+            "latitude": 40.84854,
+            "longitude": 68.659515
+        },
+        {
+            "id": 887,
+            "name": "Тавоис",
+            "isDefault": null,
+            "latitude": 40.062632,
+            "longitude": 64.83459
+        },
+        {
+            "id": 235,
+            "name": "Тайлак",
+            "isDefault": false,
+            "latitude": 39.604616,
+            "longitude": 67.091145
+        },
+        {
+            "id": 903,
+            "name": "Талашкан",
+            "isDefault": null,
+            "latitude": 37.492912,
+            "longitude": 67.245175
+        },
+        {
+            "id": 1033,
+            "name": "Талимарджан",
+            "isDefault": null,
+            "latitude": 38.298342,
+            "longitude": 65.551915
+        },
+        {
+            "id": 428,
+            "name": "Талкок",
+            "isDefault": false,
+            "latitude": 40.145171,
+            "longitude": 65.343177
+        },
+        {
+            "id": 897,
+            "name": "Тамабахрин",
+            "isDefault": null,
+            "latitude": 40.095498,
+            "longitude": 65.738178
+        },
+        {
+            "id": 907,
+            "name": "Тарнау",
+            "isDefault": null,
+            "latitude": 41.294005,
+            "longitude": 69.09205
+        },
+        {
+            "id": 905,
+            "name": "Таскент",
+            "isDefault": null,
+            "latitude": 37.507737,
+            "longitude": 67.030361
+        },
+        {
+            "id": 310,
+            "name": "Тахиаташ",
+            "isDefault": false,
+            "latitude": 42.331682,
+            "longitude": 59.581804
+        },
+        {
+            "id": 538,
+            "name": "Тахтакупир",
+            "isDefault": false,
+            "latitude": 43.018939,
+            "longitude": 60.286569
+        },
+        {
+            "id": 365,
+            "name": "Ташбулак",
+            "isDefault": false,
+            "latitude": 40.931238,
+            "longitude": 71.601426
+        },
+        {
+            "id": 1,
+            "name": "Ташкент",
+            "isDefault": true,
+            "latitude": 41.379112,
+            "longitude": 69.29944
+        },
+        {
+            "id": 318,
+            "name": "Ташлак",
+            "isDefault": false,
+            "latitude": 40.486338,
+            "longitude": 71.759264
+        },
+        {
+            "id": 648,
+            "name": "Ташлак (Куйичирчикский район)",
+            "isDefault": false,
+            "latitude": 41.129945,
+            "longitude": 69.195556
+        },
+        {
+            "id": 890,
+            "name": "Темирковук",
+            "isDefault": null,
+            "latitude": 40.728931,
+            "longitude": 66.416557
+        },
+        {
+            "id": 899,
+            "name": "Темирходжа",
+            "isDefault": null,
+            "latitude": 39.684896,
+            "longitude": 66.630339
+        },
+        {
+            "id": 1181,
+            "name": "Тепакургон",
+            "isDefault": null,
+            "latitude": 40.89996,
+            "longitude": 71.563393
+        },
+        {
+            "id": 1037,
+            "name": "Теракзар",
+            "isDefault": null,
+            "latitude": 40.846562,
+            "longitude": 71.686327
+        },
+        {
+            "id": 556,
+            "name": "Терактаги",
+            "isDefault": false,
+            "latitude": 40.509029,
+            "longitude": 72.007377
+        },
+        {
+            "id": 813,
+            "name": "Тергачи",
+            "isDefault": null,
+            "latitude": 41.160127,
+            "longitude": 71.506118
+        },
+        {
+            "id": 65,
+            "name": "Термез",
+            "isDefault": false,
+            "latitude": 37.247603,
+            "longitude": 67.285292
+        },
+        {
+            "id": 604,
+            "name": "Тимирязев",
+            "isDefault": false,
+            "latitude": 40.286833,
+            "longitude": 67.762529
+        },
+        {
+            "id": 450,
+            "name": "Тинчлик",
+            "isDefault": false,
+            "latitude": 40.423489,
+            "longitude": 71.50775
+        },
+        {
+            "id": 1199,
+            "name": "Тинчлик (Берунийский район)",
+            "isDefault": null,
+            "latitude": 41.870103,
+            "longitude": 60.562478
+        },
+        {
+            "id": 1184,
+            "name": "Тошкин",
+            "isDefault": null,
+            "latitude": 40.93747,
+            "longitude": 71.970316
+        },
+        {
+            "id": 599,
+            "name": "Тукбай",
+            "isDefault": false,
+            "latitude": 39.978037,
+            "longitude": 68.661079
+        },
+        {
+            "id": 893,
+            "name": "Тулга",
+            "isDefault": null,
+            "latitude": 40.50644,
+            "longitude": 72.278752
+        },
+        {
+            "id": 148,
+            "name": "Туракурган",
+            "isDefault": false,
+            "latitude": 41.005416,
+            "longitude": 71.503712
+        },
+        {
+            "id": 341,
+            "name": "Тургок",
+            "isDefault": false,
+            "latitude": 40.543168,
+            "longitude": 71.006153
+        },
+        {
+            "id": 581,
+            "name": "Туркмен",
+            "isDefault": false,
+            "latitude": 39.955931,
+            "longitude": 68.501781
+        },
+        {
+            "id": 1197,
+            "name": "Туркмен (Хатырчинский район)",
+            "isDefault": null,
+            "latitude": 40.066497,
+            "longitude": 66.001767
+        },
+        {
+            "id": 894,
+            "name": "Туртайгыр",
+            "isDefault": null,
+            "latitude": 39.667909,
+            "longitude": 66.728581
+        },
+        {
+            "id": 262,
+            "name": "Турткуль",
+            "isDefault": false,
+            "latitude": 41.564366,
+            "longitude": 60.965423
+        },
+        {
+            "id": 920,
+            "name": "Тутзар",
+            "isDefault": null,
+            "latitude": 41.381644,
+            "longitude": 69.324945
+        },
+        {
+            "id": 519,
+            "name": "Туябугуз",
+            "isDefault": false,
+            "latitude": 40.999622,
+            "longitude": 69.305086
+        },
+        {
+            "id": 622,
+            "name": "Узбекистан",
+            "isDefault": false,
+            "latitude": 41.308589,
+            "longitude": 69.466699
+        },
+        {
+            "id": 1031,
+            "name": "Узбекистан (Кашкадарьинская область)",
+            "isDefault": null,
+            "latitude": 38.876409,
+            "longitude": 65.33307
+        },
+        {
+            "id": 1177,
+            "name": "Узгариш",
+            "isDefault": null,
+            "latitude": 40.834838,
+            "longitude": 71.492294
+        },
+        {
+            "id": 888,
+            "name": "Узилишкент",
+            "isDefault": null,
+            "latitude": 40.157602,
+            "longitude": 64.924545
+        },
+        {
+            "id": 449,
+            "name": "Узун",
+            "isDefault": false,
+            "latitude": 38.367175,
+            "longitude": 68.009455
+        },
+        {
+            "id": 537,
+            "name": "Уйрат",
+            "isDefault": false,
+            "latitude": 40.396333,
+            "longitude": 71.191869
+        },
+        {
+            "id": 270,
+            "name": "Уйчи",
+            "isDefault": false,
+            "latitude": 41.026984,
+            "longitude": 71.821708
+        },
+        {
+            "id": 361,
+            "name": "Улугбек",
+            "isDefault": false,
+            "latitude": 41.405798,
+            "longitude": 69.459311
+        },
+        {
+            "id": 596,
+            "name": "Умар",
+            "isDefault": false,
+            "latitude": 40.014179,
+            "longitude": 68.016571
+        },
+        {
+            "id": 360,
+            "name": "Ункурган",
+            "isDefault": false,
+            "latitude": 41.392031,
+            "longitude": 69.349009
+        },
+        {
+            "id": 457,
+            "name": "Унхаят",
+            "isDefault": false,
+            "latitude": 41.010209,
+            "longitude": 71.759505
+        },
+        {
+            "id": 266,
+            "name": "Урамас",
+            "isDefault": false,
+            "latitude": 39.470291,
+            "longitude": 67.205195
+        },
+        {
+            "id": 66,
+            "name": "Ургенч",
+            "isDefault": false,
+            "latitude": 41.54231,
+            "longitude": 60.658529
+        },
+        {
+            "id": 236,
+            "name": "Ургут",
+            "isDefault": false,
+            "latitude": 39.420248,
+            "longitude": 67.239408
+        },
+        {
+            "id": 967,
+            "name": "Урмонбек",
+            "isDefault": null,
+            "latitude": 40.796567,
+            "longitude": 71.876149
+        },
+        {
+            "id": 356,
+            "name": "Уртаавул",
+            "isDefault": false,
+            "latitude": 41.188588,
+            "longitude": 69.132852
+        },
+        {
+            "id": 932,
+            "name": "Уртааул",
+            "isDefault": null,
+            "latitude": 41.006692,
+            "longitude": 69.404827
+        },
+        {
+            "id": 1190,
+            "name": "Уртакишлак",
+            "isDefault": null,
+            "latitude": 41.47226,
+            "longitude": 60.394276
+        },
+        {
+            "id": 933,
+            "name": "Уртасарой",
+            "isDefault": null,
+            "latitude": 41.127736,
+            "longitude": 69.419167
+        },
+        {
+            "id": 630,
+            "name": "Урта Укчи",
+            "isDefault": false,
+            "latitude": 40.484761,
+            "longitude": 71.691682
+        },
+        {
+            "id": 962,
+            "name": "Уртаяп",
+            "isDefault": null,
+            "latitude": 41.470549,
+            "longitude": 60.171238
+        },
+        {
+            "id": 543,
+            "name": "Усман Насыр",
+            "isDefault": false,
+            "latitude": 40.482666,
+            "longitude": 68.947914
+        },
+        {
+            "id": 405,
+            "name": "Усмат",
+            "isDefault": false,
+            "latitude": 39.729277,
+            "longitude": 67.943909
+        },
+        {
+            "id": 434,
+            "name": "Учкизил",
+            "isDefault": false,
+            "latitude": 37.342931,
+            "longitude": 67.231562
+        },
+        {
+            "id": 156,
+            "name": "Учкудук",
+            "isDefault": false,
+            "latitude": 42.155468,
+            "longitude": 63.55968
+        },
+        {
+            "id": 1048,
+            "name": "Учкулач",
+            "isDefault": null,
+            "latitude": 40.508442,
+            "longitude": 67.343181
+        },
+        {
+            "id": 313,
+            "name": "Учкуприк",
+            "isDefault": false,
+            "latitude": 40.542847,
+            "longitude": 71.061741
+        },
+        {
+            "id": 218,
+            "name": "Учкурган",
+            "isDefault": false,
+            "latitude": 41.113262,
+            "longitude": 72.078698
+        },
+        {
+            "id": 337,
+            "name": "Учтепа",
+            "isDefault": false,
+            "latitude": 40.211797,
+            "longitude": 67.907403
+        },
+        {
+            "id": 561,
+            "name": "Файзиабад",
+            "isDefault": false,
+            "latitude": 40.414044,
+            "longitude": 71.60983
+        },
+        {
+            "id": 1131,
+            "name": "Файзиобод (Асакинский район)",
+            "isDefault": null,
+            "latitude": 40.689466,
+            "longitude": 72.280968
+        },
+        {
+            "id": 690,
+            "name": "Фариш",
+            "isDefault": null,
+            "latitude": 40.4933,
+            "longitude": 66.7772
+        },
+        {
+            "id": 453,
+            "name": "Фархад",
+            "isDefault": false,
+            "latitude": 39.694119,
+            "longitude": 67.06102
+        },
+        {
+            "id": 6,
+            "name": "Фергана",
+            "isDefault": false,
+            "latitude": 40.403094,
+            "longitude": 71.779039
+        },
+        {
+            "id": 152,
+            "name": "Фуркат",
+            "isDefault": false,
+            "latitude": 40.482305,
+            "longitude": 70.771556
+        },
+        {
+            "id": 242,
+            "name": "Хаваст",
+            "isDefault": false,
+            "latitude": 40.214929,
+            "longitude": 68.840727
+        },
+        {
+            "id": 459,
+            "name": "Хазарасп",
+            "isDefault": false,
+            "latitude": 41.297904,
+            "longitude": 61.081092
+        },
+        {
+            "id": 562,
+            "name": "Хаит",
+            "isDefault": false,
+            "latitude": 40.44766,
+            "longitude": 70.7792
+        },
+        {
+            "id": 269,
+            "name": "Хаккулабад",
+            "isDefault": false,
+            "latitude": 40.915031,
+            "longitude": 72.120231
+        },
+        {
+            "id": 437,
+            "name": "Халкабад",
+            "isDefault": false,
+            "latitude": 37.459283,
+            "longitude": 66.926864
+        },
+        {
+            "id": 526,
+            "name": "Халкабад (Кегейлийский район)",
+            "isDefault": false,
+            "latitude": 42.682243,
+            "longitude": 59.728287
+        },
+        {
+            "id": 516,
+            "name": "Халкабад (Янгиюльский район)",
+            "isDefault": false,
+            "latitude": 41.156864,
+            "longitude": 69.009165
+        },
+        {
+            "id": 512,
+            "name": "Хамзаабад",
+            "isDefault": false,
+            "latitude": 40.771976,
+            "longitude": 68.962187
+        },
+        {
+            "id": 182,
+            "name": "Ханабад",
+            "isDefault": false,
+            "latitude": 40.802884,
+            "longitude": 72.98825
+        },
+        {
+            "id": 1195,
+            "name": "Ханабад (Кошкупырский район)",
+            "isDefault": null,
+            "latitude": 41.472111,
+            "longitude": 60.2975
+        },
+        {
+            "id": 808,
+            "name": "Ханабад (Наманганский район)",
+            "isDefault": null,
+            "latitude": 40.961423,
+            "longitude": 71.622276
+        },
+        {
+            "id": 273,
+            "name": "Ханка",
+            "isDefault": false,
+            "latitude": 41.479277,
+            "longitude": 60.764858
+        },
+        {
+            "id": 654,
+            "name": "Ханкиз",
+            "isDefault": false,
+            "latitude": 40.288499,
+            "longitude": 71.506762
+        },
+        {
+            "id": 1086,
+            "name": "Харакат",
+            "isDefault": null,
+            "latitude": 69.114882,
+            "longitude": 41.305387
+        },
+        {
+            "id": 1050,
+            "name": "Хасанбай",
+            "isDefault": null,
+            "latitude": 41.40728,
+            "longitude": 69.262757
+        },
+        {
+            "id": 527,
+            "name": "Хасс",
+            "isDefault": false,
+            "latitude": 40.269576,
+            "longitude": 69.202622
+        },
+        {
+            "id": 880,
+            "name": "Хаятабад",
+            "isDefault": null,
+            "latitude": 41.17526,
+            "longitude": 64.245714
+        },
+        {
+            "id": 1042,
+            "name": "Хван Ман Гым",
+            "isDefault": null,
+            "latitude": 41.255736,
+            "longitude": 69.438379
+        },
+        {
+            "id": 64,
+            "name": "Хива",
+            "isDefault": false,
+            "latitude": 41.398096,
+            "longitude": 60.359767
+        },
+        {
+            "id": 618,
+            "name": "Хисарак",
+            "isDefault": false,
+            "latitude": 41.306334,
+            "longitude": 69.767211
+        },
+        {
+            "id": 432,
+            "name": "Хитоян",
+            "isDefault": false,
+            "latitude": 38.273731,
+            "longitude": 67.945282
+        },
+        {
+            "id": 172,
+            "name": "Ходжаабад",
+            "isDefault": false,
+            "latitude": 40.669124,
+            "longitude": 72.564008
+        },
+        {
+            "id": 1028,
+            "name": "Ходжаабдуджабар (Чиракчинский район)",
+            "isDefault": null,
+            "latitude": 39.04928,
+            "longitude": 66.580459
+        },
+        {
+            "id": 1007,
+            "name": "Ходжакишлак",
+            "isDefault": null,
+            "latitude": 39.517498,
+            "longitude": 67.185868
+        },
+        {
+            "id": 1029,
+            "name": "Ходжакурган (Тошработ)",
+            "isDefault": null,
+            "latitude": 40.169421,
+            "longitude": 64.922491
+        },
+        {
+            "id": 671,
+            "name": "Ходжарабат",
+            "isDefault": null,
+            "latitude": 39.706567,
+            "longitude": 64.442625
+        },
+        {
+            "id": 869,
+            "name": "Ходжа Якшаба",
+            "isDefault": null,
+            "latitude": 39.844248,
+            "longitude": 64.567211
+        },
+        {
+            "id": 657,
+            "name": "Ходжа Якшба",
+            "isDefault": false,
+            "latitude": 39.75877,
+            "longitude": 64.56654
+        },
+        {
+            "id": 67,
+            "name": "Ходжейли",
+            "isDefault": false,
+            "latitude": 42.424982,
+            "longitude": 59.476329
+        },
+        {
+            "id": 1174,
+            "name": "Ходжент (Есин)",
+            "isDefault": null,
+            "latitude": 40.919859,
+            "longitude": 71.411864
+        },
+        {
+            "id": 416,
+            "name": "Ходжикент (Бостанлыкский район)",
+            "isDefault": false,
+            "latitude": 41.636792,
+            "longitude": 69.947379
+        },
+        {
+            "id": 605,
+            "name": "Хонбанди",
+            "isDefault": false,
+            "latitude": 40.496293,
+            "longitude": 67.262489
+        },
+        {
+            "id": 688,
+            "name": "Хоркаш",
+            "isDefault": null,
+            "latitude": 40.097214,
+            "longitude": 64.309592
+        },
+        {
+            "id": 953,
+            "name": "Хужа Ахрори Вали",
+            "isDefault": null,
+            "latitude": 39.618393,
+            "longitude": 66.955123
+        },
+        {
+            "id": 444,
+            "name": "Хужасоат",
+            "isDefault": false,
+            "latitude": 38.243939,
+            "longitude": 67.707605
+        },
+        {
+            "id": 1172,
+            "name": "Хулкар",
+            "isDefault": null,
+            "latitude": 40.336844,
+            "longitude": 67.760634
+        },
+        {
+            "id": 614,
+            "name": "Хумсан",
+            "isDefault": false,
+            "latitude": 41.674415,
+            "longitude": 69.957401
+        },
+        {
+            "id": 649,
+            "name": "Хуснабад",
+            "isDefault": false,
+            "latitude": 40.507226,
+            "longitude": 71.200367
+        },
+        {
+            "id": 1047,
+            "name": "Чадак",
+            "isDefault": null,
+            "latitude": 40.950414,
+            "longitude": 70.769153
+        },
+        {
+            "id": 1209,
+            "name": "Чайдари",
+            "isDefault": null,
+            "latitude": 38.987492,
+            "longitude": 66.613396
+        },
+        {
+            "id": 930,
+            "name": "Чанак",
+            "isDefault": null,
+            "latitude": 40.535111,
+            "longitude": 69.21018
+        },
+        {
+            "id": 639,
+            "name": "Чанги",
+            "isDefault": false,
+            "latitude": 41.299371,
+            "longitude": 69.742499
+        },
+        {
+            "id": 871,
+            "name": "Чандыр",
+            "isDefault": null,
+            "latitude": 40.089006,
+            "longitude": 64.457868
+        },
+        {
+            "id": 666,
+            "name": "Чарбаг",
+            "isDefault": false,
+            "latitude": 40.548071,
+            "longitude": 71.087708
+        },
+        {
+            "id": 415,
+            "name": "Чарвак",
+            "isDefault": false,
+            "latitude": 41.638766,
+            "longitude": 69.939406
+        },
+        {
+            "id": 879,
+            "name": "Чарвакгузар",
+            "isDefault": null,
+            "latitude": 40.191163,
+            "longitude": 65.25078
+        },
+        {
+            "id": 670,
+            "name": "Чарраха",
+            "isDefault": null,
+            "latitude": 39.864017,
+            "longitude": 64.511527
+        },
+        {
+            "id": 180,
+            "name": "Чартак",
+            "isDefault": false,
+            "latitude": 41.078065,
+            "longitude": 71.809903
+        },
+        {
+            "id": 583,
+            "name": "Чартак (Гулистанский район)",
+            "isDefault": false,
+            "latitude": 40.562886,
+            "longitude": 68.921542
+        },
+        {
+            "id": 814,
+            "name": "Чархин",
+            "isDefault": null,
+            "latitude": 39.697599,
+            "longitude": 66.829802
+        },
+        {
+            "id": 1025,
+            "name": "Чекшура",
+            "isDefault": null,
+            "latitude": 40.384612,
+            "longitude": 71.730703
+        },
+        {
+            "id": 257,
+            "name": "Челек",
+            "isDefault": false,
+            "latitude": 39.909041,
+            "longitude": 66.861837
+        },
+        {
+            "id": 931,
+            "name": "Чибинтепа",
+            "isDefault": null,
+            "latitude": 41.137188,
+            "longitude": 69.304112
+        },
+        {
+            "id": 263,
+            "name": "Чимбай",
+            "isDefault": false,
+            "latitude": 42.9147,
+            "longitude": 59.789915
+        },
+        {
+            "id": 922,
+            "name": "Чимган",
+            "isDefault": null,
+            "latitude": 41.550444,
+            "longitude": 70.024953
+        },
+        {
+            "id": 662,
+            "name": "Чимион",
+            "isDefault": false,
+            "latitude": 40.254943,
+            "longitude": 71.571855
+        },
+        {
+            "id": 157,
+            "name": "Чиназ",
+            "isDefault": false,
+            "latitude": 40.940089,
+            "longitude": 68.763701
+        },
+        {
+            "id": 536,
+            "name": "Чинобод",
+            "isDefault": false,
+            "latitude": 40.87513,
+            "longitude": 71.979868
+        },
+        {
+            "id": 248,
+            "name": "Чиракчи",
+            "isDefault": false,
+            "latitude": 39.031441,
+            "longitude": 66.569183
+        },
+        {
+            "id": 54,
+            "name": "Чирчик",
+            "isDefault": false,
+            "latitude": 41.458207,
+            "longitude": 69.548624
+        },
+        {
+            "id": 731,
+            "name": "Чоршанбе",
+            "isDefault": null,
+            "latitude": 39.03886,
+            "longitude": 66.960692
+        },
+        {
+            "id": 528,
+            "name": "Чувалачи",
+            "isDefault": false,
+            "latitude": 41.09289,
+            "longitude": 68.955262
+        },
+        {
+            "id": 1019,
+            "name": "Чувама",
+            "isDefault": null,
+            "latitude": 40.946175,
+            "longitude": 72.394269
+        },
+        {
+            "id": 585,
+            "name": "Чулкувар",
+            "isDefault": false,
+            "latitude": 40.700942,
+            "longitude": 67.869562
+        },
+        {
+            "id": 651,
+            "name": "Чуринди",
+            "isDefault": false,
+            "latitude": 40.451745,
+            "longitude": 71.177961
+        },
+        {
+            "id": 61,
+            "name": "Чуст",
+            "isDefault": false,
+            "latitude": 40.995669,
+            "longitude": 71.250061
+        },
+        {
+            "id": 891,
+            "name": "Чуя",
+            "isDefault": null,
+            "latitude": 40.451836,
+            "longitude": 66.046171
+        },
+        {
+            "id": 363,
+            "name": "Шават",
+            "isDefault": false,
+            "latitude": 41.654752,
+            "longitude": 60.291498
+        },
+        {
+            "id": 570,
+            "name": "Шайимбек",
+            "isDefault": false,
+            "latitude": 40.49535,
+            "longitude": 70.84879
+        },
+        {
+            "id": 455,
+            "name": "Шаматан",
+            "isDefault": false,
+            "latitude": 39.060775,
+            "longitude": 66.769211
+        },
+        {
+            "id": 619,
+            "name": "Шампан",
+            "isDefault": false,
+            "latitude": 41.214468,
+            "longitude": 69.723387
+        },
+        {
+            "id": 1193,
+            "name": "Шамсиабад (Ташкентский район)",
+            "isDefault": null,
+            "latitude": 41.359642,
+            "longitude": 69.114323
+        },
+        {
+            "id": 1038,
+            "name": "Шаргунь",
+            "isDefault": null,
+            "latitude": 38.465576,
+            "longitude": 67.963532
+        },
+        {
+            "id": 170,
+            "name": "Шафиркан",
+            "isDefault": false,
+            "latitude": 40.11979,
+            "longitude": 64.502836
+        },
+        {
+            "id": 1022,
+            "name": "Шаханд",
+            "isDefault": null,
+            "latitude": 40.895849,
+            "longitude": 71.469827
+        },
+        {
+            "id": 52,
+            "name": "Шахрисабз",
+            "isDefault": false,
+            "latitude": 39.035588,
+            "longitude": 66.811442
+        },
+        {
+            "id": 150,
+            "name": "Шахрихан",
+            "isDefault": false,
+            "latitude": 40.709839,
+            "longitude": 72.05799
+        },
+        {
+            "id": 275,
+            "name": "Шерабад",
+            "isDefault": false,
+            "latitude": 37.663893,
+            "longitude": 67.003184
+        },
+        {
+            "id": 1205,
+            "name": "Шерабад (Кошкупырский район)",
+            "isDefault": null,
+            "latitude": 41.5675,
+            "longitude": 60.186361
+        },
+        {
+            "id": 1175,
+            "name": "Шергирон",
+            "isDefault": null,
+            "latitude": 39.765577,
+            "longitude": 64.330692
+        },
+        {
+            "id": 366,
+            "name": "Ширин",
+            "isDefault": false,
+            "latitude": 40.224555,
+            "longitude": 69.130393
+        },
+        {
+            "id": 959,
+            "name": "Ших",
+            "isDefault": null,
+            "latitude": 41.495598,
+            "longitude": 60.178978
+        },
+        {
+            "id": 963,
+            "name": "Шихмашхад",
+            "isDefault": null,
+            "latitude": 41.48391,
+            "longitude": 60.505278
+        },
+        {
+            "id": 358,
+            "name": "Шодлик",
+            "isDefault": false,
+            "latitude": 41.309382,
+            "longitude": 69.102039
+        },
+        {
+            "id": 584,
+            "name": "Шодлик (Акалтынский район)",
+            "isDefault": false,
+            "latitude": 40.504468,
+            "longitude": 68.510792
+        },
+        {
+            "id": 957,
+            "name": "Шорколь",
+            "isDefault": null,
+            "latitude": 42.564949,
+            "longitude": 59.643969
+        },
+        {
+            "id": 965,
+            "name": "Шохидонлар",
+            "isDefault": null,
+            "latitude": 41.52173,
+            "longitude": 60.630922
+        },
+        {
+            "id": 509,
+            "name": "Шуманай",
+            "isDefault": false,
+            "latitude": 42.632953,
+            "longitude": 58.923523
+        },
+        {
+            "id": 616,
+            "name": "Шуралисой",
+            "isDefault": false,
+            "latitude": 41.108508,
+            "longitude": 68.960519
+        },
+        {
+            "id": 277,
+            "name": "Шурчи",
+            "isDefault": false,
+            "latitude": 37.996011,
+            "longitude": 67.789309
+        },
+        {
+            "id": 1207,
+            "name": "Шурчи (Гулистон МСГ)",
+            "isDefault": null,
+            "latitude": 38.112273,
+            "longitude": 67.866139
+        },
+        {
+            "id": 598,
+            "name": "Эгизбулак",
+            "isDefault": false,
+            "latitude": 40.324124,
+            "longitude": 67.474598
+        },
+        {
+            "id": 609,
+            "name": "Эйвалек",
+            "isDefault": false,
+            "latitude": 40.941219,
+            "longitude": 69.521007
+        },
+        {
+            "id": 227,
+            "name": "Эркин",
+            "isDefault": false,
+            "latitude": 41.22566,
+            "longitude": 69.171852
+        },
+        {
+            "id": 1211,
+            "name": "Эркин (Сариасийский район)",
+            "isDefault": null,
+            "latitude": 38.384292,
+            "longitude": 67.974842
+        },
+        {
+            "id": 1129,
+            "name": "Этимшак",
+            "isDefault": null,
+            "latitude": 37.480931,
+            "longitude": 67.406398
+        },
+        {
+            "id": 165,
+            "name": "Эшангузар",
+            "isDefault": false,
+            "latitude": 41.251836,
+            "longitude": 69.15437
+        },
+        {
+            "id": 522,
+            "name": "Эшматаул",
+            "isDefault": false,
+            "latitude": 41.405737,
+            "longitude": 69.568317
+        },
+        {
+            "id": 1191,
+            "name": "Южный Аламышик",
+            "isDefault": null,
+            "latitude": 40.757359,
+            "longitude": 72.614038
+        },
+        {
+            "id": 954,
+            "name": "Юкары-Агалык",
+            "isDefault": null,
+            "latitude": 39.516432,
+            "longitude": 66.883024
+        },
+        {
+            "id": 908,
+            "name": "Юкары-Мачай",
+            "isDefault": null,
+            "latitude": 38.340635,
+            "longitude": 67.087228
+        },
+        {
+            "id": 632,
+            "name": "Юкори Бачкир",
+            "isDefault": false,
+            "latitude": 40.602028,
+            "longitude": 71.162807
+        },
+        {
+            "id": 664,
+            "name": "Юкори Валик",
+            "isDefault": false,
+            "latitude": 40.375383,
+            "longitude": 71.991849
+        },
+        {
+            "id": 342,
+            "name": "Язъяван",
+            "isDefault": false,
+            "latitude": 40.662807,
+            "longitude": 71.741268
+        },
+        {
+            "id": 154,
+            "name": "Яйпан",
+            "isDefault": false,
+            "latitude": 40.381915,
+            "longitude": 70.811229
+        },
+        {
+            "id": 259,
+            "name": "Яккабаг",
+            "isDefault": false,
+            "latitude": 38.920976,
+            "longitude": 66.85039
+        },
+        {
+            "id": 1188,
+            "name": "Ялгызбаг",
+            "isDefault": null,
+            "latitude": 40.970004,
+            "longitude": 72.476097
+        },
+        {
+            "id": 422,
+            "name": "Яллама",
+            "isDefault": false,
+            "latitude": 40.95778,
+            "longitude": 68.7367
+        },
+        {
+            "id": 564,
+            "name": "Ям",
+            "isDefault": false,
+            "latitude": 40.031496,
+            "longitude": 68.520219
+        },
+        {
+            "id": 547,
+            "name": "Янгиабад",
+            "isDefault": false,
+            "latitude": 39.913636,
+            "longitude": 68.781653
+        },
+        {
+            "id": 901,
+            "name": "Янгиабад (Ангорский район)",
+            "isDefault": null,
+            "latitude": 37.478495,
+            "longitude": 67.110835
+        },
+        {
+            "id": 1196,
+            "name": "Янгиабад (Андижанский район)",
+            "isDefault": null,
+            "latitude": 40.875969,
+            "longitude": 72.411773
+        },
+        {
+            "id": 643,
+            "name": "Янгиабад (Букинский район)",
+            "isDefault": false,
+            "latitude": 40.794922,
+            "longitude": 69.12889
+        },
+        {
+            "id": 1213,
+            "name": "Янгиабад (район Сардоба)",
+            "isDefault": null,
+            "latitude": 40.272293,
+            "longitude": 68.272182
+        },
+        {
+            "id": 468,
+            "name": "Янгиарик",
+            "isDefault": false,
+            "latitude": 41.362441,
+            "longitude": 60.613572
+        },
+        {
+            "id": 638,
+            "name": "Янгиаул",
+            "isDefault": false,
+            "latitude": 41.49505,
+            "longitude": 69.661758
+        },
+        {
+            "id": 177,
+            "name": "Янгибазар",
+            "isDefault": false,
+            "latitude": 41.315624,
+            "longitude": 69.516772
+        },
+        {
+            "id": 627,
+            "name": "Янгибазар (Пешкунский район)",
+            "isDefault": false,
+            "latitude": 40.031195,
+            "longitude": 64.394131
+        },
+        {
+            "id": 469,
+            "name": "Янгибазар (Янгибазарский район)",
+            "isDefault": false,
+            "latitude": 41.716412,
+            "longitude": 60.523243
+        },
+        {
+            "id": 892,
+            "name": "Янгибино",
+            "isDefault": null,
+            "latitude": 40.544862,
+            "longitude": 65.864757
+        },
+        {
+            "id": 256,
+            "name": "Янгиер",
+            "isDefault": false,
+            "latitude": 40.293402,
+            "longitude": 68.830578
+        },
+        {
+            "id": 260,
+            "name": "Янгикурган",
+            "isDefault": false,
+            "latitude": 41.1933,
+            "longitude": 71.727328
+        },
+        {
+            "id": 914,
+            "name": "Янгикуч",
+            "isDefault": null,
+            "latitude": 38.371607,
+            "longitude": 68.040684
+        },
+        {
+            "id": 268,
+            "name": "Янги Маргилан",
+            "isDefault": false,
+            "latitude": 40.431233,
+            "longitude": 71.717924
+        },
+        {
+            "id": 530,
+            "name": "Янги Миришкар",
+            "isDefault": false,
+            "latitude": 38.847419,
+            "longitude": 65.270574
+        },
+        {
+            "id": 531,
+            "name": "Янги Нишан",
+            "isDefault": false,
+            "latitude": 38.650154,
+            "longitude": 65.695579
+        },
+        {
+            "id": 431,
+            "name": "Янгирабат",
+            "isDefault": false,
+            "latitude": 40.030303,
+            "longitude": 65.971327
+        },
+        {
+            "id": 882,
+            "name": "Янги-Тамды",
+            "isDefault": null,
+            "latitude": 41.718189,
+            "longitude": 64.528994
+        },
+        {
+            "id": 913,
+            "name": "Янги Хазорбог",
+            "isDefault": null,
+            "latitude": 38.199582,
+            "longitude": 67.83318
+        },
+        {
+            "id": 1192,
+            "name": "Янгихаят (Каганский район)",
+            "isDefault": null,
+            "latitude": 39.770757,
+            "longitude": 64.571789
+        },
+        {
+            "id": 668,
+            "name": "ЯнгиХаят (Куйичирчикский район)",
+            "isDefault": null,
+            "latitude": 40.943156,
+            "longitude": 68.944306
+        },
+        {
+            "id": 948,
+            "name": "Янгихаят (Уртачирчикский  район)",
+            "isDefault": null,
+            "latitude": 41.071911,
+            "longitude": 69.23183
+        },
+        {
+            "id": 420,
+            "name": "Янги Чиназ (Чиназский район)",
+            "isDefault": false,
+            "latitude": 40.909406,
+            "longitude": 68.712396
+        },
+        {
+            "id": 53,
+            "name": "Янгиюль",
+            "isDefault": false,
+            "latitude": 41.119321,
+            "longitude": 69.055547
+        },
+        {
+            "id": 578,
+            "name": "Яркин",
+            "isDefault": false,
+            "latitude": 40.329378,
+            "longitude": 67.876256
+        },
+        {
+            "id": 1084,
+            "name": "Яркишлак",
+            "isDefault": null,
+            "latitude": 40.611631,
+            "longitude": 72.728761
+        }
+    ],
+    "timestamp": "2026-07-17T08:45:22.40450166"
+}

@@ -1,0 +1,13 @@
+{
+    "payload": {
+        "city": {
+            "id": 1,
+            "name": "Ташкент",
+            "isDefault": true,
+            "latitude": 41.379112,
+            "longitude": 69.29944
+        },
+        "isDifferentCity": true
+    },
+    "timestamp": "2026-07-17T08:45:22.369065433"
+}

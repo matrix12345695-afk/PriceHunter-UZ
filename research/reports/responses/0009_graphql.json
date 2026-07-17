@@ -1,0 +1,933 @@
+{
+    "data": {
+        "makeSearch": {
+            "queryText": "iphone",
+            "category": {
+                "id": 15272,
+                "parent": {
+                    "id": 12690,
+                    "title": "Смартфоны",
+                    "title_ru": "Смартфоны",
+                    "title_uz": "Smartfonlar",
+                    "__typename": "Category"
+                },
+                "seo": {
+                    "permanentLinksSeo": [
+                        {
+                            "id": 487347,
+                            "seoHeader": "Смартфоны Apple iPhone (iOS) до 2 000 000 сум — Хорошие и недорогие модели | Uzum Market",
+                            "seoMetaTag": "Смартфоны Apple iPhone (iOS) среднего класса",
+                            "seoTitle": "Смартфоны Apple iPhone (iOS) до 2 000 000 сум",
+                            "link": {
+                                "ru": "https://uzum.uz/ru/category/smartfony-apple-iphone-ios-do-2-000-000-sum",
+                                "uz": "https://uzum.uz/uz/category/2-000-000-somgacha-smartfonlar-apple",
+                                "__typename": "GqlLocalizableText"
+                            },
+                            "__typename": "PermanentLinkSeo"
+                        },
+                        {
+                            "id": 487348,
+                            "seoHeader": "Смартфоны Apple iPhone (iOS) до 5 000 000 сум — Лучшее соотношение цена/качество | Uzum Market",
+                            "seoMetaTag": "Смартфоны Apple iPhone (iOS) (лучшее соотношение цена/качество)",
+                            "seoTitle": "Смартфоны Apple iPhone (iOS) до 5 000 000 сум",
+                            "link": {
+                                "ru": "https://uzum.uz/ru/category/smartfony-apple-iphone-ios-do-5-000-000-sum",
+                                "uz": "https://uzum.uz/uz/category/5-000-000-somgacha-smartfonlar-apple",
+                                "__typename": "GqlLocalizableText"
+                            },
+                            "__typename": "PermanentLinkSeo"
+                        },
+                        {
+                            "id": 487349,
+                            "seoHeader": "Дорогие и топовые Смартфоны Apple iPhone (iOS) до 15 000 000 сум | Uzum Market",
+                            "seoMetaTag": "Смартфоны Apple iPhone (iOS) топового уровня",
+                            "seoTitle": "Топовые Смартфоны Apple iPhone (iOS) до 15 000 000 сум",
+                            "link": {
+                                "ru": "https://uzum.uz/ru/category/topovye-smartfony-apple-iphone-ios-do",
+                                "uz": "https://uzum.uz/uz/category/15-000-000-somgacha-top-smartfonlar-b",
+                                "__typename": "GqlLocalizableText"
+                            },
+                            "__typename": "PermanentLinkSeo"
+                        },
+                        {
+                            "id": 487354,
+                            "seoHeader": "Купить премиальные Смартфоны Apple iPhone (iOS) до 50 000 000 сум — Флагманские модели | Uzum Market",
+                            "seoMetaTag": "Смартфоны Apple iPhone (iOS) премиум-класса (флагманы)",
+                            "seoTitle": "Премиальные Смартфоны Apple iPhone (iOS) до 50 000 000 сум",
+                            "link": {
+                                "ru": "https://uzum.uz/ru/category/premialnye-smartfony-apple-iphone-ios-do",
+                                "uz": "https://uzum.uz/uz/category/50-000-000-somgacha-premium-smartfonlar",
+                                "__typename": "GqlLocalizableText"
+                            },
+                            "__typename": "PermanentLinkSeo"
+                        }
+                    ],
+                    "__typename": "SeoCategoryFields"
+                },
+                "title": "Смартфоны Apple iPhone (iOS)",
+                "title_ru": "Смартфоны Apple iPhone (iOS)",
+                "title_uz": "Smartfonlar Apple iPhone (iOS)",
+                "__typename": "Category"
+            },
+            "items": [],
+            "facets": [
+                {
+                    "filter": {
+                        "id": 0,
+                        "title": "Цена",
+                        "type": "RANGED_VALUE",
+                        "measurementUnit": "сум",
+                        "__typename": "Filter"
+                    },
+                    "buckets": null,
+                    "range": {
+                        "min": 1989900.0,
+                        "max": 100000000.0,
+                        "__typename": "FacetRange"
+                    },
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": -999,
+                        "title": "Стало дешевле",
+                        "type": "SINGLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": -999,
+                                "image": null,
+                                "name": "Стало дешевле",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 180,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 2772,
+                        "title": "Встроенная память, Гб",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 199031,
+                                "image": null,
+                                "name": "1024",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 65,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199028,
+                                "image": null,
+                                "name": "128",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 328,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199032,
+                                "image": null,
+                                "name": "2048",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 4,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199029,
+                                "image": null,
+                                "name": "256",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 441,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199030,
+                                "image": null,
+                                "name": "512",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 118,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199027,
+                                "image": null,
+                                "name": "64",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 19,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 3453,
+                        "title": "Диагональ экрана",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 523927,
+                                "image": null,
+                                "name": "от 3.4\" до 4.4\"",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 5,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 523922,
+                                "image": null,
+                                "name": "от 4.5\" до 4.9\"",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 523923,
+                                "image": null,
+                                "name": "от 5\" до 5.4\"",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 10,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 523924,
+                                "image": null,
+                                "name": "от 5.5\" до 5.9\"",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 103,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 523925,
+                                "image": null,
+                                "name": "от 6\" до 6.4\"",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 185,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 523928,
+                                "image": null,
+                                "name": "6.5\" и больше",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 166,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 4770,
+                        "title": "Модель устройства",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 672150,
+                                "image": null,
+                                "name": "iPhone 17",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 59,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 672151,
+                                "image": null,
+                                "name": "iPhone 17 Air",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 34,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 672152,
+                                "image": null,
+                                "name": "iPhone 17 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 38,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 682960,
+                                "image": null,
+                                "name": "iPhone 17 pro max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 75,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610365,
+                                "image": null,
+                                "name": "iPhone 11",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 35,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610366,
+                                "image": null,
+                                "name": "iPhone 11 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 9,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610367,
+                                "image": null,
+                                "name": "iPhone 11 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 16,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610370,
+                                "image": null,
+                                "name": "iPhone 12",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 20,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610371,
+                                "image": null,
+                                "name": "iPhone 12 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 22,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610372,
+                                "image": null,
+                                "name": "iPhone 12 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 16,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610373,
+                                "image": null,
+                                "name": "iPhone 13 Mini",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610374,
+                                "image": null,
+                                "name": "iPhone 13",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 59,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610375,
+                                "image": null,
+                                "name": "iPhone 13 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 24,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610376,
+                                "image": null,
+                                "name": "iPhone 13 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 30,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610378,
+                                "image": null,
+                                "name": "iPhone 14",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 20,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610379,
+                                "image": null,
+                                "name": "iPhone 14 Plus",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 3,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610380,
+                                "image": null,
+                                "name": "iPhone 14 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 8,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610381,
+                                "image": null,
+                                "name": "iPhone 14 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 5,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610382,
+                                "image": null,
+                                "name": "iPhone 15",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 26,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610384,
+                                "image": null,
+                                "name": "iPhone 15 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610385,
+                                "image": null,
+                                "name": "iPhone 15 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610386,
+                                "image": null,
+                                "name": "iPhone 16",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 8,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610388,
+                                "image": null,
+                                "name": "iPhone 16 Pro",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 4,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 610389,
+                                "image": null,
+                                "name": "iPhone 16 Pro Max",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 31,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 2773,
+                        "title": "Оперативная память, Гб",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 199036,
+                                "image": null,
+                                "name": "4",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 50,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199038,
+                                "image": null,
+                                "name": "6",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 142,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199039,
+                                "image": null,
+                                "name": "7",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 199040,
+                                "image": null,
+                                "name": "8",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 226,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 506615,
+                                "image": null,
+                                "name": "12",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 43,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 506616,
+                                "image": null,
+                                "name": "16",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 10,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 924,
+                        "title": "Цвет",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 62305,
+                                "image": "https://static.uzum.uz/colors_filters/brown.png",
+                                "name": "Коричневый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 2,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62307,
+                                "image": "https://static.uzum.uz/colors_filters/red.png",
+                                "name": "Красный",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 12,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62309,
+                                "image": "https://static.uzum.uz/colors_filters/green.png",
+                                "name": "Зеленый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 28,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62315,
+                                "image": "https://static.uzum.uz/colors_filters/khaki.png",
+                                "name": "Хаки",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 3,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62316,
+                                "image": "https://static.uzum.uz/colors_filters/violet.png",
+                                "name": "Фиолетовый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 16,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62317,
+                                "image": "https://static.uzum.uz/colors_filters/pink.png",
+                                "name": "Розовый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 20,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62318,
+                                "image": "https://static.uzum.uz/colors_filters/yellow.png",
+                                "name": "Желтый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 2,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62319,
+                                "image": "https://static.uzum.uz/colors_filters/silver.png",
+                                "name": "Серебряный",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 41,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62320,
+                                "image": "https://static.uzum.uz/colors_filters/gray.png",
+                                "name": "Серый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 13,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62325,
+                                "image": "https://static.uzum.uz/colors_filters/white.png",
+                                "name": "Белый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 104,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62326,
+                                "image": "https://static.uzum.uz/colors_filters/black.png",
+                                "name": "Черный",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 122,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62328,
+                                "image": "https://static.uzum.uz/colors_filters/blue.png",
+                                "name": "Синий",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 67,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62330,
+                                "image": "https://static.uzum.uz/colors_filters/beige.png",
+                                "name": "Бежевый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 17,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62335,
+                                "image": "https://static.uzum.uz/colors_filters/azure.png",
+                                "name": "Голубой",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 28,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62337,
+                                "image": "https://static.uzum.uz/colors_filters/orange.png",
+                                "name": "Оранжевый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 36,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62338,
+                                "image": "https://static.uzum.uz/colors_filters/golden.png",
+                                "name": "Золотой",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 38,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 510800,
+                                "image": "https://static.uzum.uz/colors_filters/Color_Lilac.png",
+                                "name": "Сиреневый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 510801,
+                                "image": "https://static.uzum.uz/colors_filters/Color_Turquoise.png",
+                                "name": "Бирюзовый",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 13,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 1187,
+                        "title": "Бренд",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 94933,
+                                "image": null,
+                                "name": "Apple",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 209,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 92913,
+                                "image": null,
+                                "name": "APPLEONE",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 1,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 124373,
+                                "image": null,
+                                "name": "Mr. Apple",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 3,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 961,
+                        "title": "Страна производства",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 65933,
+                                "image": null,
+                                "name": "Американское Самоа",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 3,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 66032,
+                                "image": null,
+                                "name": "Китай",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 75,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 66088,
+                                "image": null,
+                                "name": "ОАЭ",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 12,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 66113,
+                                "image": null,
+                                "name": "США",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 186,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 66186,
+                                "image": null,
+                                "name": "ЮВА",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 5,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                },
+                {
+                    "filter": {
+                        "id": 929,
+                        "title": "Форм-фактор SIM",
+                        "type": "MULTIPLE_CHOICE",
+                        "measurementUnit": null,
+                        "__typename": "Filter"
+                    },
+                    "buckets": [
+                        {
+                            "filterValue": {
+                                "id": 62557,
+                                "image": null,
+                                "name": "eSIM",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 185,
+                            "__typename": "FacetBucket"
+                        },
+                        {
+                            "filterValue": {
+                                "id": 62556,
+                                "image": null,
+                                "name": "Nano-SIM",
+                                "__typename": "FilterValue"
+                            },
+                            "total": 230,
+                            "__typename": "FacetBucket"
+                        }
+                    ],
+                    "range": null,
+                    "__typename": "Facet"
+                }
+            ],
+            "fastFacets": [],
+            "total": 618,
+            "mayHaveAdultContent": true,
+            "categoryFullMatch": true,
+            "offerCategory": null,
+            "correctedQueryText": "",
+            "categoryWasPredicted": true,
+            "fastCategories": [],
+            "permanentLinkSeo": null,
+            "token": "",
+            "todayDealOfferSelectors": [],
+            "bannersV2": [],
+            "__typename": "MakeSearchResult"
+        }
+    }
+}

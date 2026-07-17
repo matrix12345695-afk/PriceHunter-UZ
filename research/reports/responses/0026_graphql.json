@@ -1,0 +1,1159 @@
+{
+    "data": {
+        "productPage": {
+            "installmentWidget": {
+                "title": "До 25 млн сум на покупки в рассрочку",
+                "titleColor": "#1F2026",
+                "subtitle": "Можно получить прямо сейчас",
+                "subtitleColor": "#4D4F59",
+                "icon": "https://static.uzum.uz/nasiya/Nasiya_Available_New.png",
+                "link": "uzum://nasiya",
+                "lockedIcon": null,
+                "userStatus": "UNAUTHORIZED",
+                "calculationsPairs": [
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 974 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 899 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 819 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "15 679 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028604,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 190 991 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "1 961 633 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 530 940 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 277 226 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394420,
+                        "isDefault": true
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 664 512 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 741 550 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 934 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 772 960 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394425,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 665 433 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 743 066 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 937 520 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 777 813 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028609,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 804 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 619 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 315 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "14 783 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028610,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 308 858 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 155 766 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 880 380 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 898 453 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394418,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 330 108 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 190 766 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 943 380 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "7 010 453 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394424,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 408 095 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 319 216 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 174 590 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "7 421 493 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028608,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 190 991 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "1 961 633 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 530 940 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 277 226 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394423,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "3 084 012 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "5 079 550 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "9 143 190 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "16 254 560 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028593,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "3 084 012 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "5 079 550 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "9 143 190 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "16 254 560 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028607,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 699 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 799 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 039 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 959 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028599,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 735 345 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 858 216 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 144 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "9 146 293 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394419,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 328 054 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 187 383 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 937 290 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 999 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028591,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 804 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 619 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 315 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "14 783 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028596,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 665 433 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 743 066 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 937 520 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 777 813 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028602,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 257 220 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 070 716 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 727 290 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 626 293 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028605,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 974 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 899 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 819 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "15 679 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028611,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 699 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 799 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 039 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 959 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028592,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 804 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 619 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 315 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "14 783 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028603,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 735 345 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 858 216 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 144 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "9 146 293 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394422,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 408 095 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 319 216 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 174 590 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "7 421 493 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028601,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 408 095 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 319 216 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "4 174 590 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "7 421 493 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028594,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "3 084 012 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "5 079 550 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "9 143 190 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "16 254 560 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028600,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 190 991 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "1 961 633 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 530 940 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 277 226 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394417,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 699 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 799 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 039 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "8 959 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028606,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 715 016 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 824 733 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "5 084 520 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "9 039 146 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028595,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "2 974 929 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "4 899 883 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "8 819 790 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "15 679 626 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028597,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 192 054 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "1 963 383 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 534 090 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 282 826 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7394421,
+                        "isDefault": false
+                    },
+                    {
+                        "calculations": [
+                            {
+                                "icon": null,
+                                "month": 24,
+                                "text": "1 257 220 сум",
+                                "title": "24 мес",
+                                "subText": "× 24 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 12,
+                                "text": "2 070 716 сум",
+                                "title": "12 мес",
+                                "subText": "× 12 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 6,
+                                "text": "3 727 290 сум",
+                                "title": "6 мес",
+                                "subText": "× 6 мес",
+                                "preselected": false
+                            },
+                            {
+                                "icon": null,
+                                "month": 3,
+                                "text": "6 626 293 сум",
+                                "title": "3 мес",
+                                "subText": "× 3 мес",
+                                "preselected": false
+                            }
+                        ],
+                        "skuId": 7028598,
+                        "isDefault": false
+                    }
+                ],
+                "promoInfo": null
+            }
+        }
+    }
+}
