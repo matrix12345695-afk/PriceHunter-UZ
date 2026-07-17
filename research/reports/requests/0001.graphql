@@ -1,0 +1,20 @@
+query Cart_Summary {
+  cart {
+    ...CartSummaryFragment
+    __typename
+  }
+}
+
+fragment CartSummaryFragment on CartItem {
+  amount
+  sku {
+    id
+    availableAmount
+    product {
+      id
+      __typename
+    }
+    __typename
+  }
+  __typename
+}

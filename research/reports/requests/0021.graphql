@@ -1,0 +1,16 @@
+query Cart_Summary {
+  cart {
+    ...CartFragment
+  }
+}
+
+fragment CartFragment on CartItem {
+  amount
+  sku {
+    id
+    availableAmount
+    product {
+      id
+    }
+  }
+}

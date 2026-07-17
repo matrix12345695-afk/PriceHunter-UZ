@@ -1,0 +1,31 @@
+query ProductPage($productId: Int!) {
+  productPage(id: $productId) {
+    installmentWidget {
+      title
+      titleColor
+      subtitle
+      subtitleColor
+      icon
+      link
+      lockedIcon
+      userStatus
+      calculationsPairs {
+        calculations {
+          icon
+          month
+          text
+          title
+          subText
+          preselected
+        }
+        skuId
+        isDefault
+      }
+      promoInfo {
+        backgroundColor
+        promoIcon
+        promoTitle
+      }
+    }
+  }
+}

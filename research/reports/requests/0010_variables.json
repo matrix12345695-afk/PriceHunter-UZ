@@ -1,0 +1,19 @@
+{
+    "queryInput": {
+        "text": "iphone",
+        "showAdultContent": "NONE",
+        "filters": [],
+        "sort": "BY_RELEVANCE_DESC",
+        "pagination": {
+            "offset": 0,
+            "limit": 48
+        },
+        "correctQuery": true,
+        "getFastCategories": true,
+        "fastCategoriesLimit": 11,
+        "fastCategoriesLevelOffset": 2,
+        "getPromotionItems": true,
+        "getFastFacets": false,
+        "fastFacetsLimit": 0
+    }
+}

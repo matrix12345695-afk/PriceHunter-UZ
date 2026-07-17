@@ -1,0 +1,18 @@
+query FeedbackPhotos($productPageId: Int!) {
+  productPage(id: $productPageId) {
+    feedbacksByPhotoInfo {
+      photosCount
+      photoInfos {
+        text
+        photo {
+          key
+          link(trans: PRODUCT_720) {
+            high
+            low
+            __typename
+          }
+        }
+      }
+    }
+  }
+}

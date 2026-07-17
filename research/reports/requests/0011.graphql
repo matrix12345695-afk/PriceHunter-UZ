@@ -1,0 +1,42 @@
+query MakeSearch_Categories($queryInput: MakeSearchQueryInput!) {
+  makeSearch(query: $queryInput) {
+    categoryTree {
+      category {
+        ...CategoryFragment
+        __typename
+      }
+      total
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment CategoryFragment on Category {
+  id
+  icon
+  parent {
+    id
+    __typename
+  }
+  seo {
+    header
+    metaTag
+    headerLocalized {
+      title_ru
+      title_uz
+      __typename
+    }
+    metaTagLocalized {
+      title_ru
+      title_uz
+      __typename
+    }
+    __typename
+  }
+  title
+  title_ru
+  title_uz
+  adult
+  __typename
+}

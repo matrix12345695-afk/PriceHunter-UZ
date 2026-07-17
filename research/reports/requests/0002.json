@@ -1,0 +1,17 @@
+{
+    "id": 2,
+    "method": "GET",
+    "url": "https://cdn.growthbook.io/api/features/sdk-Ndq9uu11eUCoTda",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uzum.uz/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "body": null,
+    "content_type": "",
+    "protocol": "REST",
+    "score": 10
+}
