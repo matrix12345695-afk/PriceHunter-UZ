@@ -1,0 +1,18 @@
+services:
+  - type: worker
+    name: pricehunter-uz
+    runtime: docker
+
+    plan: free
+
+    autoDeploy: true
+
+    healthCheckPath: /
+
+    envVars:
+
+      - key: BOT_TOKEN
+        sync: false
+
+      - key: DATABASE_URL
+        sync: false
