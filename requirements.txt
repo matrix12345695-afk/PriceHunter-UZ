@@ -31,3 +31,5 @@ aiofiles
 uvloop; platform_system != "Windows"
 
 typer>=0.16
+
+httpx[http2]
