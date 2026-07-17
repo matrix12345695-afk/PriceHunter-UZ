@@ -1,0 +1,25 @@
+{
+    "time": "2026-07-17T13:46:16.307212",
+    "method": "GET",
+    "url": "https://www.facebook.com/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&rl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&if=false&ts=1784277976297&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5f95184a967c6dcd2b29f1d56d76d9241751563e9f568d616a4bafffab3b0bdb&cs_est=true&ler=empty&cdl=API_unavailable&plt=7283.5&tz=300&it=1784277975913&coo=false&up_url=query&rlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&rqm=GET",
+    "headers": {
+        ":authority": "www.facebook.com",
+        ":method": "GET",
+        ":path": "/tr/?id=639391844420533&ev=PageView&dl=https%3A%2F%2Fuzum.uz%2Fru%2Fproduct%2Fiphone-17-propro-serebryanyj---4-1983388%3FskuId%3D7394423&rl=https%3A%2F%2Fuzum.uz%2Fru%2Fsearch%3Fquery%3D_removed_%26needsCorrection%3D1&if=false&ts=1784277976297&iw=false&sw=1280&sh=720&v=2.9.356&r=stable&ec=0&o=4125&aems=0%3B0&fbp=fb.1.1784277916227.502397915949546832&eid=ob3_plugin-set_5f95184a967c6dcd2b29f1d56d76d9241751563e9f568d616a4bafffab3b0bdb&cs_est=true&ler=empty&cdl=API_unavailable&plt=7283.5&tz=300&it=1784277975913&coo=false&up_url=query&rlc=1&cf=1&expv2[0]=pl1&expv2[1]=el2&expv2[2]=bc1&expv2[3]=ra0&expv2[4]=rp0&expv2[5]=im1&expv2[6]=hf1&rqm=GET",
+        ":scheme": "https",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "image",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}

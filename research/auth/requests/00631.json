@@ -1,0 +1,26 @@
+{
+    "time": "2026-07-17T13:46:16.176106",
+    "method": "GET",
+    "url": "https://uzum.uz/_nuxt/nasiya.DPxPMwSk.js",
+    "headers": {
+        ":authority": "uzum.uz",
+        ":method": "GET",
+        ":path": "/_nuxt/nasiya.DPxPMwSk.js",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "cookie": "clickstream-client.installId=%22199a9bd7-95f9-4afa-a495-2b2b3af17eae%22; _gcl_au=1.1.2044243736.1784277916; _ga=GA1.1.1468174730.1784277916; _fbp=fb.1.1784277916227.502397915949546832; access_token=eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg; _yasc=l2/uu794bwCcHGf2yXGPA8BKJXKGUrbbmeqVNVHKH1yZF2cCw8ZZR4njh0KY1eWsxGw0NNk=; city-longitude=69.29944; city-latitude=41.379112; city-id=1; i18n_redirected=ru; _ga_7KCSSWWYYD=GS2.1.s1784277915$o1$g1$t1784277975$j60$l0$h501457304; _ga_EZ8RKY9S93=GS2.1.s1784277915$o1$g1$t1784277975$j60$l0$h0",
+        "origin": "https://uzum.uz",
+        "priority": "u=1",
+        "referer": "https://uzum.uz/_nuxt/entry.Dbfr2w7A.js",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "script",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-origin",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": null
+}

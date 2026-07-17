@@ -1,0 +1,28 @@
+{
+    "time": "2026-07-17T13:46:16.305877",
+    "method": "POST",
+    "url": "https://fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws/events?cee=no",
+    "headers": {
+        ":authority": "fh-118116076e9a4c2a96a99fbb70bea2a0.ecs.us-west-2.on.aws",
+        ":method": "POST",
+        ":path": "/events?cee=no",
+        ":scheme": "https",
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "ru-RU,ru;q=0.9",
+        "content-length": "542",
+        "content-type": "text/plain;charset=UTF-8",
+        "origin": "https://uzum.uz",
+        "priority": "u=1, i",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "cross-site",
+        "sec-fetch-storage-access": "active",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"event_name\":\"PageView\",\"event_id\":\"ob3_plugin-set_5f95184a967c6dcd2b29f1d56d76d9241751563e9f568d616a4bafffab3b0bdb\",\"fb.pixel_id\":\"639391844420533\",\"website_context\":{\"location\":\"https://uzum.uz/ru/product/iphone-17-propro-serebryanyj---4-1983388?skuId=7394423\",\"referrer\":\"https://uzum.uz/ru/search?query=iphone&needsCorrection=1\",\"isInIFrame\":false},\"fb.fbp\":\"fb.1.1784277916227.502397915949546832\",\"event_meta_info\":{\"experiment_detail\":{\"name\":\"experiment_flow_vs_cbsdk\",\"is_exposed\":true,\"is_in_control\":false,\"is_in_treatment\":true}}}"
+}
