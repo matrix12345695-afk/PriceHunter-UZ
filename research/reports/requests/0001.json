@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "method": "POST",
+    "url": "https://id.uzum.uz/api/auth/token",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer",
+        "referer": "https://uzum.uz/",
+        "accept-language": "ru",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "content-type": "application/json"
+    },
+    "body": null,
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}
