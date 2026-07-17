@@ -1,0 +1,24 @@
+{
+    "id": 94,
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/events",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg",
+        "access-content-allow-origin": "*",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-experiments": "",
+        "x-requested-with": "clickstream",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "version": "3.6.1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"events\":[{\"time_zone\":\"Asia/Tashkent\",\"timestamp\":1784277979457,\"event_properties\":{\"event_type\":\"SKU_VIEW\",\"event_parameters\":{\"product_id\":1983388,\"sku_id\":7394423,\"category_id\":15272,\"full_price\":27000000,\"sell_price\":16814000,\"is_low_price\":true,\"stock_type\":\"FBS\",\"quantity_in_stock\":26,\"delivery_date_shown\":\"Доставим 22 июля\"}},\"ui_properties\":{\"space\":{\"name\":\"PRODUCT\",\"type\":\"PAGE\",\"view_id\":\"129c0ede-e5e1-483a-8729-260aa334ca5d\",\"screen_size\":\"1280:720\"},\"action\":\"SHOW\"},\"is_interactive\":true}],\"device_properties\":{\"screen_resolution\":\"1280:720\",\"os_name\":\"Windows\",\"os_version\":\"10\",\"device_type\":\"DESKTOP\",\"device_locale\":\"ru-RU\",\"device_timezone\":\"Asia/Tashkent\",\"platform\":\"WEB\"},\"user_properties\":{\"googleCid\":\"GA1.1.1468174730.1784277916\",\"muid\":\"\",\"language\":\"ru\",\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"1.203.0\",\"package_name\":\"b2c-frontend-ssr\",\"sdk_version\":\"3.6.1\"}}",
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}

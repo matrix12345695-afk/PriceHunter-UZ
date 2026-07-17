@@ -1,0 +1,70 @@
+query Feedbacks($productPageId: Int!, $trans: Transformation!, $filters: [FeedbackFilterType!], $page: Int!, $size: Int!, $sort: FeedbackSortType!) {
+  productPage(id: $productPageId) {
+    sortedFeedbacks(filters: $filters, page: $page, size: $size, sort: $sort) {
+      feedbacks {
+        anonymous
+        cons
+        content
+        customerName
+        dateCreated
+        datePublished
+        id
+        photos {
+          key
+          link(trans: $trans) {
+            high
+            low
+          }
+          original {
+            high
+            low
+          }
+        }
+        pros
+        rating
+        reply {
+          content
+          dateCreated
+          id
+          shop {
+            avatar {
+              high
+              low
+            }
+            feedbackQuantity
+            id
+            ordersQuantity
+            rating
+            seller {
+              accountId
+              legalRecords {
+                name
+                value
+              }
+            }
+            title
+            url
+          }
+        }
+        sku {
+          id
+          fullPrice
+          characteristicValues {
+            characteristic {
+              id
+              title
+              type
+            }
+            id
+            photo {
+              key
+            }
+            title
+            value
+          }
+          sellPrice
+        }
+      }
+    }
+  }
+}

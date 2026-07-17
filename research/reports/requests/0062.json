@@ -1,0 +1,25 @@
+{
+    "id": 62,
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "access-content-allow-origin": "*",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "baggage": "sentry-environment=production,sentry-release=uzum-market%401.63.2,sentry-public_key=948fdc05a99a018e8d3ab003bee4b5a3,sentry-trace_id=1f2911fce21a4442a4c6cb0c35b79275,sentry-sample_rate=0.01,sentry-transaction=search,sentry-sampled=false",
+        "sentry-trace": "1f2911fce21a4442a4c6cb0c35b79275-8f388e7172d69d95-0",
+        "x-experiments": "",
+        "x-requested-with": "clickstream",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "version": "3.2.4",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"events\":[{\"timestamp\":1784277961794,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":1298,\"request_url\":\"https://graphql.uzum.uz/\",\"code\":\"200\",\"url\":\"https://uzum.uz/ru/search\",\"method\":\"POST\",\"metric_name\":\"IO_LATENCY\"}}],\"device_properties\":{\"platform\":\"WEB\",\"browser\":\"Chrome\",\"browser_version\":\"138.0.0.0\",\"os_name\":\"Windows\",\"os_version\":\"10\"},\"user_properties\":{\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"0.22.13\",\"package_name\":\"uzum/customers-header\",\"sdk_version\":\"3.2.4\"}}",
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}

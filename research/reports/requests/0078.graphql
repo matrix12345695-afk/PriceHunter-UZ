@@ -1,0 +1,9 @@
+query GetTabs($productId: Int!) {
+  product(id: $productId) {
+    comments {
+      commentType
+      type
+      value
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 95,
+    "method": "POST",
+    "url": "https://sentry.infra.cluster.daymarket.uz/api/7/envelope/?sentry_key=948fdc05a99a018e8d3ab003bee4b5a3&sentry_version=7&sentry_client=sentry.javascript.vue%2F8.36.0",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://uzum.uz/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "content-type": "text/plain;charset=UTF-8",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "body": "{}\n{\"type\":\"client_report\"}\n{\"timestamp\":1784277980.517,\"discarded_events\":[{\"reason\":\"sample_rate\",\"category\":\"error\",\"quantity\":3},{\"reason\":\"sample_rate\",\"category\":\"transaction\",\"quantity\":2},{\"reason\":\"sample_rate\",\"category\":\"span\",\"quantity\":1}]}",
+    "content_type": "text/plain;charset=UTF-8",
+    "protocol": "REST",
+    "score": 10
+}

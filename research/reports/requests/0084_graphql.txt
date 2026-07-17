@@ -1,0 +1,1 @@
+{"operationName":"Cart_Summary","variables":{},"query":"query Cart_Summary {\n  cart {\n    ...CartFragment\n  }\n}\n\nfragment CartFragment on CartItem {\n  amount\n  sku {\n    id\n    availableAmount\n    product {\n      id\n    }\n  }\n}"}

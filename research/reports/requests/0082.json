@@ -1,0 +1,28 @@
+{
+    "id": 82,
+    "method": "POST",
+    "url": "https://graphql.uzum.uz/",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg",
+        "city-longitude": "69.29944",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "accept": "*/*",
+        "apollographql-client-version": "1.34.6",
+        "content-type": "application/json",
+        "apollographql-client-name": "web-customers",
+        "city-id": "1",
+        "x-context": "null",
+        "x-iid": "199a9bd7-95f9-4afa-a495-2b2b3af17eae",
+        "referer": "https://uzum.uz/",
+        "accept-language": "ru",
+        "city-latitude": "41.379112",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"operationName\":\"Feedbacks\",\"variables\":{\"productPageId\":1983388,\"page\":0,\"size\":4,\"sort\":\"RELEVANCE\",\"filters\":[],\"trans\":\"PRODUCT_720\"},\"query\":\"query Feedbacks($productPageId: Int!, $trans: Transformation!, $filters: [FeedbackFilterType!], $page: Int!, $size: Int!, $sort: FeedbackSortType!) {\\n  productPage(id: $productPageId) {\\n    sortedFeedbacks(filters: $filters, page: $page, size: $size, sort: $sort) {\\n      feedbacks {\\n        anonymous\\n        cons\\n        content\\n        customerName\\n        dateCreated\\n        datePublished\\n        id\\n        photos {\\n          key\\n          link(trans: $trans) {\\n            high\\n            low\\n          }\\n          original {\\n            high\\n            low\\n          }\\n        }\\n        pros\\n        rating\\n        reply {\\n          content\\n          dateCreated\\n          id\\n          shop {\\n            avatar {\\n              high\\n              low\\n            }\\n            feedbackQuantity\\n            id\\n            ordersQuantity\\n            rating\\n            seller {\\n              accountId\\n              legalRecords {\\n                name\\n                value\\n              }\\n            }\\n            title\\n            url\\n          }\\n        }\\n        sku {\\n          id\\n          fullPrice\\n          characteristicValues {\\n            characteristic {\\n              id\\n              title\\n              type\\n            }\\n            id\\n            photo {\\n              key\\n            }\\n            title\\n            value\\n          }\\n          sellPrice\\n        }\\n      }\\n    }\\n  }\\n}\"}",
+    "content_type": "application/json",
+    "protocol": "GRAPHQL",
+    "score": 10
+}

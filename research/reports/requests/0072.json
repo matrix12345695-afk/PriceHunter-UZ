@@ -1,0 +1,24 @@
+{
+    "id": 72,
+    "method": "POST",
+    "url": "https://customer-resources.uzum.uz/api/analytics/v2/system/performance",
+    "resource_type": "fetch",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "authorization": "Bearer eyJraWQiOiIwcE9oTDBBVXlWSXF1V0w1U29NZTdzcVNhS2FqYzYzV1N5THZYb0ZhWXRNIiwiYWxnIjoiRWREU0EiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJVenVtIElEIiwiaWF0IjoxNzg0Mjc3OTE2LCJzdWIiOiI5OTI4NDBlYy05ZmU5LTQzYzgtYWNlMy0wNTM4NWJhZjI1Y2YiLCJhdWQiOlsidXp1bV9hcHBzIiwibWFya2V0L3dlYiJdLCJldmVudHMiOnt9LCJleHAiOjE3ODQyOTk1MTZ9.Yvk360oQQuU50ZpWbLEwUW1uTJi9W0p5H4s11AK8BZ8Cv0ZpFTV7U9N4rvB_Cu1Krj2KSsrYl0avTO6Yhm34Bg",
+        "access-content-allow-origin": "*",
+        "referer": "https://uzum.uz/",
+        "sec-ch-ua": "\"Not/A)Brand\";v=\"99\", \"Chromium\";v=\"148\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-experiments": "",
+        "x-requested-with": "clickstream",
+        "accept": "application/json",
+        "content-type": "application/json",
+        "version": "3.6.1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    "body": "{\"events\":[{\"timestamp\":1784277975781,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":2280,\"url\":\"/ru/product/{url}\",\"navigation_type\":\"navigate\",\"id\":\"v5-1784277975693-9513138811088\",\"delta\":2280,\"rating\":\"needs-improvement\",\"target\":\"\",\"metric_name\":\"PERFORMANCE_FCP\"}},{\"timestamp\":1784277975782,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":8,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://static.uzum.uz/baner/gnc1405.png\",\"protocol\":\"h2\",\"size\":0,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975782,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":8,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://static.uzum.uz/market/badge-icons/verified.png\",\"protocol\":\"h2\",\"size\":0,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975782,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":963,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3d560d2lln30qq4660g/t_product_240_high.jpg\",\"protocol\":\"h2\",\"size\":17614,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975782,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":985,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3d55sq1146soq7c3pl0/t_product_240_high.jpg\",\"protocol\":\"h2\",\"size\":15406,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975782,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":989,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3d55v52lln30qq46600/t_product_240_high.jpg\",\"protocol\":\"h2\",\"size\":16184,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975783,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":145,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3a61vq1146g78h3jhhg/original.jpg\",\"protocol\":\"h2\",\"size\":113180,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975783,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":151,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3a622d2lln52upubpe0/original.jpg\",\"protocol\":\"h2\",\"size\":124138,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975783,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":971,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3a62dtr1spqpknjg0a0/original.jpg\",\"protocol\":\"h2\",\"size\":336922,\"metric_name\":\"PERFORMANCE_RESOURCE\"}},{\"timestamp\":1784277975783,\"time_zone\":\"Asia/Tashkent\",\"event_parameters\":{\"metric_unit\":\"MS\",\"metric_measure\":1031,\"url\":\"/ru/product/{url}\",\"type\":\"img\",\"name\":\"https://images.uzum.uz/d3a62bd2lln52upubpeg/original.jpg\",\"protocol\":\"h2\",\"size\":418274,\"metric_name\":\"PERFORMANCE_RESOURCE\"}}],\"device_properties\":{\"platform\":\"WEB\",\"browser\":\"Chrome\",\"browser_version\":\"138.0.0.0\",\"os_name\":\"Windows\",\"os_version\":\"10\"},\"user_properties\":{\"install_id\":\"199a9bd7-95f9-4afa-a495-2b2b3af17eae\"},\"app_properties\":{\"app_version\":\"1.203.0\",\"package_name\":\"b2c-frontend-ssr\",\"sdk_version\":\"3.6.1\"}}",
+    "content_type": "application/json",
+    "protocol": "REST",
+    "score": 10
+}

@@ -1,0 +1,1 @@
+{"operationName":"GetTabs","variables":{"productId":1983388},"query":"query GetTabs($productId: Int!) {\n  product(id: $productId) {\n    comments {\n      commentType\n      type\n      value\n    }\n  }\n}"}
