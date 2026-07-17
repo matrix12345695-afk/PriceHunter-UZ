@@ -1,7 +1,5 @@
 from __future__ import annotations
 
-from aiogram.client.default import DefaultBotProperties
-
 from app.bot.bot import bot
 from app.core.logger import logger
 from app.core.settings import settings
