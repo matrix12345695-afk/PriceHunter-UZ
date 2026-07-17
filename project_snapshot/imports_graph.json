@@ -1,0 +1,677 @@
+{
+    "alembic\\env.py": [
+        "logging.config.fileConfig",
+        "sqlalchemy.engine.Connection",
+        "alembic.context",
+        "app.core.settings.settings",
+        "app.database.base.Base",
+        "app.models.store.Store",
+        "app.models.product.Product",
+        "app.models.price.Price",
+        "app.models.subscription.Subscription",
+        "ssl",
+        "sqlalchemy.ext.asyncio.create_async_engine",
+        "sqlalchemy.pool",
+        "asyncio"
+    ],
+    "alembic\\versions\\246c1ec2f83d_create_subscriptions.py": [
+        "typing.Sequence",
+        "typing.Union",
+        "alembic.op",
+        "sqlalchemy"
+    ],
+    "alembic\\versions\\86e54f289b8d_init_database.py": [
+        "typing.Sequence",
+        "typing.Union",
+        "alembic.op",
+        "sqlalchemy"
+    ],
+    "app\\bot\\bot.py": [
+        "aiogram.Bot",
+        "aiogram.client.default.DefaultBotProperties",
+        "aiogram.enums.ParseMode",
+        "app.core.settings.settings"
+    ],
+    "app\\bot\\callbacks\\product.py": [
+        "aiogram.filters.callback_data.CallbackData"
+    ],
+    "app\\bot\\dispatcher.py": [
+        "aiogram.Dispatcher",
+        "app.bot.handlers.start.router",
+        "app.bot.handlers.search.router",
+        "app.bot.handlers.product.router",
+        "app.bot.handlers.navigation.router"
+    ],
+    "app\\bot\\handlers\\navigation.py": [
+        "__future__.annotations",
+        "aiogram.Router",
+        "aiogram.types.CallbackQuery",
+        "loguru.logger",
+        "app.bot.callbacks.product.NavigationCallback",
+        "app.bot.keyboards.main_menu.main_menu_keyboard"
+    ],
+    "app\\bot\\handlers\\product.py": [
+        "__future__.annotations",
+        "aiogram.Router",
+        "aiogram.types.CallbackQuery",
+        "loguru.logger",
+        "app.bot.callbacks.product.ProductCallback",
+        "app.bot.keyboards.product.product_keyboard",
+        "app.bot.states.search.SearchState",
+        "app.bot.utils.product_formatter.format_product",
+        "app.database.session.AsyncSessionLocal",
+        "app.services.search_service.SearchService"
+    ],
+    "app\\bot\\handlers\\search.py": [
+        "__future__.annotations",
+        "aiogram.F",
+        "aiogram.Router",
+        "aiogram.fsm.context.FSMContext",
+        "aiogram.types.Message",
+        "loguru.logger",
+        "app.bot.keyboards.product.product_keyboard",
+        "app.bot.states.search.SearchState",
+        "app.bot.utils.product_formatter.format_product",
+        "app.database.session.AsyncSessionLocal",
+        "app.services.search_service.SearchService"
+    ],
+    "app\\bot\\handlers\\start.py": [
+        "aiogram.Router",
+        "aiogram.filters.CommandStart",
+        "aiogram.types.Message",
+        "app.bot.keyboards.main_menu.main_menu"
+    ],
+    "app\\bot\\keyboards\\main_menu.py": [
+        "aiogram.types.KeyboardButton",
+        "aiogram.types.ReplyKeyboardMarkup"
+    ],
+    "app\\bot\\keyboards\\navigation.py": [
+        "aiogram.types.InlineKeyboardButton",
+        "aiogram.types.InlineKeyboardMarkup"
+    ],
+    "app\\bot\\keyboards\\product.py": [
+        "__future__.annotations",
+        "aiogram.types.InlineKeyboardButton",
+        "aiogram.types.InlineKeyboardMarkup",
+        "app.bot.callbacks.product.CompareCallback",
+        "app.bot.callbacks.product.FavoriteCallback",
+        "app.bot.callbacks.product.HistoryCallback",
+        "app.bot.callbacks.product.NavigationCallback",
+        "app.bot.callbacks.product.ProductCallback",
+        "app.bot.callbacks.product.SubscribeCallback"
+    ],
+    "app\\bot\\states\\search.py": [
+        "aiogram.fsm.state.State",
+        "aiogram.fsm.state.StatesGroup"
+    ],
+    "app\\bot\\utils\\product_formatter.py": [
+        "__future__.annotations",
+        "app.models.product.Product"
+    ],
+    "app\\core\\http.py": [
+        "__future__.annotations",
+        "httpx"
+    ],
+    "app\\core\\logger.py": [
+        "pathlib.Path",
+        "sys",
+        "loguru.logger",
+        "app.core.settings.settings"
+    ],
+    "app\\core\\settings.py": [
+        "functools.lru_cache",
+        "pydantic.Field",
+        "pydantic_settings.BaseSettings",
+        "pydantic_settings.SettingsConfigDict"
+    ],
+    "app\\database\\base.py": [
+        "sqlalchemy.orm.DeclarativeBase"
+    ],
+    "app\\database\\crud\\user.py": [
+        "sqlalchemy.select",
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "app.database.models.user.User"
+    ],
+    "app\\database\\init_db.py": [
+        "app.core.logger.get_logger",
+        "app.database.base.Base",
+        "app.database.session.engine",
+        "app.database.models.*"
+    ],
+    "app\\database\\session.py": [
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "sqlalchemy.ext.asyncio.async_sessionmaker",
+        "sqlalchemy.ext.asyncio.create_async_engine",
+        "app.core.settings.settings"
+    ],
+    "app\\domain\\product_dto.py": [
+        "dataclasses.dataclass"
+    ],
+    "app\\extractors\\base.py": [
+        "abc.ABC",
+        "abc.abstractmethod",
+        "bs4.BeautifulSoup",
+        "app.domain.product_dto.ProductDTO"
+    ],
+    "app\\extractors\\olcha.py": [
+        "bs4.BeautifulSoup",
+        "app.domain.product_dto.ProductDTO",
+        "app.extractors.base.BaseExtractor"
+    ],
+    "app\\main.py": [
+        "asyncio",
+        "typer",
+        "loguru.logger",
+        "app.database.database.AsyncSessionLocal",
+        "app.providers.olcha.OlchaProvider",
+        "app.services.sync_service.SyncService"
+    ],
+    "app\\models\\price.py": [
+        "datetime.datetime",
+        "sqlalchemy.DateTime",
+        "sqlalchemy.ForeignKey",
+        "sqlalchemy.Integer",
+        "sqlalchemy.String",
+        "sqlalchemy.orm.Mapped",
+        "sqlalchemy.orm.mapped_column",
+        "sqlalchemy.orm.relationship",
+        "app.database.base.Base"
+    ],
+    "app\\models\\product.py": [
+        "__future__.annotations",
+        "sqlalchemy.ForeignKey",
+        "sqlalchemy.String",
+        "sqlalchemy.orm.Mapped",
+        "sqlalchemy.orm.mapped_column",
+        "sqlalchemy.orm.relationship",
+        "app.database.base.Base"
+    ],
+    "app\\models\\store.py": [
+        "sqlalchemy.String",
+        "sqlalchemy.orm.Mapped",
+        "sqlalchemy.orm.mapped_column",
+        "sqlalchemy.orm.relationship",
+        "app.database.base.Base"
+    ],
+    "app\\models\\subscription.py": [
+        "datetime.datetime",
+        "sqlalchemy.BigInteger",
+        "sqlalchemy.Boolean",
+        "sqlalchemy.DateTime",
+        "sqlalchemy.ForeignKey",
+        "sqlalchemy.Integer",
+        "sqlalchemy.orm.Mapped",
+        "sqlalchemy.orm.mapped_column",
+        "sqlalchemy.orm.relationship",
+        "app.database.base.Base"
+    ],
+    "app\\parsers\\base_browser.py": [
+        "abc.ABC",
+        "abc.abstractmethod",
+        "playwright.async_api.async_playwright"
+    ],
+    "app\\parsers\\base_http.py": [
+        "abc.ABC",
+        "abc.abstractmethod",
+        "httpx"
+    ],
+    "app\\parsers\\manager.py": [
+        "app.parsers.providers.olcha_http.OlchaHttpParser",
+        "app.parsers.providers.olcha_browser.OlchaBrowserParser"
+    ],
+    "app\\parsers\\providers\\olcha_browser.py": [
+        "app.parsers.base_browser.BaseBrowserParser"
+    ],
+    "app\\parsers\\providers\\olcha_http.py": [
+        "bs4.BeautifulSoup",
+        "app.extractors.olcha.OlchaExtractor",
+        "app.parsers.base_http.BaseHttpParser"
+    ],
+    "app\\providers\\__init__.py": [
+        "__future__.annotations",
+        "app.providers.graphql.GraphQLClient",
+        "search.UzumSearch"
+    ],
+    "app\\providers\\base.py": [
+        "__future__.annotations",
+        "abc.ABC",
+        "abc.abstractmethod",
+        "app.domain.product_dto.ProductDTO"
+    ],
+    "app\\providers\\graphql\\__init__.py": [],
+    "app\\providers\\graphql\\loader.py": [
+        "__future__.annotations",
+        "pathlib.Path"
+    ],
+    "app\\providers\\graphql.py": [
+        "__future__.annotations",
+        "typing.Any",
+        "httpx"
+    ],
+    "app\\providers\\olcha.py": [
+        "__future__.annotations",
+        "app.core.http.http",
+        "app.domain.product_dto.ProductDTO",
+        "app.providers.base.BaseProvider"
+    ],
+    "app\\providers\\queries.py": [
+        "__future__.annotations",
+        "pathlib.Path"
+    ],
+    "app\\providers\\search.py": [
+        "__future__.annotations",
+        "typing.Any",
+        "graphql.GraphQLClient",
+        "queries.SEARCH_QUERY"
+    ],
+    "app\\providers\\uzum.py": [
+        "__future__.annotations",
+        "pathlib.Path",
+        "typing.Any",
+        "graphql.GraphQLClient"
+    ],
+    "app\\repositories\\__init__.py": [
+        "store_repository.StoreRepository",
+        "product_repository.ProductRepository",
+        "price_repository.PriceRepository"
+    ],
+    "app\\repositories\\base.py": [
+        "typing.Any",
+        "sqlalchemy.select",
+        "sqlalchemy.ext.asyncio.AsyncSession"
+    ],
+    "app\\repositories\\price_repository.py": [
+        "sqlalchemy.desc",
+        "sqlalchemy.select",
+        "app.models.price.Price",
+        "app.repositories.base.BaseRepository"
+    ],
+    "app\\repositories\\product_repository.py": [
+        "sqlalchemy.select",
+        "app.models.product.Product",
+        "app.repositories.base.BaseRepository"
+    ],
+    "app\\repositories\\store_repository.py": [
+        "sqlalchemy.select",
+        "app.models.store.Store",
+        "app.repositories.base.BaseRepository"
+    ],
+    "app\\repositories\\subscription_repository.py": [
+        "sqlalchemy.select",
+        "sqlalchemy.update",
+        "app.models.subscription.Subscription",
+        "app.repositories.base.BaseRepository"
+    ],
+    "app\\services\\history_service.py": [
+        "__future__.annotations",
+        "statistics.mean",
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "app.models.product.Product",
+        "app.models.price.Price",
+        "app.repositories.price_repository.PriceRepository"
+    ],
+    "app\\services\\marketplace_manager.py": [
+        "__future__.annotations",
+        "asyncio",
+        "app.domain.product_dto.ProductDTO",
+        "app.providers.base.BaseProvider",
+        "app.providers.olcha.OlchaProvider"
+    ],
+    "app\\services\\search_engine.py": [],
+    "app\\services\\search_service.py": [
+        "__future__.annotations",
+        "loguru.logger",
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "app.models.product.Product",
+        "app.repositories.product_repository.ProductRepository",
+        "app.services.marketplace_manager.MarketplaceManager",
+        "app.services.sync_service.SyncService"
+    ],
+    "app\\services\\subscription_service.py": [
+        "__future__.annotations",
+        "loguru.logger",
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "app.models.subscription.Subscription",
+        "app.repositories.product_repository.ProductRepository",
+        "app.repositories.subscription_repository.SubscriptionRepository"
+    ],
+    "app\\services\\sync_service.py": [
+        "__future__.annotations",
+        "dataclasses.dataclass",
+        "loguru.logger",
+        "sqlalchemy.ext.asyncio.AsyncSession",
+        "app.domain.product_dto.ProductDTO",
+        "app.models.price.Price",
+        "app.models.product.Product",
+        "app.models.store.Store",
+        "app.providers.olcha.OlchaProvider",
+        "app.repositories.price_repository.PriceRepository",
+        "app.repositories.product_repository.ProductRepository",
+        "app.repositories.store_repository.StoreRepository"
+    ],
+    "app\\test_uzum.py": [
+        "__future__.annotations",
+        "asyncio",
+        "json",
+        "app.providers.uzum.UzumProvider"
+    ],
+    "app\\workers\\monitor.py": [],
+    "research\\api_explorer.py": [
+        "__future__.annotations",
+        "argparse",
+        "asyncio",
+        "logging",
+        "sys",
+        "toolkit.explorer.Explorer"
+    ],
+    "research\\api_probe.py": [
+        "asyncio",
+        "httpx"
+    ],
+    "research\\capture_suggestion.py": [
+        "asyncio",
+        "json",
+        "pathlib.Path",
+        "playwright.async_api.async_playwright"
+    ],
+    "research\\debug_search.py": [
+        "asyncio",
+        "playwright.async_api.async_playwright"
+    ],
+    "research\\html_inspector.py": [
+        "pathlib.Path",
+        "bs4.BeautifulSoup"
+    ],
+    "research\\network_probe.py": [
+        "asyncio",
+        "json",
+        "playwright.async_api.async_playwright"
+    ],
+    "research\\olcha_browser_probe.py": [
+        "asyncio",
+        "pathlib.Path",
+        "playwright.async_api.async_playwright"
+    ],
+    "research\\olcha_probe.py": [
+        "asyncio",
+        "pathlib.Path",
+        "httpx",
+        "bs4.BeautifulSoup"
+    ],
+    "research\\test_api.py": [
+        "asyncio",
+        "httpx"
+    ],
+    "research\\test_provider.py": [
+        "asyncio",
+        "app.providers.olcha.OlchaProvider"
+    ],
+    "research\\toolkit\\__init__.py": [],
+    "research\\toolkit\\capture\\cookies.py": [
+        "__future__.annotations",
+        "json",
+        "logging",
+        "pathlib.Path",
+        "playwright.async_api.Page",
+        "config.COOKIE_DIR",
+        "utils.ensure_directory",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\graphql.py": [
+        "__future__.annotations",
+        "json",
+        "logging",
+        "playwright.async_api.Request",
+        "playwright.async_api.Response",
+        "config.REQUEST_DIR",
+        "models.GraphQLOperation",
+        "models.Protocol",
+        "utils.ensure_directory",
+        "utils.save_json",
+        "utils.save_text",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\html.py": [
+        "__future__.annotations",
+        "logging",
+        "playwright.async_api.Page",
+        "config.HTML_DIR",
+        "utils.ensure_directory",
+        "utils.save_text",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\manager.py": [
+        "__future__.annotations",
+        "asyncio",
+        "logging",
+        "playwright.async_api.BrowserContext",
+        "playwright.async_api.Page",
+        "playwright.async_api.Request",
+        "playwright.async_api.Response",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\plugin.py": [
+        "__future__.annotations",
+        "abc.ABC",
+        "abc.abstractmethod",
+        "playwright.async_api.BrowserContext",
+        "playwright.async_api.Page",
+        "playwright.async_api.Request",
+        "playwright.async_api.Response"
+    ],
+    "research\\toolkit\\capture\\request.py": [
+        "__future__.annotations",
+        "json",
+        "logging",
+        "pathlib.Path",
+        "playwright.async_api.Request",
+        "models.Protocol",
+        "models.RequestInfo",
+        "filters.get_score",
+        "filters.is_interesting_request",
+        "utils.ensure_directory",
+        "utils.save_json",
+        "utils.save_text",
+        "config.REQUEST_DIR",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\response.py": [
+        "__future__.annotations",
+        "json",
+        "logging",
+        "pathlib.Path",
+        "typing.Any",
+        "playwright.async_api.Response",
+        "config.HTML_DIR",
+        "config.MAX_BODY_SIZE",
+        "config.RESPONSE_DIR",
+        "filters.is_interesting_request",
+        "models.Protocol",
+        "models.ResponseInfo",
+        "utils.ensure_directory",
+        "utils.save_json",
+        "utils.save_text",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\capture\\screenshot.py": [
+        "__future__.annotations",
+        "logging",
+        "playwright.async_api.Page",
+        "config.SCREENSHOT_DIR",
+        "utils.ensure_directory",
+        "plugin.CapturePlugin"
+    ],
+    "research\\toolkit\\config.py": [
+        "pathlib.Path"
+    ],
+    "research\\toolkit\\explorer.py": [
+        "__future__.annotations",
+        "asyncio",
+        "logging",
+        "typing.Optional",
+        "playwright.async_api.Browser",
+        "playwright.async_api.BrowserContext",
+        "playwright.async_api.Page",
+        "playwright.async_api.async_playwright",
+        "config.HEADLESS",
+        "config.USER_AGENT",
+        "config.BROWSER_TIMEOUT",
+        "config.WAIT_AFTER_LOAD",
+        "capture.manager.CaptureManager",
+        "capture.request.RequestCapture",
+        "capture.response.ResponseCapture",
+        "capture.graphql.GraphQLCapture",
+        "capture.html.HtmlCapture",
+        "capture.screenshot.ScreenshotCapture",
+        "capture.cookies.CookieCapture"
+    ],
+    "research\\toolkit\\filters.py": [
+        "urllib.parse.urlparse",
+        "config.ALLOWED_RESOURCE_TYPES",
+        "config.IGNORE_DOMAINS",
+        "config.INTERESTING_KEYWORDS"
+    ],
+    "research\\toolkit\\intelligence\\classifier.py": [
+        "__future__.annotations",
+        "dataclasses.dataclass",
+        "enum.Enum",
+        "re"
+    ],
+    "research\\toolkit\\intelligence\\detector.py": [
+        "__future__.annotations",
+        "dataclasses.dataclass",
+        "typing.Any",
+        "classifier.ApiClassifier",
+        "classifier.ApiType",
+        "classifier.ClassificationResult",
+        "fingerprint.FingerprintEngine",
+        "fingerprint.FingerprintMatch",
+        "fingerprints.ALL_FINGERPRINTS"
+    ],
+    "research\\toolkit\\intelligence\\fingerprint.py": [
+        "__future__.annotations",
+        "dataclasses.dataclass",
+        "dataclasses.field",
+        "typing.Any"
+    ],
+    "research\\toolkit\\intelligence\\fingerprints.py": [
+        "__future__.annotations",
+        "fingerprint.Fingerprint"
+    ],
+    "research\\toolkit\\models.py": [
+        "__future__.annotations",
+        "dataclasses.dataclass",
+        "dataclasses.field",
+        "enum.Enum",
+        "typing.Any"
+    ],
+    "research\\toolkit\\recorder.py": [
+        "__future__.annotations",
+        "json",
+        "pathlib.Path",
+        "typing.Any",
+        "playwright.async_api.BrowserContext",
+        "playwright.async_api.Page",
+        "playwright.async_api.Request",
+        "playwright.async_api.Response",
+        "config.HTML_DIR",
+        "config.MAX_BODY_SIZE",
+        "config.REQUEST_DIR",
+        "config.RESPONSE_DIR",
+        "config.SCREENSHOT_DIR",
+        "filters.get_score",
+        "filters.is_interesting_request",
+        "utils.ensure_directory",
+        "utils.save_json",
+        "utils.save_text"
+    ],
+    "research\\toolkit\\reporter.py": [
+        "__future__.annotations",
+        "datetime.datetime",
+        "pathlib.Path",
+        "config.REPORT_DIR",
+        "utils.save_json",
+        "utils.save_text"
+    ],
+    "research\\toolkit\\utils.py": [
+        "json",
+        "pathlib.Path"
+    ],
+    "research\\uzum_probe.py": [
+        "playwright.sync_api.sync_playwright"
+    ],
+    "test_db.py": [
+        "asyncio",
+        "asyncpg",
+        "app.core.settings.settings"
+    ],
+    "test_manager.py": [
+        "asyncio",
+        "app.services.marketplace_manager.MarketplaceManager"
+    ],
+    "tests\\test_start.py": [],
+    "tools\\inspect_project.py": [
+        "pathlib.Path",
+        "inspector.config.OUTPUT_DIR",
+        "inspector.config.PROJECT_ROOT",
+        "inspector.exporter.JsonExporter",
+        "inspector.graph.ImportGraph",
+        "inspector.analyzer.ASTAnalyzer",
+        "inspector.architecture.ArchitectureAnalyzer",
+        "inspector.scanner.ProjectScanner",
+        "inspector.statistics.Statistics",
+        "inspector.tree.TreeBuilder",
+        "inspector.utils.file_sha256",
+        "inspector.dependency.DependencyAnalyzer",
+        "inspector.component_detector.ComponentDetector",
+        "inspector.project_graph.ProjectGraph"
+    ],
+    "tools\\inspector\\__init__.py": [],
+    "tools\\inspector\\analyzer.py": [
+        "__future__.annotations",
+        "ast",
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\architecture.py": [
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\component_detector.py": [
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\config.py": [
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\dependency.py": [
+        "__future__.annotations",
+        "collections.defaultdict"
+    ],
+    "tools\\inspector\\exporter.py": [
+        "json",
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\graph.py": [],
+    "tools\\inspector\\parser.py": [
+        "ast",
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\project_graph.py": [
+        "collections.defaultdict"
+    ],
+    "tools\\inspector\\scanner.py": [
+        "pathlib.Path",
+        "config.IGNORE_DIRS",
+        "config.IGNORE_EXTENSIONS",
+        "config.MAX_FILE_SIZE"
+    ],
+    "tools\\inspector\\statistics.py": [],
+    "tools\\inspector\\tree.py": [
+        "pathlib.Path"
+    ],
+    "tools\\inspector\\utils.py": [
+        "hashlib.sha256",
+        "pathlib.Path"
+    ],
+    "tools\\remove_bom.py": [
+        "pathlib.Path"
+    ]
+}

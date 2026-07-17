@@ -1,0 +1,362 @@
+{
+    "forward": {
+        "alembic\\env.py": [
+            "app.core.settings.settings",
+            "app.database.base.Base",
+            "app.models.store.Store",
+            "app.models.product.Product",
+            "app.models.price.Price",
+            "app.models.subscription.Subscription"
+        ],
+        "app\\bot\\bot.py": [
+            "app.core.settings.settings"
+        ],
+        "app\\bot\\dispatcher.py": [
+            "app.bot.handlers.start.router",
+            "app.bot.handlers.search.router",
+            "app.bot.handlers.product.router",
+            "app.bot.handlers.navigation.router"
+        ],
+        "app\\bot\\handlers\\navigation.py": [
+            "app.bot.callbacks.product.NavigationCallback",
+            "app.bot.keyboards.main_menu.main_menu_keyboard"
+        ],
+        "app\\bot\\handlers\\product.py": [
+            "app.bot.callbacks.product.ProductCallback",
+            "app.bot.keyboards.product.product_keyboard",
+            "app.bot.states.search.SearchState",
+            "app.bot.utils.product_formatter.format_product",
+            "app.database.session.AsyncSessionLocal",
+            "app.services.search_service.SearchService"
+        ],
+        "app\\bot\\handlers\\search.py": [
+            "app.bot.keyboards.product.product_keyboard",
+            "app.bot.states.search.SearchState",
+            "app.bot.utils.product_formatter.format_product",
+            "app.database.session.AsyncSessionLocal",
+            "app.services.search_service.SearchService"
+        ],
+        "app\\bot\\handlers\\start.py": [
+            "app.bot.keyboards.main_menu.main_menu"
+        ],
+        "app\\bot\\keyboards\\product.py": [
+            "app.bot.callbacks.product.CompareCallback",
+            "app.bot.callbacks.product.FavoriteCallback",
+            "app.bot.callbacks.product.HistoryCallback",
+            "app.bot.callbacks.product.NavigationCallback",
+            "app.bot.callbacks.product.ProductCallback",
+            "app.bot.callbacks.product.SubscribeCallback"
+        ],
+        "app\\bot\\utils\\product_formatter.py": [
+            "app.models.product.Product"
+        ],
+        "app\\core\\logger.py": [
+            "app.core.settings.settings"
+        ],
+        "app\\database\\crud\\user.py": [
+            "app.database.models.user.User"
+        ],
+        "app\\database\\init_db.py": [
+            "app.core.logger.get_logger",
+            "app.database.base.Base",
+            "app.database.session.engine",
+            "app.database.models.*"
+        ],
+        "app\\database\\session.py": [
+            "app.core.settings.settings"
+        ],
+        "app\\extractors\\base.py": [
+            "app.domain.product_dto.ProductDTO"
+        ],
+        "app\\extractors\\olcha.py": [
+            "app.domain.product_dto.ProductDTO",
+            "app.extractors.base.BaseExtractor"
+        ],
+        "app\\main.py": [
+            "app.database.database.AsyncSessionLocal",
+            "app.providers.olcha.OlchaProvider",
+            "app.services.sync_service.SyncService"
+        ],
+        "app\\models\\price.py": [
+            "app.database.base.Base"
+        ],
+        "app\\models\\product.py": [
+            "app.database.base.Base"
+        ],
+        "app\\models\\store.py": [
+            "app.database.base.Base"
+        ],
+        "app\\models\\subscription.py": [
+            "app.database.base.Base"
+        ],
+        "app\\parsers\\manager.py": [
+            "app.parsers.providers.olcha_http.OlchaHttpParser",
+            "app.parsers.providers.olcha_browser.OlchaBrowserParser"
+        ],
+        "app\\parsers\\providers\\olcha_browser.py": [
+            "app.parsers.base_browser.BaseBrowserParser"
+        ],
+        "app\\parsers\\providers\\olcha_http.py": [
+            "app.extractors.olcha.OlchaExtractor",
+            "app.parsers.base_http.BaseHttpParser"
+        ],
+        "app\\providers\\__init__.py": [
+            "app.providers.graphql.GraphQLClient"
+        ],
+        "app\\providers\\base.py": [
+            "app.domain.product_dto.ProductDTO"
+        ],
+        "app\\providers\\olcha.py": [
+            "app.core.http.http",
+            "app.domain.product_dto.ProductDTO",
+            "app.providers.base.BaseProvider"
+        ],
+        "app\\repositories\\price_repository.py": [
+            "app.models.price.Price",
+            "app.repositories.base.BaseRepository"
+        ],
+        "app\\repositories\\product_repository.py": [
+            "app.models.product.Product",
+            "app.repositories.base.BaseRepository"
+        ],
+        "app\\repositories\\store_repository.py": [
+            "app.models.store.Store",
+            "app.repositories.base.BaseRepository"
+        ],
+        "app\\repositories\\subscription_repository.py": [
+            "app.models.subscription.Subscription",
+            "app.repositories.base.BaseRepository"
+        ],
+        "app\\services\\history_service.py": [
+            "app.models.product.Product",
+            "app.models.price.Price",
+            "app.repositories.price_repository.PriceRepository"
+        ],
+        "app\\services\\marketplace_manager.py": [
+            "app.domain.product_dto.ProductDTO",
+            "app.providers.base.BaseProvider",
+            "app.providers.olcha.OlchaProvider"
+        ],
+        "app\\services\\search_service.py": [
+            "app.models.product.Product",
+            "app.repositories.product_repository.ProductRepository",
+            "app.services.marketplace_manager.MarketplaceManager",
+            "app.services.sync_service.SyncService"
+        ],
+        "app\\services\\subscription_service.py": [
+            "app.models.subscription.Subscription",
+            "app.repositories.product_repository.ProductRepository",
+            "app.repositories.subscription_repository.SubscriptionRepository"
+        ],
+        "app\\services\\sync_service.py": [
+            "app.domain.product_dto.ProductDTO",
+            "app.models.price.Price",
+            "app.models.product.Product",
+            "app.models.store.Store",
+            "app.providers.olcha.OlchaProvider",
+            "app.repositories.price_repository.PriceRepository",
+            "app.repositories.product_repository.ProductRepository",
+            "app.repositories.store_repository.StoreRepository"
+        ],
+        "app\\test_uzum.py": [
+            "app.providers.uzum.UzumProvider"
+        ],
+        "research\\test_provider.py": [
+            "app.providers.olcha.OlchaProvider"
+        ],
+        "test_db.py": [
+            "app.core.settings.settings"
+        ],
+        "test_manager.py": [
+            "app.services.marketplace_manager.MarketplaceManager"
+        ]
+    },
+    "reverse": {
+        "app.core.settings.settings": [
+            "alembic\\env.py",
+            "app\\bot\\bot.py",
+            "app\\core\\logger.py",
+            "app\\database\\session.py",
+            "test_db.py"
+        ],
+        "app.database.base.Base": [
+            "alembic\\env.py",
+            "app\\database\\init_db.py",
+            "app\\models\\price.py",
+            "app\\models\\product.py",
+            "app\\models\\store.py",
+            "app\\models\\subscription.py"
+        ],
+        "app.models.store.Store": [
+            "alembic\\env.py",
+            "app\\repositories\\store_repository.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.models.product.Product": [
+            "alembic\\env.py",
+            "app\\bot\\utils\\product_formatter.py",
+            "app\\repositories\\product_repository.py",
+            "app\\services\\history_service.py",
+            "app\\services\\search_service.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.models.price.Price": [
+            "alembic\\env.py",
+            "app\\repositories\\price_repository.py",
+            "app\\services\\history_service.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.models.subscription.Subscription": [
+            "alembic\\env.py",
+            "app\\repositories\\subscription_repository.py",
+            "app\\services\\subscription_service.py"
+        ],
+        "app.bot.handlers.start.router": [
+            "app\\bot\\dispatcher.py"
+        ],
+        "app.bot.handlers.search.router": [
+            "app\\bot\\dispatcher.py"
+        ],
+        "app.bot.handlers.product.router": [
+            "app\\bot\\dispatcher.py"
+        ],
+        "app.bot.handlers.navigation.router": [
+            "app\\bot\\dispatcher.py"
+        ],
+        "app.bot.callbacks.product.NavigationCallback": [
+            "app\\bot\\handlers\\navigation.py",
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.bot.keyboards.main_menu.main_menu_keyboard": [
+            "app\\bot\\handlers\\navigation.py"
+        ],
+        "app.bot.callbacks.product.ProductCallback": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.bot.keyboards.product.product_keyboard": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\handlers\\search.py"
+        ],
+        "app.bot.states.search.SearchState": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\handlers\\search.py"
+        ],
+        "app.bot.utils.product_formatter.format_product": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\handlers\\search.py"
+        ],
+        "app.database.session.AsyncSessionLocal": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\handlers\\search.py"
+        ],
+        "app.services.search_service.SearchService": [
+            "app\\bot\\handlers\\product.py",
+            "app\\bot\\handlers\\search.py"
+        ],
+        "app.bot.keyboards.main_menu.main_menu": [
+            "app\\bot\\handlers\\start.py"
+        ],
+        "app.bot.callbacks.product.CompareCallback": [
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.bot.callbacks.product.FavoriteCallback": [
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.bot.callbacks.product.HistoryCallback": [
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.bot.callbacks.product.SubscribeCallback": [
+            "app\\bot\\keyboards\\product.py"
+        ],
+        "app.database.models.user.User": [
+            "app\\database\\crud\\user.py"
+        ],
+        "app.core.logger.get_logger": [
+            "app\\database\\init_db.py"
+        ],
+        "app.database.session.engine": [
+            "app\\database\\init_db.py"
+        ],
+        "app.database.models.*": [
+            "app\\database\\init_db.py"
+        ],
+        "app.domain.product_dto.ProductDTO": [
+            "app\\extractors\\base.py",
+            "app\\extractors\\olcha.py",
+            "app\\providers\\base.py",
+            "app\\providers\\olcha.py",
+            "app\\services\\marketplace_manager.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.extractors.base.BaseExtractor": [
+            "app\\extractors\\olcha.py"
+        ],
+        "app.database.database.AsyncSessionLocal": [
+            "app\\main.py"
+        ],
+        "app.providers.olcha.OlchaProvider": [
+            "app\\main.py",
+            "app\\services\\marketplace_manager.py",
+            "app\\services\\sync_service.py",
+            "research\\test_provider.py"
+        ],
+        "app.services.sync_service.SyncService": [
+            "app\\main.py",
+            "app\\services\\search_service.py"
+        ],
+        "app.parsers.providers.olcha_http.OlchaHttpParser": [
+            "app\\parsers\\manager.py"
+        ],
+        "app.parsers.providers.olcha_browser.OlchaBrowserParser": [
+            "app\\parsers\\manager.py"
+        ],
+        "app.parsers.base_browser.BaseBrowserParser": [
+            "app\\parsers\\providers\\olcha_browser.py"
+        ],
+        "app.extractors.olcha.OlchaExtractor": [
+            "app\\parsers\\providers\\olcha_http.py"
+        ],
+        "app.parsers.base_http.BaseHttpParser": [
+            "app\\parsers\\providers\\olcha_http.py"
+        ],
+        "app.providers.graphql.GraphQLClient": [
+            "app\\providers\\__init__.py"
+        ],
+        "app.core.http.http": [
+            "app\\providers\\olcha.py"
+        ],
+        "app.providers.base.BaseProvider": [
+            "app\\providers\\olcha.py",
+            "app\\services\\marketplace_manager.py"
+        ],
+        "app.repositories.base.BaseRepository": [
+            "app\\repositories\\price_repository.py",
+            "app\\repositories\\product_repository.py",
+            "app\\repositories\\store_repository.py",
+            "app\\repositories\\subscription_repository.py"
+        ],
+        "app.repositories.price_repository.PriceRepository": [
+            "app\\services\\history_service.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.repositories.product_repository.ProductRepository": [
+            "app\\services\\search_service.py",
+            "app\\services\\subscription_service.py",
+            "app\\services\\sync_service.py"
+        ],
+        "app.services.marketplace_manager.MarketplaceManager": [
+            "app\\services\\search_service.py",
+            "test_manager.py"
+        ],
+        "app.repositories.subscription_repository.SubscriptionRepository": [
+            "app\\services\\subscription_service.py"
+        ],
+        "app.repositories.store_repository.StoreRepository": [
+            "app\\services\\sync_service.py"
+        ],
+        "app.providers.uzum.UzumProvider": [
+            "app\\test_uzum.py"
+        ]
+    }
+}

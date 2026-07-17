@@ -1,0 +1,2375 @@
+{
+    ".env": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    ".env.example": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "alembic\\env.py": {
+        "component": "Migration",
+        "classes": 0,
+        "imports": 13,
+        "functions": 3,
+        "async_functions": 1
+    },
+    "alembic\\README": {
+        "component": "Migration",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "alembic\\script.py.mako": {
+        "component": "Migration",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "alembic\\versions\\246c1ec2f83d_create_subscriptions.py": {
+        "component": "Migration",
+        "classes": 0,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "alembic\\versions\\86e54f289b8d_init_database.py": {
+        "component": "Migration",
+        "classes": 0,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "alembic.ini": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\bot.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\callbacks\\product.py": {
+        "component": "Telegram",
+        "classes": 7,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\dispatcher.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 5,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\handlers\\navigation.py": {
+        "component": "Telegram Router",
+        "classes": 0,
+        "imports": 6,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\bot\\handlers\\product.py": {
+        "component": "Telegram Router",
+        "classes": 0,
+        "imports": 10,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\bot\\handlers\\search.py": {
+        "component": "Telegram Router",
+        "classes": 0,
+        "imports": 11,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "app\\bot\\handlers\\start.py": {
+        "component": "Telegram Router",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\bot\\keyboards\\main_menu.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\keyboards\\navigation.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\bot\\keyboards\\product.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 9,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\bot\\states\\search.py": {
+        "component": "Telegram",
+        "classes": 1,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\bot\\utils\\product_formatter.py": {
+        "component": "Telegram",
+        "classes": 0,
+        "imports": 2,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "app\\core\\http.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 3
+    },
+    "app\\core\\logger.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 4,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\core\\settings.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 4,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\database\\base.py": {
+        "component": "SQLAlchemy Base",
+        "classes": 1,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\database\\crud\\user.py": {
+        "component": "Database",
+        "classes": 0,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "app\\database\\init_db.py": {
+        "component": "Database",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\database\\session.py": {
+        "component": "Database",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\domain\\product_dto.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\extractors\\base.py": {
+        "component": "Extractor",
+        "classes": 1,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "app\\extractors\\olcha.py": {
+        "component": "Extractor",
+        "classes": 1,
+        "imports": 3,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "app\\graphql\\uzum\\MakeSearch_ItemsAndFilters.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\main.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 6,
+        "functions": 4,
+        "async_functions": 3
+    },
+    "app\\models\\price.py": {
+        "component": "Model",
+        "classes": 1,
+        "imports": 9,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\models\\product.py": {
+        "component": "Model",
+        "classes": 1,
+        "imports": 7,
+        "functions": 4,
+        "async_functions": 0
+    },
+    "app\\models\\store.py": {
+        "component": "Model",
+        "classes": 1,
+        "imports": 5,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\models\\subscription.py": {
+        "component": "Model",
+        "classes": 1,
+        "imports": 10,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\parsers\\base_browser.py": {
+        "component": "Parser",
+        "classes": 1,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "app\\parsers\\base_http.py": {
+        "component": "Parser",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 2
+    },
+    "app\\parsers\\manager.py": {
+        "component": "Parser",
+        "classes": 1,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 1
+    },
+    "app\\parsers\\providers\\olcha_browser.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\parsers\\providers\\olcha_http.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 1
+    },
+    "app\\providers\\__init__.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 2
+    },
+    "app\\providers\\base.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 3
+    },
+    "app\\providers\\graphql\\__init__.py": {
+        "component": "Provider",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\providers\\graphql\\loader.py": {
+        "component": "Provider",
+        "classes": 0,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\providers\\graphql\\make_search_items.graphql": {
+        "component": "Provider",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\providers\\graphql.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 2
+    },
+    "app\\providers\\olcha.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 3
+    },
+    "app\\providers\\queries.py": {
+        "component": "Provider",
+        "classes": 0,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "app\\providers\\search.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 4,
+        "functions": 1,
+        "async_functions": 1
+    },
+    "app\\providers\\uzum.py": {
+        "component": "Provider",
+        "classes": 1,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 5
+    },
+    "app\\repositories\\__init__.py": {
+        "component": "Repository",
+        "classes": 0,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\repositories\\base.py": {
+        "component": "Repository",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 5
+    },
+    "app\\repositories\\price_repository.py": {
+        "component": "Repository",
+        "classes": 1,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 6
+    },
+    "app\\repositories\\product_repository.py": {
+        "component": "Repository",
+        "classes": 1,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 5
+    },
+    "app\\repositories\\store_repository.py": {
+        "component": "Repository",
+        "classes": 1,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "app\\repositories\\subscription_repository.py": {
+        "component": "Repository",
+        "classes": 1,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 8
+    },
+    "app\\services\\history_service.py": {
+        "component": "Service",
+        "classes": 1,
+        "imports": 6,
+        "functions": 1,
+        "async_functions": 9
+    },
+    "app\\services\\marketplace_manager.py": {
+        "component": "Service",
+        "classes": 1,
+        "imports": 5,
+        "functions": 2,
+        "async_functions": 2
+    },
+    "app\\services\\search_engine.py": {
+        "component": "Service",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "app\\services\\search_service.py": {
+        "component": "Service",
+        "classes": 1,
+        "imports": 7,
+        "functions": 1,
+        "async_functions": 3
+    },
+    "app\\services\\subscription_service.py": {
+        "component": "Service",
+        "classes": 1,
+        "imports": 6,
+        "functions": 1,
+        "async_functions": 5
+    },
+    "app\\services\\sync_service.py": {
+        "component": "Service",
+        "classes": 2,
+        "imports": 12,
+        "functions": 1,
+        "async_functions": 10
+    },
+    "app\\test_uzum.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "app\\workers\\monitor.py": {
+        "component": "Worker",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "CHANGELOG.md": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "docker-compose.yml": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "Dockerfile": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "docs\\ARCHITECTURE.md": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "LICENSE": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "PROJECT_FULL.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "pyproject.toml": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "README.md": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "render.yaml": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "requirements.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\api_explorer.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 6,
+        "functions": 1,
+        "async_functions": 1
+    },
+    "research\\api_probe.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\api_responses.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\capture_suggestion.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "research\\debug_search.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\html_inspector.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\network_probe.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 2
+    },
+    "research\\olcha_browser_probe.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\olcha_probe.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 4,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\README.md": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\cookies\\0001.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\cookies\\0002.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\html\\0001.html": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\html\\0002.html": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0001.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0001.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0001_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0001_response.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0001_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0002.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0002.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0002_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0002_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0003.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0003.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0003_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0003_response.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0003_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0004.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0004.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0004_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0004_response.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0004_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0005.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0005.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0005_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0005_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0006.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0006.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0006_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0006_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0007.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0007.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0007_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0007_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0008.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0008.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0008_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0008_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0009.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0009.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0009_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0009_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0010.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0010.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0010_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0010_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0010_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0011.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0011.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0011_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0011_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0012.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0012.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0012_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0012_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0013.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0013.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0013_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0013_response.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0013_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0014.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0014.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0014_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0014_response.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0014_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0015.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0016.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0017.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0018.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0019.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0020.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0021.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0022.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0022.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0022_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0022_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0022_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0023.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0023.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0023_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0023_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0023_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0024.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0025.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0025.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0025_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0025_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0025_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0026.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0027.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0028.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0029.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0030.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0031.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0032.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0033.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0034.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0035.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0036.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0037.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0037.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0037_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0037_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0037_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0038.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0038.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0038_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0038_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0038_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0039.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0039.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0039_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0039_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0039_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0040.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0041.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0042.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0042.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0042_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0042_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0042_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0043.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0043.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0043_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0043_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0043_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0044.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0044.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0044_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0044_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0044_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0045.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0046.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0047.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0048.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0048.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0048_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0048_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0048_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0049.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0050.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0051.graphql": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0051.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0051_graphql.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0051_operation.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0051_variables.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0052.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0053.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0054.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0055.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0056.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0057.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0058.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0059.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0060.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0061.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0062.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0063.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0064.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0065.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\requests\\0066.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0001.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0002.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0003.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0003_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0003_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0004.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0005.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0006.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0007.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0008.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0008_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0008_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0009.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0009_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0009_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0010.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0011.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0012.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0012_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0012_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0013.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0014.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0014_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0014_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0015.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0015_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0015_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0016.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0016_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0016_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0017.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0017_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0017_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0018.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0018_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0018_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0019.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0019_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0019_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0020.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0020_graphql.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0020_graphql_response.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\responses\\0021.json": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\screenshots\\0001.png": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\reports\\screenshots\\0002.png": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\samples\\olcha.png": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\samples\\olcha_rendered.html": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\samples\\search.html": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\test_api.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\test_provider.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "research\\toolkit\\__init__.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "research\\toolkit\\capture\\cookies.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 8,
+        "functions": 2,
+        "async_functions": 3
+    },
+    "research\\toolkit\\capture\\graphql.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 12,
+        "functions": 6,
+        "async_functions": 4
+    },
+    "research\\toolkit\\capture\\html.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 7,
+        "functions": 2,
+        "async_functions": 3
+    },
+    "research\\toolkit\\capture\\manager.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 8,
+        "functions": 3,
+        "async_functions": 8
+    },
+    "research\\toolkit\\capture\\plugin.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 7,
+        "functions": 1,
+        "async_functions": 8
+    },
+    "research\\toolkit\\capture\\request.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 14,
+        "functions": 4,
+        "async_functions": 3
+    },
+    "research\\toolkit\\capture\\response.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 16,
+        "functions": 13,
+        "async_functions": 3
+    },
+    "research\\toolkit\\capture\\screenshot.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 6,
+        "functions": 2,
+        "async_functions": 3
+    },
+    "research\\toolkit\\config.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\toolkit\\explorer.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 19,
+        "functions": 2,
+        "async_functions": 6
+    },
+    "research\\toolkit\\filters.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "research\\toolkit\\intelligence\\classifier.py": {
+        "component": "Unknown",
+        "classes": 3,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "research\\toolkit\\intelligence\\detector.py": {
+        "component": "Unknown",
+        "classes": 2,
+        "imports": 9,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "research\\toolkit\\intelligence\\fingerprint.py": {
+        "component": "Unknown",
+        "classes": 3,
+        "imports": 4,
+        "functions": 6,
+        "async_functions": 0
+    },
+    "research\\toolkit\\intelligence\\fingerprints.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "research\\toolkit\\models.py": {
+        "component": "Unknown",
+        "classes": 11,
+        "imports": 5,
+        "functions": 13,
+        "async_functions": 0
+    },
+    "research\\toolkit\\recorder.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 18,
+        "functions": 5,
+        "async_functions": 5
+    },
+    "research\\toolkit\\reporter.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 6,
+        "functions": 5,
+        "async_functions": 0
+    },
+    "research\\toolkit\\utils.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 4,
+        "async_functions": 0
+    },
+    "research\\uzum_probe.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 1,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "ROADMAP.md": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "test_db.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 3,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "test_manager.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 0,
+        "async_functions": 1
+    },
+    "tests\\test_start.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "toolkit_tree.txt": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "tools\\inspect_project.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 14,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "tools\\inspector\\__init__.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 0,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "tools\\inspector\\analyzer.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 3,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\architecture.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 1,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\component_detector.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 1,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\config.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 1,
+        "functions": 0,
+        "async_functions": 0
+    },
+    "tools\\inspector\\dependency.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\exporter.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\graph.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 0,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\parser.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\project_graph.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 1,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\scanner.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 4,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "tools\\inspector\\statistics.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 0,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\inspector\\tree.py": {
+        "component": "Unknown",
+        "classes": 1,
+        "imports": 1,
+        "functions": 2,
+        "async_functions": 0
+    },
+    "tools\\inspector\\utils.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 2,
+        "functions": 1,
+        "async_functions": 0
+    },
+    "tools\\remove_bom.py": {
+        "component": "Unknown",
+        "classes": 0,
+        "imports": 1,
+        "functions": 3,
+        "async_functions": 0
+    }
+}

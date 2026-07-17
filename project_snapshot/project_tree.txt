@@ -1,0 +1,451 @@
+PriceHunter-UZ
+├── .env
+├── .env.example
+├── alembic
+│   ├── __pycache__
+│   │   └── env.cpython-313.pyc
+│   ├── env.py
+│   ├── README
+│   ├── script.py.mako
+│   └── versions
+│       ├── 246c1ec2f83d_create_subscriptions.py
+│       ├── 86e54f289b8d_init_database.py
+│       └── __pycache__
+│           ├── 246c1ec2f83d_create_subscriptions.cpython-313.pyc
+│           └── 86e54f289b8d_init_database.cpython-313.pyc
+├── alembic.ini
+├── app
+│   ├── __pycache__
+│   │   ├── main.cpython-313.pyc
+│   │   └── test_uzum.cpython-313.pyc
+│   ├── api
+│   ├── bot
+│   │   ├── bot.py
+│   │   ├── callbacks
+│   │   │   └── product.py
+│   │   ├── dispatcher.py
+│   │   ├── handlers
+│   │   │   ├── navigation.py
+│   │   │   ├── product.py
+│   │   │   ├── search.py
+│   │   │   └── start.py
+│   │   ├── keyboards
+│   │   │   ├── main_menu.py
+│   │   │   ├── navigation.py
+│   │   │   └── product.py
+│   │   ├── states
+│   │   │   └── search.py
+│   │   └── utils
+│   │       └── product_formatter.py
+│   ├── core
+│   │   ├── __pycache__
+│   │   │   └── settings.cpython-313.pyc
+│   │   ├── http.py
+│   │   ├── logger.py
+│   │   └── settings.py
+│   ├── database
+│   │   ├── __pycache__
+│   │   │   ├── base.cpython-313.pyc
+│   │   │   └── database.cpython-313.pyc
+│   │   ├── base.py
+│   │   ├── crud
+│   │   │   └── user.py
+│   │   ├── init_db.py
+│   │   └── session.py
+│   ├── domain
+│   │   ├── __pycache__
+│   │   │   └── product_dto.cpython-313.pyc
+│   │   └── product_dto.py
+│   ├── extractors
+│   │   ├── base.py
+│   │   └── olcha.py
+│   ├── graphql
+│   │   └── uzum
+│   │       └── MakeSearch_ItemsAndFilters.graphql
+│   ├── main.py
+│   ├── models
+│   │   ├── __pycache__
+│   │   │   ├── price.cpython-313.pyc
+│   │   │   ├── product.cpython-313.pyc
+│   │   │   ├── store.cpython-313.pyc
+│   │   │   └── subscription.cpython-313.pyc
+│   │   ├── price.py
+│   │   ├── product.py
+│   │   ├── store.py
+│   │   └── subscription.py
+│   ├── parsers
+│   │   ├── base_browser.py
+│   │   ├── base_http.py
+│   │   ├── manager.py
+│   │   └── providers
+│   │       ├── olcha_browser.py
+│   │       └── olcha_http.py
+│   ├── providers
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── base.cpython-313.pyc
+│   │   │   └── olcha.cpython-313.pyc
+│   │   ├── base.py
+│   │   ├── graphql
+│   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   └── __init__.cpython-313.pyc
+│   │   │   ├── loader.py
+│   │   │   └── make_search_items.graphql
+│   │   ├── graphql.py
+│   │   ├── olcha.py
+│   │   ├── queries.py
+│   │   ├── search.py
+│   │   └── uzum.py
+│   ├── repositories
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── price_repository.cpython-313.pyc
+│   │   │   └── product_repository.cpython-313.pyc
+│   │   ├── base.py
+│   │   ├── price_repository.py
+│   │   ├── product_repository.py
+│   │   ├── store_repository.py
+│   │   └── subscription_repository.py
+│   ├── services
+│   │   ├── __pycache__
+│   │   │   ├── marketplace_manager.cpython-313.pyc
+│   │   │   └── sync_service.cpython-313.pyc
+│   │   ├── history_service.py
+│   │   ├── marketplace_manager.py
+│   │   ├── search_engine.py
+│   │   ├── search_service.py
+│   │   ├── subscription_service.py
+│   │   └── sync_service.py
+│   ├── test_uzum.py
+│   └── workers
+│       └── monitor.py
+├── CHANGELOG.md
+├── docker-compose.yml
+├── Dockerfile
+├── docs
+│   └── ARCHITECTURE.md
+├── LICENSE
+├── PROJECT_FULL.txt
+├── project_snapshot
+├── pyproject.toml
+├── README.md
+├── render.yaml
+├── requirements.txt
+├── research
+│   ├── __pycache__
+│   │   ├── api_explorer.cpython-313.pyc
+│   │   └── test_provider.cpython-313.pyc
+│   ├── api_explorer.py
+│   ├── api_probe.py
+│   ├── api_responses.json
+│   ├── capture_suggestion.py
+│   ├── debug_search.py
+│   ├── html_inspector.py
+│   ├── network_probe.py
+│   ├── olcha_browser_probe.py
+│   ├── olcha_probe.py
+│   ├── README.md
+│   ├── reports
+│   │   ├── cookies
+│   │   │   ├── 0001.json
+│   │   │   └── 0002.json
+│   │   ├── html
+│   │   │   ├── 0001.html
+│   │   │   └── 0002.html
+│   │   ├── requests
+│   │   │   ├── 0001.graphql
+│   │   │   ├── 0001.json
+│   │   │   ├── 0001_operation.txt
+│   │   │   ├── 0001_response.json
+│   │   │   ├── 0001_variables.json
+│   │   │   ├── 0002.graphql
+│   │   │   ├── 0002.json
+│   │   │   ├── 0002_operation.txt
+│   │   │   ├── 0002_variables.json
+│   │   │   ├── 0003.graphql
+│   │   │   ├── 0003.json
+│   │   │   ├── 0003_operation.txt
+│   │   │   ├── 0003_response.json
+│   │   │   ├── 0003_variables.json
+│   │   │   ├── 0004.graphql
+│   │   │   ├── 0004.json
+│   │   │   ├── 0004_operation.txt
+│   │   │   ├── 0004_response.json
+│   │   │   ├── 0004_variables.json
+│   │   │   ├── 0005.graphql
+│   │   │   ├── 0005.json
+│   │   │   ├── 0005_operation.txt
+│   │   │   ├── 0005_variables.json
+│   │   │   ├── 0006.graphql
+│   │   │   ├── 0006.json
+│   │   │   ├── 0006_operation.txt
+│   │   │   ├── 0006_variables.json
+│   │   │   ├── 0007.graphql
+│   │   │   ├── 0007.json
+│   │   │   ├── 0007_operation.txt
+│   │   │   ├── 0007_variables.json
+│   │   │   ├── 0008.graphql
+│   │   │   ├── 0008.json
+│   │   │   ├── 0008_operation.txt
+│   │   │   ├── 0008_variables.json
+│   │   │   ├── 0009.graphql
+│   │   │   ├── 0009.json
+│   │   │   ├── 0009_operation.txt
+│   │   │   ├── 0009_variables.json
+│   │   │   ├── 0010.graphql
+│   │   │   ├── 0010.json
+│   │   │   ├── 0010_graphql.txt
+│   │   │   ├── 0010_operation.txt
+│   │   │   ├── 0010_variables.json
+│   │   │   ├── 0011.graphql
+│   │   │   ├── 0011.json
+│   │   │   ├── 0011_operation.txt
+│   │   │   ├── 0011_variables.json
+│   │   │   ├── 0012.graphql
+│   │   │   ├── 0012.json
+│   │   │   ├── 0012_operation.txt
+│   │   │   ├── 0012_variables.json
+│   │   │   ├── 0013.graphql
+│   │   │   ├── 0013.json
+│   │   │   ├── 0013_operation.txt
+│   │   │   ├── 0013_response.json
+│   │   │   ├── 0013_variables.json
+│   │   │   ├── 0014.graphql
+│   │   │   ├── 0014.json
+│   │   │   ├── 0014_operation.txt
+│   │   │   ├── 0014_response.json
+│   │   │   ├── 0014_variables.json
+│   │   │   ├── 0015.json
+│   │   │   ├── 0016.json
+│   │   │   ├── 0017.json
+│   │   │   ├── 0018.json
+│   │   │   ├── 0019.json
+│   │   │   ├── 0020.json
+│   │   │   ├── 0021.json
+│   │   │   ├── 0022.graphql
+│   │   │   ├── 0022.json
+│   │   │   ├── 0022_graphql.txt
+│   │   │   ├── 0022_operation.txt
+│   │   │   ├── 0022_variables.json
+│   │   │   ├── 0023.graphql
+│   │   │   ├── 0023.json
+│   │   │   ├── 0023_graphql.txt
+│   │   │   ├── 0023_operation.txt
+│   │   │   ├── 0023_variables.json
+│   │   │   ├── 0024.json
+│   │   │   ├── 0025.graphql
+│   │   │   ├── 0025.json
+│   │   │   ├── 0025_graphql.txt
+│   │   │   ├── 0025_operation.txt
+│   │   │   ├── 0025_variables.json
+│   │   │   ├── 0026.json
+│   │   │   ├── 0027.json
+│   │   │   ├── 0028.json
+│   │   │   ├── 0029.json
+│   │   │   ├── 0030.json
+│   │   │   ├── 0031.json
+│   │   │   ├── 0032.json
+│   │   │   ├── 0033.json
+│   │   │   ├── 0034.json
+│   │   │   ├── 0035.json
+│   │   │   ├── 0036.json
+│   │   │   ├── 0037.graphql
+│   │   │   ├── 0037.json
+│   │   │   ├── 0037_graphql.txt
+│   │   │   ├── 0037_operation.txt
+│   │   │   ├── 0037_variables.json
+│   │   │   ├── 0038.graphql
+│   │   │   ├── 0038.json
+│   │   │   ├── 0038_graphql.txt
+│   │   │   ├── 0038_operation.txt
+│   │   │   ├── 0038_variables.json
+│   │   │   ├── 0039.graphql
+│   │   │   ├── 0039.json
+│   │   │   ├── 0039_graphql.txt
+│   │   │   ├── 0039_operation.txt
+│   │   │   ├── 0039_variables.json
+│   │   │   ├── 0040.json
+│   │   │   ├── 0041.json
+│   │   │   ├── 0042.graphql
+│   │   │   ├── 0042.json
+│   │   │   ├── 0042_graphql.txt
+│   │   │   ├── 0042_operation.txt
+│   │   │   ├── 0042_variables.json
+│   │   │   ├── 0043.graphql
+│   │   │   ├── 0043.json
+│   │   │   ├── 0043_graphql.txt
+│   │   │   ├── 0043_operation.txt
+│   │   │   ├── 0043_variables.json
+│   │   │   ├── 0044.graphql
+│   │   │   ├── 0044.json
+│   │   │   ├── 0044_graphql.txt
+│   │   │   ├── 0044_operation.txt
+│   │   │   ├── 0044_variables.json
+│   │   │   ├── 0045.json
+│   │   │   ├── 0046.json
+│   │   │   ├── 0047.json
+│   │   │   ├── 0048.graphql
+│   │   │   ├── 0048.json
+│   │   │   ├── 0048_graphql.txt
+│   │   │   ├── 0048_operation.txt
+│   │   │   ├── 0048_variables.json
+│   │   │   ├── 0049.json
+│   │   │   ├── 0050.json
+│   │   │   ├── 0051.graphql
+│   │   │   ├── 0051.json
+│   │   │   ├── 0051_graphql.txt
+│   │   │   ├── 0051_operation.txt
+│   │   │   ├── 0051_variables.json
+│   │   │   ├── 0052.json
+│   │   │   ├── 0053.json
+│   │   │   ├── 0054.json
+│   │   │   ├── 0055.json
+│   │   │   ├── 0056.json
+│   │   │   ├── 0057.json
+│   │   │   ├── 0058.json
+│   │   │   ├── 0059.json
+│   │   │   ├── 0060.json
+│   │   │   ├── 0061.json
+│   │   │   ├── 0062.json
+│   │   │   ├── 0063.json
+│   │   │   ├── 0064.json
+│   │   │   ├── 0065.json
+│   │   │   └── 0066.json
+│   │   ├── responses
+│   │   │   ├── 0001.txt
+│   │   │   ├── 0002.json
+│   │   │   ├── 0003.json
+│   │   │   ├── 0003_graphql.json
+│   │   │   ├── 0003_graphql_response.txt
+│   │   │   ├── 0004.json
+│   │   │   ├── 0005.json
+│   │   │   ├── 0006.txt
+│   │   │   ├── 0007.json
+│   │   │   ├── 0008.json
+│   │   │   ├── 0008_graphql.json
+│   │   │   ├── 0008_graphql_response.txt
+│   │   │   ├── 0009.json
+│   │   │   ├── 0009_graphql.json
+│   │   │   ├── 0009_graphql_response.txt
+│   │   │   ├── 0010.json
+│   │   │   ├── 0011.json
+│   │   │   ├── 0012.json
+│   │   │   ├── 0012_graphql.json
+│   │   │   ├── 0012_graphql_response.txt
+│   │   │   ├── 0013.json
+│   │   │   ├── 0014.json
+│   │   │   ├── 0014_graphql.json
+│   │   │   ├── 0014_graphql_response.txt
+│   │   │   ├── 0015.json
+│   │   │   ├── 0015_graphql.json
+│   │   │   ├── 0015_graphql_response.txt
+│   │   │   ├── 0016.json
+│   │   │   ├── 0016_graphql.json
+│   │   │   ├── 0016_graphql_response.txt
+│   │   │   ├── 0017.json
+│   │   │   ├── 0017_graphql.json
+│   │   │   ├── 0017_graphql_response.txt
+│   │   │   ├── 0018.json
+│   │   │   ├── 0018_graphql.json
+│   │   │   ├── 0018_graphql_response.txt
+│   │   │   ├── 0019.json
+│   │   │   ├── 0019_graphql.json
+│   │   │   ├── 0019_graphql_response.txt
+│   │   │   ├── 0020.json
+│   │   │   ├── 0020_graphql.json
+│   │   │   ├── 0020_graphql_response.txt
+│   │   │   └── 0021.json
+│   │   └── screenshots
+│   │       ├── 0001.png
+│   │       └── 0002.png
+│   ├── samples
+│   │   ├── olcha.png
+│   │   ├── olcha_rendered.html
+│   │   └── search.html
+│   ├── test_api.py
+│   ├── test_provider.py
+│   ├── toolkit
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-313.pyc
+│   │   │   ├── config.cpython-313.pyc
+│   │   │   ├── explorer.cpython-313.pyc
+│   │   │   ├── filters.cpython-313.pyc
+│   │   │   ├── models.cpython-313.pyc
+│   │   │   ├── recorder.cpython-313.pyc
+│   │   │   ├── reporter.cpython-313.pyc
+│   │   │   └── utils.cpython-313.pyc
+│   │   ├── capture
+│   │   │   ├── __pycache__
+│   │   │   │   ├── cookies.cpython-313.pyc
+│   │   │   │   ├── graphql.cpython-313.pyc
+│   │   │   │   ├── html.cpython-313.pyc
+│   │   │   │   ├── manager.cpython-313.pyc
+│   │   │   │   ├── plugin.cpython-313.pyc
+│   │   │   │   ├── request.cpython-313.pyc
+│   │   │   │   ├── response.cpython-313.pyc
+│   │   │   │   └── screenshot.cpython-313.pyc
+│   │   │   ├── cookies.py
+│   │   │   ├── graphql.py
+│   │   │   ├── html.py
+│   │   │   ├── manager.py
+│   │   │   ├── plugin.py
+│   │   │   ├── request.py
+│   │   │   ├── response.py
+│   │   │   └── screenshot.py
+│   │   ├── config.py
+│   │   ├── explorer.py
+│   │   ├── filters.py
+│   │   ├── intelligence
+│   │   │   ├── classifier.py
+│   │   │   ├── detector.py
+│   │   │   ├── fingerprint.py
+│   │   │   └── fingerprints.py
+│   │   ├── models.py
+│   │   ├── recorder.py
+│   │   ├── reporter.py
+│   │   └── utils.py
+│   └── uzum_probe.py
+├── ROADMAP.md
+├── test_db.py
+├── test_manager.py
+├── tests
+│   └── test_start.py
+├── toolkit_tree.txt
+└── tools
+    ├── __pycache__
+    │   └── inspect_project.cpython-313.pyc
+    ├── inspect_project.py
+    ├── inspector
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-313.pyc
+    │   │   ├── analyzer.cpython-313.pyc
+    │   │   ├── architecture.cpython-313.pyc
+    │   │   ├── component_detector.cpython-313.pyc
+    │   │   ├── config.cpython-313.pyc
+    │   │   ├── dependency.cpython-313.pyc
+    │   │   ├── exporter.cpython-313.pyc
+    │   │   ├── graph.cpython-313.pyc
+    │   │   ├── parser.cpython-313.pyc
+    │   │   ├── project_graph.cpython-313.pyc
+    │   │   ├── scanner.cpython-313.pyc
+    │   │   ├── statistics.cpython-313.pyc
+    │   │   ├── tree.cpython-313.pyc
+    │   │   └── utils.cpython-313.pyc
+    │   ├── analyzer.py
+    │   ├── architecture.py
+    │   ├── component_detector.py
+    │   ├── config.py
+    │   ├── dependency.py
+    │   ├── exporter.py
+    │   ├── graph.py
+    │   ├── parser.py
+    │   ├── project_graph.py
+    │   ├── scanner.py
+    │   ├── statistics.py
+    │   ├── tree.py
+    │   └── utils.py
+    └── remove_bom.py

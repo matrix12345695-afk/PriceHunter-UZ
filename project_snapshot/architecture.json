@@ -1,0 +1,2584 @@
+{
+    ".env": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    ".env.example": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "alembic\\env.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "run_migrations_offline",
+            "do_run_migrations",
+            "run_migrations_online"
+        ],
+        "async_functions": [
+            "run_async_migrations"
+        ]
+    },
+    "alembic\\README": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "alembic\\script.py.mako": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "alembic\\versions\\246c1ec2f83d_create_subscriptions.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "upgrade",
+            "downgrade"
+        ],
+        "async_functions": []
+    },
+    "alembic\\versions\\86e54f289b8d_init_database.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "upgrade",
+            "downgrade"
+        ],
+        "async_functions": []
+    },
+    "alembic.ini": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\bot.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\callbacks\\product.py": {
+        "layer": "Telegram",
+        "classes": [
+            "ProductCallback",
+            "HistoryCallback",
+            "SubscribeCallback",
+            "NavigationCallback",
+            "PaginationCallback",
+            "FavoriteCallback",
+            "CompareCallback"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\dispatcher.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\handlers\\navigation.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "navigation_handler"
+        ]
+    },
+    "app\\bot\\handlers\\product.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "product_info"
+        ]
+    },
+    "app\\bot\\handlers\\search.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "start_search",
+            "process_search"
+        ]
+    },
+    "app\\bot\\handlers\\start.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "start"
+        ]
+    },
+    "app\\bot\\keyboards\\main_menu.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\keyboards\\navigation.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [
+            "back_keyboard"
+        ],
+        "async_functions": []
+    },
+    "app\\bot\\keyboards\\product.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [
+            "product_keyboard"
+        ],
+        "async_functions": []
+    },
+    "app\\bot\\states\\search.py": {
+        "layer": "Telegram",
+        "classes": [
+            "SearchState"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\bot\\utils\\product_formatter.py": {
+        "layer": "Telegram",
+        "classes": [],
+        "functions": [
+            "format_price",
+            "format_product"
+        ],
+        "async_functions": []
+    },
+    "app\\core\\http.py": {
+        "layer": "Core",
+        "classes": [
+            "HttpClient"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "get",
+            "post",
+            "close"
+        ]
+    },
+    "app\\core\\logger.py": {
+        "layer": "Core",
+        "classes": [],
+        "functions": [
+            "get_logger"
+        ],
+        "async_functions": []
+    },
+    "app\\core\\settings.py": {
+        "layer": "Core",
+        "classes": [
+            "Settings"
+        ],
+        "functions": [
+            "get_settings"
+        ],
+        "async_functions": []
+    },
+    "app\\database\\base.py": {
+        "layer": "Database",
+        "classes": [
+            "Base"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\database\\crud\\user.py": {
+        "layer": "Database",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "get_user",
+            "create_user"
+        ]
+    },
+    "app\\database\\init_db.py": {
+        "layer": "Database",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "init_database"
+        ]
+    },
+    "app\\database\\session.py": {
+        "layer": "Database",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "get_session"
+        ]
+    },
+    "app\\domain\\product_dto.py": {
+        "layer": "Domain",
+        "classes": [
+            "ProductDTO"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\extractors\\base.py": {
+        "layer": "Extractor",
+        "classes": [
+            "BaseExtractor"
+        ],
+        "functions": [
+            "extract_search",
+            "extract_product"
+        ],
+        "async_functions": []
+    },
+    "app\\extractors\\olcha.py": {
+        "layer": "Extractor",
+        "classes": [
+            "OlchaExtractor"
+        ],
+        "functions": [
+            "extract_search",
+            "extract_product"
+        ],
+        "async_functions": []
+    },
+    "app\\graphql\\uzum\\MakeSearch_ItemsAndFilters.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\main.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "search",
+            "sync",
+            "health",
+            "version"
+        ],
+        "async_functions": [
+            "_run",
+            "_run",
+            "_run"
+        ]
+    },
+    "app\\models\\price.py": {
+        "layer": "Model",
+        "classes": [
+            "Price"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\models\\product.py": {
+        "layer": "Model",
+        "classes": [
+            "Product"
+        ],
+        "functions": [
+            "latest_price",
+            "current_price",
+            "currency",
+            "__repr__"
+        ],
+        "async_functions": []
+    },
+    "app\\models\\store.py": {
+        "layer": "Model",
+        "classes": [
+            "Store"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\models\\subscription.py": {
+        "layer": "Model",
+        "classes": [
+            "Subscription"
+        ],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\parsers\\base_browser.py": {
+        "layer": "Parser",
+        "classes": [
+            "BaseBrowserParser"
+        ],
+        "functions": [],
+        "async_functions": [
+            "browser",
+            "search"
+        ]
+    },
+    "app\\parsers\\base_http.py": {
+        "layer": "Parser",
+        "classes": [
+            "BaseHttpParser"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search",
+            "close"
+        ]
+    },
+    "app\\parsers\\manager.py": {
+        "layer": "Parser",
+        "classes": [
+            "ParserManager"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search"
+        ]
+    },
+    "app\\parsers\\providers\\olcha_browser.py": {
+        "layer": "Parser",
+        "classes": [
+            "OlchaBrowserParser"
+        ],
+        "functions": [],
+        "async_functions": [
+            "search"
+        ]
+    },
+    "app\\parsers\\providers\\olcha_http.py": {
+        "layer": "Parser",
+        "classes": [
+            "OlchaHttpParser"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search"
+        ]
+    },
+    "app\\providers\\__init__.py": {
+        "layer": "Provider",
+        "classes": [
+            "UzumProvider"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search",
+            "close"
+        ]
+    },
+    "app\\providers\\base.py": {
+        "layer": "Provider",
+        "classes": [
+            "BaseProvider"
+        ],
+        "functions": [],
+        "async_functions": [
+            "search",
+            "get_product",
+            "healthcheck"
+        ]
+    },
+    "app\\providers\\graphql\\__init__.py": {
+        "layer": "Provider",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\providers\\graphql\\loader.py": {
+        "layer": "Provider",
+        "classes": [],
+        "functions": [
+            "load_query"
+        ],
+        "async_functions": []
+    },
+    "app\\providers\\graphql\\make_search_items.graphql": {
+        "layer": "Provider",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\providers\\graphql.py": {
+        "layer": "Provider",
+        "classes": [
+            "GraphQLClient"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "execute",
+            "close"
+        ]
+    },
+    "app\\providers\\olcha.py": {
+        "layer": "Provider",
+        "classes": [
+            "OlchaProvider"
+        ],
+        "functions": [],
+        "async_functions": [
+            "search",
+            "get_product",
+            "healthcheck"
+        ]
+    },
+    "app\\providers\\queries.py": {
+        "layer": "Provider",
+        "classes": [],
+        "functions": [
+            "load_query"
+        ],
+        "async_functions": []
+    },
+    "app\\providers\\search.py": {
+        "layer": "Provider",
+        "classes": [
+            "UzumSearch"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search"
+        ]
+    },
+    "app\\providers\\uzum.py": {
+        "layer": "Provider",
+        "classes": [
+            "UzumProvider"
+        ],
+        "functions": [
+            "__init__",
+            "_load_query"
+        ],
+        "async_functions": [
+            "search",
+            "product",
+            "reviews",
+            "recommendations",
+            "close"
+        ]
+    },
+    "app\\repositories\\__init__.py": {
+        "layer": "Repository",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\repositories\\base.py": {
+        "layer": "Repository",
+        "classes": [
+            "BaseRepository"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "add",
+            "commit",
+            "refresh",
+            "delete",
+            "get_by_id"
+        ]
+    },
+    "app\\repositories\\price_repository.py": {
+        "layer": "Repository",
+        "classes": [
+            "PriceRepository"
+        ],
+        "functions": [],
+        "async_functions": [
+            "get_last_price",
+            "get_history",
+            "get_first_price",
+            "get_min_price",
+            "get_max_price",
+            "create"
+        ]
+    },
+    "app\\repositories\\product_repository.py": {
+        "layer": "Repository",
+        "classes": [
+            "ProductRepository"
+        ],
+        "functions": [],
+        "async_functions": [
+            "get_by_id",
+            "get_by_external_id",
+            "search",
+            "get_all",
+            "create"
+        ]
+    },
+    "app\\repositories\\store_repository.py": {
+        "layer": "Repository",
+        "classes": [
+            "StoreRepository"
+        ],
+        "functions": [],
+        "async_functions": [
+            "get_by_name",
+            "create"
+        ]
+    },
+    "app\\repositories\\subscription_repository.py": {
+        "layer": "Repository",
+        "classes": [
+            "SubscriptionRepository"
+        ],
+        "functions": [],
+        "async_functions": [
+            "create",
+            "get_by_id",
+            "get_by_user",
+            "get_all_active",
+            "get_by_product",
+            "exists",
+            "disable",
+            "delete"
+        ]
+    },
+    "app\\services\\history_service.py": {
+        "layer": "Service",
+        "classes": [
+            "HistoryService"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "get_history",
+            "get_last_price",
+            "get_min_price",
+            "get_max_price",
+            "get_average_price",
+            "get_price_changes",
+            "get_price_drop",
+            "get_discount_percent",
+            "get_statistics"
+        ]
+    },
+    "app\\services\\marketplace_manager.py": {
+        "layer": "Service",
+        "classes": [
+            "MarketplaceManager"
+        ],
+        "functions": [
+            "__init__",
+            "register"
+        ],
+        "async_functions": [
+            "search",
+            "healthcheck"
+        ]
+    },
+    "app\\services\\search_engine.py": {
+        "layer": "Service",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "app\\services\\search_service.py": {
+        "layer": "Service",
+        "classes": [
+            "SearchService"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "search",
+            "search_exact",
+            "get_product"
+        ]
+    },
+    "app\\services\\subscription_service.py": {
+        "layer": "Service",
+        "classes": [
+            "SubscriptionService"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "subscribe",
+            "unsubscribe",
+            "get_user_subscriptions",
+            "get_product_subscriptions",
+            "get_active_subscriptions"
+        ]
+    },
+    "app\\services\\sync_service.py": {
+        "layer": "Service",
+        "classes": [
+            "SyncResult",
+            "SyncService"
+        ],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": [
+            "sync",
+            "_get_store",
+            "_process_product",
+            "_create_product",
+            "_create_price",
+            "sync_store",
+            "sync_many",
+            "print_summary",
+            "healthcheck",
+            "sync_and_print"
+        ]
+    },
+    "app\\test_uzum.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "app\\workers\\monitor.py": {
+        "layer": "Worker",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "CHANGELOG.md": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "docker-compose.yml": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "Dockerfile": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "docs\\ARCHITECTURE.md": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "LICENSE": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "PROJECT_FULL.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "pyproject.toml": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "README.md": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "render.yaml": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "requirements.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\api_explorer.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "parse_args"
+        ],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\api_probe.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\api_responses.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\capture_suggestion.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main",
+            "on_response"
+        ]
+    },
+    "research\\debug_search.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\html_inspector.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\network_probe.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main",
+            "on_request"
+        ]
+    },
+    "research\\olcha_browser_probe.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\olcha_probe.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\README.md": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\cookies\\0001.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\cookies\\0002.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\html\\0001.html": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\html\\0002.html": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0001.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0001.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0001_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0001_response.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0001_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0002.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0002.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0002_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0002_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0003.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0003.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0003_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0003_response.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0003_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0004.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0004.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0004_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0004_response.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0004_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0005.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0005.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0005_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0005_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0006.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0006.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0006_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0006_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0007.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0007.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0007_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0007_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0008.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0008.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0008_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0008_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0009.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0009.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0009_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0009_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0010.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0010.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0010_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0010_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0010_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0011.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0011.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0011_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0011_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0012.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0012.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0012_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0012_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0013.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0013.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0013_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0013_response.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0013_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0014.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0014.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0014_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0014_response.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0014_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0015.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0016.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0017.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0018.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0019.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0020.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0021.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0022.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0022.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0022_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0022_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0022_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0023.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0023.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0023_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0023_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0023_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0024.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0025.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0025.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0025_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0025_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0025_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0026.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0027.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0028.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0029.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0030.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0031.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0032.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0033.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0034.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0035.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0036.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0037.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0037.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0037_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0037_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0037_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0038.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0038.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0038_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0038_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0038_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0039.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0039.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0039_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0039_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0039_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0040.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0041.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0042.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0042.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0042_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0042_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0042_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0043.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0043.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0043_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0043_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0043_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0044.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0044.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0044_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0044_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0044_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0045.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0046.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0047.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0048.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0048.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0048_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0048_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0048_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0049.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0050.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0051.graphql": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0051.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0051_graphql.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0051_operation.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0051_variables.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0052.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0053.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0054.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0055.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0056.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0057.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0058.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0059.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0060.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0061.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0062.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0063.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0064.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0065.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\requests\\0066.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0001.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0002.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0003.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0003_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0003_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0004.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0005.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0006.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0007.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0008.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0008_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0008_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0009.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0009_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0009_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0010.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0011.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0012.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0012_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0012_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0013.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0014.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0014_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0014_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0015.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0015_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0015_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0016.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0016_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0016_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0017.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0017_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0017_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0018.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0018_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0018_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0019.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0019_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0019_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0020.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0020_graphql.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0020_graphql_response.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\responses\\0021.json": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\screenshots\\0001.png": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\reports\\screenshots\\0002.png": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\samples\\olcha.png": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\samples\\olcha_rendered.html": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\samples\\search.html": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\test_api.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\test_provider.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "research\\toolkit\\__init__.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "__init__"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\capture\\cookies.py": {
+        "layer": "Other",
+        "classes": [
+            "CookieCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__"
+        ],
+        "async_functions": [
+            "on_page_loaded",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\capture\\graphql.py": {
+        "layer": "Other",
+        "classes": [
+            "GraphQLCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__",
+            "_is_graphql",
+            "find",
+            "count",
+            "summary"
+        ],
+        "async_functions": [
+            "on_request",
+            "on_response",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\capture\\html.py": {
+        "layer": "Other",
+        "classes": [
+            "HtmlCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__"
+        ],
+        "async_functions": [
+            "on_page_loaded",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\capture\\manager.py": {
+        "layer": "Other",
+        "classes": [
+            "CaptureManager"
+        ],
+        "functions": [
+            "__init__",
+            "register",
+            "plugins"
+        ],
+        "async_functions": [
+            "startup",
+            "shutdown",
+            "on_context_created",
+            "on_page_created",
+            "on_page_loaded",
+            "on_request",
+            "on_response",
+            "on_finished"
+        ]
+    },
+    "research\\toolkit\\capture\\plugin.py": {
+        "layer": "Other",
+        "classes": [
+            "CapturePlugin"
+        ],
+        "functions": [
+            "name"
+        ],
+        "async_functions": [
+            "startup",
+            "shutdown",
+            "on_context_created",
+            "on_page_created",
+            "on_request",
+            "on_response",
+            "on_page_loaded",
+            "on_finished"
+        ]
+    },
+    "research\\toolkit\\capture\\request.py": {
+        "layer": "Other",
+        "classes": [
+            "RequestCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__",
+            "_next_id",
+            "detect_protocol"
+        ],
+        "async_functions": [
+            "on_request",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\capture\\response.py": {
+        "layer": "Other",
+        "classes": [
+            "ResponseCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__",
+            "detect_protocol",
+            "count",
+            "clear",
+            "get_json",
+            "find_by_status",
+            "find_by_protocol",
+            "graphql",
+            "rest",
+            "success",
+            "failed",
+            "summary"
+        ],
+        "async_functions": [
+            "on_response",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\capture\\screenshot.py": {
+        "layer": "Other",
+        "classes": [
+            "ScreenshotCapture"
+        ],
+        "functions": [
+            "name",
+            "__init__"
+        ],
+        "async_functions": [
+            "on_page_loaded",
+            "startup",
+            "shutdown"
+        ]
+    },
+    "research\\toolkit\\config.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\toolkit\\explorer.py": {
+        "layer": "Other",
+        "classes": [
+            "Explorer"
+        ],
+        "functions": [
+            "__init__",
+            "plugins"
+        ],
+        "async_functions": [
+            "startup",
+            "new_page",
+            "attach_page",
+            "explore",
+            "shutdown",
+            "page_loaded"
+        ]
+    },
+    "research\\toolkit\\filters.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "is_interesting_request",
+            "get_score"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\intelligence\\classifier.py": {
+        "layer": "Other",
+        "classes": [
+            "ApiType",
+            "ClassificationResult",
+            "ApiClassifier"
+        ],
+        "functions": [
+            "classify",
+            "stars"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\intelligence\\detector.py": {
+        "layer": "Other",
+        "classes": [
+            "DetectionResult",
+            "ApiDetector"
+        ],
+        "functions": [
+            "detect",
+            "pretty"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\intelligence\\fingerprint.py": {
+        "layer": "Other",
+        "classes": [
+            "Fingerprint",
+            "FingerprintMatch",
+            "FingerprintEngine"
+        ],
+        "functions": [
+            "success",
+            "confidence",
+            "stars",
+            "flatten",
+            "match",
+            "best_match"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\intelligence\\fingerprints.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "research\\toolkit\\models.py": {
+        "layer": "Other",
+        "classes": [
+            "Protocol",
+            "HttpMethod",
+            "Severity",
+            "RequestInfo",
+            "ResponseInfo",
+            "GraphQLOperation",
+            "RestEndpoint",
+            "SecurityFinding",
+            "SchemaField",
+            "ProviderHint",
+            "AnalysisReport"
+        ],
+        "functions": [
+            "is_graphql",
+            "is_rest",
+            "to_dict",
+            "is_success",
+            "to_dict",
+            "has_response",
+            "to_dict",
+            "to_dict",
+            "to_dict",
+            "to_dict",
+            "stars",
+            "to_dict",
+            "summary"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\recorder.py": {
+        "layer": "Other",
+        "classes": [
+            "Recorder"
+        ],
+        "functions": [
+            "__init__",
+            "_next_id",
+            "export_summary",
+            "request_count",
+            "response_count"
+        ],
+        "async_functions": [
+            "record_request",
+            "record_response",
+            "save_page_html",
+            "save_screenshot",
+            "save_cookies"
+        ]
+    },
+    "research\\toolkit\\reporter.py": {
+        "layer": "Other",
+        "classes": [
+            "Reporter"
+        ],
+        "functions": [
+            "__init__",
+            "build_summary",
+            "find_best_requests",
+            "build_report",
+            "export"
+        ],
+        "async_functions": []
+    },
+    "research\\toolkit\\utils.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "ensure_directory",
+            "save_json",
+            "save_text",
+            "pretty_size"
+        ],
+        "async_functions": []
+    },
+    "research\\uzum_probe.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "log_request"
+        ],
+        "async_functions": []
+    },
+    "ROADMAP.md": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "test_db.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "test_manager.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": [
+            "main"
+        ]
+    },
+    "tests\\test_start.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "toolkit_tree.txt": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "tools\\inspect_project.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "read_file",
+            "main"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\__init__.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "tools\\inspector\\analyzer.py": {
+        "layer": "Other",
+        "classes": [
+            "ASTAnalyzer"
+        ],
+        "functions": [
+            "analyze"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\architecture.py": {
+        "layer": "Other",
+        "classes": [
+            "ArchitectureAnalyzer"
+        ],
+        "functions": [
+            "analyze"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\component_detector.py": {
+        "layer": "Other",
+        "classes": [
+            "ComponentDetector"
+        ],
+        "functions": [
+            "detect"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\config.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [],
+        "async_functions": []
+    },
+    "tools\\inspector\\dependency.py": {
+        "layer": "Other",
+        "classes": [
+            "DependencyAnalyzer"
+        ],
+        "functions": [
+            "build"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\exporter.py": {
+        "layer": "Other",
+        "classes": [
+            "JsonExporter"
+        ],
+        "functions": [
+            "export"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\graph.py": {
+        "layer": "Other",
+        "classes": [
+            "ImportGraph"
+        ],
+        "functions": [
+            "build"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\parser.py": {
+        "layer": "Other",
+        "classes": [
+            "PythonParser"
+        ],
+        "functions": [
+            "parse"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\project_graph.py": {
+        "layer": "Other",
+        "classes": [
+            "ProjectGraph"
+        ],
+        "functions": [
+            "build"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\scanner.py": {
+        "layer": "Other",
+        "classes": [
+            "ProjectScanner"
+        ],
+        "functions": [
+            "__init__",
+            "scan"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\statistics.py": {
+        "layer": "Other",
+        "classes": [
+            "Statistics"
+        ],
+        "functions": [
+            "build"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\tree.py": {
+        "layer": "Other",
+        "classes": [
+            "TreeBuilder"
+        ],
+        "functions": [
+            "build",
+            "walk"
+        ],
+        "async_functions": []
+    },
+    "tools\\inspector\\utils.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "file_sha256"
+        ],
+        "async_functions": []
+    },
+    "tools\\remove_bom.py": {
+        "layer": "Other",
+        "classes": [],
+        "functions": [
+            "should_skip",
+            "remove_bom",
+            "main"
+        ],
+        "async_functions": []
+    }
+}
