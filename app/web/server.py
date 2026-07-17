@@ -9,6 +9,7 @@ from app.bot.bot import bot
 from app.bot.dispatcher import dp
 from app.database.init_db import init_database
 from app.core.logger import logger
+from app.web.webhook import router as webhook_router
 
 
 @asynccontextmanager
@@ -31,6 +32,8 @@ app = FastAPI(
     version="1.0.0",
     lifespan=lifespan,
 )
+
+app.include_router(webhook_router)
 
 
 @app.get("/")
