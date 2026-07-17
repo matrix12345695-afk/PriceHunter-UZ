@@ -6,25 +6,35 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
 from app.bot.bot import bot
-from app.bot.dispatcher import dp
 from app.database.init_db import init_database
 from app.core.logger import logger
 from app.web.webhook import router as webhook_router
+from app.web.startup import setup_webhook, remove_webhook
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     logger.info("🚀 Starting PriceHunter UZ...")
 
+    # Инициализация базы данных
     await init_database()
+    logger.success("✅ Database initialized")
 
-    logger.info("✅ Database initialized")
+    # Регистрация webhook в Telegram
+    await setup_webhook()
+    logger.success("✅ Webhook initialized")
 
     yield
 
     logger.info("🛑 Shutting down...")
 
+    # Удаляем webhook
+    await remove_webhook()
+
+    # Закрываем HTTP-сессию бота
     await bot.session.close()
+
+    logger.success("✅ Shutdown complete")
 
 
 app = FastAPI(
@@ -33,6 +43,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# Подключаем webhook-роутер
 app.include_router(webhook_router)
 
 
@@ -42,6 +53,8 @@ async def root():
         {
             "status": "ok",
             "service": "PriceHunter UZ",
+            "mode": "webhook",
+            "version": "1.0.0",
         }
     )
 
@@ -51,5 +64,7 @@ async def health():
     return JSONResponse(
         {
             "status": "healthy",
+            "database": "connected",
+            "telegram": "webhook",
         }
     )
