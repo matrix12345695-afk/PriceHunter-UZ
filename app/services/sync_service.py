@@ -18,7 +18,6 @@ from app.repositories.product_repository import ProductRepository
 from app.repositories.store_repository import StoreRepository
 
 
-STORE_NAME = "Olcha"
 
 
 @dataclass(slots=True)
@@ -57,7 +56,6 @@ class SyncService:
             products = await self.provider.search(query)
 
             return await self.sync_products(
-                STORE_NAME,
                 products,
             )
 
