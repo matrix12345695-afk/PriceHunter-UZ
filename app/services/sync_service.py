@@ -51,15 +51,43 @@ class SyncService:
 
         logger.info(f"Начинаем синхронизацию: {query}")
 
-        result = SyncResult()
-
         try:
 
             products = await self.provider.search(query)
 
-            result.total = len(products)
+            return await self.sync_products(
+                STORE_NAME,
+                products,
+            )
 
-            store = await self._get_store(STORE_NAME)
+        except Exception:
+
+            await self.session.rollback()
+
+            logger.exception("Ошибка синхронизации")
+
+            raise
+
+# ==========================================================
+# НОВЫЙ МЕТОД
+# ==========================================================
+
+    async def sync_products(
+        self,
+        store_name: str,
+        products: list[ProductDTO],
+    ) -> SyncResult:
+
+        logger.info(
+            f"Сохраняем {len(products)} товаров магазина '{store_name}'"
+        )
+
+        result = SyncResult()
+        result.total = len(products)
+
+        try:
+
+            store = await self._get_store(store_name)
 
             for dto in products:
 
@@ -75,6 +103,8 @@ class SyncService:
                 f"""
 =========================================
 SYNC FINISHED
+
+Магазин : {store_name}
 
 Всего товаров : {result.total}
 
@@ -93,10 +123,10 @@ SYNC FINISHED
 
             await self.session.rollback()
 
-            logger.exception("Ошибка синхронизации")
+            logger.exception("Ошибка sync_products")
 
             raise
-
+      
     async def _get_store(
         self,
         name: str,
