@@ -153,8 +153,9 @@ SYNC FINISHED
         result: SyncResult,
     ):
 
-        product = await self.product_repo.get_by_external_id(
-            dto.external_id
+        product = await self.product_repo.get_by_store_external_id(
+            store.id,
+            dto.external_id,
         )
 
         if product is None:
