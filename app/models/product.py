@@ -1,8 +1,7 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
-
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
@@ -46,6 +45,7 @@ class Product(Base):
     prices: Mapped[list["Price"]] = relationship(
         back_populates="product",
         cascade="all, delete-orphan",
+        order_by="Price.created_at",
     )
 
     subscriptions: Mapped[list["Subscription"]] = relationship(
@@ -60,21 +60,29 @@ class Product(Base):
     @property
     def latest_price(self):
         """
-        Возвращает последнюю известную цену товара.
+        Последняя цена товара.
         """
 
         if not self.prices:
             return None
 
-        return max(
-            self.prices,
-            key=lambda p: p.created_at,
-        )
+        return self.prices[-1]
+
+    @property
+    def previous_price(self):
+        """
+        Предыдущая цена товара.
+        """
+
+        if len(self.prices) < 2:
+            return None
+
+        return self.prices[-2]
 
     @property
     def current_price(self) -> int | None:
         """
-        Возвращает значение последней цены.
+        Текущая цена.
         """
 
         latest = self.latest_price
@@ -87,7 +95,7 @@ class Product(Base):
     @property
     def currency(self) -> str | None:
         """
-        Валюта последней цены.
+        Валюта текущей цены.
         """
 
         latest = self.latest_price
@@ -96,6 +104,49 @@ class Product(Base):
             return None
 
         return latest.currency
+
+    @property
+    def discount_amount(self) -> int:
+        """
+        Размер скидки.
+        """
+
+        previous = self.previous_price
+        latest = self.latest_price
+
+        if previous is None or latest is None:
+            return 0
+
+        if previous.price <= latest.price:
+            return 0
+
+        return previous.price - latest.price
+
+    @property
+    def discount_percent(self) -> int:
+        """
+        Процент скидки.
+        """
+
+        previous = self.previous_price
+
+        if previous is None:
+            return 0
+
+        if previous.price <= 0:
+            return 0
+
+        return round(
+            self.discount_amount * 100 / previous.price
+        )
+
+    @property
+    def has_discount(self) -> bool:
+        """
+        Есть ли скидка.
+        """
+
+        return self.discount_amount > 0
 
     def __repr__(self) -> str:
         return (
