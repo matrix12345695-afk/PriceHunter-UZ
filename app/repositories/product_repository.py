@@ -1,4 +1,5 @@
 from sqlalchemy import select
+from sqlalchemy.orm import selectinload
 
 from app.models.product import Product
 from app.repositories.base import BaseRepository
@@ -12,7 +13,12 @@ class ProductRepository(BaseRepository):
     ) -> Product | None:
 
         result = await self.session.execute(
-            select(Product).where(
+            select(Product)
+            .options(
+                selectinload(Product.store),
+                selectinload(Product.prices),
+            )
+            .where(
                 Product.id == product_id
             )
         )
@@ -25,7 +31,12 @@ class ProductRepository(BaseRepository):
     ) -> Product | None:
 
         result = await self.session.execute(
-            select(Product).where(
+            select(Product)
+            .options(
+                selectinload(Product.store),
+                selectinload(Product.prices),
+            )
+            .where(
                 Product.external_id == external_id
             )
         )
@@ -39,6 +50,10 @@ class ProductRepository(BaseRepository):
 
         result = await self.session.execute(
             select(Product)
+            .options(
+                selectinload(Product.store),
+                selectinload(Product.prices),
+            )
             .where(
                 Product.title.ilike(f"%{query}%")
             )
@@ -55,7 +70,13 @@ class ProductRepository(BaseRepository):
 
         result = await self.session.execute(
             select(Product)
-            .order_by(Product.title)
+            .options(
+                selectinload(Product.store),
+                selectinload(Product.prices),
+            )
+            .order_by(
+                Product.title
+            )
         )
 
         return list(result.scalars().all())
