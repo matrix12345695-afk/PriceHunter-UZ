@@ -75,7 +75,7 @@ class SyncService:
 
     async def sync_products(
         self,
-        store_name: str,
+        self,
         products: list[ProductDTO],
     ) -> SyncResult:
 
