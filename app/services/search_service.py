@@ -53,9 +53,7 @@ class SearchService:
             "В базе ничего нет. Выполняем поиск..."
         )
 
-        provider_products = await self.manager.search(
-            query
-        )
+        provider_products = await self.manager.search(query)
 
         if not provider_products:
 
@@ -69,15 +67,16 @@ class SearchService:
         # 3. Сохраняем найденное
         #
 
-        await self.sync_service.sync(query)
+        await self.sync_service.sync_products(
+            "Olcha",
+            provider_products,
+        )
 
         #
         # 4. Снова ищем уже в БД
         #
 
-        products = await self.product_repo.search(
-            query
-        )
+        products = await self.product_repo.search(query)
 
         logger.success(
             f"Добавлено {len(products)} товаров."
