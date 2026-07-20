@@ -102,24 +102,27 @@ async def process_search(
 
     #
     # Пока показываем первые 5.
-    # Потом добавим пагинацию.
     #
 
     for product in products[:5]:
-    try:
-        text = format_product(product)
+        try:
+            text = format_product(product)
 
-        keyboard = product_keyboard(
-            product.id,
-            product.url,
-        )
+            keyboard = product_keyboard(
+                product.id,
+                product.url,
+            )
 
-        await message.answer(
-            text,
-            reply_markup=keyboard,
-        )
+            await message.answer(
+                text,
+                reply_markup=keyboard,
+            )
 
-    except Exception:
-        logger.exception("Ошибка при отправке карточки товара")
-        await message.answer("❌ Ошибка при формировании карточки.")
-        raise
+        except Exception as e:
+            logger.exception(e)
+
+            await message.answer(
+                f"❌ Ошибка:\n<code>{type(e).__name__}: {e}</code>"
+            )
+
+            break
