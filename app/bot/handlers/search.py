@@ -106,11 +106,20 @@ async def process_search(
     #
 
     for product in products[:5]:
+    try:
+        text = format_product(product)
+
+        keyboard = product_keyboard(
+            product.id,
+            product.url,
+        )
 
         await message.answer(
-            format_product(product),
-            reply_markup=product_keyboard(
-                product.id,
-                product.url,
-            ),
+            text,
+            reply_markup=keyboard,
         )
+
+    except Exception:
+        logger.exception("Ошибка при отправке карточки товара")
+        await message.answer("❌ Ошибка при формировании карточки.")
+        raise
