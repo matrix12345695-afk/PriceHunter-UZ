@@ -6,10 +6,10 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 
 from app.bot.bot import bot
-from app.database.init_db import init_database
 from app.core.logger import logger
+from app.database.init_db import init_database
+from app.web.startup import setup_webhook
 from app.web.webhook import router as webhook_router
-from app.web.startup import setup_webhook, remove_webhook
 
 
 @asynccontextmanager
@@ -20,7 +20,7 @@ async def lifespan(app: FastAPI):
     await init_database()
     logger.success("✅ Database initialized")
 
-    # Регистрация webhook в Telegram
+    # Регистрация webhook
     await setup_webhook()
     logger.success("✅ Webhook initialized")
 
@@ -28,8 +28,10 @@ async def lifespan(app: FastAPI):
 
     logger.info("🛑 Shutting down...")
 
-    # Удаляем webhook
-    await remove_webhook()
+    # ==========================================
+    # ВРЕМЕННО НЕ УДАЛЯЕМ WEBHOOK
+    # ==========================================
+    # await remove_webhook()
 
     # Закрываем HTTP-сессию бота
     await bot.session.close()
@@ -43,7 +45,7 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Подключаем webhook-роутер
+# Webhook
 app.include_router(webhook_router)
 
 
