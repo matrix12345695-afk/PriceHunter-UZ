@@ -68,7 +68,6 @@ class SearchService:
         #
 
         await self.sync_service.sync_products(
-            "Olcha",
             provider_products,
         )
 
