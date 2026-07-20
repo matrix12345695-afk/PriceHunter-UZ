@@ -25,8 +25,9 @@ class ProductRepository(BaseRepository):
 
         return result.scalar_one_or_none()
 
-    async def get_by_external_id(
+    async def get_by_store_external_id(
         self,
+        store_id: int,
         external_id: str,
     ) -> Product | None:
 
@@ -37,7 +38,8 @@ class ProductRepository(BaseRepository):
                 selectinload(Product.prices),
             )
             .where(
-                Product.external_id == external_id
+                Product.store_id == store_id,
+                Product.external_id == external_id,
             )
         )
 
