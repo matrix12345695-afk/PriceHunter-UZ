@@ -10,6 +10,7 @@ from app.models.price import Price
 from app.models.product import Product
 from app.models.store import Store
 
+from app.providers.base import BaseProvider
 from app.providers.olcha import OlchaProvider
 
 from app.repositories.price_repository import PriceRepository
@@ -33,7 +34,7 @@ class SyncService:
     def __init__(
         self,
         session: AsyncSession,
-        provider: OlchaProvider | None = None,
+        provider: BaseProvider | None = None,
     ):
 
         self.session = session
