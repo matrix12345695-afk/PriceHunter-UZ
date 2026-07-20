@@ -76,21 +76,20 @@ class SyncService:
         products: list[ProductDTO],
     ) -> SyncResult:
 
-        logger.info(
-            f"Сохраняем {len(products)} товаров магазина '{store_name}'"
-        )
-
         result = SyncResult()
         result.total = len(products)
 
         try:
 
-            store = await self._get_store(store_name)
+            stores: dict[str, Store] = {}
 
             for dto in products:
 
+                if dto.store not in stores:
+                    stores[dto.store] = await self._get_store(dto.store)
+
                 await self._process_product(
-                    store,
+                    stores[dto.store],
                     dto,
                     result,
                 )
@@ -101,8 +100,6 @@ class SyncService:
                 f"""
 =========================================
 SYNC FINISHED
-
-Магазин : {store_name}
 
 Всего товаров : {result.total}
 
@@ -216,6 +213,8 @@ SYNC FINISHED
             return
 
         result.skipped += 1
+
+    
     async def _create_product(
         self,
         store: Store,
