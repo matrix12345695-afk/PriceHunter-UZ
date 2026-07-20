@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from sqlalchemy import String
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
@@ -17,7 +19,7 @@ class Store(Base):
         unique=True,
     )
 
-    products = relationship(
-        "Product",
-        backref="store",
+    products: Mapped[list["Product"]] = relationship(
+        back_populates="store",
+        cascade="all, delete-orphan",
     )
