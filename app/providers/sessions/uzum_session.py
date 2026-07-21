@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from urllib.parse import unquote
 
 
 class UzumSession:
@@ -67,7 +68,7 @@ class UzumSession:
             )
 
             if install_id:
-                install_id = install_id.strip('"')
+                install_id = unquote(install_id).strip('"')
 
             headers = {
                 "Accept": "*/*",
@@ -88,7 +89,7 @@ class UzumSession:
                 "apollographql-client-name": "web-customers",
                 "apollographql-client-version": "1.63.2",
 
-                # Location
+                # Геолокация
                 "city-id": "1",
                 "city-latitude": "41.379112",
                 "city-longitude": "69.29944",
