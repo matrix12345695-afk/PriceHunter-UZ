@@ -32,24 +32,25 @@ class HttpClient:
         )
 
     async def get(self, url: str, **kwargs):
+
         response = await self._client.get(url, **kwargs)
 
-        print("=" * 80)
+        print("=" * 100)
         print("GET", url)
         print("STATUS:", response.status_code)
-        print("=" * 80)
+        print("=" * 100)
 
         response.raise_for_status()
         return response
 
     async def post(self, url: str, **kwargs):
 
-        print("=" * 80)
-        print("POST", url)
-        print()
-
         headers = kwargs.get("headers", {})
         body = kwargs.get("json")
+
+        print("=" * 100)
+        print("POST", url)
+        print()
 
         print("HEADERS:")
 
@@ -59,10 +60,16 @@ class HttpClient:
                 print(f"{key}: {value[:80]}...")
 
             elif key.lower() == "cookie":
-                print(f"{key}:")
-                for part in value.split(";"):
-                    name = part.strip().split("=")[0]
-                    print("  ", name)
+
+                print("Cookie names:")
+
+                for item in value.split(";"):
+
+                    item = item.strip()
+
+                    if "=" in item:
+                        name = item.split("=", 1)[0]
+                        print(f"  {name}")
 
             else:
                 print(f"{key}: {value}")
@@ -72,22 +79,33 @@ class HttpClient:
         print("BODY:")
         print(json.dumps(body, indent=2, ensure_ascii=False))
 
-        print("=" * 80)
+        print("=" * 100)
 
         response = await self._client.post(url, **kwargs)
 
         print()
-        print("=" * 80)
+        print("=" * 100)
         print("RESPONSE")
+        print("=" * 100)
+
         print("STATUS:", response.status_code)
         print()
+
+        print("RESPONSE HEADERS:")
+
+        for key, value in response.headers.items():
+            print(f"{key}: {value}")
+
+        print()
+
+        print("BODY:")
 
         try:
             print(json.dumps(response.json(), indent=2, ensure_ascii=False))
         except Exception:
             print(response.text)
 
-        print("=" * 80)
+        print("=" * 100)
 
         response.raise_for_status()
         return response
