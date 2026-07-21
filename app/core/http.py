@@ -1,117 +1,108 @@
 from __future__ import annotations
 
 import json
-
-import httpx
-
-
-DEFAULT_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/138.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json",
-    "Accept-Language": "ru,en;q=0.9",
-}
+from pathlib import Path
+from urllib.parse import unquote
 
 
-class HttpClient:
+class UzumSession:
     """
-    Общий HTTP-клиент для всех маркетплейсов.
-    Один AsyncClient используется во всём приложении.
+    Управляет HTTP-заголовками и cookies для Uzum.
+
+    Пока используется сохранённая браузерная сессия.
+    Позже здесь появится автоматическое обновление токенов.
     """
 
     def __init__(self) -> None:
+        self._headers: dict[str, str] | None = None
 
-        self._client = httpx.AsyncClient(
-            timeout=httpx.Timeout(30.0),
-            follow_redirects=True,
-            headers=DEFAULT_HEADERS,
-            http2=False,
+    def _cookies_path(self) -> Path:
+        return (
+            Path(__file__).resolve().parents[3]
+            / "research"
+            / "auth"
+            / "cookies"
+            / "cookies.json"
         )
 
-    async def get(self, url: str, **kwargs):
+    def _load_cookies(self) -> list[dict]:
+        with self._cookies_path().open(
+            "r",
+            encoding="utf-8",
+        ) as f:
+            return json.load(f)
 
-        response = await self._client.get(url, **kwargs)
+    @staticmethod
+    def _build_cookie_header(cookies: list[dict]) -> str:
+        return "; ".join(
+            f"{cookie['name']}={cookie['value']}"
+            for cookie in cookies
+        )
 
-        print("=" * 100)
-        print("GET", url)
-        print("STATUS:", response.status_code)
-        print("=" * 100)
+    @staticmethod
+    def _find_cookie(
+        cookies: list[dict],
+        name: str,
+    ) -> str | None:
+        for cookie in cookies:
+            if cookie["name"] == name:
+                return cookie["value"]
+        return None
 
-        response.raise_for_status()
-        return response
+    async def headers(self) -> dict[str, str]:
 
-    async def post(self, url: str, **kwargs):
+        if self._headers is None:
 
-        headers = kwargs.get("headers", {})
-        body = kwargs.get("json")
+            cookies = self._load_cookies()
 
-        print("=" * 100)
-        print("POST", url)
-        print()
+            cookie_header = self._build_cookie_header(cookies)
 
-        print("HEADERS:")
+            access_token = self._find_cookie(
+                cookies,
+                "access_token",
+            )
 
-        for key, value in headers.items():
+            install_id = (
+                self._find_cookie(cookies, "clickstream-client.installId")
+                or self._find_cookie(cookies, "installId")
+            )
 
-            if key.lower() == "authorization":
-                print(f"{key}: {value[:80]}...")
+            if install_id:
+                install_id = unquote(install_id).strip('"')
 
-            elif key.lower() == "cookie":
+            headers = {
+                "Accept": "*/*",
+                "Accept-Language": "ru-RU",
+                "Content-Type": "application/json",
+                "Origin": "https://uzum.uz",
+                "Referer": "https://uzum.uz/",
+                "User-Agent": (
+                    "Mozilla/5.0 "
+                    "(Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) "
+                    "Chrome/138.0.0.0 Safari/537.36"
+                ),
+                "Cookie": cookie_header,
 
-                print("Cookie names:")
+                # GraphQL
+                "apollographql-client-name": "web-customers",
+                "apollographql-client-version": "1.63.2",
 
-                for item in value.split(";"):
+                # Геолокация
+                "city-id": "1",
+                "city-latitude": "41.379112",
+                "city-longitude": "69.29944",
+                "latitude": "41.379112",
+                "longitude": "69.29944",
+            }
 
-                    item = item.strip()
+            if access_token:
+                headers["Authorization"] = f"Bearer {access_token}"
 
-                    if "=" in item:
-                        name = item.split("=", 1)[0]
-                        print(f"  {name}")
+            if install_id:
+                headers["x-iid"] = install_id
 
-            else:
-                print(f"{key}: {value}")
+            self._headers = headers
 
-        print()
-
-        print("BODY:")
-        print(json.dumps(body, indent=2, ensure_ascii=False))
-
-        print("=" * 100)
-
-        response = await self._client.post(url, **kwargs)
-
-        print()
-        print("=" * 100)
-        print("RESPONSE")
-        print("=" * 100)
-
-        print("STATUS:", response.status_code)
-        print()
-
-        print("RESPONSE HEADERS:")
-
-        for key, value in response.headers.items():
-            print(f"{key}: {value}")
-
-        print()
-
-        print("BODY:")
-
-        try:
-            print(json.dumps(response.json(), indent=2, ensure_ascii=False))
-        except Exception:
-            print(response.text)
-
-        print("=" * 100)
-
-        response.raise_for_status()
-        return response
-
-    async def close(self):
-        await self._client.aclose()
-
-
-http = HttpClient()
+        return self._headers
