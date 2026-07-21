@@ -1,3 +1,6 @@
+from app.core.http import http
+from app.providers.base import BaseProvider
+from app.providers.graphql.make_search_items import build_payload
 from __future__ import annotations
 
 from typing import Any
@@ -85,3 +88,16 @@ query MakeSearch_ItemsAndFilters(
             return True
         except Exception:
             return False
+
+    async def search_raw(self, query: str):
+
+    payload = build_payload(query)
+
+    response = await http.post(
+        self.GRAPHQL_URL,
+        json=payload,
+    )
+
+    response.raise_for_status()
+
+    return response.json()
