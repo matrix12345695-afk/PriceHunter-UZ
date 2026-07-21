@@ -59,7 +59,10 @@ class HttpClient:
                 print(f"{key}: {value[:80]}...")
 
             elif key.lower() == "cookie":
-                print(f"{key}: <hidden>")
+                print(f"{key}:")
+                for part in value.split(";"):
+                    name = part.strip().split("=")[0]
+                    print("  ", name)
 
             else:
                 print(f"{key}: {value}")
