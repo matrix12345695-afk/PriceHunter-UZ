@@ -24,28 +24,54 @@ class UzumSession:
             / "cookies.json"
         )
 
-    def _build_cookie_header(self) -> str:
-
+    def _load_cookies(self) -> list[dict]:
         with self._cookies_path().open(
             "r",
             encoding="utf-8",
         ) as f:
-            cookies = json.load(f)
+            return json.load(f)
 
+    @staticmethod
+    def _build_cookie_header(cookies: list[dict]) -> str:
         return "; ".join(
             f"{cookie['name']}={cookie['value']}"
             for cookie in cookies
         )
 
+    @staticmethod
+    def _find_cookie(
+        cookies: list[dict],
+        name: str,
+    ) -> str | None:
+        for cookie in cookies:
+            if cookie["name"] == name:
+                return cookie["value"]
+        return None
+
     async def headers(self) -> dict[str, str]:
 
         if self._headers is None:
 
-            cookie = self._build_cookie_header()
+            cookies = self._load_cookies()
 
-            self._headers = {
+            cookie_header = self._build_cookie_header(cookies)
+
+            access_token = self._find_cookie(
+                cookies,
+                "access_token",
+            )
+
+            install_id = (
+                self._find_cookie(cookies, "clickstream-client.installId")
+                or self._find_cookie(cookies, "installId")
+            )
+
+            if install_id:
+                install_id = install_id.strip('"')
+
+            headers = {
                 "Accept": "*/*",
-                "Accept-Language": "ru",
+                "Accept-Language": "ru-RU",
                 "Content-Type": "application/json",
                 "Origin": "https://uzum.uz",
                 "Referer": "https://uzum.uz/",
@@ -56,7 +82,26 @@ class UzumSession:
                     "(KHTML, like Gecko) "
                     "Chrome/138.0.0.0 Safari/537.36"
                 ),
-                "Cookie": cookie,
+                "Cookie": cookie_header,
+
+                # GraphQL
+                "apollographql-client-name": "web-customers",
+                "apollographql-client-version": "1.63.2",
+
+                # Location
+                "city-id": "1",
+                "city-latitude": "41.379112",
+                "city-longitude": "69.29944",
+                "latitude": "41.379112",
+                "longitude": "69.29944",
             }
+
+            if access_token:
+                headers["Authorization"] = f"Bearer {access_token}"
+
+            if install_id:
+                headers["x-iid"] = install_id
+
+            self._headers = headers
 
         return self._headers
