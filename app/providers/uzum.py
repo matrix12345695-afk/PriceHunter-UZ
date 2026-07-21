@@ -6,6 +6,7 @@ from app.core.http import http
 from app.domain.product_dto import ProductDTO
 from app.providers.base import BaseProvider
 from app.providers.graphql.make_search_items import build_payload
+from app.providers.sessions.uzum_session import UzumSession
 
 
 class UzumProvider(BaseProvider):
@@ -14,6 +15,9 @@ class UzumProvider(BaseProvider):
 
     GRAPHQL_URL = "https://graphql.uzum.uz/"
 
+    def __init__(self) -> None:
+        self.session = UzumSession()
+
     async def _request(
         self,
         query: str,
@@ -21,12 +25,13 @@ class UzumProvider(BaseProvider):
 
         payload = build_payload(query)
 
+        headers = await self.session.headers()
+
         response = await http.post(
             self.GRAPHQL_URL,
             json=payload,
+            headers=headers,
         )
-
-        response.raise_for_status()
 
         return response.json()
 
@@ -36,15 +41,11 @@ class UzumProvider(BaseProvider):
         page: int = 1,
     ) -> list[ProductDTO]:
 
-        #
-        # TODO:
-        # Здесь будет преобразование GraphQL
-        # -> ProductDTO
-        #
-
         _ = page
 
         data = await self._request(query)
+
+        print(data)
 
         products: list[ProductDTO] = []
 
@@ -55,9 +56,7 @@ class UzumProvider(BaseProvider):
         external_id: str,
     ) -> ProductDTO | None:
 
-        #
-        # TODO
-        #
+        _ = external_id
 
         return None
 
@@ -66,13 +65,7 @@ class UzumProvider(BaseProvider):
     ) -> bool:
 
         try:
-
-            result = await self.search(
-                "iphone"
-            )
-
-            return len(result) >= 0
-
+            await self.search("iphone")
+            return True
         except Exception:
-
             return False
