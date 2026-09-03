@@ -7,7 +7,7 @@ from alembic import context
 from app.core.settings import settings
 from app.database.base import Base
 
-# Импорт моделей
+# РРјРїРѕСЂС‚ РјРѕРґРµР»РµР№
 from app.models.store import Store
 from app.models.product import Product
 from app.models.price import Price
@@ -17,16 +17,12 @@ from app.models.subscription import Subscription
 
 config = context.config
 
-# Передаем URL из .env
+# РџРµСЂРµРґР°РµРј URL РёР· .env
 config.set_main_option(
     "sqlalchemy.url",
     settings.DATABASE_URL,
 )
 
-print("=" * 80)
-print("DATABASE_URL :", settings.DATABASE_URL)
-print("ALEMBIC_URL  :", config.get_main_option("sqlalchemy.url"))
-print("=" * 80)
 
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)

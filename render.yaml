@@ -1,18 +1,15 @@
 services:
-  - type: worker
+  - type: web
     name: pricehunter-uz
     runtime: docker
-
-    plan: free
-
+    healthCheckPath: /health
     autoDeploy: true
-
-    healthCheckPath: /
-
     envVars:
-
       - key: BOT_TOKEN
         sync: false
-
       - key: DATABASE_URL
+        sync: false
+      - key: WEBHOOK_URL
+        sync: false
+      - key: WEBHOOK_SECRET
         sync: false

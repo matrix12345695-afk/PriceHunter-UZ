@@ -1,0 +1,76 @@
+{
+  "query": "iphone",
+  "cached": false,
+  "markets": [
+    {
+      "store": "aliexpress",
+      "status": "link",
+      "count": 0,
+      "detail": "Поиск на сайте",
+      "products": []
+    },
+    {
+      "store": "asaxiy",
+      "status": "ok",
+      "count": 24,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "elmakon",
+      "status": "error",
+      "count": 0,
+      "detail": "HTTP 502",
+      "products": []
+    },
+    {
+      "store": "idea",
+      "status": "unsupported",
+      "count": 0,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "mediapark",
+      "status": "ok",
+      "count": 20,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "olcha",
+      "status": "ok",
+      "count": 17,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "olx",
+      "status": "link",
+      "count": 0,
+      "detail": "Поиск на сайте",
+      "products": []
+    },
+    {
+      "store": "texnomart",
+      "status": "unsupported",
+      "count": 0,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "uzum",
+      "status": "unsupported",
+      "count": 0,
+      "detail": "",
+      "products": []
+    },
+    {
+      "store": "wildberries",
+      "status": "link",
+      "count": 0,
+      "detail": "Поиск на сайте",
+      "products": []
+    }
+  ]
+}
