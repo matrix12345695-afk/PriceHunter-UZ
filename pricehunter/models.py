@@ -33,6 +33,8 @@ class Product:
     currency: str = 'UZS'
     checked_at: float = field(default_factory=time.time)
     image: str = ""
+    condition: str = ""
+    location: str = ""
 
     def to_dict(self):
         return asdict(self)

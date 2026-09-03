@@ -3,11 +3,12 @@ import asyncio
 import json
 import sys
 from datetime import datetime, timezone
+from .browser import BrowserRenderer
 from .service import SearchService, select_products
 from .providers import MARKETS
 
 async def main(query):
-    service=SearchService()
+    service=SearchService(browser=BrowserRenderer())
     try:
         results,_=await service.search(query)
         report={'checked_at':datetime.now(timezone.utc).isoformat(),'query':query,'markets':[]}

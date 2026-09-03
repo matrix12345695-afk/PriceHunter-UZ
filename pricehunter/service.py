@@ -14,7 +14,8 @@ def normalize(query):
 
 
 class SearchService:
-    def __init__(self, client=None, ttl=180):
+    def __init__(self, client=None, ttl=180, browser=None):
+        self.browser = browser
         self.client = client or httpx.AsyncClient(timeout=8, follow_redirects=True,
             limits=httpx.Limits(max_connections=12, max_keepalive_connections=8),
             headers={'User-Agent': 'PriceHunterUZ/1.0', 'Accept-Language': 'ru'})
@@ -24,6 +25,8 @@ class SearchService:
 
     async def close(self):
         await self.client.aclose()
+        if self.browser:
+            await self.browser.close()
 
     async def search(self, query, stores=None):
         query = normalize(query)
@@ -34,7 +37,16 @@ class SearchService:
             return cached[1], True
         async def one(k):
             async with self.semaphore:
-                return await search_market(self.client, MARKETS[k], query)
+                market = MARKETS[k]
+                if market.mode == 'browser':
+                    if self.browser:
+                        return await self.browser.search(market, query)
+                    from .models import Result
+                    return Result(k, 'browser_unavailable')
+                result = await search_market(self.client, market, query)
+                if self.browser and k == 'asaxiy' and result.status in ('blocked', 'unsupported', 'error', 'timeout'):
+                    return await self.browser.search(market, query)
+                return result
         results = await asyncio.gather(*(one(k) for k in keys))
         self.cache[key] = (time.monotonic(), results)
         self.cache.move_to_end(key)

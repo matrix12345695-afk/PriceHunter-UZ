@@ -101,9 +101,9 @@ class BotApp:
         self.busy.add(user)
         progress = None
         try:
-            progress = await m.answer('🔎 Ищу предложения… Обычно это занимает до 20 секунд.')
+            progress = await m.answer('🔎 Ищу предложения… Открываю каталоги площадок. Поиск может занять до 3 минут.')
             settings = await self.storage.settings(user)
-            async with asyncio.timeout(40):
+            async with asyncio.timeout(200):
                 results, cached = await self.service.search(query, settings['stores'])
             await self.storage.remember(user, query)
             sid = secrets.token_hex(5)

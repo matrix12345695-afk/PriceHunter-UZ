@@ -13,6 +13,7 @@ from aiogram.types import Update, LinkPreviewOptions
 from aiogram.client.default import DefaultBotProperties
 from .bot import BotApp
 from .postgres import PostgresStorage
+from .browser import BrowserRenderer
 from .service import SearchService
 
 log = logging.getLogger('uvicorn.error')
@@ -73,7 +74,7 @@ async def provider_diagnostics(service):
 async def lifespan(app):
     token,dsn,endpoint,secret=configuration()
     storage=await PostgresStorage.connect(dsn)
-    service=SearchService()
+    service=SearchService(browser=BrowserRenderer())
     bot=Bot(token,default=DefaultBotProperties(parse_mode='HTML',link_preview=LinkPreviewOptions(is_disabled=True)))
     dp=Dispatcher()
     dp.include_router(BotApp(service,storage).router)
@@ -87,7 +88,7 @@ async def lifespan(app):
         await bot.set_webhook(endpoint,secret_token=secret,allowed_updates=['message','callback_query'],drop_pending_updates=False)
         task=asyncio.create_task(process_queue(app))
         app.state.worker=task
-        if os.getenv("PROVIDER_DIAGNOSTICS", "1") == "1":
+        if os.getenv("PROVIDER_DIAGNOSTICS", "0") == "1":
             diagnostic_task=asyncio.create_task(provider_diagnostics(service))
         log.info('PriceHunter webhook and PostgreSQL ready')
         yield
@@ -106,12 +107,12 @@ async def lifespan(app):
         await storage.close()
 
 
-app=FastAPI(title='PriceHunter UZ',version='1.3.0',lifespan=lifespan)
+app=FastAPI(title='PriceHunter UZ',version='1.4.0',lifespan=lifespan)
 
 
 @app.get('/')
 async def root():
-    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.3.0'}
+    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.4.0'}
 
 
 @app.get('/health')

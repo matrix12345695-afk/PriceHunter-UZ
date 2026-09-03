@@ -19,20 +19,21 @@ class Market:
     mode: str = 'link'
 
     def search_url(self, query):
-        return self.search_template.format(query=quote(query, safe=''))
+        value = '-'.join(query.split()) if self.key == 'olx' else query
+        return self.search_template.format(query=quote(value, safe=''))
 
 
 MARKETS = {
     m.key: m for m in [
         Market('olcha', 'Olcha', 'olcha.uz', 'https://olcha.uz/ru/search?search={query}', 'olcha'),
-        Market('uzum', 'Uzum Market', 'uzum.uz', 'https://uzum.uz/ru/search?query={query}', 'structured'),
-        Market('asaxiy', 'Asaxiy', 'asaxiy.uz', 'https://asaxiy.uz/product?key={query}', 'asaxiy'),
+        Market('uzum', 'Uzum Market', 'uzum.uz', 'https://uzum.uz/ru/search?query={query}', 'browser'),
+        Market('asaxiy', 'Asaxiy', 'asaxiy.uz', 'https://asaxiy.uz/ru/product?key={query}', 'asaxiy'),
         Market('texnomart', 'Texnomart', 'texnomart.uz', 'https://texnomart.uz/ru/search/?q={query}', 'texnomart'),
         Market('mediapark', 'Mediapark', 'mediapark.uz', 'https://mediapark.uz/ru/search?product={query}', 'mediapark'),
         Market('idea', 'IDEA', 'idea.uz', 'https://idea.uz/search?keyword={query}', 'idea'),
         Market('elmakon', 'Elmakon', 'elmakon.uz', 'https://elmakon.uz/ru/?dispatch=products.search&q={query}', 'structured'),
-        Market('olx', 'OLX Uzbekistan', 'olx.uz', 'https://www.olx.uz/list/q-{query}/'),
-        Market('wildberries', 'Wildberries UZ', 'wildberries.uz', 'https://www.wildberries.uz/catalog/0/search.aspx?search={query}'),
+        Market('olx', 'OLX Uzbekistan', 'olx.uz', 'https://www.olx.uz/list/q-{query}/', 'browser'),
+        Market('wildberries', 'Wildberries UZ', 'wildberries.uz', 'https://www.wildberries.uz/catalog/0/search.aspx?search={query}', 'browser'),
         Market('aliexpress', 'AliExpress', 'aliexpress.com', 'https://www.aliexpress.com/w/wholesale-{query}.html'),
     ]
 }
@@ -52,7 +53,7 @@ def image_url(value):
         return ''
     try:
         parsed = urlsplit(value)
-        roots = ('olcha.uz', 'asaxiy.uz', 'mediapark.uz', 'idea.uz', 'texnomart.uz', 'tm.uz', 'olx.uz', 'olxcdn.com', 'uzum.uz', 'elmakon.uz')
+        roots = ('olcha.uz', 'asaxiy.uz', 'mediapark.uz', 'idea.uz', 'texnomart.uz', 'tm.uz', 'olx.uz', 'olxcdn.com', 'uzum.uz', 'elmakon.uz', 'geobasket.net', 'wbbasket.ru', 'wildberries.uz')
         host = parsed.hostname or ''
         if parsed.scheme == 'https' and not parsed.username and any(host == root or host.endswith('.'+root) for root in roots):
             return value
@@ -121,6 +122,9 @@ def parse_mediapark(data):
 
 
 def parse_html(html, market):
+    if market.key in ('olx', 'uzum', 'wildberries'):
+        from .browser_cards import parse_cards
+        return parse_cards(html, market)
     soup = BeautifulSoup(html, 'html.parser')
     products = []
     def walk(node):

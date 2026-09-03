@@ -43,10 +43,12 @@ def card(p):
     when = datetime.fromtimestamp(p.checked_at, timezone(timedelta(hours=5))).strftime('%d.%m %H:%M')
     return (f'<b>{escape(title_text(p.title))}</b>\n\n💰 <b>{money(p)}</b>\n'
             f'🏪 {escape(MARKETS[p.store].name)}\n🕒 Данные: {when} (Ташкент)\n\n'
-            'Цена магазина · доставка уточняется отдельно.')
+            + (f'📦 {escape(p.condition)}\n' if p.condition else '')
+            + (f'📍 {escape(p.location)}\n' if p.location else '')
+            + 'Доставка и наличие уточняются у продавца.')
 
 
-STATUS = {'ok': '✅ получены товары', 'empty': '— нет результатов',
+STATUS = {'browser_unavailable': '⚙️ браузер поиска не запущен', 'ok': '✅ получены товары', 'empty': '— нет результатов',
           'link': '↗️ поиск на сайте', 'blocked': '🔒 сайт ограничил доступ',
           'timeout': '⏳ сайт не ответил вовремя', 'unsupported': '↗️ цены автоматически недоступны',
           'error': '⚠️ ошибка соединения'}
@@ -67,6 +69,8 @@ def page_view(session, sid, page):
     for index in range(page*4, min(page*4+4, len(items))):
         p = items[index]
         text += f'\n<b>{index+1}. {escape(title_text(p.title))}</b>\n{money(p)} · {MARKETS[p.store].name}\n'
+        if p.condition:
+            text += f'📦 {escape(p.condition)}\n'
         rows.append([(product_button(p, index), f'card:{sid}:{index}')])
     if not items:
         text += '\nНет подходящих карточек. Попробуйте короче запрос или снимите бюджет. Поиск на сайтах доступен ниже.\n'
