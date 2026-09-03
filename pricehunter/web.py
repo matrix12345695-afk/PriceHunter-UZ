@@ -106,12 +106,12 @@ async def lifespan(app):
         await storage.close()
 
 
-app=FastAPI(title='PriceHunter UZ',version='1.2.0',lifespan=lifespan)
+app=FastAPI(title='PriceHunter UZ',version='1.3.0',lifespan=lifespan)
 
 
 @app.get('/')
 async def root():
-    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.2.0'}
+    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.3.0'}
 
 
 @app.get('/health')

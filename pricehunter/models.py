@@ -32,6 +32,7 @@ class Product:
     price: int | None
     currency: str = 'UZS'
     checked_at: float = field(default_factory=time.time)
+    image: str = ""
 
     def to_dict(self):
         return asdict(self)

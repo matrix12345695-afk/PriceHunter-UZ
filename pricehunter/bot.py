@@ -9,7 +9,7 @@ from aiogram.exceptions import TelegramBadRequest
 from aiogram.types import Message, CallbackQuery
 from .providers import MARKETS
 from .service import normalize, select_products
-from .ui import MENU, keyboard, card, page_view
+from .ui import MENU, keyboard, card, page_view, STATUS
 logger = logging.getLogger(__name__)
 
 class BotApp:
@@ -120,6 +120,33 @@ class BotApp:
         finally:
             self.busy.discard(user)
 
+    async def send_product(self, message, product, markup):
+        from .providers import image_url
+        photo = image_url(product.image)
+        if photo:
+            try:
+                return await message.answer_photo(photo=photo, caption=card(product), reply_markup=markup)
+            except TelegramBadRequest as exc:
+                # Telegram may reject an image even when the product page is accessible.
+                reason = str(exc).lower()
+                if not any(word in reason for word in ('photo', 'image', 'url', 'http', 'file', 'content')):
+                    raise
+                logger.warning('Product photo rejected for store=%s', product.store)
+                try:
+                    from .photos import download_photo
+                    async with asyncio.timeout(12):
+                        uploaded = await download_photo(photo)
+                    return await message.answer_photo(photo=uploaded, caption=card(product), reply_markup=markup)
+                except (ValueError, OSError, TimeoutError, TelegramBadRequest):
+                    logger.warning('Product photo unavailable for store=%s', product.store)
+                except Exception as download_error:
+                    # Network/image failure should not lose the product card.
+                    if isinstance(download_error, (KeyboardInterrupt, SystemExit)):
+                        raise
+                    logger.warning('Photo transfer failed: %s', type(download_error).__name__)
+
+        return await message.answer(card(product) + '\n\nФото сейчас недоступно у источника.', reply_markup=markup)
+
     async def callback(self, c: CallbackQuery):
         await c.answer()
         user, m = (c.from_user.id, c.message)
@@ -164,13 +191,17 @@ class BotApp:
                 if action == 'favdelete':
                     await self.storage.favorite(user, product)
                     return await m.answer('Удалено из избранного.')
-                return await m.answer(card(product), reply_markup=keyboard([[('🛒 Перейти в магазин', product.url)], [('Удалить из избранного', f'favdelete:{parts[1]}')]]))
-            if len(parts) != 3 or action not in ('page', 'card', 'save', 'sort', 'links'):
+                return await self.send_product(m, product, keyboard([[('🛍 Открыть товар в магазине', product.url)], [('🗑 Удалить из избранного', f'favdelete:{parts[1]}')]]))
+            if len(parts) != 3 or action not in ('page', 'card', 'save', 'remove', 'sort', 'links', 'status'):
                 return
             sid, index = (parts[1], int(parts[2]))
             session = self.sessions.get(sid)
             if not session or session['user'] != user or time.monotonic() - session['created'] > 3600:
                 return await m.answer('Эта выдача устарела. Повторите запрос через историю или отправьте название товара.')
+            if action == 'status':
+                text = '<b>Площадки по этому запросу</b>\n\n' + '\n'.join(
+                    f'{MARKETS[r.store].name}: {STATUS[r.status]}' for r in session['results'])
+                return await m.answer(text, reply_markup=keyboard([[('Поиск на сайтах', f'links:{sid}:0')]]))
             if action == 'links':
                 rows = [[(MARKETS[r.store].name, MARKETS[r.store].search_url(session['query']))] for r in session['results']]
                 return await m.answer('🏪 Открыть поиск на сайте\nЦена и наличие уточняются на площадке.', reply_markup=keyboard(rows))
@@ -194,10 +225,27 @@ class BotApp:
             if not 0 <= index < len(session['items']):
                 return
             product = session['items'][index]
+            favorites = await self.storage.favorites(user)
+            exists = any(p.url == product.url for _, p in favorites)
             if action == 'save':
-                saved = await self.storage.favorite(user, product)
-                return await m.answer('⭐ Добавлено в избранное.' if saved else 'Удалено из избранного.')
-            await m.answer(card(product), reply_markup=keyboard([[('🛒 Перейти в магазин', product.url)], [('⭐ Добавить / убрать', f'save:{sid}:{index}')]]))
+                if not exists:
+                    await self.storage.favorite(user, product)
+                return await m.answer('⭐ Товар сохранён в избранном.')
+            if action == 'remove':
+                if exists:
+                    await self.storage.favorite(user, product)
+                return await m.answer('Товар удалён из избранного.')
+            rows = [[('🛍 Открыть товар в магазине', product.url)],
+                    [('🗑 Удалить из избранного' if exists else '⭐ В избранное',
+                      f'{"remove" if exists else "save"}:{sid}:{index}')]]
+            nav = []
+            if index > 0:
+                nav.append(('← Предыдущий товар', f'card:{sid}:{index-1}'))
+            if index+1 < len(session['items']):
+                nav.append(('Следующий товар →', f'card:{sid}:{index+1}'))
+            if nav:
+                rows.append(nav)
+            await self.send_product(m, product, keyboard(rows))
         except (ValueError, IndexError) as e:
             await m.answer(str(e) if 'Лимит' in str(e) else 'Кнопка устарела. Откройте меню заново.')
 

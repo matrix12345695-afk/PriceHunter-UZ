@@ -1,5 +1,6 @@
 from datetime import datetime, timezone, timedelta
 from html import escape
+import re
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, KeyboardButton
 from .providers import MARKETS
 
@@ -22,11 +23,27 @@ def money(p):
     return f'{p.price:,}'.replace(',', ' ') + (' сум' if p.currency == 'UZS' else ' ' + escape(p.currency))
 
 
+def title_text(value):
+    text = ' '.join(str(value).split())
+    text = re.sub(r'\biphone\b', 'iPhone', text, flags=re.I)
+    text = re.sub(r'\bipad\b', 'iPad', text, flags=re.I)
+    return text
+
+
+def product_button(product, index):
+    title = title_text(product.title)
+    title = re.sub(r"^(?:Смартфон|Пылесос|Телевизор|Ноутбук)\s+", "", title, flags=re.I)
+    title = re.sub(r"^Apple\s+(?=iPhone|iPad)", "", title)
+    title = title if len(title) <= 34 else title[:33].rstrip() + '…'
+    price = f'{product.price:,}'.replace(',', ' ') if product.price else 'цена —'
+    return f'{index+1}. {title} · {price}'
+
+
 def card(p):
     when = datetime.fromtimestamp(p.checked_at, timezone(timedelta(hours=5))).strftime('%d.%m %H:%M')
-    return (f'<b>{escape(p.title)}</b>\n\n💰 <b>{money(p)}</b>\n'
+    return (f'<b>{escape(title_text(p.title))}</b>\n\n💰 <b>{money(p)}</b>\n'
             f'🏪 {escape(MARKETS[p.store].name)}\n🕒 Данные: {when} (Ташкент)\n\n'
-            'Проверьте комплектацию, наличие и итоговую цену на сайте.')
+            'Цена магазина · доставка уточняется отдельно.')
 
 
 STATUS = {'ok': '✅ получены товары', 'empty': '— нет результатов',
@@ -49,12 +66,17 @@ def page_view(session, sid, page):
     rows = []
     for index in range(page*4, min(page*4+4, len(items))):
         p = items[index]
-        text += f'\n<b>{index+1}. {escape(p.title)}</b>\n{money(p)} · {MARKETS[p.store].name}\n'
-        rows.append([(f'{index+1}. Открыть карточку', f'card:{sid}:{index}')])
+        text += f'\n<b>{index+1}. {escape(title_text(p.title))}</b>\n{money(p)} · {MARKETS[p.store].name}\n'
+        rows.append([(product_button(p, index), f'card:{sid}:{index}')])
     if not items:
         text += '\nНет подходящих карточек. Попробуйте короче запрос или снимите бюджет. Поиск на сайтах доступен ниже.\n'
-    text += '\n<b>Площадки</b>\n' + '\n'.join(f'{MARKETS[r.store].name}: {STATUS[r.status]}' for r in session['results'])
-    text += '\n\nСравнивайте одинаковые модели и объём памяти. Доставка не включена. Выдача площадок может быть неполной.'
+    received = [MARKETS[r.store].name for r in session['results'] if r.status == 'ok']
+    unavailable = [MARKETS[r.store].name for r in session['results'] if r.status not in ('ok', 'empty')]
+    if received:
+        text += '\nПолучены товары: ' + ', '.join(received)
+    if unavailable:
+        text += '\nБез автоматических карточек: ' + ', '.join(unavailable)
+    text += '\n\nНажмите название товара — откроется карточка с фото. Выдача может быть неполной.'
     nav = []
     if page:
         nav.append(('← Назад', f'page:{sid}:{page-1}'))
@@ -62,5 +84,5 @@ def page_view(session, sid, page):
         nav.append(('Далее →', f'page:{sid}:{page+1}'))
     if nav:
         rows.append(nav)
-    rows.append([('↕️ Сортировка', f'sort:{sid}:0'), ('🏪 Поиск на сайтах', f'links:{sid}:0')])
+    rows.append([('↕️ Сортировка', f'sort:{sid}:0'), ('🏪 Статус площадок', f'status:{sid}:0')])
     return text, keyboard(rows)

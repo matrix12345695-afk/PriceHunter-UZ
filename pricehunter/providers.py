@@ -28,7 +28,7 @@ MARKETS = {
         Market('uzum', 'Uzum Market', 'uzum.uz', 'https://uzum.uz/ru/search?query={query}', 'structured'),
         Market('asaxiy', 'Asaxiy', 'asaxiy.uz', 'https://asaxiy.uz/product?key={query}', 'asaxiy'),
         Market('texnomart', 'Texnomart', 'texnomart.uz', 'https://texnomart.uz/ru/search/?q={query}', 'texnomart'),
-        Market('mediapark', 'Mediapark', 'mediapark.uz', 'https://mediapark.uz/ru/search?product={query}', 'structured'),
+        Market('mediapark', 'Mediapark', 'mediapark.uz', 'https://mediapark.uz/ru/search?product={query}', 'mediapark'),
         Market('idea', 'IDEA', 'idea.uz', 'https://idea.uz/search?keyword={query}', 'idea'),
         Market('elmakon', 'Elmakon', 'elmakon.uz', 'https://elmakon.uz/ru/?dispatch=products.search&q={query}', 'structured'),
         Market('olx', 'OLX Uzbekistan', 'olx.uz', 'https://www.olx.uz/list/q-{query}/'),
@@ -40,6 +40,25 @@ MARKETS = {
 
 class SchemaChanged(Exception):
     pass
+
+
+def image_url(value):
+    from urllib.parse import urlsplit
+    if isinstance(value, list):
+        value = value[0] if value else ''
+    if isinstance(value, dict):
+        value = value.get('url') or value.get('contentUrl') or ''
+    if not isinstance(value, str):
+        return ''
+    try:
+        parsed = urlsplit(value)
+        roots = ('olcha.uz', 'asaxiy.uz', 'mediapark.uz', 'idea.uz', 'texnomart.uz', 'tm.uz', 'olx.uz', 'olxcdn.com', 'uzum.uz', 'elmakon.uz')
+        host = parsed.hostname or ''
+        if parsed.scheme == 'https' and not parsed.username and any(host == root or host.endswith('.'+root) for root in roots):
+            return value
+    except ValueError:
+        pass
+    return ''
 
 
 def parse_olcha(data):
@@ -57,7 +76,7 @@ def parse_olcha(data):
                 currency = 'UZS'
             price = amount(item.get('discount_price')) or amount(item.get('price'))
             products.append(Product('olcha', str(title)[:250],
-                'https://olcha.uz/ru/product/view/' + quote(str(alias), safe=''), price, currency))
+                'https://olcha.uz/ru/product/view/' + quote(str(alias), safe=''), price, currency, image=image_url(item.get("main_image"))))
     return products
 
 
@@ -70,7 +89,7 @@ def parse_idea(data):
         title = item.get('title_name') or item.get('name')
         url = item.get('url', '')
         if title and safe_url(url, 'idea.uz'):
-            products.append(Product('idea', str(title)[:250], url, amount(item.get('current_price'))))
+            products.append(Product('idea', str(title)[:250], url, amount(item.get('current_price')), image=image_url(item.get('img') or item.get('medium_img'))))
     return products
 
 
@@ -83,7 +102,21 @@ def parse_texnomart(data):
         title, identifier = item.get('name'), str(item.get('id', ''))
         if title and identifier.isdecimal():
             products.append(Product('texnomart', str(title)[:250],
-                'https://texnomart.uz/ru/product/detail/' + identifier + '/', amount(item.get('sale_price'))))
+                'https://texnomart.uz/ru/product/detail/' + identifier + '/', amount(item.get('sale_price')), image=image_url(item.get('image'))))
+    return products
+
+
+def parse_mediapark(data):
+    items = data.get('products')
+    if not isinstance(items, list):
+        raise SchemaChanged('Mediapark API has no product list')
+    products = []
+    for item in items:
+        title = item.get('name')
+        url = urljoin('https://mediapark.uz', str(item.get('linkUrl') or ''))
+        if title and item.get('available') is True and safe_url(url, 'mediapark.uz') and '/products/view/' in url:
+            products.append(Product('mediapark', str(title)[:250], url, amount(item.get('price')),
+                                    image=image_url(item.get('imageUrl'))))
     return products
 
 
@@ -101,7 +134,7 @@ def parse_html(html, market):
                 if slug and not slug.startswith('$') and node.get('is_available') == 'available':
                     products.append(Product(market.key, str(node['product_name'])[:250],
                         'https://mediapark.uz/products/view/' + quote(slug, safe=''),
-                        amount(node.get('price_without_installment')) or amount(node.get('actual_price'))))
+                        amount(node.get('price_without_installment')) or amount(node.get('actual_price')), image=image_url(node.get('image_url') or node.get('image'))))
             if node.get('@type') == 'Product':
                 offers = node.get('offers', {})
                 if isinstance(offers, list):
@@ -114,7 +147,7 @@ def parse_html(html, market):
                 price = amount(offers.get('price'))
                 currency = str(offers.get('priceCurrency') or 'UNKNOWN').upper()
                 if title and safe_url(url, market.host) and urlsplit_path(url) != '/':
-                    products.append(Product(market.key, str(title)[:250], url, price, currency))
+                    products.append(Product(market.key, str(title)[:250], url, price, currency, image=image_url(node.get("image"))))
             for value in node.values():
                 if isinstance(value, (list, dict)):
                     walk(value)
@@ -153,7 +186,11 @@ def parse_html(html, market):
                     raw = data.get('data-price') if data else card.get('data-actual-price')
                     if not raw and price:
                         raw = price.get_text(' ', strip=True).replace('сум', '').replace("so'm", '')
-                    products.append(Product(market.key, str(name)[:250], url, amount(raw)))
+                    img = card.select_one('img[itemprop="image"], .product__item-img img')
+                    photo = data.get('data-img') if data else ''
+                    if not photo and img:
+                        photo = img.get('src') or img.get('data-src')
+                    products.append(Product(market.key, str(name)[:250], url, amount(raw), image=image_url(photo)))
     return list({p.url: p for p in products}.values())
 
 
@@ -184,14 +221,17 @@ async def search_market(client, market, query):
         return Result(market.key, 'link', detail='Поиск на сайте')
     try:
         async with asyncio.timeout(18):
-            if market.mode in ('idea', 'texnomart'):
+            if market.mode in ('idea', 'texnomart', 'mediapark'):
                 encoded = quote(query, safe='')
                 if market.mode == 'idea':
                     url = 'https://api.idea.uz/api/v2/products?search=' + encoded + '&page=1'
                     parser = parse_idea
-                else:
+                elif market.mode == 'texnomart':
                     url = 'https://gw.texnomart.uz/api/common/v1/search/result?q=' + encoded + '&page=1&limit=24'
                     parser = parse_texnomart
+                else:
+                    url = "https://api.v2.mediapark.uz/v1/diginetica/search?query=" + encoded + "&page=1&limit=24&lang=ru"
+                    parser = parse_mediapark
                 response = await fetch(client, url)
                 products = parser(response.json())
                 return Result(market.key, 'ok' if products else 'empty', products)
