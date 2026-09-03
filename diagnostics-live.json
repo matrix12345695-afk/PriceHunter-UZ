@@ -1,76 +1,171 @@
 {
-  "query": "iphone",
-  "cached": false,
+  "checked_at": "2026-09-03T11:34:20.153945+00:00",
+  "query": "Iphone 17 pro max",
   "markets": [
     {
-      "store": "aliexpress",
+      "name": "AliExpress",
       "status": "link",
-      "count": 0,
       "detail": "Поиск на сайте",
-      "products": []
+      "raw_count": 0,
+      "matching_count": 0,
+      "sample": []
     },
     {
-      "store": "asaxiy",
+      "name": "Asaxiy",
       "status": "ok",
-      "count": 24,
       "detail": "",
-      "products": []
+      "raw_count": 24,
+      "matching_count": 24,
+      "sample": [
+        {
+          "store": "asaxiy",
+          "title": "Смартфон Apple iPhone 17 Pro Max 256GB (eSIM + eSIM) Silver",
+          "url": "https://asaxiy.uz/product/smartfon-apple-iphone-17-pro-max-256gb-esim-esim-silver",
+          "price": 19179000,
+          "currency": "UZS",
+          "checked_at": 1788435260.1431534
+        },
+        {
+          "store": "asaxiy",
+          "title": "Смартфон Apple iPhone 17 Pro Max 256GB (1 SIM + 1 eSIM) Silver",
+          "url": "https://asaxiy.uz/product/smartfon-apple-iphone-17-pro-max-256gb-1-sim-1-esim-silver-zaryadnoe-ustroystvo-samsung-45w-usb-c-v-podarok",
+          "price": 19719000,
+          "currency": "UZS",
+          "checked_at": 1788435260.1426287
+        }
+      ]
     },
     {
-      "store": "elmakon",
+      "name": "Elmakon",
       "status": "error",
-      "count": 0,
       "detail": "HTTP 502",
-      "products": []
+      "raw_count": 0,
+      "matching_count": 0,
+      "sample": []
     },
     {
-      "store": "idea",
-      "status": "unsupported",
-      "count": 0,
-      "detail": "",
-      "products": []
-    },
-    {
-      "store": "mediapark",
+      "name": "IDEA",
       "status": "ok",
-      "count": 20,
       "detail": "",
-      "products": []
+      "raw_count": 3,
+      "matching_count": 3,
+      "sample": [
+        {
+          "store": "idea",
+          "title": "Смартфон iPhone 17 Pro Max 256GB Silver",
+          "url": "https://idea.uz/product/11305-smartfon-iphone-17-pro-max-256gb-silver",
+          "price": 20399000,
+          "currency": "UZS",
+          "checked_at": 1788435249.9531336
+        },
+        {
+          "store": "idea",
+          "title": "Смартфон iPhone 17 Pro Max 256GB Deep Blue",
+          "url": "https://idea.uz/product/11307-smartfon-iphone-17-pro-max-256gb-deep-blue",
+          "price": 20399000,
+          "currency": "UZS",
+          "checked_at": 1788435249.953158
+        }
+      ]
     },
     {
-      "store": "olcha",
+      "name": "Mediapark",
       "status": "ok",
-      "count": 17,
       "detail": "",
-      "products": []
+      "raw_count": 6,
+      "matching_count": 6,
+      "sample": [
+        {
+          "store": "mediapark",
+          "title": "Смартфон Apple iPhone 17 Pro Max 256 GB Silver",
+          "url": "https://mediapark.uz/products/view/smartfon-apple-iphone-17-pro-max-8-128-gb-32417",
+          "price": 19402000,
+          "currency": "UZS",
+          "checked_at": 1788435252.222459
+        },
+        {
+          "store": "mediapark",
+          "title": "Смартфон Apple iPhone 17 Pro Max 512 GB Silver",
+          "url": "https://mediapark.uz/products/view/smartfon-apple-iphone-17-pro-max-12-512-gb-silver-32641",
+          "price": 23999000,
+          "currency": "UZS",
+          "checked_at": 1788435252.2225463
+        }
+      ]
     },
     {
-      "store": "olx",
+      "name": "Olcha",
+      "status": "ok",
+      "detail": "",
+      "raw_count": 6,
+      "matching_count": 6,
+      "sample": [
+        {
+          "store": "olcha",
+          "title": "iPhone 17 Pro Max",
+          "url": "https://olcha.uz/ru/product/view/iphone-17-pro-max",
+          "price": 18399000,
+          "currency": "UZS",
+          "checked_at": 1788435250.1770227
+        },
+        {
+          "store": "olcha",
+          "title": "iPhone 17 Pro Max Silver 1 TB",
+          "url": "https://olcha.uz/ru/product/view/iphone-17-pro-max-silver-1-tb",
+          "price": 33306000,
+          "currency": "UZS",
+          "checked_at": 1788435250.1770344
+        }
+      ]
+    },
+    {
+      "name": "OLX Uzbekistan",
       "status": "link",
-      "count": 0,
       "detail": "Поиск на сайте",
-      "products": []
+      "raw_count": 0,
+      "matching_count": 0,
+      "sample": []
     },
     {
-      "store": "texnomart",
-      "status": "unsupported",
-      "count": 0,
+      "name": "Texnomart",
+      "status": "ok",
       "detail": "",
-      "products": []
+      "raw_count": 20,
+      "matching_count": 7,
+      "sample": [
+        {
+          "store": "texnomart",
+          "title": "Apple iPhone 17 Pro Max 12/256GB Оранжевый",
+          "url": "https://texnomart.uz/ru/product/detail/358986/",
+          "price": 17999000,
+          "currency": "UZS",
+          "checked_at": 1788435250.5677812
+        },
+        {
+          "store": "texnomart",
+          "title": "Apple iPhone 17 Pro Max 12/256GB Серебристый",
+          "url": "https://texnomart.uz/ru/product/detail/358988/",
+          "price": 17999000,
+          "currency": "UZS",
+          "checked_at": 1788435250.5677683
+        }
+      ]
     },
     {
-      "store": "uzum",
+      "name": "Uzum Market",
       "status": "unsupported",
-      "count": 0,
       "detail": "",
-      "products": []
+      "raw_count": 0,
+      "matching_count": 0,
+      "sample": []
     },
     {
-      "store": "wildberries",
+      "name": "Wildberries UZ",
       "status": "link",
-      "count": 0,
       "detail": "Поиск на сайте",
-      "products": []
+      "raw_count": 0,
+      "matching_count": 0,
+      "sample": []
     }
   ]
 }

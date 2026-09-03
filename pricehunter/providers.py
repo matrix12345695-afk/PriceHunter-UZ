@@ -27,9 +27,9 @@ MARKETS = {
         Market('olcha', 'Olcha', 'olcha.uz', 'https://olcha.uz/ru/search?search={query}', 'olcha'),
         Market('uzum', 'Uzum Market', 'uzum.uz', 'https://uzum.uz/ru/search?query={query}', 'structured'),
         Market('asaxiy', 'Asaxiy', 'asaxiy.uz', 'https://asaxiy.uz/product?key={query}', 'asaxiy'),
-        Market('texnomart', 'Texnomart', 'texnomart.uz', 'https://texnomart.uz/ru/katalog/?q={query}', 'structured'),
+        Market('texnomart', 'Texnomart', 'texnomart.uz', 'https://texnomart.uz/ru/search/?q={query}', 'texnomart'),
         Market('mediapark', 'Mediapark', 'mediapark.uz', 'https://mediapark.uz/ru/search?product={query}', 'structured'),
-        Market('idea', 'IDEA', 'idea.uz', 'https://idea.uz/search?search={query}', 'structured'),
+        Market('idea', 'IDEA', 'idea.uz', 'https://idea.uz/search?keyword={query}', 'idea'),
         Market('elmakon', 'Elmakon', 'elmakon.uz', 'https://elmakon.uz/ru/?dispatch=products.search&q={query}', 'structured'),
         Market('olx', 'OLX Uzbekistan', 'olx.uz', 'https://www.olx.uz/list/q-{query}/'),
         Market('wildberries', 'Wildberries UZ', 'wildberries.uz', 'https://www.wildberries.uz/catalog/0/search.aspx?search={query}'),
@@ -58,6 +58,32 @@ def parse_olcha(data):
             price = amount(item.get('discount_price')) or amount(item.get('price'))
             products.append(Product('olcha', str(title)[:250],
                 'https://olcha.uz/ru/product/view/' + quote(str(alias), safe=''), price, currency))
+    return products
+
+
+def parse_idea(data):
+    items = data.get('data')
+    if not isinstance(items, list):
+        raise SchemaChanged('IDEA response has no product list')
+    products = []
+    for item in items:
+        title = item.get('title_name') or item.get('name')
+        url = item.get('url', '')
+        if title and safe_url(url, 'idea.uz'):
+            products.append(Product('idea', str(title)[:250], url, amount(item.get('current_price'))))
+    return products
+
+
+def parse_texnomart(data):
+    payload = data.get('data')
+    if data.get('code') != 0 or not isinstance(payload, dict) or not isinstance(payload.get('products'), list):
+        raise SchemaChanged('Texnomart response has no product list')
+    products = []
+    for item in payload['products']:
+        title, identifier = item.get('name'), str(item.get('id', ''))
+        if title and identifier.isdecimal():
+            products.append(Product('texnomart', str(title)[:250],
+                'https://texnomart.uz/ru/product/detail/' + identifier + '/', amount(item.get('sale_price'))))
     return products
 
 
@@ -158,6 +184,17 @@ async def search_market(client, market, query):
         return Result(market.key, 'link', detail='Поиск на сайте')
     try:
         async with asyncio.timeout(18):
+            if market.mode in ('idea', 'texnomart'):
+                encoded = quote(query, safe='')
+                if market.mode == 'idea':
+                    url = 'https://api.idea.uz/api/v2/products?search=' + encoded + '&page=1'
+                    parser = parse_idea
+                else:
+                    url = 'https://gw.texnomart.uz/api/common/v1/search/result?q=' + encoded + '&page=1&limit=24'
+                    parser = parse_texnomart
+                response = await fetch(client, url)
+                products = parser(response.json())
+                return Result(market.key, 'ok' if products else 'empty', products)
             if market.mode == 'olcha':
                 url = 'https://mobile.olcha.uz/api/v2/multi-search/products/' + quote(query, safe='')
                 response = await fetch(client, url + '?category_id=&page=1')

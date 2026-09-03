@@ -15,7 +15,7 @@ from .bot import BotApp
 from .postgres import PostgresStorage
 from .service import SearchService
 
-log = logging.getLogger(__name__)
+log = logging.getLogger('uvicorn.error')
 
 
 def configuration():
@@ -59,6 +59,16 @@ async def process_queue(app):
             await asyncio.sleep(2)
 
 
+async def provider_diagnostics(service):
+    try:
+        results, _ = await service.search('Iphone 17 pro max')
+        for result in results:
+            log.info('PROVIDER_CHECK store=%s status=%s cards=%s detail=%s',
+                     result.store, result.status, len(result.products), result.detail or '-')
+    except Exception as exc:
+        log.error('PROVIDER_CHECK failed: %s', type(exc).__name__)
+
+
 @asynccontextmanager
 async def lifespan(app):
     token,dsn,endpoint,secret=configuration()
@@ -72,10 +82,13 @@ async def lifespan(app):
     app.state.dispatcher=dp
     app.state.secret=secret
     task=None
+    diagnostic_task=None
     try:
         await bot.set_webhook(endpoint,secret_token=secret,allowed_updates=['message','callback_query'],drop_pending_updates=False)
         task=asyncio.create_task(process_queue(app))
         app.state.worker=task
+        if os.getenv("PROVIDER_DIAGNOSTICS", "1") == "1":
+            diagnostic_task=asyncio.create_task(provider_diagnostics(service))
         log.info('PriceHunter webhook and PostgreSQL ready')
         yield
     finally:
@@ -83,18 +96,22 @@ async def lifespan(app):
             task.cancel()
             with suppress(asyncio.CancelledError):
                 await task
+        if diagnostic_task:
+            diagnostic_task.cancel()
+            with suppress(asyncio.CancelledError):
+                await diagnostic_task
         # Do not delete webhook: the replacement deployment uses the same URL.
         await bot.session.close()
         await service.close()
         await storage.close()
 
 
-app=FastAPI(title='PriceHunter UZ',version='1.1.0',lifespan=lifespan)
+app=FastAPI(title='PriceHunter UZ',version='1.2.0',lifespan=lifespan)
 
 
 @app.get('/')
 async def root():
-    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.1.0'}
+    return {'status':'ok','service':'PriceHunter UZ','mode':'webhook','version':'1.2.0'}
 
 
 @app.get('/health')

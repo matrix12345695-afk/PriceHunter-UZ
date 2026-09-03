@@ -155,3 +155,42 @@ class AsyncStorage:
         async def call(*args,**kwargs):
             return getattr(self.storage,name)(*args,**kwargs)
         return call
+
+
+def test_idea_uses_full_price_from_public_response():
+    from pricehunter.providers import parse_idea
+    data=json.loads((FIX/'idea.json').read_text())
+    products=parse_idea(data)
+    assert len(products)==3
+    assert products[0].price==20399000
+    assert products[0].price != data['data'][0]['min_price_per_month']
+    assert safe_url(products[0].url,'idea.uz')
+    with pytest.raises(SchemaChanged):parse_idea({'message':'access denied'})
+
+
+def test_texnomart_public_search_response_and_filter():
+    from pricehunter.providers import parse_texnomart
+    products=parse_texnomart(json.loads((FIX/'texnomart.json').read_text()))
+    assert len(products)==20
+    assert products[0].price==17999000
+    filtered=select_products([Result('texnomart','ok',products)],'Iphone 17 pro max')
+    assert len(filtered)==7
+    assert all('iphone' in p.title.lower() for p in filtered)
+    with pytest.raises(SchemaChanged):parse_texnomart({'code':401,'data':{}})
+
+
+@pytest.mark.asyncio
+async def test_new_adapters_send_correct_query_parameters():
+    def handler(request):
+        if request.url.host=='api.idea.uz':
+            assert request.url.params['search']=='Iphone 17 pro max'
+            return httpx.Response(200,json=json.loads((FIX/'idea.json').read_text()))
+        assert request.url.path=='/api/common/v1/search/result'
+        assert request.url.params['q']=='Iphone 17 pro max'
+        return httpx.Response(200,json=json.loads((FIX/'texnomart.json').read_text()))
+    service=SearchService(httpx.AsyncClient(transport=httpx.MockTransport(handler)))
+    try:
+        results,_=await service.search('Iphone 17 pro max',['idea','texnomart'])
+        assert all(r.status=='ok' for r in results)
+        assert {r.store:len(r.products) for r in results}=={'idea':3,'texnomart':20}
+    finally:await service.close()
